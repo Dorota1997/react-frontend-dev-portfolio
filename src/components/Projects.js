@@ -28,7 +28,7 @@ class Projects extends Component {
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
                 <div>
-                  <img src={projects.images[0]} alt="projectImages" />
+                  <img src={projects.images[0]} alt="projectImages" height="230" />
                   <p className="project-title-settings">{projects.title}</p>
                 </div>
               </div>
