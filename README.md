@@ -1,4 +1,4 @@
-<img height="150" align="left" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react-icon.png" alt="react icon"/>
+<img height="200" align="left" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react-icon.png" alt="react icon"/>
 <h3>:clipboard: Front-end Developer Portfolio in React</h3>
 
 ```
@@ -7,6 +7,8 @@ sections(about, projects, experience, skills) and
 awesome solutions from GitHub developers.
 ```
 <img src="https://img.shields.io/badge/-multilingual-blue" alt="multilingual"/> &nbsp; <img src="https://img.shields.io/badge/-mobile friendly-blue" alt="mobile friendly"/> &nbsp; <img src="https://img.shields.io/badge/-light/dark mode-blue" alt="light/dark mode"/> &nbsp; <img src="https://img.shields.io/badge/-json fetched data-blue" alt="json fetched data"/> &nbsp; <img src="https://img.shields.io/badge/-minimalistic-blue" alt="minimalistic"/>
+
+<br/>
 
 <h3>:mag_right: Mobile preview</h3>
 
@@ -17,7 +19,7 @@ awesome solutions from GitHub developers.
 1. Clone or fork template.
 2. Install dependencies with `npm install`.
 3. `npm start` project and customize it. <br/>
-<code>💡 In current version, most page content data can be adjusted through resumeData and resumeDataEN json files.</code>
+<code>💡 In current version, most page content data can be adjusted through json files.</code>
 4. Deploy it on github-pages using `npm run deploy` command. <br/>
 <code>⚠️ Don't forget to set in repository settings proper branch under github-pages section.</code>
 
