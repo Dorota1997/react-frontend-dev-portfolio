@@ -15,8 +15,7 @@
           "class": "fab fa-instagram"
         }
       ],
-      "image": "myProfile.jpg",
-      "clip": "clip.svg"
+      "image": "myProfile.jpg"
     },
     "resume": {
       "skills": [
