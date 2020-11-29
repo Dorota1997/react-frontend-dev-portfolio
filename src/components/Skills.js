@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 class Skills extends Component {
   render() {
-    if (this.props.data) {
+    if (this.props.sharedData) {
       var sectionName = document.documentElement.lang === 'pl' ? 'Umiejętności' : 'Skills';
-      var skills = this.props.data.skills.map(function (skills, i) {
+      var skills = this.props.sharedData.icons.map(function (skills, i) {
         return (
           <li className="list-inline-item mx-3" key={i}>
           <span>

@@ -23,9 +23,9 @@ class Header extends Component {
   }
 
   render() {
-    if (this.props.data) {
-      var name = this.props.data.name;
-      var title = this.props.data.title;
+    if (this.props.sharedData) {
+      var name = this.props.sharedData.name;
+      var title = this.props.sharedData.title;
     }
 
     return (

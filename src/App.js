@@ -14,6 +14,7 @@ class App extends Component {
     this.state = {
       foo: "bar",
       resumeData: {},
+      sharedData: {},
     };
   }
 
@@ -21,10 +22,10 @@ class App extends Component {
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
     var resumePath =
-      document.documentElement.lang === window.$secondaryLanguage
+      document.documentElement.lang === window.$primaryLanguage
         ? "/res_primaryLanguage.json"
         : "/res_secondaryLanguage.json";
-    this.loadResumeData(resumePath);
+    this.loadResumeFromPath(resumePath);
   }
 
   swapCurrentlyActiveLanguage(oppositeLangIconId) {
@@ -45,9 +46,10 @@ class App extends Component {
       window.$primaryLanguage,
       window.$secondaryLanguageIconId
     );
+    this.loadSharedData();
   }
 
-  loadResumeData(path) {
+  loadResumeFromPath(path) {
     $.ajax({
       url: path,
       dataType: "json",
@@ -61,10 +63,24 @@ class App extends Component {
     });
   }
 
+  loadSharedData() {
+    $.ajax({
+      url: "/portfolio_shared_data.json",
+      dataType: "json",
+      cache: false,
+      success: function (data) {
+        this.setState({ sharedData: data });
+      }.bind(this),
+      error: function (xhr, status, err) {
+        alert(err);
+      },
+    });
+  }
+
   render() {
     return (
       <div>
-        <Header data={this.state.resumeData.main} />
+        <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>
@@ -99,11 +115,14 @@ class App extends Component {
             ></span>
           </div>
         </div>
-        <About data={this.state.resumeData.main} />
+        <About
+          data={this.state.resumeData.basic_info}
+          sharedData={this.state.sharedData.basic_info}
+        />
         <Projects data={this.state.resumeData.projects} />
-        <Skills data={this.state.resumeData.resume} />
+        <Skills sharedData={this.state.sharedData.skills} />
         <Experience data={this.state.resumeData.experience} />
-        <Footer data={this.state.resumeData.main} />
+        <Footer sharedData={this.state.sharedData.basic_info} />
       </div>
     );
   }
