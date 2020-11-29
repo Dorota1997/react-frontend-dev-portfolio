@@ -13,12 +13,12 @@
       {
         "title": "Animal Shelter",
         "startDate": "2020",
-        "description": "App that handles adoption  :)",
+        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
@@ -37,7 +37,7 @@
       {
         "title": "Photography",
         "startDate": "2018",
-        "description": "Testing our new camera and photo editor app.",
+        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
         "images": [
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
@@ -57,7 +57,7 @@
       {
         "title": "3D Object Viewer",
         "startDate": "2015",
-        "description": "App that allows to view the object via drone perspective.",
+        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
@@ -81,9 +81,9 @@
     ],
     "experience": [
       {
-        "company": "Company 3398",
+        "company": "DefOpenSource",
         "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "years": "10.2019 - obecnie",
         "mainTech": [
           "Angular 8/9/10"
         ],
@@ -98,7 +98,7 @@
         ]
       },
       {
-        "company": "Company 811",
+        "company": "Serros Solutions",
         "title": "Angular Intern",
         "years": "01.2018 - 09.2019",
         "mainTech": [
