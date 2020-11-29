@@ -42,11 +42,11 @@ class App extends Component {
   }
 
   componentDidMount() {
+    this.loadSharedData();
     this.applyPickedLanguage(
       window.$primaryLanguage,
       window.$secondaryLanguageIconId
     );
-    this.loadSharedData();
   }
 
   loadResumeFromPath(path) {
