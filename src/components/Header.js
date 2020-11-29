@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import Typical from 'react-typical';
-import Switch from 'react-switch';
+import React, { Component } from "react";
+import Typical from "react-typical";
+import Switch from "react-switch";
 
 class Header extends Component {
   constructor() {
@@ -15,10 +15,10 @@ class Header extends Component {
   }
 
   setTheme() {
-    var dataThemeAttribute = 'data-theme';
+    var dataThemeAttribute = "data-theme";
     var body = document.body;
     var newTheme =
-      body.getAttribute(dataThemeAttribute) === 'dark' ? 'light' : 'dark';
+      body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
     body.setAttribute(dataThemeAttribute, newTheme);
   }
 
@@ -28,10 +28,10 @@ class Header extends Component {
       var title = this.props.sharedData.title;
     }
     return (
-      <header id="home" style={{height: window.innerHeight - 140}}>
+      <header id="home" style={{ height: window.innerHeight - 140 }}>
         <div className="row banner">
           <div className="col-md-12 mx-auto pt-5">
-            <div style={{ paddingBottom: '10px' }}>
+            <div style={{ paddingBottom: "10px" }}>
               <h1>
                 <Typical steps={[name]} wrapper="p" />
               </h1>
@@ -40,7 +40,7 @@ class Header extends Component {
               </h1>
             </div>
           </div>
-          
+
           <Switch
             checked={this.state.checked}
             onChange={this.onThemeSwitchChange}
@@ -55,12 +55,12 @@ class Header extends Component {
                 data-icon="twemoji:owl"
                 data-inline="false"
                 style={{
-                  display: 'block',
-                  height: '100%',
+                  display: "block",
+                  height: "100%",
                   fontSize: 25,
-                  textAlign: 'end',
-                  marginLeft: '20px',
-                  color: '#353239',
+                  textAlign: "end",
+                  marginLeft: "20px",
+                  color: "#353239",
                 }}
               ></span>
             }
@@ -70,12 +70,12 @@ class Header extends Component {
                 data-icon="noto-v1:sun-with-face"
                 data-inline="false"
                 style={{
-                  display: 'block',
-                  height: '100%',
+                  display: "block",
+                  height: "100%",
                   fontSize: 25,
-                  textAlign: 'end',
-                  marginLeft: '10px',
-                  color: '#353239',
+                  textAlign: "end",
+                  marginLeft: "10px",
+                  color: "#353239",
                 }}
               ></span>
             }
