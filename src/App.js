@@ -76,10 +76,9 @@ class App extends Component {
             style={{ display: "inline" }}
           >
             <span
-              className="iconify mr-5"
+              className="iconify language-icon mr-5"
               data-icon="twemoji-flag-for-flag-united-kingdom"
               data-inline="false"
-              style={{ fontSize: "50px", cursor: "pointer" }}
               id={window.$primaryLanguageIconId}
             ></span>
           </div>
@@ -93,10 +92,9 @@ class App extends Component {
             style={{ display: "inline" }}
           >
             <span
-              className="iconify"
+              className="iconify language-icon"
               data-icon="twemoji-flag-for-flag-poland"
               data-inline="false"
-              style={{ fontSize: "50px", cursor: "pointer" }}
               id={window.$secondaryLanguageIconId}
             ></span>
           </div>
