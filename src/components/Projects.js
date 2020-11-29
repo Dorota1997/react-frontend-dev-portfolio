@@ -16,9 +16,9 @@ class Projects extends Component {
     };
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
-    if (this.props.data) {
-      var sectionName = document.documentElement.lang === 'pl' ? 'Projekty' : 'Projects';
-      var projects = this.props.data.map(function (projects) {
+    if (this.props.resumeProjects && this.props.resumeBasicInfo) {
+      var sectionName = this.props.resumeBasicInfo.section_name.projects;
+      var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
             className="col-sm-12 col-md-6 col-lg-4"

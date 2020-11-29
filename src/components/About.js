@@ -6,13 +6,13 @@ import vueIcon from '@iconify/icons-logos/vue';
 
 class About extends Component {
   render() {
-    if (this.props.sharedData) {
-      var sectionName = document.documentElement.lang === 'pl' ? 'O mnie' : 'About';
-      var hello = document.documentElement.lang === 'pl' ? 'Cześć' : 'Hi';
-      var profilepic = 'images/' + this.props.sharedData.image;
-      if (this.props.data) {
-        var about = this.props.data.description;
-      }
+    if (this.props.sharedBasicInfo) {
+      var profilepic = 'images/' + this.props.sharedBasicInfo.image;
+    }
+    if (this.props.resumeBasicInfo) {
+      var sectionName = this.props.resumeBasicInfo.section_name.about;
+      var hello = this.props.resumeBasicInfo.description_header;
+      var about = this.props.resumeBasicInfo.description;
     }
 
     return (

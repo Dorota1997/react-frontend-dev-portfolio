@@ -116,13 +116,22 @@ class App extends Component {
           </div>
         </div>
         <About
-          data={this.state.resumeData.basic_info}
-          sharedData={this.state.sharedData.basic_info}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+          sharedBasicInfo={this.state.sharedData.basic_info}
         />
-        <Projects data={this.state.resumeData.projects} />
-        <Skills sharedData={this.state.sharedData.skills} />
-        <Experience data={this.state.resumeData.experience} />
-        <Footer sharedData={this.state.sharedData.basic_info} />
+        <Projects
+          resumeProjects={this.state.resumeData.projects}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <Skills
+          sharedSkills={this.state.sharedData.skills}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <Experience
+          resumeExperience={this.state.resumeData.experience}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );
   }
