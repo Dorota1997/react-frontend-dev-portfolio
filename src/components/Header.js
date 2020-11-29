@@ -27,9 +27,8 @@ class Header extends Component {
       var name = this.props.sharedData.name;
       var title = this.props.sharedData.title;
     }
-
     return (
-      <header id="home">
+      <header id="home" style={{height: window.innerHeight - 140}}>
         <div className="row banner">
           <div className="col-md-12 mx-auto pt-5">
             <div style={{ paddingBottom: '10px' }}>
