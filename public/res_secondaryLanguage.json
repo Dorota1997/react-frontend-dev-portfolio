@@ -12,6 +12,7 @@
     "projects": [
       {
         "title": "Animal Shelter",
+        "startDate": "2020",
         "description": "App that handles adoption  :)",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
@@ -35,6 +36,7 @@
       },
       {
         "title": "Photography",
+        "startDate": "2018",
         "description": "Testing our new camera and photo editor app.",
         "images": [
           "images/portfolio/photography/p1.jpg",
@@ -54,6 +56,7 @@
       },
       {
         "title": "3D Object Viewer",
+        "startDate": "2015",
         "description": "App that allows to view the object via drone perspective.",
         "images": [
           "images/portfolio/adventure/p1.jpg",

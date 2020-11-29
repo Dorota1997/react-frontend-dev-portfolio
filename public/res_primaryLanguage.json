@@ -12,6 +12,7 @@
     "projects": [
       {
         "title": "Animal Shelter",
+        "startDate": "2020",
         "description": "Aplikacja do zarządzania procesem adopcji :)",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
@@ -35,6 +36,7 @@
       },
       {
         "title": "Photography",
+        "startDate": "2018",
         "description": "Testowanie nowego aparatu i aplikacji do obróbki zdjęć",
         "images": [
           "images/portfolio/photography/p1.jpg",
@@ -54,6 +56,7 @@
       },
       {
         "title": "3D Object Viewer",
+        "startDate": "2015",
         "description": "Aplikacja za pomocą której można obejrzeć obiekt z perspektywy drona.",
         "images": [
           "images/portfolio/adventure/p1.jpg",
