@@ -1,12 +1,17 @@
-<img height="350" align="right" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/mobile-demo.gif" alt="react icon"/>
-<h3>:clipboard: Front-end Developer Portfolio in React</h3>
+<img height="350" align="right" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/mobile-demo.gif" alt="portfolio mobile demo gif"/>
+<img align="left" src="https://github.com/leungwensen/svg-icon/blob/master/dist/svg/logos/react.svg" height="50" alt="react icon"/>
+<h2>Portfolio Template</h2>
 
-```
-Easy to adapt portfolio template with most important
-sections(about, projects, experience, skills) and 
-awesome solutions from GitHub developers.
-```
-<img src="https://img.shields.io/badge/-multilingual-blue" alt="multilingual"/> &nbsp; <img src="https://img.shields.io/badge/-mobile friendly-blue" alt="mobile friendly"/> &nbsp; <img src="https://img.shields.io/badge/-light/dark mode-blue" alt="light/dark mode"/> &nbsp; <img src="https://img.shields.io/badge/-json fetched data-blue" alt="json fetched data"/> &nbsp; <img src="https://img.shields.io/badge/-minimalistic-blue" alt="minimalistic"/>
+<pre>
+⭐ Easy to adapt and deploy portfolio template combined with 
+most important sections and solutions available at GitHub.
+</pre>
+
+<img src="https://img.shields.io/badge/-multilingual-blue" alt="multilingual"/> &nbsp; <img src="https://img.shields.io/badge/-mobile friendly-blue" alt="mobile friendly"/> &nbsp; <img src="https://img.shields.io/badge/-light/dark mode-blue" alt="light/dark mode"/> &nbsp; <img src="https://img.shields.io/badge/-json fetched data-blue" alt="json fetched data"/> &nbsp; <img src="https://img.shields.io/badge/-minimalistic-blue" alt="minimalistic"/> &nbsp; <img src="https://img.shields.io/badge/-expandable-blue" alt="expandable"/>
+
+<br/>
+
+<h3 align="center">- - documentation - -</h3>
 
 <p align="center">
 <img width="70%" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
@@ -17,13 +22,13 @@ Check preview <a href="https://dorota1997.github.io">here</a>
 <h3>:books: Getting started</h3>
 
 1. Clone or fork template.
-2. Install dependencies with `npm install`.
+2. Install required dependencies with `npm install`.
 3. `npm start` project and customize it. <br/>
-<code>💡 In current version, most page content data can be adjusted through json files.</code>
+<code>💡 Overwrite portfolio template with your data in json files (portfolio_sharedData, res_primaryLanguage, res_secondaryLanguage).</code>
 4. Deploy it on github-pages using `npm run deploy` command. <br/>
 <code>⚠️ Don't forget to set in repository settings proper branch under github-pages section.</code>
 
-<h3>:star: Used solutions</h3>
+<h3>:star: Inspirations</h3>
 
 <a href="https://github.com/stephane-monnot/react-vertical-timeline">React Vertical Timeline</a> <br/>
 <a href="https://github.com/rcaferati/react-awesome-slider">React Awesome Slider</a> <br/>
