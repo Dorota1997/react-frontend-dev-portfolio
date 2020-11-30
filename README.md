@@ -4,20 +4,18 @@
 
 <pre>
 ⭐ Easy to adapt and deploy portfolio template combined with 
-most important sections and solutions available at GitHub.
+most important sections and solutions available at GitHub :)
 </pre>
 
 <img src="https://img.shields.io/badge/-multilingual-blue" alt="multilingual"/> &nbsp; <img src="https://img.shields.io/badge/-mobile friendly-blue" alt="mobile friendly"/> &nbsp; <img src="https://img.shields.io/badge/-light/dark mode-blue" alt="light/dark mode"/> &nbsp; <img src="https://img.shields.io/badge/-json fetched data-blue" alt="json fetched data"/> &nbsp; <img src="https://img.shields.io/badge/-minimalistic-blue" alt="minimalistic"/> &nbsp; <img src="https://img.shields.io/badge/-expandable-blue" alt="expandable"/>
 
 <br/>
 
-<h3 align="center">- - documentation - -</h3>
-
 <h3>:eye_speech_bubble: Live demo</h3>
 
-View deployed template <a href="https://dorota1997.github.io">here</a>
+View deployed template <a href="to-be-added">here</a>
 
-<img width="70%" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
+<img width="90%" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
 
 <h3>:books: Getting started</h3>
 
@@ -40,7 +38,7 @@ View deployed template <a href="https://dorota1997.github.io">here</a>
 <h3>:memo: Changelog</h3>
 
 <details>
-<summary>[ 29/30.11.2020, from <a href="https://github.com/trolit">@trolit</a> ]</summary>
+<summary>[ 29/30.11.2020, contributor: <a href="https://github.com/trolit">@trolit</a> ]</summary>
 <pre>
 - changed resume files names to more "universal"
 - moved languages names to global variables
@@ -65,7 +63,7 @@ View deployed template <a href="https://dorota1997.github.io">here</a>
 </pre>
 </details>
 
-<h3>:camera: Images - credits</h3>
+<h3>:camera: Credits(images)</h3>
 
 Images used in portfolio template come from Pixabay, references:
 
