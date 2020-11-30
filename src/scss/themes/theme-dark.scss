@@ -1,18 +1,18 @@
-body[data-theme="light"] {
-   @import '../src/scss/light-slider.scss';
-
-   .slider-tab {
-      background-color: #D7CAAA;
-   }
-}
-
-
 body[data-theme="dark"] {  
 
    @import '../src/scss/dark-slider.scss';
 
    .slider-tab {
       background-color: #8C8C8C;
+   }
+
+   .title-styles {
+      color: white;
+   }
+
+   .header-icon {
+      color: #3C342C;
+      opacity: 0.8;
    }
 
    .slider-image {
@@ -24,6 +24,11 @@ body[data-theme="dark"] {
    }
 
    .link-href {
+      color: white;
+   }
+
+   .project-date {
+      background-color: #918e97;
       color: white;
    }
 
