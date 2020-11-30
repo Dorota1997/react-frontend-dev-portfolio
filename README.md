@@ -46,17 +46,18 @@ View deployed template <a href="https://dorota1997.github.io">here</a>
 - moved languages names to global variables
 - moved section names to json files
 - added target="_blank" for footer links
+- added startDate property for projects
 - excluded common json data to portfolio_shared_data file
-- added header section height calculation, (height: window.innerHeight - 140)
-- small changes to vertical timeline item
-- project link is not shown if empty
+- added header section height calculation based on formula: window.innerHeight - 140
+- small changes to vertical timeline item (color/font-size)
+- project link in modal is not shown if empty
 - changed slider preloader bar color
 - wrapped each skill into tile
 - footer fullname is fetched from json now
-- added mising "px" for avatar in About.js
+- added mising "px" for avatar in About.js component
 - updated json files content
 - page title is fetched from json data
-- added GitHub reference corner
+- added GitHub reference corner "label"
 - edited page meta
 - added margin, padding 0 for html tag
 - excluded light theme ref from theme-dark file
