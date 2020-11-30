@@ -25,62 +25,61 @@ class Header extends Component {
   render() {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
-      var title = this.props.sharedData.title;
+      var title = this.props.sharedData.title.toUpperCase();
     }
     return (
-      <header id="home" style={{ height: window.innerHeight - 140 }}>
+      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
         <div className="row banner">
-          <div className="col-md-12 mx-auto pt-5">
-            <div style={{ paddingBottom: "10px" }}>
-              <h1>
+          <div className="col-md-12 mx-auto pt-1">
+            <div>
+              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+              <br/>
+              <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
               </h1>
-              <h1>
-                <Typical steps={[title]} wrapper="p" />
-              </h1>
+              <Typical className="title-styles" steps={[title]} wrapper="p" />
+              <Switch
+                checked={this.state.checked}
+                onChange={this.onThemeSwitchChange}
+                offColor="#baaa80"
+                onColor="#353535"
+                className="react-switch mx-auto"
+                width={90}
+                height={40}
+                uncheckedIcon={
+                  <span
+                    className="iconify"
+                    data-icon="twemoji:owl"
+                    data-inline="false"
+                    style={{
+                      display: "block",
+                      height: "100%",
+                      fontSize: 25,
+                      textAlign: "end",
+                      marginLeft: "20px",
+                      color: "#353239",
+                    }}
+                  ></span>
+                }
+                checkedIcon={
+                  <span
+                    className="iconify"
+                    data-icon="noto-v1:sun-with-face"
+                    data-inline="false"
+                    style={{
+                      display: "block",
+                      height: "100%",
+                      fontSize: 25,
+                      textAlign: "end",
+                      marginLeft: "10px",
+                      color: "#353239",
+                    }}
+                  ></span>
+                }
+                id="icon-switch"
+              />
             </div>
           </div>
-
-          <Switch
-            checked={this.state.checked}
-            onChange={this.onThemeSwitchChange}
-            offColor="#baaa80"
-            onColor="#353535"
-            className="react-switch mx-auto"
-            width={90}
-            height={40}
-            uncheckedIcon={
-              <span
-                className="iconify"
-                data-icon="twemoji:owl"
-                data-inline="false"
-                style={{
-                  display: "block",
-                  height: "100%",
-                  fontSize: 25,
-                  textAlign: "end",
-                  marginLeft: "20px",
-                  color: "#353239",
-                }}
-              ></span>
-            }
-            checkedIcon={
-              <span
-                className="iconify"
-                data-icon="noto-v1:sun-with-face"
-                data-inline="false"
-                style={{
-                  display: "block",
-                  height: "100%",
-                  fontSize: 25,
-                  textAlign: "end",
-                  marginLeft: "10px",
-                  color: "#353239",
-                }}
-              ></span>
-            }
-            id="icon-switch"
-          />
         </div>
       </header>
     );

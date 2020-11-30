@@ -30,7 +30,7 @@ Check preview <a href="https://dorota1997.github.io">here</a>
 <a href="https://github.com/markusenglund/react-switch">React Switch</a> <br/>
 <a href="https://github.com/catalinmiron/react-typical">React Typical</a> <br/>
 <a href="https://iconify.design/icon-sets/?query=angular">Iconify Design</a> <br/>
-<a href="https://www.w3docs.com/snippets/css/how-to-create-polaroid-image-with-css.html#">Polaroid effect</a>
+<a href="https://www.w3docs.com/snippets/css/how-to-create-polaroid-image-with-css.html#">Polaroid effect</a> <br/>
 <a href="https://tholman.com/github-corners/">GitHub Ref Corner</a>
 
 <details>
