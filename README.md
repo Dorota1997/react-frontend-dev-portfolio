@@ -41,6 +41,13 @@ View deployed template <a href="https://dorota1997.github.io/react-frontend-dev-
 <h3>:memo: Changelog</h3>
 
 <details>
+<summary>[ 30.11.2020, contributor: <a href="https://github.com/dorota1997">@dorota1997</a> ]</summary>
+<pre>
+- updated readme section
+- fixed problem of json files not being read
+</pre>
+</details>
+<details>
 <summary>[ 29/30.11.2020, contributor: <a href="https://github.com/trolit">@trolit</a> ]</summary>
 <pre>
 - changed resume files names to more "universal"
