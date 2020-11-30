@@ -1,4 +1,6 @@
-<img height="350" align="right" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/mobile-demo.gif" alt="portfolio mobile demo gif"/>
+<img height="250px" align="left" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/portfolio_mockup.png" alt="portfolio template mockup" />
+<img height="350px" align="right" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/mobile-demo.gif" alt="portfolio mobile demo gif"/>
+
 <img align="left" src="https://github.com/leungwensen/svg-icon/blob/master/dist/svg/logos/react.svg" height="50" alt="react icon"/>
 <h2>Portfolio Template</h2>
 
@@ -13,17 +15,18 @@ most important sections and solutions available at GitHub :)
 
 <h3>:eye_speech_bubble: Live demo</h3>
 
-View deployed template <a href="to-be-added">here</a>
+View deployed template <a href="https://dorota1997.github.io/react-frontend-dev-portfolio/">here</a>
 
-<img width="90%" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
+<img width="100%" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
 
 <h3>:books: Getting started</h3>
 
 1. Clone or fork template.
 2. Install required dependencies with `npm install`.
-3. `npm start` project and customize it.
-4. Deploy it on github-pages using `npm run deploy` command. <br/>
-<code>⚠️ Don't forget to set in repository settings proper branch under github-pages section.</code>
+3. Remove or set `homepage` in package.json to single dot. 
+4. `npm start` project and customize it.
+5. Set homepage with URL targetting repository -> `https://{username}.github.io/{repository}/`
+6. Deploy on github-pages using `npm run deploy` command.
 
 <h3>:star: Inspirations</h3>
 
