@@ -61,6 +61,7 @@ View deployed template <a href="to-be-added">here</a>
 - excluded light theme ref from theme-dark file
 - slightly changed Header.js section look
 - made some changes to App.js to apply global variables/shared json etc.
+- centered fullname/pos/theme toggler in Header section
 </pre>
 </details>
 

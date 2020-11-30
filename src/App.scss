@@ -9,6 +9,12 @@ html {
 	padding: 0;
 }
 
+.aligner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .title-styles {
 	font-family: 'Raleway', sans-serif;
 	font-size: 250%;
