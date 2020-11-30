@@ -1,12 +1,3 @@
-body[data-theme="light"] {
-   @import '../src/scss/light-slider.scss';
-
-   .slider-tab {
-      background-color: #D7CAAA;
-   }
-}
-
-
 body[data-theme="dark"] {  
 
    @import '../src/scss/dark-slider.scss';
