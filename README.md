@@ -15,9 +15,9 @@ most important sections and solutions available at GitHub.
 
 <h3>:eye_speech_bubble: Live demo</h3>
 
-<img width="70%" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
+View deployed template <a href="https://dorota1997.github.io">here</a>
 
-Template preview is available <a href="https://dorota1997.github.io">here</a>
+<img width="70%" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
 
 <h3>:books: Getting started</h3>
 
@@ -44,6 +44,7 @@ Template preview is available <a href="https://dorota1997.github.io">here</a>
 <pre>
 - changed resume files names to more "universal"
 - moved languages names to global variables
+- moved section names to json files
 - added target="_blank" for footer links
 - excluded common json data to portfolio_shared_data file
 - added header section height calculation, (height: window.innerHeight - 140)
@@ -60,6 +61,7 @@ Template preview is available <a href="https://dorota1997.github.io">here</a>
 - added margin, padding 0 for html tag
 - excluded light theme ref from theme-dark file
 - slightly changed Header.js section look
+- made some changes to App.js to apply global variables/shared json etc.
 </pre>
 </details>
 
