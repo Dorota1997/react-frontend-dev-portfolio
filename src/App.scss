@@ -51,7 +51,10 @@ header {
 .project-date {
 	font-size: 16px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	padding: 2px 15px 2px 15px;
+	padding: 8px 15px 2px 15px;
+	position: relative;
+	z-index: -500;
+	border-top: 5px solid #696969;
 	border-radius: 0 0 5px 5px;
 	background-color: #696969;
 	color: white;
