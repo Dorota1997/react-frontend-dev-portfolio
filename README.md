@@ -5,9 +5,11 @@
 <h2>Portfolio Template</h2>
 
 <pre>
-⭐ Easy to adapt and deploy portfolio template combined with 
-most important sections and solutions available at GitHub :)
+⭐ Easy to adapt and deploy portfolio project covering most important 
+sections with solutions found at GitHub(see references below). 
 </pre>
+
+<strong>Advantages</strong>
 
 <img src="https://img.shields.io/badge/-multilingual-blue" alt="multilingual"/> &nbsp; <img src="https://img.shields.io/badge/-mobile friendly-blue" alt="mobile friendly"/> &nbsp; <img src="https://img.shields.io/badge/-light/dark mode-blue" alt="light/dark mode"/> &nbsp; <img src="https://img.shields.io/badge/-json fetched data-blue" alt="json fetched data"/> &nbsp; <img src="https://img.shields.io/badge/-minimalistic-blue" alt="minimalistic"/> &nbsp; <img src="https://img.shields.io/badge/-expandable-blue" alt="expandable"/>
 
@@ -15,18 +17,23 @@ most important sections and solutions available at GitHub :)
 
 <h3>:eye_speech_bubble: Live demo</h3>
 
-View deployed template <a href="https://dorota1997.github.io/react-frontend-dev-portfolio/">here</a>
+Check live demonstration <a href="https://dorota1997.github.io/react-frontend-dev-portfolio/"><strong>here</strong></a>
 
 <img width="100%" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
 
 <h3>:books: Getting started</h3>
 
-1. Clone or fork template.
+1. Clone or fork project.
 2. Install required dependencies with `npm install`.
-3. Remove or set `homepage` in package.json to single dot. 
+3. Remove or set `homepage` in `package.json` to single dot. 
 4. `npm start` project and customize it.
-5. Set homepage with URL targetting repository -> `https://{username}.github.io/{repository}/`
-6. Deploy on github-pages using `npm run deploy` command.
+5. Deploy on github-pages using `npm run deploy` command.
+
+<pre>
+⚠️ Note that if you have portfolio on different repository than `{username}.github.io`, 
+set `homepage` in `package.json` to `https://{username}.github.io/{repository}/` 
+before deploying portfolio.
+</pre>
 
 <h3>:star: Inspirations</h3>
 
