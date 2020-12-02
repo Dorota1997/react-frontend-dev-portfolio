@@ -6,10 +6,11 @@
 
 <pre>
 ⭐ Easy to adapt and deploy portfolio project covering most important 
-sections with solutions found at GitHub(see references below). 
+sections(about, exp, skills, projects), inspired with solutions found 
+at GitHub. Check live preview(link below).
 </pre>
 
-<strong>Advantages</strong>
+<strong>:crown: advantages</strong>
 
 <img src="https://img.shields.io/badge/-multilingual-blue" alt="multilingual"/> &nbsp; <img src="https://img.shields.io/badge/-mobile friendly-blue" alt="mobile friendly"/> &nbsp; <img src="https://img.shields.io/badge/-light/dark mode-blue" alt="light/dark mode"/> &nbsp; <img src="https://img.shields.io/badge/-json fetched data-blue" alt="json fetched data"/> &nbsp; <img src="https://img.shields.io/badge/-minimalistic-blue" alt="minimalistic"/> &nbsp; <img src="https://img.shields.io/badge/-expandable-blue" alt="expandable"/>
 
@@ -81,6 +82,10 @@ before deploying portfolio.
 - centered fullname/pos/theme toggler in Header section
 </pre>
 </details>
+
+<h3>:gear: Contribution</h3>
+
+If you have any suggestions on what to improve in <em>react-frontend-dev-portfolio</em> and would like to share them, feel free to leave an issue or fork project to implement your own ideas :slightly_smiling_face:
 
 <h3>:camera: Credits(images)</h3>
 
