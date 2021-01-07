@@ -23,9 +23,10 @@ class Header extends Component {
   }
 
   render() {
+    var titles = [];
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
-      var title = this.props.sharedData.title.toUpperCase();
+      titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
     return (
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
@@ -37,7 +38,9 @@ class Header extends Component {
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
               </h1>
-              <Typical className="title-styles" steps={[title]} wrapper="p" />
+              <div className="title-container">
+                <Typical className="title-styles" steps={titles} wrapper="p" loop={Infinity} />
+              </div>
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
