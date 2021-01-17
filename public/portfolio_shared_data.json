@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Davina Griss",
-      "title": "Front-end Developer",
+      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
       "social": [
         {
           "name": "github",

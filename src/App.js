@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 class App extends Component {
+
   constructor(props) {
     super();
     this.state = {
@@ -70,7 +71,7 @@ class App extends Component {
       cache: false,
       success: function (data) {
         this.setState({ sharedData: data });
-        document.title = `${this.state.sharedData.basic_info.name} | ${this.state.sharedData.basic_info.title}`;
+        document.title = `${this.state.sharedData.basic_info.name}`;
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
