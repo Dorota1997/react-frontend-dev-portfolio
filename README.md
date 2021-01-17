@@ -49,6 +49,13 @@ before deploying portfolio.
 <h3>:memo: Changelog</h3>
 
 <details>
+<summary>[ 17.01.2021, contributor: <a href="https://github.com/igorperic17">@igorperic17</a> ]</summary>
+<pre>
+- wrapped the Typical component into a fixed height div due to the bad transitions for a brief moment between two titles when the string is empty (the content bellow jumps up-down very quickly).
+- removed the title from the page document.title due to the increased title length.
+</pre>
+</details>
+<details>
 <summary>[ 30.11.2020, contributor: <a href="https://github.com/dorota1997">@dorota1997</a> ]</summary>
 <pre>
 - updated readme section
