@@ -114,5 +114,27 @@
           "DHTMLX Gantt"
         ]
       }
+    ],
+    "hobbies":[
+      {
+        "name": "Tennis",
+        "icon" :"mdi-tennis"
+      },
+      {
+        "name": "Football",
+        "icon" :"mdi-soccer"
+      },
+      {
+        "name" : "Fitness",
+        "icon" : "mdi-weight-lifter"
+      },
+      {
+        "name": "Video Games",
+        "icon":"mdi-sony-playstation"
+      },
+      {
+        "name": "Music",
+        "icon":"mdi-music"
+      }
     ]
   }

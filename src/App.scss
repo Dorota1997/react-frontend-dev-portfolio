@@ -401,6 +401,30 @@ header h1 {
 	position: relative;
 }
 
+#hobbies {
+	background: #1F1F1F;
+	min-height: 200px;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 10%;
+ }
+
+ .hobbies-icon {
+  font-size: 180%;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.hobbies-tile {
+ background-color: transparentize(#F8F5F4, 0.95);
+ padding: 10px 10px 5px 10px;
+ width: 130px;
+ margin: 5px 0 5px 0;
+ border-radius: 8px;
+}
+
+
 footer {
 	background: #1F1F1F;
 	min-height: 100px;
