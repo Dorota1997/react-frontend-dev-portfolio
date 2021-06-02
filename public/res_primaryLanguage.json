@@ -11,26 +11,22 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Todo App",
+        "startDate": "2021",
+        "description": "I learned a lot about SOLID principles doing this Odin bootcamp project. I love to be organized (GTD rocks!). That is why with a friend developer I build an extended todo app - with Firebase background structure, and more functionality. We also created an UML diagramm for optimizing the architecture.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/todo-app/todo-896-504.png",
+          "images/portfolio/todo-app/todo2-896-504.png"
         ],
-        "url": "",
+        "url": "https://davidmatalik.github.io/todo/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-webpack-plain",
+            "name": "Webpack"
           }
         ]
       },
