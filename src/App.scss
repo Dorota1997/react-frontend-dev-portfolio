@@ -157,6 +157,12 @@ header h1 {
 	top: 15px;
 }
 
+// Adjust color of slider arrows
+.awssld__controls{
+  --organic-arrow-color: black !important;
+  --control-button-opacity: 1 !important;
+}
+
 .foto div:hover {
 	-webkit-transform: scale(1.01);
 	-moz-transform: scale(1.01);
