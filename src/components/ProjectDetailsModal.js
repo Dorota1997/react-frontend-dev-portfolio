@@ -1,9 +1,12 @@
 import React, { Component } from "react";
+import { Icon } from "@iconify/react";
+import api1 from '@iconify-icons/carbon/api-1';
 import { Modal } from "react-bootstrap";
 import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
@@ -14,19 +17,35 @@ class ProjectDetailsModal extends Component {
       var url = this.props.data.url;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
-          return (
-            <li className="list-inline-item mx-3" key={i}>
-              <span>
-                <div className="text-center">
-                  <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
-                      {icons.name}
-                    </p>
-                  </i>
-                </div>
-              </span>
-            </li>
-          );
+          // For using icon from iconify
+          if (icons.name === "api"){
+            return (
+              <li className="list-inline-item mx-3" key={i}>
+                <span>
+                  <div className="text-center">
+                    <Icon icon={api1} width="40" height="40" />
+                      <div className="text-center" style={{ fontSize: "70%" }}>
+                        App Prog. Interface
+                      </div>
+                  </div>
+                </span>
+              </li>
+            );
+          } else {
+              return (
+                <li className="list-inline-item mx-3" key={i}>
+                  <span>
+                    <div className="text-center">
+                      <i className={icons.class} style={{ fontSize: "300%" }}>
+                        <p className="text-center" style={{ fontSize: "30%" }}>
+                          {icons.name}
+                        </p>
+                      </i>
+                    </div>
+                  </span>
+                </li>
+              );
+            }
         });
         if (this.props.data.images) {
           var img = images.map((elem, i) => {
