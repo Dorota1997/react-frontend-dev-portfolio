@@ -121,6 +121,10 @@ header h1 {
 	text-align: center;
 }
 
+.row {
+  justify-content: center;
+}
+
 .foto img {
 	display: block;
 	width: 100%;
@@ -263,6 +267,12 @@ header h1 {
 		margin-top: 27%;
 		text-align: center;
 	}
+}
+
+@media (min-width: 576px){
+  .col-sm-12 {
+      max-width: 60%;
+  }
 }
 
 .modal-inside .modal-content {
