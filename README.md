@@ -49,6 +49,12 @@ before deploying portfolio.
 <h3>:memo: Changelog</h3>
 
 <details>
+<summary>[ 26.05.2021, contributor: <a href="https://github.com/DavidMatalik">@DavidMatalik</a> ]</summary>
+<pre>
+- removed nonexisting logos references: logo192 and logo512.  
+</pre>
+</details>
+<details>
 <summary>[ 17.01.2021, contributor: <a href="https://github.com/igorperic17">@igorperic17</a> ]</summary>
 <pre>
 - wrapped the Typical component into a fixed height div due to the bad transitions for a brief moment between two titles when the string is empty (the content bellow jumps up-down very quickly).
