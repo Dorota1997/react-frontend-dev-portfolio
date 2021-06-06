@@ -6,7 +6,8 @@
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Experience",
+        "recommendations": "Recommendations"
       }
     },
     "projects": [
