@@ -86,5 +86,11 @@
           "DHTMLX Gantt"
         ]
       }
-    ]
+    ],
+    "recommendations": 
+      {
+        "title": "Richard Steinmetz, Software Engineer at Devex",
+        "text": "I've worked with David in different situations and settings and I must say that he is a remarkable engineer, learner and human being. Having pair programmed with him on a real-world challenge, I can tell that he really quickly gets into understanding the task at hand. He keeps an open mindset and guides the process with great thoughtful questions, even being new to a domain or technology! As David's coach I'm always amazed about his persistence and drive to solve problems and learn new things. He tackles every task conscientiously and with dedication. And while in the process, he never misses an opportunity to take active part in improving communication processes and give actionable honest feedback to make anything that you are working on another tad better. It's a real pleasure to work together with David and you'd be immensily happy to have him on board!",
+        "image": "images/recommendation/richard-steinmetz.png"
+      }
   }

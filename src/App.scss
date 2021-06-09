@@ -47,6 +47,10 @@ header {
 	padding-bottom: 0;
 }
 
+h2 {
+	margin-bottom: 20px !important;
+}
+
 .language-icon {
 	font-size: 50px;
 	cursor: pointer;
@@ -405,6 +409,22 @@ header h1 {
 #recommendations {
 	background: #feffde;
 	padding-bottom: 5%;
+}
+
+#recommendations img {
+	max-width: 170px;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-webkit-transition: all .20s linear;
+	-moz-transition: all .20s linear;
+	transition: all .20s linear;
+}
+
+.portfolio-card {
+	height: auto;
+	font-size: 132%;
+	line-height: 200%;
 }
 
 .section-title {
