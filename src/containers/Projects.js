@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProjectDetailsModal from "./ProjectDetailsModal";
+import ProjectDetailsModal from "../components/ProjectDetails";
 
 class Projects extends Component {
   constructor(props) {

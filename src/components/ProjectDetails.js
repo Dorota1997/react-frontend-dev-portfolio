@@ -7,7 +7,7 @@ import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 
-class ProjectDetailsModal extends Component {
+class ProjectDetails extends Component {
   render() {
     if (this.props.data) {
       const technologies = this.props.data.technologies;
@@ -123,4 +123,4 @@ class ProjectDetailsModal extends Component {
   }
 }
 
-export default ProjectDetailsModal;
+export default ProjectDetails;

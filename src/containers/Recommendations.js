@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import RecommendationDetails from "./RecommendationDetails";
+import RecommendationDetails from "../components/RecommendationDetails";
 
 class Recommendations extends Component {
     render() {

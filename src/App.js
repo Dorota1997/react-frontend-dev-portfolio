@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import $ from "jquery";
 import "./App.scss";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Recommendations from "./components/Recommendations";
+import Header from "./containers/Header";
+import Footer from "./containers/Footer";
+import About from "./containers/About";
+import Experience from "./containers/Experience";
+import Projects from "./containers/Projects";
+import Skills from "./containers/Skills";
+import Recommendations from "./containers/Recommendations";
 
 class App extends Component {
 
