@@ -49,6 +49,12 @@ before deploying portfolio.
 <h3>:memo: Changelog</h3>
 
 <details>
+<summary>[ 03.10.2021, contributor: <a href="https://github.com/shahednasser">@shahednasser</a> ]</summary>
+<pre>
+- updated sass dependency.
+</pre>
+</details>
+<details>
 <summary>[ 26.05.2021, contributor: <a href="https://github.com/DavidMatalik">@DavidMatalik</a> ]</summary>
 <pre>
 - removed nonexisting logos references: logo192 and logo512.  
