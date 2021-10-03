@@ -31,9 +31,12 @@ Check live demonstration <a href="https://dorota1997.github.io/react-frontend-de
 5. Deploy on github-pages using `npm run deploy` command.
 
 <pre>
-⚠️ Note that if you have portfolio on different repository than `{username}.github.io`, 
-set `homepage` in `package.json` to `https://{username}.github.io/{repository}/` 
+⚠️ Note that:
+- if you want to have portfolio on different repository than `{username}.github.io`, 
+set `homepage` in `package.json` to `https://{username}.github.io/{repository-name}/` 
 before deploying portfolio.
+- if you want to run it locally with <strong>npm run start</strong>, empty or
+remove homepage property from `package.json` or json data won't load.
 </pre>
 
 <h3>:star: Inspirations</h3>
