@@ -1,17 +1,22 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
-      "social": [
+      "name": "Le Minh Tri Pham",
+      "titles": [ "Front-end Developer", "Mobile App Developer" ],
+      "social": [ 
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/tripham97",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "resume",
+          "url": "",
+          "class": "fas fa-address-card"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/lepham2805/",
+          "class": "fab fa-linkedin"
         }
       ],
       "image": "myProfile.jpg"
@@ -29,8 +34,8 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
+          "name": "Python",
+          "class": "devicon-python-plain",
           "level": "80"
         },
         {
@@ -44,8 +49,8 @@
           "level": "70"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
+          "name": "Git",
+          "class": "devicon-git-plain",
           "level": "75"
         },
         {
@@ -54,13 +59,13 @@
           "level": "85"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
+          "name": "React",
+          "class": "devicon-react-original",
           "level": "65"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
+          "name": "Visual Code",
+          "class": "devicon-visualstudio-plain",
           "level": "60"
         }
       ]

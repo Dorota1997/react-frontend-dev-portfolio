@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hello Word,",
+      "description": "👋 I'm Le Minh Tri Pham. You can call Tri /trē/ for short :). I'm working with front-end frameworks like React, React Native, and Vue.  I am a passionate computer scientist who loves to explore new ideas and solve logical problems. I am skilled in programming, web prototyping, AR designing/prototyping, and computer networking. I am proactive at work and never stops learning. I'm organized, thrives in fast-paced environments, and works well under pressure. I also enjoy working in both individual and team settings.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,181 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "CoinPrint",
+        "startDate": "May 2021",
+        "description": "Constructed an eco-friendly application with e-wallet feature and go-green options for the user by using Photoshop",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/coin-print/p1.jpg"
         ],
-        "url": "",
+        "url": "https://devpost.com/software/coinprint",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-photoshop-plain",
+            "name": "Photoshop"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "MiCommunity",
+        "startDate": "May 2021",
+        "description": "Established a better social media experience for users.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/micommunity/p1.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://devpost.com/software/micommunity",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-photoshop-plain",
+            "name": "Photoshop"
+          }
+        ]
+      },
+      {
+        "title": "Houston Almanac",
+        "startDate": "May 2021",
+        "description": "Published a simple newsletter that people without Internet or access to technology could read by using WordPress.",
+        "images": [
+          "images/portfolio/almanac/p1.jpg"
+        ],
+        "url": "https://almanac.ideasacademy.app/",
+        "technologies": [
+          {
+            "class": "devicon-wordpress-plain",
+            "name": "WordPress"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          }
+        ]
+      },
+      {
+        "title": "Eagle On Campus",
+        "startDate": "April 2021",
+        "description": "One of the first websites I was working on as Secretary of Student Government Association. I had to develop front-end implementation for app that shows 3D models of known buildings. I've learned a lot!",
+        "images": [
+          "images/portfolio/eagleoncampus/p1.jpg"
+        ],
+        "url": "https://eaglesoncampus.com/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           },
           {
             "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "name": "Javascript"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "The Autonomous Underground Mapping Radar Auger (AUMRA)",
+        "startDate": "May 2020",
+        "description": "The AUMRA is proposed as a way of gaining this information through an autonomous drilling rover, capable of sending data about the underground environment through multiple instruments and providing a closer look underneath the moon's surface. ",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/aumra/p1.jpg"
         ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
+        "url": "https://drive.google.com/file/d/1kqPr1MFFRFG60rq-J_8MQF9cjWM-Nlcn/view?usp=sharing"
+      },
+      {
+        "title": "Actuated Surface Laser Activated Nominal – Ice Detector",
+        "startDate": "Spring 2020",
+        "description": "Team Dias will further advance the research required to establish a sustainable human presence on the Moon. This will be done by validating the existence of water ice within the Permanently Shadowed Regions (PSRs) located in Shoemaker on the Lunar South Pole. The lander designed for the mission is named ASLAN-ID (Actuated Surface) Laser Activated Nominal - Ice Detector)",
+        "images": [
+          "images/portfolio/Dias/p1.jpg"
+        ],
+        "url": "https://drive.google.com/file/d/1X3iUXKOuTowniQ8bvlo8YtH_9s_h04qj/view?usp=sharing"
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
+        "company": "EDGE196",
         "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "years": "08.2021 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "React"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
           "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "React",
+          "React Native"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Mphasis",
+        "title": "Trainee Test Engineer",
+        "years": "05.2021 - 08.2021",
         "mainTech": [
-          "Angular 7/8"
+          "Networking, Server, Software Testing"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "TCP/IP",
+          "UDP",
+          "FTP",
+          "HTTPS",
+          "PowerShell"
+        ]
+      }, 
+      {
+        "company": "NASA",
+        "title": "Lucy Asteroid Ambassador",
+        "years": "07.2020 - 05.2021",
+        "mainTech": [
+          "AutoCAD, MATLAB, NASA Eye"
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "HCC Stdent Government Association",
+        "title": "Secretary",
+        "years": "05.2020 - 05.2021",
+        "mainTech": [
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "Mu Alpha Theta National Mathematics Honor Society",
+        "title": "Secreatry",
+        "years": "10.2019 - 05.2020",
+        "mainTech": [
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "Barnes & Noble College",
+        "title": "Store Assistant",
+        "years": "01.2019 - 03.2020",
+        "mainTech": [
+          "Oracle"
+        ],
+        "technologies": [
+          "POS Systems"
+        ]
+      },
+      {
+        "company": "XLE",
+        "title": "Vietnam Basketball Association Management Intern",
+        "years": "08.2015 - 09.2016",
+        "mainTech": [
+          "Excel, Office, Scripting"
+        ],
+        "technologies": [
+          "MS Office",
+          "Excel",
+          "Word",
+          "PowerPoint"
         ]
       }
     ]
