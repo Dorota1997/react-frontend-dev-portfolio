@@ -6,7 +6,9 @@
         "about": "O mnie",
         "projects": "Projekty",
         "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "experience": "Doświadczenie",
+        "hobbies" : "Hobbies"
+
       }
     },
     "projects": [
