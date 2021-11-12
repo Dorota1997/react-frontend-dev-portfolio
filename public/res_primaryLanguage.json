@@ -1,118 +1,162 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 Hello I am Sean Redmon an enthusiastic and self taught Digital Designer and Developer. I started coding smartboard games for my young students in China. Later I grew to making cross platform websites and apps for professionals. I am currently based in London, Ontario.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "a few of my Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Donnie Fan Comedy",
+      "startDate": "2021",
+      "description": "A website for the China based comedian Donnie Fan. I worked directly with Donnie and created a Figma design that fits his needs. I coded and put the site online myself for the client.",
+      "images": [
+        "images/portfolio/donnie-fan/donnie-fan-mockup-yellow.webp",
+        "images/portfolio/donnie-fan/donnie-fan-desktop-events-preview.webp"
+      ],
+      "url": "https://github.com/seanred360/donnie-fan-website",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-sass-plain",
+          "name": "Sass"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-figma-plain",
+          "name": "Figma"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Rest Countries API app",
+      "startDate": "2021",
+      "description": "A website that gets country data from an api and displays it. The client gave me a Figma design file and I replicated it in code. I learned how to make many different components in this project. I learned how to sort, search, and paginate JSON data in React. This is my first implementation of a darkmode switcher. Visit the Github link to see a very detailed breakdown of my dev process with pics and examples.",
+      "images": [
+        "images/portfolio/rest-countries/rest-countries-preview.gif",
+        "images/portfolio/rest-countries/rest-countries-mockup.webp",
+        "images/portfolio/rest-countries/rest-countries-figma.webp"
+      ],
+      "url": "https://github.com/seanred360/rest-countries-api",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-sass-plain",
+          "name": "Sass"
+        },
+        {
+          "class": "devicon-figma-plain",
+          "name": "Figma"
+        }
+      ]
+    },
+    {
+      "title": "Planets Fact Site",
+      "startDate": "2021",
+      "description": "A responsive website for desktop, tablet and mobile that shows facts about planets. The client provided a Figma design file for me to replicate in code. This website was made without any Javascript frameworks. AnimeJS was used in the animations. See the Github link for a very detailed breakdown of the code with pictures and examples.",
+      "images": [
+        "images/portfolio/planets-fact-site/planets-fact-site-preview.gif",
+        "images/portfolio/planets-fact-site/planets-fact-site-mockup.webp",
+        "images/portfolio/planets-fact-site/planets-fact-site-figma.webp"
+      ],
+      "url": "https://github.com/seanred360/planets-fact-site",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-sass-plain",
+          "name": "Sass"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-figma-plain",
+          "name": "Figma"
+        }
+      ]
+    },
+    {
+      "title": "Crowd Funding",
+      "startDate": "2021",
+      "description": "A crowdfunding product page with form validation. You can choose a reward tier and amount to pledge in dollars.",
+      "images": [
+        "images/portfolio/crowd-funding/crowdfunding-mockup.webp",
+        "images/portfolio/crowd-funding/crowdfunding-figma.webp"
+      ],
+      "url": "https://github.com/seanred360/crowdfunding-product-page",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-sass-plain",
+          "name": "Sass"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-figma-plain",
+          "name": "Figma"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "DefOpenSource",
+      "title": "Front-End Developer",
+      "years": "10.2019 - present",
+      "mainTech": ["Angular 8/9/10"],
+      "technologies": [
+        "REST API",
+        "RxJS",
+        "JavaScript",
+        "Bootstrap",
+        "MDBootstrap",
+        "EF Core",
+        ".NET Core",
+        "SignalR",
+        "Angular Material"
+      ]
+    },
+    {
+      "company": "Serros Solutions",
+      "title": "Intern",
+      "years": "01.2018 - 09.2019",
+      "mainTech": ["Angular 7/8"],
+      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+    }
+  ]
+}

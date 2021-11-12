@@ -1,68 +1,73 @@
 {
-    "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
-        }
-      ],
-      "image": "myProfile.jpg"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Sean Redmon",
+    "titles": [
+      "Front-end Developer",
+      "is making the web beautiful",
+      "thinks you belong here",
+      "在中国生活了七年"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/seanred360",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "wechat",
+        "url": "weixin://dl/chat?SeanRed360",
+        "class": "fab fa-weixin"
+      }
+    ],
+    "image": "sean-picture.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "Unity",
+        "class": "devicon-unity-original",
+        "level": "80"
+      },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original",
+        "level": "75"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      {
+        "name": "C#",
+        "class": "devicon-csharp-plain",
+        "level": "65"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-original",
+        "level": "60"
+      },
+      {
+        "name": "Figma",
+        "class": "devicon-figma-plain",
+        "level": "60"
+      },
+      {
+        "name": "Node",
+        "class": "devicon-nodejs-plain",
+        "level": "60"
+      },
+      {
+        "name": "Illustrator",
+        "class": "devicon-illustrator-plain",
+        "level": "60"
+      }
+    ]
   }
+}

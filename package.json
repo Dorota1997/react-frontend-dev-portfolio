@@ -1,6 +1,6 @@
 {
-  "name": "react-frontend-dev-portfolio",
-  "homepage": "https://dorota1997.github.io/react-frontend-dev-portfolio/",
+  "name": "sean-red-portfolio-v1.0",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,7 +44,8 @@
   },
   "devDependencies": {
     "@iconify/icons-logos": "^1.0.12",
-    "@iconify/react": "^1.1.3",
+    "@iconify/icons-vscode-icons": "^1.1.8",
+    "@iconify/react": "^1.1.4",
     "gh-pages": "^3.1.0",
     "sass": "^1.42.1"
   }

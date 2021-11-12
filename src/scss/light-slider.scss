@@ -1,9 +1,9 @@
-$root-element: 'awssld';
+$root-element: "awssld";
 $cos45: 0.7071;
 $transition-bezier: cubic-bezier(0.5, 0.075, 0.25, 0.95);
 $slider-height-percentage: 60%;
 $slider-transition-duration: 575ms;
-$organic-arrow-color: #D7CAAA;
+$organic-arrow-color: #1e1e1e;
 $organic-arrow-thickness: 4px;
 $organic-arrow-height: 40px;
 $organic-arrow-border-radius: 0;
@@ -11,12 +11,12 @@ $control-button-width: 10%;
 $control-button-height: 25%;
 $control-button-opacity: 0.5;
 $control-button-hover-opacity: 0.75;
-$control-button-background: transparent;
-$loader-bar-color:#BFAA76;
+$control-button-background: #f4c203;
+$loader-bar-color: #00d8ff;
 $loader-bar-height: 6px;
-$control-bullet-color: #D7CAAA;
-$control-bullet-active-color: #D7CAAA;
-$content-background-color: #D7CAAA;
+$control-bullet-color: #f4c203;
+$control-bullet-active-color: #f4c203;
+$content-background-color: #f4c203;
 
 %fill-parent {
   display: block;
@@ -305,7 +305,7 @@ $content-background-color: #D7CAAA;
     transition: transform 0.2s ease-out 0.125s, opacity 0.2s ease-out;
     &:before,
     &:after {
-      content: ' ';
+      content: " ";
       position: absolute;
       right: calc(
         50% -
