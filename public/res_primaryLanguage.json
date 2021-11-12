@@ -6,7 +6,7 @@
       "about": "About me",
       "projects": "Projects",
       "skills": "a few of my Skills",
-      "experience": "Experience"
+      "experience": "My developer journey"
     }
   },
   "projects": [
@@ -135,28 +135,166 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": ["Angular 8/9/10"],
+      "company": "Code with Mosh",
+      "title": "The Complete Node.js Course",
+      "years": "Oct. 2021",
+      "mainTech": ["225 lessons"],
       "technologies": [
-        "REST API",
-        "RxJS",
+        "RESTful API",
         "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "Express",
+        "MongoDB",
+        "axios",
+        "unit testing",
+        "NPM",
+        "Nodemon",
+        "custom middleware",
+        "database integration",
+        "Asnychronous Javascript",
+        "Data validation",
+        "Authorization and authentication"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
-      "mainTech": ["Angular 7/8"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+      "company": "Code with Mosh",
+      "title": "The Ultimate Java Mastery Series",
+      "years": "Sept. 2021",
+      "mainTech": ["260 Lessons"],
+      "technologies": [
+        "InteliJ",
+        "implementing an Asynchronous API",
+        "Thread pools",
+        "Multi-threading",
+        "Imperative vs functional programming",
+        " object oriented programming",
+        "hash tables",
+        "inheritance",
+        "interfaces",
+        "refactoring"
+      ]
+    },
+    {
+      "company": "Code with Mosh",
+      "title": "Mastering React",
+      "years": "Aug. 2021",
+      "mainTech": ["220 Lessons"],
+      "technologies": [
+        "React",
+        "MongoDB",
+        "custom hooks",
+        " higher order components",
+        "Heroku",
+        "Authorization",
+        "protected API endpoints",
+        "JSON web tokens",
+        "form validation with Joi",
+        "routing"
+      ]
+    },
+    {
+      "company": "Code with Mosh",
+      "title": "The Ultimate Git Course",
+      "years": "Jul. 2021",
+      "mainTech": ["120 Lessons"],
+      "technologies": [
+        "Github",
+        "Creating snapshots",
+        "Branching & merging",
+        "Handling Conflicts",
+        "Code reviews using Pull Requests",
+        "Rewriting project history",
+        "Git best practices"
+      ]
+    },
+    {
+      "company": "Code with Mosh",
+      "title": "The Ultimate Git Course",
+      "years": "Jul. 2021",
+      "mainTech": ["120 Lessons"],
+      "technologies": [
+        "Github",
+        "Creating snapshots",
+        "Branching & merging",
+        "Handling Conflicts",
+        "Code reviews using Pull Requests",
+        "Rewriting project history",
+        "Git best practices"
+      ]
+    },
+    {
+      "company": "Code with Mosh",
+      "title": "The Ultimate Javascript Mastery Series",
+      "years": "Jun. 2021",
+      "mainTech": ["100 Lessons"],
+      "technologies": [
+        "ES6",
+        "CommonJS",
+        "Babel",
+        "Webpack",
+        "Node",
+        "hoisting",
+        "prototypical inheritance",
+        "abstraction",
+        "polymorphism",
+        "encapsulation",
+        "inheritance",
+        "constructors",
+        "mixins"
+      ]
+    },
+    {
+      "company": "Freecodecamp.org",
+      "title": "Front End Development Libraries Certification",
+      "years": "May. 2021",
+      "mainTech": ["300 hours"],
+      "technologies": ["Bootstrap", "Sass", "React", "Redux"]
+    },
+    {
+      "company": "Freecodecamp.org",
+      "title": "Javascript Algorithms and Data Structures Certification",
+      "years": "Jan. 2021",
+      "mainTech": ["300 hours"],
+      "technologies": [
+        "Javascript",
+        "Object Oriented Programming",
+        "Functional Programming",
+        "writing reusable Javascript",
+        "ES6",
+        "regular expressions",
+        "debugging",
+        "Data Structures",
+        "algorithm scripting"
+      ]
+    },
+    {
+      "company": "Freecodecamp.org",
+      "title": "Responsive Web Design Certification",
+      "years": "Dec. 2021",
+      "mainTech": ["300 hours"],
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "Flexbox",
+        "CSS grid",
+        "accessibiity",
+        "responsive web design"
+      ]
+    },
+    {
+      "company": "Ivy International English",
+      "title": "Making smartboard games for my students",
+      "years": "Apr. 2017",
+      "mainTech": ["Unity , Game Maker"],
+      "technologies": [
+        "SOME OF MY FAVORITE UNITY PACKAGES:",
+        "RealToon shader",
+        "Koreographer - Music visualization for rythme games",
+        "DOTween animation tweener",
+        "FinalIK - character physics",
+        "Puppetmaster - rag doll physics",
+        "Cartoon FX - particle emitter system by Jean Moreno",
+        "Brackeys, Jason Weimann, and Sebastian Lague on Youtube"
+      ]
     }
   ]
 }
