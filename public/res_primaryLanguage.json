@@ -19,6 +19,7 @@
         "images/portfolio/donnie-fan/donnie-fan-desktop-events-preview.webp"
       ],
       "url": "https://github.com/seanred360/donnie-fan-website",
+      "liveSiteUrl": "https://donniefan.netlify.app/",
       "technologies": [
         {
           "class": "devicon-react-plain",
@@ -48,6 +49,7 @@
         "images/portfolio/rest-countries/rest-countries-figma.webp"
       ],
       "url": "https://github.com/seanred360/rest-countries-api",
+      "liveSiteUrl": "https://rest-countries-app-seanred.herokuapp.com/",
       "technologies": [
         {
           "class": "devicon-react-original",
@@ -77,6 +79,7 @@
         "images/portfolio/planets-fact-site/planets-fact-site-figma.webp"
       ],
       "url": "https://github.com/seanred360/planets-fact-site",
+      "liveSiteUrl": "https://planets-fact-site-mu.vercel.app/",
       "technologies": [
         {
           "class": "devicon-javascript-plain",
@@ -109,6 +112,7 @@
         "images/portfolio/crowd-funding/crowdfunding-figma.webp"
       ],
       "url": "https://github.com/seanred360/crowdfunding-product-page",
+      "liveSiteUrl": "https://crowdfunding-product-page-tau-plum.vercel.app/",
       "technologies": [
         {
           "class": "devicon-javascript-plain",
@@ -281,10 +285,10 @@
       ]
     },
     {
-      "company": "Ivy International English",
-      "title": "Making smartboard games for my students",
+      "company": "",
+      "title": "Hobby game developement",
       "years": "Apr. 2017",
-      "mainTech": ["Unity , Game Maker"],
+      "mainTech": ["Unity"],
       "technologies": [
         "SOME OF MY FAVORITE UNITY PACKAGES:",
         "RealToon shader",

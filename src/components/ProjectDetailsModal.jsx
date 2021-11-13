@@ -12,6 +12,7 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
+      var liveSiteUrl = this.props.data.liveSiteUrl;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -86,17 +87,27 @@ class ProjectDetailsModal extends Component {
             <h3 style={{ padding: "5px 5px 0 5px" }}>
               {title}
               {url ? (
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-href"
-                >
-                  <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
-                  ></i>
-                </a>
+                <React.Fragment>
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-href"
+                  >
+                    <i
+                      className="fas fa-external-link-alt"
+                      style={{ marginLeft: "10px" }}
+                    ></i>
+                  </a>
+                  <a
+                    href={liveSiteUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="m-3"
+                  >
+                    Live site
+                  </a>
+                </React.Fragment>
               ) : null}
             </h3>
             <p className="modal-description">{description}</p>
