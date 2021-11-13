@@ -99,6 +99,39 @@
           "name": "Figma"
         }
       ]
+    },
+    {
+      "title": "Crowd Funding",
+      "startDate": "2021",
+      "description": "A crowdfunding product page with form validation. You can choose a reward tier and amount to pledge in dollars.",
+      "images": [
+        "images/portfolio/crowd-funding/crowdfunding-mockup.webp",
+        "images/portfolio/crowd-funding/crowdfunding-figma.webp"
+      ],
+      "url": "https://github.com/seanred360/crowdfunding-product-page",
+      "liveSiteUrl": "https://crowdfunding-product-page-tau-plum.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-sass-plain",
+          "name": "Sass"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-figma-plain",
+          "name": "Figma"
+        }
+      ]
     }
   ],
   "experience": [
