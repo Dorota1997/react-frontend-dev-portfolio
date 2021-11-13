@@ -95,20 +95,20 @@ body[data-theme="dark"] {
     }
 
     .experience-badge {
-      background: #919191 !important;
-      color: white;
+      background: black !important;
+      color: $fontBlue;
     }
 
     .main-badge {
-      background: #919191 !important;
+      background: $fontYellow !important;
     }
 
     .vertical-timeline-element-date {
-      color: white;
+      color: $fontYellow;
     }
 
     .vertical-timeline-element-icon {
-      background: #919191 !important;
+      background: black !important;
     }
     @media only screen and (max-width: 1169px) {
       .vertical-timeline-element-date {

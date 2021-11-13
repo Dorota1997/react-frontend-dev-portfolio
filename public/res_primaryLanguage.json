@@ -212,21 +212,6 @@
     },
     {
       "company": "Code with Mosh",
-      "title": "The Ultimate Git Course",
-      "years": "Jul. 2021",
-      "mainTech": ["120 Lessons"],
-      "technologies": [
-        "Github",
-        "Creating snapshots",
-        "Branching & merging",
-        "Handling Conflicts",
-        "Code reviews using Pull Requests",
-        "Rewriting project history",
-        "Git best practices"
-      ]
-    },
-    {
-      "company": "Code with Mosh",
       "title": "The Ultimate Javascript Mastery Series",
       "years": "Jun. 2021",
       "mainTech": ["100 Lessons"],
