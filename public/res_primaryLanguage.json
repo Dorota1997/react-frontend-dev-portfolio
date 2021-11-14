@@ -42,7 +42,7 @@
     {
       "title": "Rest Countries API app",
       "startDate": "2021",
-      "description": "A website that gets country data from an api and displays it. The client gave me a Figma design file and I replicated it in code. I learned how to make many different components in this project. I learned how to sort, search, and paginate JSON data in React. This is my first implementation of a darkmode switcher. Visit the Github link to see a very detailed breakdown of my dev process with pics and examples.",
+      "description": "A website that gets country data from an api and displays it. The Figma design file was provided to me and I replicated it in code. I learned how to make many different components in this project. I learned how to sort, search, and paginate JSON data in React. This is my first implementation of a darkmode switcher. Visit the Github link to see a very detailed breakdown of my dev process with pics and examples.",
       "images": [
         "images/portfolio/rest-countries/rest-countries-preview.gif",
         "images/portfolio/rest-countries/rest-countries-mockup.webp",
@@ -72,7 +72,7 @@
     {
       "title": "Planets Fact Site",
       "startDate": "2021",
-      "description": "A responsive website for desktop, tablet and mobile that shows facts about planets. The client provided a Figma design file for me to replicate in code. This website was made without any Javascript frameworks. AnimeJS was used in the animations. See the Github link for a very detailed breakdown of the code with pictures and examples.",
+      "description": "A responsive website for desktop, tablet and mobile that shows facts about planets. The Figma design was provided to me. This website was made without any Javascript frameworks. AnimeJS was used in the animations. See the Github link for a very detailed breakdown of the code with pictures and examples.",
       "images": [
         "images/portfolio/planets-fact-site/planets-fact-site-preview.gif",
         "images/portfolio/planets-fact-site/planets-fact-site-mockup.webp",
