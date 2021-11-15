@@ -1,10 +1,9 @@
 .portfolio {
-  background: #efe1bd;
   padding-bottom: 5%;
 
   .portfolio-item {
     max-width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
     text-align: center;
 
     @media (min-width: 576px) {
@@ -12,21 +11,20 @@
         display: block;
       }
       .portfolio-item {
-        margin-bottom: 30px;
+        margin-bottom: 2rem;
       }
     }
 
     .foto {
       .__container {
-        // background: #ffffff;
         display: inline-block;
         margin: 0 auto 5% auto;
-        padding: 10px 10px 5px;
+        padding: 0.625rem 0.625rem 0.3125rem;
         text-align: center;
         text-decoration: none;
-        -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-        -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.3);
         -webkit-transition: all 0.2s linear;
         -moz-transition: all 0.2s linear;
         transition: all 0.2s linear;
@@ -34,11 +32,10 @@
         position: relative;
 
         &:after {
-          color: #333;
-          font-size: 25px;
+          font-size: 1.5rem;
           content: attr(title);
           position: relative;
-          top: 15px;
+          top: 1.5rem;
         }
 
         &:hover {
@@ -46,9 +43,9 @@
           -moz-transform: scale(1.01);
           transform: scale(1.01);
           z-index: 10;
-          -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
-          -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+          -webkit-box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.7);
+          -moz-box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.7);
         }
 
         & img {
@@ -57,15 +54,12 @@
         }
 
         .project-date {
-          font-size: 16px;
-          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-          padding: 8px 15px 2px 15px;
+          font-size: 1rem;
+          padding: 1.5rem 1rem 0.5rem 1rem;
           position: relative;
           z-index: -500;
-          border-top: 5px solid #696969;
-          border-radius: 0 0 5px 5px;
-          // background-color: #696969;
-          // color: white;
+          border-radius: 0 0 0.3125rem 0.3125rem;
+          color: white !important;
         }
       }
     }
@@ -75,7 +69,6 @@
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background-color: rgba(51, 51, 51, 0.9);
 
       &:hover {
         opacity: 1;
@@ -92,9 +85,13 @@
 }
 
 .modal-inside {
+  padding: 0 !important;
+  margin: 0 !important;
+
   .modal-close {
+    font-size: 1rem;
     text-align: right;
-    padding: 10px 15px 10px 15px;
+    padding: 0.625rem 1rem 0.625rem 1rem;
     cursor: pointer;
 
     .close-icon {
@@ -106,27 +103,20 @@
 
 .modal-description {
   text-align: justify;
-  padding: 5px 5px 0 5px;
-  margin-bottom: 20px;
-  font-size: 12px;
+  padding: 0.3125rem 0.3125rem 0 0.3125rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
   color: black;
 }
 
-.slider-tab {
-  // background-color: #d7caaa;
-  height: 25px;
-}
-
-.slider-image {
-  // border: 5px solid #d7caaa;
-}
-
 .__modal-title {
-  padding: 5px 5px 0px 5px;
+  font-size: 2rem;
+  padding: 0.3125rem 0.3125rem 0px 0.3125rem;
 }
 
 .slider-iconfiy {
-  margin-top: 10px;
+  font-size: 1rem;
+  margin: 0.625rem 0;
 }
 
 .awssld__next {
@@ -144,19 +134,12 @@
 
 .project-title-settings {
   margin-top: 5%;
-  font: 18px/24px "opensans-bold", sans-serif;
+  font-size: 1.5rem;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  // color: black;
+  letter-spacing: 0.1875rem;
   text-align: center;
 }
 
 .link-href {
   color: black;
 }
-
-$loader-bar-color: #bfaa76;
-
-// .loader-bar-color {
-//   color: black !important;
-// }

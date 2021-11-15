@@ -1,17 +1,26 @@
 .experience {
+  .experience-badge {
+    text-align: left !important;
+    padding: 5px 8px 5px 8px !important;
+    vertical-align: baseline;
+    color: black;
+    font-weight: lighter !important;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
   .experience-icon {
-    font-size: 300%;
-    margin-top: 25%;
-    text-align: center;
+    font-size: 2rem;
+    @media only screen and (min-width: 1254px) {
+      font-size: 3rem;
+    }
   }
 
   .main-badge {
-    font-size: 13px !important;
+    font-size: 1.5rem !important;
     text-align: left !important;
     padding: 5px 8px 5px 8px !important;
     vertical-align: baseline;
     font-weight: lighter !important;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     background: #e23237;
     color: white;
   }
@@ -19,6 +28,7 @@
   .vertical-timeline-element-title,
   .vertical-timeline-element-subtitle {
     color: black;
+    font-size: 2rem;
   }
 
   .vertical-timeline-element-date {
@@ -28,23 +38,8 @@
 
   .vertical-timeline-element-icon {
     background: #e23237 !important;
-  }
-
-  .experience-badge {
-    font-size: 11px !important;
-    text-align: left !important;
-    padding: 5px 8px 5px 8px !important;
-    vertical-align: baseline;
-    color: black;
-    font-weight: lighter !important;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  }
-
-  @media only screen and (max-width: 1170px) {
-    .experience-icon {
-      font-size: 170%;
-      margin-top: 27%;
-      text-align: center;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

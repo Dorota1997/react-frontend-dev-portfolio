@@ -1,30 +1,29 @@
 header {
   position: relative;
-  height: 520px;
-  min-height: 450px;
+  height: 32.5rem;
+  min-height: 28.125rem;
   width: 100%;
   background-size: cover;
   -webkit-background-size: cover;
   text-align: center;
   overflow: hidden;
-  // background-color: #e9d5a1;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 150px;
+  padding-top: 9.375rem;
   padding-bottom: 0;
 
   .header-icon {
-    height: 150px;
-    width: 150px;
+    height: 9.375rem;
+    width: 9.375rem;
+    transform: scale(1.5) !important;
   }
 
   h1 {
-    font-size: 400%;
+    font-size: 5rem;
     text-align: center;
     font-weight: 600 !important;
-    color: #353239;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     margin: 0 auto 18px auto;
     width: 100%;
@@ -36,19 +35,21 @@ header {
 
   .title-styles {
     font-family: "Raleway", sans-serif;
-    font-size: 250%;
+    font-size: 2rem;
   }
 }
 
 .language {
-  font-size: 25px;
-  // background-color: #e9d5a1;
   padding-bottom: 10px;
   padding-top: 80px;
 
   .language-icon {
-    margin-right: 1rem;
-    font-size: 50px;
+    font-size: 6rem;
     cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover path{
+      filter: brightness(300%);
+    }
   }
 }

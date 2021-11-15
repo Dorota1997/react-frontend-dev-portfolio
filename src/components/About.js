@@ -69,7 +69,6 @@ class About extends Component {
                     ></span>
                   </div>
                   <div className="card-body text-justify ml-3 mr-3">
-                    <br />
                     <span className="wave">{hello} :) </span>
                     <br />
                     <br />

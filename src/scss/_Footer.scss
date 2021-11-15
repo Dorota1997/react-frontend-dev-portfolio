@@ -1,25 +1,26 @@
 footer {
   background: #1f1f1f;
-  min-height: 100px;
+  min-height: 6.25rem;
   width: 100%;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 1.2rem;
   color: white;
   position: relative;
   text-align: center;
-}
 
-footer a,
-footer a:visited {
-  color: #fff;
-}
+  & a,
+  & a:visited {
+    color: #fff;
+  }
 
-footer a:hover,
-footer a:focus {
-  color: #fff;
-}
+  & a:hover,
+  & a:focus {
+    transition: all 0.3s ease;
+    color: #e23237;
+  }
 
-.social-links {
-  margin-top: 50px;
-  font-size: 22px;
+  .social-links {
+    margin-top: 50px;
+    font-size: 3rem;
+  }
 }

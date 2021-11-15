@@ -9,8 +9,8 @@ class Skills extends Component {
           <li className="list-inline-item mx-3" key={i}>
             <span>
               <div className="skills-tile --primary-background">
-                <i className={skills.class} style={{ fontSize: "220%" }}>
-                  <p style={{ fontSize: "30%", marginTop: "4px" }}>
+                <i className={skills.class}>
+                  <p className='skills-name'>
                     {skills.name}
                   </p>
                 </i>

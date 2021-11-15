@@ -32,10 +32,6 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.secondaryText};
   }
 
-  .--white-text {
-    color: ${({ theme }) => theme.white};
-  }
-
   .section-header {
     color: ${({ theme }) => theme.sectionHeaderText};
 

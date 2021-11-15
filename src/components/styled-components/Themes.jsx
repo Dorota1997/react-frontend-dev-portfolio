@@ -4,13 +4,14 @@ export const lightTheme = {
   thirdColor: "#1F1F1F",
   accentColor1: "#494949",
   accentColor2: "#AE944F",
+
   primaryText: "black !important",
   secondaryText: "white",
+
   hover: "#202C36",
   sectionHeaderText: "black",
+
   cardBackground: "white",
-  white: "white",
-  black: "black",
   modalBackground: "white",
   sliderImageBorder: "5px solid #e9d5a1",
   skillsTileBackground: "white",
@@ -23,12 +24,14 @@ export const darkTheme = {
   thirdColor: "#1F1F1F",
   accentColor1: "#918e97",
   // accentColor2: "",
+
   primaryText: "white !important",
   secondaryText: "black",
+
   hover: "#F2F2F2",
   sectionHeaderText: "white",
+  
   cardBackground: "#6d6d6d !important",
-  white: "white",
   modalBackground: "#5b5b5b",
   sliderImageBorder: "5px solid #494949",
   skillsTileBackground: "#e23237",

@@ -34,10 +34,10 @@ class Main extends Component {
         : window.$primaryLanguageIconId;
     document
       .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
+      .setAttribute("filter", "brightness(40%)");
     document
       .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+      .removeAttribute("filter", "brightness(40%)");
   }
 
   componentDidMount() {
@@ -81,7 +81,7 @@ class Main extends Component {
     return (
       <div>
         <Header sharedData={this.state.sharedData.basic_info} theme={this.props.theme} toggleTheme={this.props.toggleTheme}/>
-        <div className="col-md-12 mx-auto language --flex-ai-c --flex-jc-c">
+        <div className="language --flex-ai-c --flex-jc-c">
           <div
             onClick={() =>
               this.applyPickedLanguage(

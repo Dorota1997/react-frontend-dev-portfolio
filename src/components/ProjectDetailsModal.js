@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
 import AwesomeSlider from "react-awesome-slider";
-// import AwesomeSliderStyles from "../scss/light-slider.scss";
-// import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 class ProjectDetailsModal extends Component {
   render() {
@@ -54,14 +52,14 @@ class ProjectDetailsModal extends Component {
                 data-icon="emojione:red-circle"
                 data-inline="false"
                 style={{ marginLeft: "5px" }}
-              ></span>{" "}
-              &nbsp;{" "}
+              ></span>
+              &nbsp;
               <span
                 className="iconify slider-iconfiy"
                 data-icon="twemoji:yellow-circle"
                 data-inline="false"
-              ></span>{" "}
-              &nbsp;{" "}
+              ></span>
+              &nbsp;
               <span
                 className="iconify slider-iconfiy"
                 data-icon="twemoji:green-circle"
@@ -69,7 +67,6 @@ class ProjectDetailsModal extends Component {
               ></span>
             </div>
             <AwesomeSlider
-              // cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
               animation="scaleOutAnimation"
               className="slider-image"
             >

@@ -38,7 +38,7 @@ class Projects extends Component {
                       position: "relative",
                     }}
                   />
-                  <span className="project-date --accent-background1 --white-text">
+                  <span className="project-date --accent-background1">
                     {projects.startDate}
                   </span>
                   <br />
