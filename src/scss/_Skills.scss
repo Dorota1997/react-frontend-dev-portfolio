@@ -1,0 +1,22 @@
+.skills {
+  min-height: 200px;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 10%;
+
+  .skills-tile {
+    padding: 10px 10px 5px 10px;
+    width: 100px;
+    margin: 5px 0 5px 0;
+    border-radius: 10px;
+    opacity: 0.95;
+    border-width: 5px;
+    border-style: solid;
+  }
+
+  .skill-icon {
+    font-size: 180%;
+    text-align: center;
+    position: relative;
+  }
+}

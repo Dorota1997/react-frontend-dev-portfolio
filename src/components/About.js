@@ -16,15 +16,15 @@ class About extends Component {
     }
 
     return (
-      <section id="about">
+      <section className="about --secondary-background">
         <div className="col-md-12">
-          <h1 style={{ color: "black" }}>
+          <h1 className="section-header">
             <span>{sectionName}</span>
           </h1>
-          <div className="row center mx-auto mb-5">
-            <div className="col-md-4 mb-5 center">
+          <div className="row --flex-jc-c --flex-ai-c mx-auto mb-5">
+            <div className="col-md-4 mb-5 --flex-jc-c --flex-ai-c">
               <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
+                <span>
                   <img
                     height="250px"
                     src={profilepic}
@@ -46,9 +46,9 @@ class About extends Component {
               </div>
             </div>
 
-            <div className="col-md-8 center">
+            <div className="col-md-8 --flex-jc-c --flex-ai-c">
               <div className="col-md-10">
-                <div className="card">
+                <div className="card --card-background --primary-text">
                   <div className="card-header">
                     <span
                       className="iconify"
@@ -68,14 +68,7 @@ class About extends Component {
                       data-inline="false"
                     ></span>
                   </div>
-                  <div
-                    className="card-body font-trebuchet text-justify ml-3 mr-3"
-                    style={{
-                      height: "auto",
-                      fontSize: "132%",
-                      lineHeight: "200%",
-                    }}
-                  >
+                  <div className="card-body text-justify ml-3 mr-3">
                     <br />
                     <span className="wave">{hello} :) </span>
                     <br />

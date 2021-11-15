@@ -16,14 +16,14 @@ class Experience extends Component {
 
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
-            <Badge pill className="main-badge mr-2 mb-2" key={i}>
+            <Badge pill className="main-badge mr-2 mb-2 --primary-background" key={i}>
               {technology}
             </Badge>
           );
         });
         var tech = technologies.map((technology, i) => {
           return (
-            <Badge pill className="experience-badge mr-2 mb-2" key={i}>
+            <Badge pill className="experience-badge mr-2 mb-2 --primary-background --primary-text" key={i}>
               {technology}
             </Badge>
           );
@@ -63,10 +63,10 @@ class Experience extends Component {
     }
 
     return (
-      <section id="resume" className="pb-5">
+      <section className="experience pb-5">
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
-            <h1 className="section-title" style={{ color: "black" }}>
+            <h1 className="section-title">
               <span className="text-black" style={{ textAlign: "center" }}>
                 {sectionName}
               </span>

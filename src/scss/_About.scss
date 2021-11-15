@@ -1,0 +1,47 @@
+.about {
+  overflow: hidden;
+
+  .polaroid img {
+    display: block;
+    max-width: 200px;
+  }
+
+  .polaroid span {
+    display: inline-block;
+    margin: 55px 75px 30px;
+    padding: 15px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    z-index: 0;
+    position: relative;
+  }
+
+  h1 {
+    padding-top: 5%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  .card-body {
+    font-size: 130%;
+    height: auto;
+    line-height: 200%;
+    @media screen and (min-width: 762px) {
+      font-size: 145%;
+    }
+    @media screen and (min-width: 1440px) {
+      font-size: 200%;
+    }
+  }
+
+  .wave {
+    font-size: 160%;
+  }
+}
