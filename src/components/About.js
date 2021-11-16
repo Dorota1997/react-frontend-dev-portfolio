@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
+import nodeIcon from "@iconify/icons-logos/nodejs-icon";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import sassIcon from "@iconify/icons-logos/sass";
 
 class About extends Component {
   render() {
@@ -31,7 +31,7 @@ class About extends Component {
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={angularIcon}
+                    icon={nodeIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
@@ -39,7 +39,7 @@ class About extends Component {
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={vueIcon}
+                    icon={sassIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
@@ -52,21 +52,31 @@ class About extends Component {
                   <div className="card-header">
                     <span
                       className="iconify"
-                      data-icon="emojione:red-circle"
+                      data-icon="vscode-icons:file-type-vscode"
                       data-inline="false"
+                      style={{ fontSize: "2rem" }}
                     ></span>{" "}
                     &nbsp;{" "}
                     <span
-                      className="iconify"
-                      data-icon="twemoji:yellow-circle"
+                      className="iconify float-right m-1"
+                      data-icon="ci:close-big"
                       data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:green-circle"
-                      data-inline="false"
+                      style={{ fontSize: "2rem" }}
                     ></span>
+                    &nbsp;{" "}
+                    <span
+                      className="iconify float-right m-1"
+                      data-icon="clarity:window-restore-line"
+                      data-inline="false"
+                      style={{ fontSize: "2rem" }}
+                    ></span>
+                    &nbsp;{" "}
+                    <span
+                      className="iconify float-right m-1"
+                      data-icon="codicon:chrome-minimize"
+                      data-inline="false"
+                      style={{ fontSize: "2rem" }}
+                    ></span>{" "}
                   </div>
                   <div className="card-body text-justify ml-3 mr-3">
                     <span className="wave">{hello} :) </span>

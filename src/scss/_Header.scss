@@ -14,10 +14,12 @@ header {
   padding-top: 9.375rem;
   padding-bottom: 0;
 
-  .header-icon {
+  .header-logo {
     height: 9.375rem;
     width: 9.375rem;
-    transform: scale(1.5) !important;
+    margin-bottom: 5rem;
+    transform: scale(2) !important;
+    border-radius: 50%;
   }
 
   h1 {

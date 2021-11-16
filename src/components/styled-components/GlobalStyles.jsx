@@ -52,6 +52,10 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.cardBackground};
   }
 
+  .slider-tab, .experience-badge {
+    background: ${({ theme }) => theme.sliderTabBackground};
+  }
+
   .modal-content {
     background: ${({ theme }) => theme.modalBackground};
   }

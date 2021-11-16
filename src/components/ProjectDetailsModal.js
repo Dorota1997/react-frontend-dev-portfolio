@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
@@ -10,6 +11,7 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
+      var liveSiteUrl = this.props.data.liveSiteUrl;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -46,23 +48,29 @@ class ProjectDetailsModal extends Component {
         </span>
         <div className="col-md-12">
           <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
-            <div className="slider-tab --primary-background">
+            <div className="slider-tab">
               <span
-                className="iconify slider-iconfiy"
-                data-icon="emojione:red-circle"
+                className="iconify m-2"
+                data-icon="vscode-icons:file-type-vscode"
                 data-inline="false"
                 style={{ marginLeft: "5px" }}
               ></span>
               &nbsp;
               <span
-                className="iconify slider-iconfiy"
-                data-icon="twemoji:yellow-circle"
+                className="iconify float-right m-2"
+                data-icon="ci:close-big"
                 data-inline="false"
               ></span>
               &nbsp;
               <span
-                className="iconify slider-iconfiy"
-                data-icon="twemoji:green-circle"
+                className="iconify float-right m-2"
+                data-icon="clarity:window-restore-line"
+                data-inline="false"
+              ></span>
+              &nbsp;
+              <span
+                className="iconify float-right m-2"
+                data-icon="codicon:chrome-minimize"
                 data-inline="false"
               ></span>
             </div>
@@ -77,17 +85,28 @@ class ProjectDetailsModal extends Component {
             <h3 className="__modal-title --primary-text">
               {title}
               {url ? (
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-href"
-                >
-                  <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
-                  ></i>
-                </a>
+                <React.Fragment>
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-href"
+                  >
+                    <i
+                      className="fab fa-github"
+                      style={{ marginLeft: "10px", color: "#00d9ff" }}
+                    ></i>
+                  </a>
+                  <a
+                    href={liveSiteUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="m-3"
+                    style={{ color: "#f4c203" }}
+                  >
+                    Live site
+                  </a>
+                </React.Fragment>
               ) : null}
             </h3>
             <p className="modal-description --primary-text">{description}</p>

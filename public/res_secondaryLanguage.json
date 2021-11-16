@@ -1,116 +1,291 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "中文",
+    "description": "👋 您好，我是 Sean Redmon，一位热情且自学成才的数字设计师和开发人员。我开始为我在中国的年轻学生编写智能棋盘游戏。后来我成长为为专业人士制作跨平台网站和应用程序。我目前居住在安大略省的伦敦。 ",
+    "section_name": {
+      "about": "关于我",
+      "projects": "项目",
+      "skills": "技能",
+      "experience": "经验"
+    }
+  },
+  "projects": [
+    {
+      "title": "Donnie Fan 喜剧",
+      "startDate": "2021",
+      "description": "中国喜剧演员 Donnie Fan 的网站。我直接与 Donnie 合作并创建了一个符合他需求的 Figma 设计。我自己为客户编码并把网站放到网上",
+      "images": [
+        "images/portfolio/donnie-fan/donnie-fan-mockup.webp",
+        "images/portfolio/donnie-fan/donnie-fan-desktop-events-preview.webp",
+        "images/portfolio/donnie-fan/donnie-fan-figma.webp"
+      ],
+      "url": "https://github.com/seanred360/donnie-fan-website",
+      "liveSiteUrl": "https://donniefan.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-sass-plain",
+          "name": "Sass"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-figma-plain",
+          "name": "Figma"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "REST 国家API APP",
+      "startDate": "2021",
+      "description": "一个从 API 获取国家数据并显示它的网站。 客户给了我一个 Figma 设计文件，我用代码复制了它。 我学会了如何在这个项目中制作许多不同的组件。 我学习了如何在 React 中对 JSON 数据进行排序、搜索和分页。 这是我第一次实现暗模式切换器。 访问 Github 链接以查看我的开发过程的非常详细的分解图片和示例。",
+      "images": [
+        "images/portfolio/rest-countries/rest-countries-preview.gif",
+        "images/portfolio/rest-countries/rest-countries-mockup.webp",
+        "images/portfolio/rest-countries/rest-countries-figma.webp"
+      ],
+      "url": "https://github.com/seanred360/rest-countries-api",
+      "liveSiteUrl": "https://rest-countries-app-seanred.herokuapp.com/",
+
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-sass-plain",
+          "name": "Sass"
+        },
+        {
+          "class": "devicon-figma-plain",
+          "name": "Figma"
+        }
+      ]
+    },
+    {
+      "title": "行星事实网站",
+      "startDate": "2021",
+      "description": "适用于台式机、平板电脑和移动设备的响应式网站，显示有关行星的事实。 客户提供了一个 Figma 设计文件供我在代码中复制。 这个网站是在没有任何 Javascript 框架的情况下制作的。 动画中使用了AnimeJS。 请参阅 Github 链接以获取带有图片和示例的非常详细的代码细分。 ",
+      "images": [
+        "images/portfolio/planets-fact-site/planets-fact-site-preview.gif",
+        "images/portfolio/planets-fact-site/planets-fact-site-mockup.webp",
+        "images/portfolio/planets-fact-site/planets-fact-site-figma.webp"
+      ],
+      "url": "https://github.com/seanred360/planets-fact-site",
+      "liveSiteUrl": "https://planets-fact-site-mu.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-sass-plain",
+          "name": "Sass"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-figma-plain",
+          "name": "Figma"
+        }
+      ]
+    },
+    {
+      "title": "Crowd Funding",
+      "startDate": "2021",
+      "description": "A crowdfunding product page with form validation. You can choose a reward tier and amount to pledge in dollars.",
+      "images": [
+        "images/portfolio/crowd-funding/crowdfunding-mockup.webp",
+        "images/portfolio/crowd-funding/crowdfunding-figma.webp"
+      ],
+      "url": "https://github.com/seanred360/crowdfunding-product-page",
+      "liveSiteUrl": "https://crowdfunding-product-page-tau-plum.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-sass-plain",
+          "name": "Sass"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-figma-plain",
+          "name": "Figma"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Code with Mosh",
+      "title": "The Complete Node.js Course",
+      "years": "Oct. 2021",
+      "mainTech": ["225 lessons"],
+      "technologies": [
+        "RESTful API",
+        "JavaScript",
+        "Express",
+        "MongoDB",
+        "axios",
+        "unit testing",
+        "NPM",
+        "Nodemon",
+        "custom middleware",
+        "database integration",
+        "Asnychronous Javascript",
+        "Data validation",
+        "Authorization and authentication"
+      ]
+    },
+    {
+      "company": "Code with Mosh",
+      "title": "The Ultimate Java Mastery Series",
+      "years": "Sept. 2021",
+      "mainTech": ["260 Lessons"],
+      "technologies": [
+        "InteliJ",
+        "implementing an Asynchronous API",
+        "Thread pools",
+        "Multi-threading",
+        "Imperative vs functional programming",
+        " object oriented programming",
+        "hash tables",
+        "inheritance",
+        "interfaces",
+        "refactoring"
+      ]
+    },
+    {
+      "company": "Code with Mosh",
+      "title": "Mastering React",
+      "years": "Aug. 2021",
+      "mainTech": ["220 Lessons"],
+      "technologies": [
+        "React",
+        "MongoDB",
+        "custom hooks",
+        " higher order components",
+        "Heroku",
+        "Authorization",
+        "protected API endpoints",
+        "JSON web tokens",
+        "form validation with Joi",
+        "routing"
+      ]
+    },
+    {
+      "company": "Code with Mosh",
+      "title": "The Ultimate Git Course",
+      "years": "Jul. 2021",
+      "mainTech": ["120 Lessons"],
+      "technologies": [
+        "Github",
+        "Creating snapshots",
+        "Branching & merging",
+        "Handling Conflicts",
+        "Code reviews using Pull Requests",
+        "Rewriting project history",
+        "Git best practices"
+      ]
+    },
+    {
+      "company": "Code with Mosh",
+      "title": "The Ultimate Javascript Mastery Series",
+      "years": "Jun. 2021",
+      "mainTech": ["100 Lessons"],
+      "technologies": [
+        "ES6",
+        "CommonJS",
+        "Babel",
+        "Webpack",
+        "Node",
+        "hoisting",
+        "prototypical inheritance",
+        "abstraction",
+        "polymorphism",
+        "encapsulation",
+        "inheritance",
+        "constructors",
+        "mixins"
+      ]
+    },
+    {
+      "company": "Freecodecamp.org",
+      "title": "Front End Development Libraries Certification",
+      "years": "May. 2021",
+      "mainTech": ["300 hours"],
+      "technologies": ["Bootstrap", "Sass", "React", "Redux"]
+    },
+    {
+      "company": "Freecodecamp.org",
+      "title": "Javascript Algorithms and Data Structures Certification",
+      "years": "Jan. 2021",
+      "mainTech": ["300 hours"],
+      "technologies": [
+        "Javascript",
+        "Object Oriented Programming",
+        "Functional Programming",
+        "writing reusable Javascript",
+        "ES6",
+        "regular expressions",
+        "debugging",
+        "Data Structures",
+        "algorithm scripting"
+      ]
+    },
+    {
+      "company": "Freecodecamp.org",
+      "title": "Responsive Web Design Certification",
+      "years": "Dec. 2021",
+      "mainTech": ["300 hours"],
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "Flexbox",
+        "CSS grid",
+        "accessibiity",
+        "responsive web design"
+      ]
+    },
+    {
+      "company": "Ivy International English",
+      "title": "Making smartboard games for my students",
+      "years": "Apr. 2017",
+      "mainTech": ["Unity , Game Maker"],
+      "technologies": [
+        "SOME OF MY FAVORITE UNITY PACKAGES:",
+        "RealToon shader",
+        "Koreographer - Music visualization for rythme games",
+        "DOTween animation tweener",
+        "FinalIK - character physics",
+        "Puppetmaster - rag doll physics",
+        "Cartoon FX - particle emitter system by Jean Moreno",
+        "Brackeys, Jason Weimann, and Sebastian Lague on Youtube"
+      ]
+    }
+  ]
+}

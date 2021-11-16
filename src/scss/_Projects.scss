@@ -109,6 +109,13 @@
   color: black;
 }
 
+// the text under the technology icons on the modal window
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
 .__modal-title {
   font-size: 2rem;
   padding: 0.3125rem 0.3125rem 0px 0.3125rem;
@@ -117,6 +124,10 @@
 .slider-iconfiy {
   font-size: 1rem;
   margin: 0.625rem 0;
+}
+
+.awssld__content img {
+  height: 100%;
 }
 
 .awssld__next {

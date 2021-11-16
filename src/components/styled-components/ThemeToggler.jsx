@@ -11,8 +11,8 @@ const ThemeToggler = ({ theme, toggleTheme }) => {
     <Switch
       checked={checked}
       onChange={toggleTheme}
-      offColor="#baaa80"
-      onColor="#353535"
+      offColor="#494949"
+      onColor="#00d9ff"
       className="react-switch mx-auto"
       width={90}
       height={40}

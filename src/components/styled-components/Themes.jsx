@@ -1,6 +1,6 @@
 export const lightTheme = {
-  primaryColor: "#e9d5a1",
-  secondaryColor: "white",
+  primaryColor: "#00d9ff",
+  secondaryColor: "#D9F0F4",
   thirdColor: "#1F1F1F",
   accentColor1: "#494949",
   accentColor2: "#AE944F",
@@ -12,11 +12,12 @@ export const lightTheme = {
   sectionHeaderText: "black",
 
   cardBackground: "white",
+  sliderTabBackground: "#CDCDCD",
   modalBackground: "white",
-  sliderImageBorder: "5px solid #e9d5a1",
-  skillsTileBackground: "white",
-  skillsTileBorder: "#e23237",
-  skillsTileText: "#e23237",
+  sliderImageBorder: "5px solid #E0E0E0",
+  skillsTileBackground: "#F4C203",
+  skillsTileBorder: "#D9F0F4",
+  skillsTileText: "black",
 };
 export const darkTheme = {
   primaryColor: "#494949",
@@ -30,11 +31,12 @@ export const darkTheme = {
 
   hover: "#F2F2F2",
   sectionHeaderText: "white",
-  
+
   cardBackground: "#6d6d6d !important",
+  sliderTabBackground: "#6a6a6a",
   modalBackground: "#5b5b5b",
-  sliderImageBorder: "5px solid #494949",
-  skillsTileBackground: "#e23237",
-  skillsTileBorder: "white",
-  skillsTileText: "white",
+  sliderImageBorder: "5px solid #7f7f7f",
+  skillsTileBackground: "black",
+  skillsTileBorder: "#7f7f7f",
+  skillsTileText: "#00d9ff",
 };

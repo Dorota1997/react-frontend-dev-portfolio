@@ -5,11 +5,14 @@
     vertical-align: baseline;
     color: black;
     font-weight: lighter !important;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
   }
 
   .experience-icon {
     font-size: 2rem;
+    color: #00d9ff;
     @media only screen and (min-width: 1254px) {
       font-size: 3rem;
     }
@@ -21,8 +24,8 @@
     padding: 5px 8px 5px 8px !important;
     vertical-align: baseline;
     font-weight: lighter !important;
-    background: #e23237;
-    color: white;
+    background: #00d9ff;
+    color: black;
   }
 
   .vertical-timeline-element-title,
@@ -37,7 +40,7 @@
   }
 
   .vertical-timeline-element-icon {
-    background: #e23237 !important;
+    background: black !important;
     display: flex;
     justify-content: center;
     align-items: center;

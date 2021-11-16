@@ -27,6 +27,7 @@ class Header extends Component {
   render() {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
+      var logo = "images/" + this.props.sharedData.logo;
       this.titles = this.props.sharedData.titles
         .map((x) => [x.toUpperCase(), 1500])
         .flat();
@@ -49,11 +50,7 @@ class Header extends Component {
         <div className="row --flex-ai-c --flex-jc-c" style={{ height: "100%" }}>
           <div className="col-md-12">
             <div>
-              <span
-                className="iconify header-icon"
-                data-icon="la:laptop-code"
-                data-inline="false"
-              ></span>
+              <img className="header-logo" src={logo} />
               <br />
               <h1 className="mb-0 --primary-text">
                 <Typical steps={[name]} wrapper="p" />
