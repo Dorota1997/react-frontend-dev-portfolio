@@ -1,0 +1,57 @@
+header {
+  position: relative;
+  height: 32.5rem;
+  min-height: 28.125rem;
+  width: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  text-align: center;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 9.375rem;
+  padding-bottom: 0;
+
+  .header-logo {
+    height: 9.375rem;
+    width: 9.375rem;
+    margin-bottom: 5rem;
+    transform: scale(2) !important;
+    border-radius: 50%;
+  }
+
+  h1 {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 600 !important;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 0 auto 18px auto;
+    width: 100%;
+  }
+
+  .title-container {
+    height: 50px;
+  }
+
+  .title-styles {
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+  }
+}
+
+.language {
+  padding-bottom: 10px;
+  padding-top: 80px;
+
+  .language-icon {
+    font-size: 6rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover path{
+      filter: brightness(300%);
+    }
+  }
+}

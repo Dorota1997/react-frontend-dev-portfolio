@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import fileTypeNode from "@iconify/icons-vscode-icons/file-type-node";
+import nodeIcon from "@iconify/icons-logos/nodejs-icon";
 import reactIcon from "@iconify/icons-logos/react";
-import fileTypeScss from "@iconify/icons-vscode-icons/file-type-scss";
+import sassIcon from "@iconify/icons-logos/sass";
 
 class About extends Component {
   render() {
@@ -16,22 +16,22 @@ class About extends Component {
     }
 
     return (
-      <section id="about">
+      <section className="about --secondary-background">
         <div className="col-md-12">
-          <h1 style={{ color: "black" }}>
+          <h1 className="section-header">
             <span>{sectionName}</span>
           </h1>
-          <div className="row center mx-auto mb-5">
-            <div className="col-md-4 mb-5 center">
+          <div className="row --flex-jc-c --flex-ai-c mx-auto mb-5">
+            <div className="col-md-4 mb-5 --flex-jc-c --flex-ai-c">
               <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
+                <span>
                   <img
                     height="250px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={fileTypeNode}
+                    icon={nodeIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
@@ -39,50 +39,46 @@ class About extends Component {
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={fileTypeScss}
+                    icon={sassIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
               </div>
             </div>
 
-            <div className="col-md-8 center">
+            <div className="col-md-8 --flex-jc-c --flex-ai-c">
               <div className="col-md-10">
-                <div className="card">
+                <div className="card --card-background --primary-text">
                   <div className="card-header">
                     <span
                       className="iconify"
                       data-icon="vscode-icons:file-type-vscode"
                       data-inline="false"
+                      style={{ fontSize: "2rem" }}
                     ></span>{" "}
                     &nbsp;{" "}
                     <span
                       className="iconify float-right m-1"
                       data-icon="ci:close-big"
                       data-inline="false"
+                      style={{ fontSize: "2rem" }}
                     ></span>
                     &nbsp;{" "}
                     <span
                       className="iconify float-right m-1"
                       data-icon="clarity:window-restore-line"
                       data-inline="false"
+                      style={{ fontSize: "2rem" }}
                     ></span>
                     &nbsp;{" "}
                     <span
                       className="iconify float-right m-1"
                       data-icon="codicon:chrome-minimize"
                       data-inline="false"
+                      style={{ fontSize: "2rem" }}
                     ></span>{" "}
                   </div>
-                  <div
-                    className="card-body font-trebuchet text-justify ml-3 mr-3"
-                    style={{
-                      height: "auto",
-                      fontSize: "132%",
-                      lineHeight: "200%",
-                    }}
-                  >
-                    <br />
+                  <div className="card-body text-justify ml-3 mr-3">
                     <span className="wave">{hello} :) </span>
                     <br />
                     <br />

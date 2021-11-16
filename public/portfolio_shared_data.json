@@ -19,7 +19,8 @@
         "class": "fab fa-weixin"
       }
     ],
-    "image": "sean-picture.jpg"
+    "logo" : "logo.webp",
+    "image": "sean-picture.webp"
   },
   "skills": {
     "icons": [

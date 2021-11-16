@@ -21,22 +21,28 @@ class Projects extends Component {
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
-            className="col-sm-12 col-md-6 col-lg-4"
+            className="section-header col-sm-12 col-md-6 col-lg-4"
             key={projects.title}
             style={{ cursor: "pointer" }}
           >
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
+                <div className="__container">
                   <img
                     src={projects.images[0]}
                     alt="projectImages"
                     height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    style={{
+                      marginBottom: 0,
+                      paddingBottom: 0,
+                      position: "relative",
+                    }}
                   />
-                  <span className="project-date">{projects.startDate}</span>
+                  <span className="project-date --accent-background1">
+                    {projects.startDate}
+                  </span>
                   <br />
-                  <p className="project-title-settings mt-3">
+                  <p className="project-title-settings mt-3 --primary-text">
                     {projects.title}
                   </p>
                 </div>
@@ -48,9 +54,9 @@ class Projects extends Component {
     }
 
     return (
-      <section id="portfolio">
+      <section className="portfolio --primary-background --primary-text">
         <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "black" }}>
+          <h1 className="section-title">
             <span>{sectionName}</span>
           </h1>
           <div className="col-md-12 mx-auto">

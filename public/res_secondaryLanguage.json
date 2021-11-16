@@ -15,10 +15,12 @@
       "startDate": "2021",
       "description": "中国喜剧演员 Donnie Fan 的网站。我直接与 Donnie 合作并创建了一个符合他需求的 Figma 设计。我自己为客户编码并把网站放到网上",
       "images": [
-        "images/portfolio/donnie-fan/donnie-fan-mockup-yellow.webp",
-        "images/portfolio/donnie-fan/donnie-fan-desktop-events-preview.webp"
+        "images/portfolio/donnie-fan/donnie-fan-mockup.webp",
+        "images/portfolio/donnie-fan/donnie-fan-desktop-events-preview.webp",
+        "images/portfolio/donnie-fan/donnie-fan-figma.webp"
       ],
       "url": "https://github.com/seanred360/donnie-fan-website",
+      "liveSiteUrl": "https://donniefan.netlify.app/",
       "technologies": [
         {
           "class": "devicon-react-plain",
@@ -48,6 +50,7 @@
         "images/portfolio/rest-countries/rest-countries-figma.webp"
       ],
       "url": "https://github.com/seanred360/rest-countries-api",
+      "liveSiteUrl": "https://rest-countries-app-seanred.herokuapp.com/",
       "technologies": [
         {
           "class": "devicon-react-original",
@@ -77,6 +80,7 @@
         "images/portfolio/planets-fact-site/planets-fact-site-figma.webp"
       ],
       "url": "https://github.com/seanred360/planets-fact-site",
+      "liveSiteUrl": "https://planets-fact-site-mu.vercel.app/",
       "technologies": [
         {
           "class": "devicon-javascript-plain",

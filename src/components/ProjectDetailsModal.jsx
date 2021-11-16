@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
 import AwesomeSlider from "react-awesome-slider";
-import AwesomeSliderStyles from "../scss/light-slider.scss";
-import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
@@ -55,20 +54,20 @@ class ProjectDetailsModal extends Component {
                 data-icon="vscode-icons:file-type-vscode"
                 data-inline="false"
                 style={{ marginLeft: "5px" }}
-              ></span>{" "}
-              &nbsp;{" "}
+              ></span>
+              &nbsp;
               <span
                 className="iconify float-right m-2"
                 data-icon="ci:close-big"
                 data-inline="false"
-              ></span>{" "}
-              &nbsp;{" "}
+              ></span>
+              &nbsp;
               <span
                 className="iconify float-right m-2"
                 data-icon="clarity:window-restore-line"
                 data-inline="false"
               ></span>
-              &nbsp;{" "}
+              &nbsp;
               <span
                 className="iconify float-right m-2"
                 data-icon="codicon:chrome-minimize"
@@ -76,7 +75,6 @@ class ProjectDetailsModal extends Component {
               ></span>
             </div>
             <AwesomeSlider
-              cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
               animation="scaleOutAnimation"
               className="slider-image"
             >
@@ -84,7 +82,7 @@ class ProjectDetailsModal extends Component {
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: "5px 5px 0 5px" }}>
+            <h3 className="__modal-title --primary-text">
               {title}
               {url ? (
                 <React.Fragment>
@@ -95,8 +93,8 @@ class ProjectDetailsModal extends Component {
                     className="link-href"
                   >
                     <i
-                      className="fas fa-external-link-alt"
-                      style={{ marginLeft: "10px" }}
+                      className="fab fa-github"
+                      style={{ marginLeft: "10px", color: "#00d9ff" }}
                     ></i>
                   </a>
                   <a
@@ -104,13 +102,14 @@ class ProjectDetailsModal extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="m-3"
+                    style={{ color: "#f4c203" }}
                   >
                     Live site
                   </a>
                 </React.Fragment>
               ) : null}
             </h3>
-            <p className="modal-description">{description}</p>
+            <p className="modal-description --primary-text">{description}</p>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>
