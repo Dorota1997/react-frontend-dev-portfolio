@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
+import Avatar3d from "./Avatar3d";
 import ThemeToggler from "./styled-components/ThemeToggler";
 
 class Header extends Component {
@@ -50,7 +51,8 @@ class Header extends Component {
         <div className="row --flex-ai-c --flex-jc-c" style={{ height: "100%" }}>
           <div className="col-md-12">
             <div>
-              <div id="3d_avatar"></div>
+              {/* <div id="3d_avatar"></div> */}
+              <Avatar3d />
               {/* <img className="header-logo" src={logo} /> */}
               <br />
               <h1 className="mb-0 --primary-text">
