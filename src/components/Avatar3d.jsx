@@ -1,17 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Clock } from "three";
-
 import { preloader } from "../avatar3d/loader";
 import resolvers from "../avatar3d/loader/resolvers";
 import { defaultAvatar } from "../avatar3d/config";
-
 import {
   createDefaultContainer,
   createDefaultRenderer,
   createDefaultScene,
   createDefaultCamera,
 } from "../avatar3d/factories";
-
 import { Avatar } from "../avatar3d/objects/Avatar";
 
 const Avatar3d = () => {
@@ -46,9 +43,9 @@ const Avatar3d = () => {
     render();
   }
 
-  window.onload = async function () {
-    await startApplication();
-  };
+  useEffect(() => {
+    startApplication();
+  }, []);
 
   return <div id="3d_avatar"></div>;
 };

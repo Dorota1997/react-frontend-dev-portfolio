@@ -27,6 +27,8 @@ class Footer extends Component {
                   ? this.props.sharedBasicInfo.name
                   : "???"}
               </small>
+              <br/>
+              <small>Thanks to my close friend and colleague 纪丽瑶</small>
             </div>
           </div>
         </div>

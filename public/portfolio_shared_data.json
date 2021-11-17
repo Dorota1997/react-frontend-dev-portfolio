@@ -3,8 +3,8 @@
     "name": "Sean Redmon",
     "titles": [
       "Front-end Developer",
+      "前端开发人员",
       "is making the web beautiful",
-      "thinks you belong here",
       "在中国生活了七年"
     ],
     "social": [
@@ -19,7 +19,7 @@
         "class": "fab fa-weixin"
       }
     ],
-    "logo" : "logo.webp",
+    "logo": "logo.webp",
     "image": "sean-picture.webp"
   },
   "skills": {

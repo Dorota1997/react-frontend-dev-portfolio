@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "中文",
-    "description": "👋 您好，我是 Sean Redmon，一位热情且自学成才的数字设计师和开发人员。我开始为我在中国的年轻学生编写智能棋盘游戏。后来我成长为为专业人士制作跨平台网站和应用程序。我目前居住在安大略省的伦敦。 ",
+    "description": "👋 您好，我是Sean Redmon。一位热情开朗自学成才的数字设计开发师。我曾在中国为学生编写制作智能白板游戏，后来专职从事网站制作和APP的开发。我现在居住在安大略省的伦敦。 ",
     "section_name": {
       "about": "关于我",
       "projects": "项目",
@@ -13,7 +13,7 @@
     {
       "title": "Donnie Fan 喜剧",
       "startDate": "2021",
-      "description": "中国喜剧演员 Donnie Fan 的网站。我直接与 Donnie 合作并创建了一个符合他需求的 Figma 设计。我自己为客户编码并把网站放到网上",
+      "description": "一个为中国喜剧演员Donnie范设计的原创网站，这是我为Donnie范量身定的可以满足他所有需求的网站。因此，我可以独立的为客户提供定制网站的服务。",
       "images": [
         "images/portfolio/donnie-fan/donnie-fan-mockup.webp",
         "images/portfolio/donnie-fan/donnie-fan-desktop-events-preview.webp",
@@ -43,7 +43,7 @@
     {
       "title": "REST 国家API APP",
       "startDate": "2021",
-      "description": "一个从 API 获取国家数据并显示它的网站。 客户给了我一个 Figma 设计文件，我用代码复制了它。 我学会了如何在这个项目中制作许多不同的组件。 我学习了如何在 React 中对 JSON 数据进行排序、搜索和分页。 这是我第一次实现暗模式切换器。 访问 Github 链接以查看我的开发过程的非常详细的分解图片和示例。",
+      "description": "Frontend Mentor 挑战。只提供了一个 Figma 文件给我。该网站从 API 获取国家数据。我设计优雅的主题切换系统使它从其他提交中脱颖而出。我学会了如何在这个项目中制作许多不同的组件。我学习了如何在 React 中对 JSON 数据进行排序、搜索和分页。访问 Github 链接以查看我的开发过程的非常详细的分解图片和示例。",
       "images": [
         "images/portfolio/rest-countries/rest-countries-preview.gif",
         "images/portfolio/rest-countries/rest-countries-mockup.webp",
@@ -73,7 +73,7 @@
     {
       "title": "行星事实网站",
       "startDate": "2021",
-      "description": "适用于台式机、平板电脑和移动设备的响应式网站，显示有关行星的事实。 客户提供了一个 Figma 设计文件供我在代码中复制。 这个网站是在没有任何 Javascript 框架的情况下制作的。 动画中使用了AnimeJS。 请参阅 Github 链接以获取带有图片和示例的非常详细的代码细分。 ",
+      "description": "我只用了一个 Figma 设计文件来完成了 Frontend Mentor 挑战。运用AnimeJS 创建栩栩如生的动画使我的作品在众多作品中脱颖而出。我想挑战自己，掌握更全面的知识，所以我在没有借助任何 Javascript 库的情况下得到了这个成绩。请单击上面的 Github 图标，可以查看带有图片和示例的详细代码细分。",
       "images": [
         "images/portfolio/planets-fact-site/planets-fact-site-preview.gif",
         "images/portfolio/planets-fact-site/planets-fact-site-mockup.webp",
@@ -107,7 +107,7 @@
     {
       "title": "Crowd Funding",
       "startDate": "2021",
-      "description": "A crowdfunding product page with form validation. You can choose a reward tier and amount to pledge in dollars.",
+      "description": "带有表单验证的众筹产品页面。 您可以选择奖励等级和金额以美元为单位进行承诺。 我能够在没有任何 Javascript 库（例如 React 或 Angular）的情况下做到这一点。",
       "images": [
         "images/portfolio/crowd-funding/crowdfunding-mockup.webp",
         "images/portfolio/crowd-funding/crowdfunding-figma.webp"
