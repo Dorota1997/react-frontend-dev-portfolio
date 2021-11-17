@@ -50,7 +50,8 @@ class Header extends Component {
         <div className="row --flex-ai-c --flex-jc-c" style={{ height: "100%" }}>
           <div className="col-md-12">
             <div>
-              <img className="header-logo" src={logo} />
+              <div id="3d_avatar"></div>
+              {/* <img className="header-logo" src={logo} /> */}
               <br />
               <h1 className="mb-0 --primary-text">
                 <Typical steps={[name]} wrapper="p" />
