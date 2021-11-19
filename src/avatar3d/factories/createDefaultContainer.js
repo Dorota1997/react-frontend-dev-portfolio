@@ -18,9 +18,9 @@ export const createDefaultContainer = () => {
   // container.style.height = DOMSettings.canvasHeight + "px";
   // container.style.margin = "auto";
 
-  container.style.width = "150px";
-  container.style.height = "150px";
-  container.style.margin = "auto";
+  // container.style.width = "600px";
+  // container.style.height = "600px";
+  // container.style.margin = "auto";
 
   return container;
 };
