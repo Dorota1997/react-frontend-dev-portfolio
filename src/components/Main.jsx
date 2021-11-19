@@ -6,7 +6,6 @@ import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Skills from "./Skills";
-import ThemeToggler from "./styled-components/ThemeToggler";
 
 class Main extends Component {
   constructor(props) {
@@ -90,14 +89,7 @@ class Main extends Component {
             theme={this.props.theme}
             toggleTheme={this.props.toggleTheme}
           />
-          <ThemeToggler
-            theme={this.props.theme}
-            toggleTheme={this.props.toggleTheme}
-          />
-          <div
-            className="language --flex-ai-c --flex-jc-c"
-            style={{ paddingTop: window.innerHeight - 620 }}
-          >
+          <div className="language --flex-ai-c --flex-jc-c">
             <div
               onClick={() =>
                 this.applyPickedLanguage(

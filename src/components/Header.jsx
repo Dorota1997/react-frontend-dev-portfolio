@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import Typical from "react-typical";
 import Avatar3d from "./Avatar3d";
+import ThemeToggler from "./styled-components/ThemeToggler";
 
 class Header extends Component {
   titles = [];
@@ -43,28 +44,29 @@ class Header extends Component {
     );
 
     return (
-      <Fragment>
-        <header
-          id="home"
-          // style={{ height: window.innerHeight - 140, display: "block" }}
-        >
-          <div className="--flex-ai-c --flex-jc-c">
-            <div className="col-md-12">
-              <div>
-                <Avatar3d />
-                {/* <img className="header-logo" src={logo} /> */}
-                <br />
+      <header
+        id="home"
+        style={{ height: window.innerHeight - 140, display: "block" }}
+      >
+        <div className="row --flex-ai-c --flex-jc-c" style={{ height: "100%" }}>
+          <div className="col-md-12">
+            <div>
+              <Avatar3d />
+              <br />
+              <h1 className="--primary-text mb-0">
+                <Typical steps={[name]} wrapper="p" />
+              </h1>
+              <div className="title-container --primary-text">
+                <HeaderTitleTypeAnimation />
               </div>
+              <ThemeToggler
+                theme={this.props.theme}
+                toggleTheme={this.props.toggleTheme}
+              />
             </div>
           </div>
-        </header>
-        <h1 className="mb-0 --primary-text">
-          <Typical steps={[name]} wrapper="p" />
-        </h1>
-        <div className="title-container">
-          <HeaderTitleTypeAnimation />
         </div>
-      </Fragment>
+      </header>
     );
   }
 }

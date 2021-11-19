@@ -35,8 +35,8 @@ export const AvatarSettings = {
 
 export const DOMSettings = {
   avatarDivID: "3d_avatar", // <- make sure you have a div with this id when deploying
-  canvasWidth: 300,
-  canvasHeight: 300,
+  canvasWidth: 150,
+  canvasHeight: 150,
 };
 
 export const RendererSettings = {
