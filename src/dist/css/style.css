@@ -22,6 +22,12 @@ code {
   justify-content: center;
 }
 
+.--flex-jc-sb {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 .--flex-ai-c {
   display: flex;
   align-items: center;
@@ -85,7 +91,6 @@ code {
 
 header {
   position: relative;
-  height: 32.5rem;
   min-height: 28.125rem;
   width: 100%;
   background-size: cover;
@@ -105,8 +110,8 @@ header .header-logo {
   border-radius: 50%;
 }
 
-header h1 {
-  font-size: 5rem;
+h1 {
+  font-size: 3rem;
   text-align: center;
   font-weight: 600 !important;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -114,18 +119,24 @@ header h1 {
   width: 100%;
 }
 
-header .title-container {
+.title-container {
   height: 50px;
 }
 
-header .title-styles {
+.title-container ::before {
+  content: " ";
+  display: inline-block;
+  font-size: 16px;
+}
+
+.title-styles {
   font-family: "Raleway", sans-serif;
   font-size: 2rem;
+  white-space: nowrap;
 }
 
 .language {
   padding-bottom: 10px;
-  padding-top: 80px;
 }
 
 .language .language-icon {
@@ -229,6 +240,7 @@ header .title-styles {
 .portfolio .portfolio-item .foto .__container img {
   display: block;
   width: 100%;
+  max-width: 345px;
 }
 
 .portfolio .portfolio-item .foto .__container .project-date {
@@ -722,7 +734,7 @@ footer .social-links {
 }
 
 .awssld__controls__arrow-left:before, .awssld__controls__arrow-left:after, .awssld__controls__arrow-right:before, .awssld__controls__arrow-right:after {
-  content: ' ';
+  content: " ";
   position: absolute;
   right: calc( 50% - ( 0.7071 * (var(--organic-arrow-height) + var(--organic-arrow-thickness)) ) / 2);
   height: 100%;

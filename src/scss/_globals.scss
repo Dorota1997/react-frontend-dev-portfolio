@@ -25,6 +25,12 @@ code {
   justify-content: center;
 }
 
+.--flex-jc-sb {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 .--flex-ai-c {
   display: flex;
   align-items: center;

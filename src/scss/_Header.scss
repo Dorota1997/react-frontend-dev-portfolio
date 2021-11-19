@@ -1,6 +1,8 @@
 header {
   position: relative;
-  height: 32.5rem;
+  // height: 32.5rem;
+  // height: calc(100vh - 24vh);
+  // height: 100vh;
   min-height: 28.125rem;
   width: 100%;
   background-size: cover;
@@ -21,36 +23,43 @@ header {
     transform: scale(2) !important;
     border-radius: 50%;
   }
+}
 
-  h1 {
-    font-size: 5rem;
-    text-align: center;
-    font-weight: 600 !important;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    margin: 0 auto 18px auto;
-    width: 100%;
-  }
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 600 !important;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0 auto 18px auto;
+  width: 100%;
+}
 
-  .title-container {
-    height: 50px;
-  }
+.title-container {
+  height: 50px;
 
-  .title-styles {
-    font-family: "Raleway", sans-serif;
-    font-size: 2rem;
+  ::before {
+    content: " ";
+    display: inline-block;
+    font-size: 16px;
   }
+}
+
+.title-styles {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  white-space: nowrap;
 }
 
 .language {
   padding-bottom: 10px;
-  padding-top: 80px;
+  // padding-top: 80px;
 
   .language-icon {
     font-size: 6rem;
     cursor: pointer;
     transition: all 0.3s ease;
 
-    &:hover path{
+    &:hover path {
       filter: brightness(300%);
     }
   }

@@ -6,6 +6,7 @@ import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import ThemeToggler from "./styled-components/ThemeToggler";
 
 class Main extends Component {
   constructor(props) {
@@ -80,37 +81,53 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} theme={this.props.theme} toggleTheme={this.props.toggleTheme}/>
-        <div className="language --flex-ai-c --flex-jc-c">
+        <div
+          className="--flex-jc-c --flex-ai-c"
+          style={{ flexDirection: "column" }}
+        >
+          <Header
+            sharedData={this.state.sharedData.basic_info}
+            theme={this.props.theme}
+            toggleTheme={this.props.toggleTheme}
+          />
+          <ThemeToggler
+            theme={this.props.theme}
+            toggleTheme={this.props.toggleTheme}
+          />
           <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$primaryLanguage,
-                window.$secondaryLanguageIconId
-              )
-            }
+            className="language --flex-ai-c --flex-jc-c"
+            style={{ paddingTop: window.innerHeight - 620 }}
           >
-            <span
-              className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-canada"
-              data-inline="false"
-              id={window.$primaryLanguageIconId}
-            ></span>
-          </div>
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$secondaryLanguage,
-                window.$primaryLanguageIconId
-              )
-            }
-          >
-            <span
-              className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-china"
-              data-inline="false"
-              id={window.$secondaryLanguageIconId}
-            ></span>
+            <div
+              onClick={() =>
+                this.applyPickedLanguage(
+                  window.$primaryLanguage,
+                  window.$secondaryLanguageIconId
+                )
+              }
+            >
+              <span
+                className="iconify language-icon mr-5"
+                data-icon="twemoji-flag-for-flag-canada"
+                data-inline="false"
+                id={window.$primaryLanguageIconId}
+              ></span>
+            </div>
+            <div
+              onClick={() =>
+                this.applyPickedLanguage(
+                  window.$secondaryLanguage,
+                  window.$primaryLanguageIconId
+                )
+              }
+            >
+              <span
+                className="iconify language-icon"
+                data-icon="twemoji-flag-for-flag-china"
+                data-inline="false"
+                id={window.$secondaryLanguageIconId}
+              ></span>
+            </div>
           </div>
         </div>
         <About
