@@ -66,13 +66,8 @@ class Experience extends Component {
       <section id="resume" className="pb-5">
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
-<<<<<<< HEAD
             <h1 className="section-title">
               <span>
-=======
-            <h1 className="section-title" style={{ color: "black" }}>
-              <span className="text-black" style={{ textAlign: "center" }}>
->>>>>>> parent of c2f3dff (Refactored CSS and SASS)
                 {sectionName}
               </span>
             </h1>

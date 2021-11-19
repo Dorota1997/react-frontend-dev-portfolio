@@ -68,9 +68,6 @@ class About extends Component {
                       data-inline="false"
                     ></span>
                   </div>
-<<<<<<< HEAD
-                  <div className="card-body text-justify ml-3 mr-3">
-=======
                   <div
                     className="card-body font-trebuchet text-justify ml-3 mr-3"
                     style={{
@@ -80,7 +77,6 @@ class About extends Component {
                     }}
                   >
                     <br />
->>>>>>> parent of c2f3dff (Refactored CSS and SASS)
                     <span className="wave">{hello} :) </span>
                     <br />
                     <br />

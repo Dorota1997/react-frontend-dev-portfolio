@@ -34,13 +34,9 @@ class Projects extends Component {
                     height="230"
                     style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
                   />
-<<<<<<< HEAD
                   <span className="project-date --accent-background1">
                     {projects.startDate}
                   </span>
-=======
-                  <span className="project-date">{projects.startDate}</span>
->>>>>>> parent of c2f3dff (Refactored CSS and SASS)
                   <br />
                   <p className="project-title-settings mt-3">
                     {projects.title}
