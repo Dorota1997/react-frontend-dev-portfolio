@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
 import AwesomeSlider from "react-awesome-slider";
+<<<<<<< HEAD
+=======
+import AwesomeSliderStyles from "../scss/light-slider.scss";
+import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
+>>>>>>> parent of c2f3dff (Refactored CSS and SASS)
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 class ProjectDetailsModal extends Component {
   render() {
@@ -46,7 +51,7 @@ class ProjectDetailsModal extends Component {
         </span>
         <div className="col-md-12">
           <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
-            <div className="slider-tab --primary-background">
+            <div className="slider-tab">
               <span
                 className="iconify slider-iconfiy"
                 data-icon="emojione:red-circle"
@@ -67,6 +72,10 @@ class ProjectDetailsModal extends Component {
               ></span>
             </div>
             <AwesomeSlider
+<<<<<<< HEAD
+=======
+              cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
+>>>>>>> parent of c2f3dff (Refactored CSS and SASS)
               animation="scaleOutAnimation"
               className="slider-image"
             >
@@ -74,7 +83,7 @@ class ProjectDetailsModal extends Component {
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">
-            <h3 className="__modal-title --primary-text">
+            <h3 style={{ padding: "5px 5px 0 5px" }}>
               {title}
               {url ? (
                 <a
@@ -90,7 +99,7 @@ class ProjectDetailsModal extends Component {
                 </a>
               ) : null}
             </h3>
-            <p className="modal-description --primary-text">{description}</p>
+            <p className="modal-description">{description}</p>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>
