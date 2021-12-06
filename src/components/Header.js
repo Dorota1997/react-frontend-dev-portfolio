@@ -4,11 +4,17 @@ import Switch from "react-switch";
 
 class Header extends Component {
   titles = [];
+  Attribute = "data-theme";
 
   constructor() {
     super();
     this.state = { checked: false };
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
+    var theme = localStorage.getItem("theme");
+    if(theme != null){
+      document.body.setAttribute(this.Attribute, theme);
+      if(theme === "dark") this.state.checked = true;
+    }
   }
 
   onThemeSwitchChange(checked) {
@@ -17,11 +23,10 @@ class Header extends Component {
   }
 
   setTheme() {
-    var dataThemeAttribute = "data-theme";
     var body = document.body;
-    var newTheme =
-      body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
-    body.setAttribute(dataThemeAttribute, newTheme);
+    var newTheme = body.getAttribute(this.Attribute) === "dark" ? "light" : "dark";
+    localStorage.setItem("theme", newTheme);
+    body.setAttribute(this.Attribute, newTheme);
   }
 
   render() {
