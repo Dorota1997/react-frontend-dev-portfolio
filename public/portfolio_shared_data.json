@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "David Allison",
+      "titles": [ "Software Engineer" ],
       "social": [
         {
           "name": "github",
@@ -30,7 +30,7 @@
         },
         {
           "name": "Angular",
-          "class": "devicon-angularjs-plain",
+          "class": "devicon-flask-plain",
           "level": "80"
         },
         {
