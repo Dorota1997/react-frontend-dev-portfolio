@@ -14,10 +14,45 @@
           "class": "fab fa-instagram"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "DavidPicture.jpg"
     },
     "skills": {
       "icons": [
+        {
+          "name": "ReactJS",
+          "class": "devicon-react-plain",
+          "level": "80"
+        },
+        {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain",
+          "level": "85"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "95"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain",
+          "level": "95"
+        },
+        {
+          "name": "Flask",
+          "class": "devicon-flask-plain",
+          "level": "95"
+        },
+        {
+          "name": "Express.js",
+          "class": "devicon-express-original",
+          "level": "80"
+        },
         {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
@@ -29,24 +64,9 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-flask-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
+          "name": "ProstgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "95"
         },
         {
           "name": "Bootstrap",
@@ -54,15 +74,16 @@
           "level": "85"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "name": "Heroku",
+          "class": "devicon-heroku-plain",
+          "level": "95"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "95"
         }
+      
       ]
     }
   }
