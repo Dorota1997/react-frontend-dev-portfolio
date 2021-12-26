@@ -12,6 +12,9 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
+      const githubUrlClient = this.props.data.githubUrlClient;
+
+
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -86,13 +89,35 @@ class ProjectDetailsModal extends Component {
                   rel="noopener noreferrer"
                   className="link-href"
                 >
-                  <i
+                  {/* <i
                     className="fas fa-external-link-alt"
                     style={{ marginLeft: "10px" }}
-                  ></i>
+                  ></i> */}
+                   {"    "}|    Live Link
+                </a>
+              ) : null}
+              {this.props.data.githubUrlClient ? (
+                <a
+                  href={this.props.githubUrlClient}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-href"
+                >
+                {"    "}|    Github Repository(client)
+                </a>
+              ) : null}
+                {this.props.data.githubUrlServer ? (
+                <a
+                  href={this.props.githubUrlServer}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-href"
+                >
+                {"    "}|    Github Repository(server)
                 </a>
               ) : null}
             </h3>
+
             <p className="modal-description">{description}</p>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
