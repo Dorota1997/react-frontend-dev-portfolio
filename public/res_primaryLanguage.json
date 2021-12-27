@@ -11,14 +11,50 @@
     },
     "projects": [
       {
-        "title": "Accompli",
-        "startDate": "2021",
-        "description": "A productivity app with main features including goal setting, and a task list. Project was created in a 3 team group. My main responsibilities were the React front-end with data management and fetching and deployment to Heroku.",
+        "title": "inspoFit",
+        "startDate": "Oct. 2021",
+        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
         "images": [
           "images/portfolio/inspoFit/p1.png",
           "images/portfolio/inspoFit/p2.png",
           "images/portfolio/inspoFit/p3.png",
           "images/portfolio/inspoFit/p4.png"
+        ],
+        "url": "https://inspofit.herokuapp.com/",
+        "githubUrlClient": "https://github.com/davidallison12/inspoFit",
+        "githubUrlServer": "",
+        "technologies": [
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.JS"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express.js"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-heroku-plain",
+            "name": "Heroku"
+          }
+        ]
+      },
+      {
+        "title": "Accompli",
+        "startDate": "Nov 2021",
+        "description": "A productivity app with main features including goal setting, and a task list. Project was created in a 3 team group. My main responsibilities were the React front-end with data management and fetching and deployment to Heroku.",
+        "images": [
+          "images/portfolio/accompli/p1.png",
+          "images/portfolio/accompli/p2.png",
+          "images/portfolio/accompli/p3.png",
+          "images/portfolio/accompli/p4.png"
         ],
         "url": "https://accompli-frontend-app.herokuapp.com/",
         "githubUrlClient": "https://github.com/davidallison12/productivity-app-frontend",
@@ -59,50 +95,53 @@
         ]
       },
       {
-        "title": "Accompli Productivity App",
-        "startDate": "2021",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "cashTap",
+        "startDate": "Dec. 2021",
+        "description": "Designed out of the thought of helping those in debt, cashTap can help start the journey to becoming debt free and building wealth. cashTap is a a simple, easy to use, alternative to the other bill apps out there. Built with Twilio, cashTap  has the ability to text alert you of bills you have due. ",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/cashTap/p1.png",
+          "images/portfolio/cashTap/p2.png",
+          "images/portfolio/cashTap/p3.png"
         ],
-        "url": "https://github.com",
-        "githubUrlClient": "https://github.com/davidallison12/productivity-app-frontend",
-        "githubUrlServer": "https://github.com/davidallison12/productivity-app-backend",
+        "url": "https://cashtap-frontend.herokuapp.com/",
+        "githubUrlClient": "https://github.com/davidallison12/cashTap-frontend",
+        "githubUrlServer": "https://github.com/davidallison12/cashTap-backend",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-react-plain",
+            "name": "ReactJS"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.JS"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express.js"
           },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "githubUrlClient": "https://github.com/davidallison12/productivity-app-frontend",
-        "githubUrlServer": "https://github.com/davidallison12/productivity-app-backend",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-bulma-plain",
+            "name": "Bulma"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-heroku-plain",
+            "name": "Heroku"
           }
         ]
       }

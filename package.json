@@ -1,5 +1,6 @@
 {
   "name": "react-frontend-dev-portfolio",
+  "homepage": "https://davidallison12.github.io/", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {

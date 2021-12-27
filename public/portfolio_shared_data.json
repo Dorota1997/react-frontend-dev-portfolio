@@ -4,14 +4,24 @@
       "titles": [ "Software Engineer" ],
       "social": [
         {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/david-allison1/",
+          "class": "fab fa-linkedin"
+        },
+        {
           "name": "github",
           "url": "https://github.com",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
+          "name": "email",
+          "url": "mailto: dgreenal@gmail.com",
+          "class": "fas fa-envelope"
+        },
+        {
+          "name": "resume",
           "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "class": "fas fa-file"
         }
       ],
       "image": "DavidPicture.jpg"

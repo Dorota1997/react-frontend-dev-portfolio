@@ -425,6 +425,32 @@ footer a:focus {
 }
 
 .social-links {
+	margin-top: 0px;
+	font-size: 80px;
+	color: black;
+}
+
+
+.fa-linkedin:before {
+	color:#1F1F1F
+}
+
+.fa-github:before {
+    color: #1F1F1F;
+}
+
+.fa-envelope:before {
+	color: #1F1F1F;
+}
+
+.fa-file:before {
+	color: #1F1F1F;
+}
+
+.copyright-tag {
+	color: black;
+}
+
+.copyright-container {
 	margin-top: 50px;
-	font-size: 22px;
 }
