@@ -1,7 +1,12 @@
 {
   "basic_info": {
     "name": "Sean Redmon",
-    "titles": ["Front-end Developer", "前端开发人员"],
+    "titles": [
+      "Front-end Developer",
+      "前端开发人员",
+      "is making the web beautiful",
+      "在中国生活了七年"
+    ],
     "social": [
       {
         "name": "github",
