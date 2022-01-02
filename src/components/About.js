@@ -80,7 +80,9 @@ class About extends Component {
                     <span className="wave">{hello} :) </span>
                     <br />
                     <br />
-                    {about}
+                    <p>👋🏾 I’m David Allison! As a software engineer, I use technology and data to bring imaginative storytelling and inventive problem solving to those from all walks of life. For the past 4 years, I have collaborated with industry experts, mentoring  aspiring software engineers, UX designers, and data scientists to reach their ideal careers.</p>
+                    <p>Utilizing my passion for health, wellness and personal development, I create efficiencies in workflows through adaptability and flexibility, to build optimized and engaging experiences for diverse audiences. Empathy for the customer and their experience are at the forefront of my work.</p>
+                    <p>  Outside of code, you can find me at the gym 🏋🏾, baking 🧁, road tripping or learning a new skill. If you’d ever like to chat about code, projects, or how I could potentially help you, please reach out!! 😁</p>
                   </div>
                 </div>
               </div>
