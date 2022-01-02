@@ -6,13 +6,13 @@ class Footer extends Component {
     if (this.props.sharedBasicInfo) {
       var networks = this.props.sharedBasicInfo.social.map(function (network) {
         return (
-          <div className="social-links">
+          <div className="social-links section-title">
           <span key={network.name} className="m-5" >
             <a href={network.url} target="_blank" rel="noopener noreferrer">
               <i className={network.class}></i>
             </a>
           </span>
-          <h2>{network.name.toUpperCase()}</h2>
+          <h2 className="contact-icon-title">{network.name.toUpperCase()}</h2>
           </div>
         );
       });
