@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Ilya Novikov",
+      "titles": [ "Full-stack Developer"],
       "social": [
         {
           "name": "github",
@@ -9,9 +9,14 @@
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "github",
+          "url": "https://github.com",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com",
+          "class": "fab fa-github"
         }
       ],
       "image": "myProfile.jpg"
