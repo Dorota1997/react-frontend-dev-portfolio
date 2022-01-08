@@ -11,12 +11,13 @@
     },
     "projects": [
       {
-        "title": "TEST",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Grafnote",
+        "startDate": "2021",
+        "description": "Graftnote is a note-taking app similar to Evernote. I built the app with an Express backend / React frontend. The most interesting aspect of this project was implementing the auto-save feature (as the user types, their note is automatically saved), which forced me to think about scalability and request rate limiting strategies.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/grafnote/p0_square_header.png",
+          "images/portfolio/grafnote/p1.jpg",
+          "images/portfolio/grafnote/p2.jpg"
         ],
         "url": "",
         "technologies": [
@@ -35,10 +36,11 @@
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
+        "title": "Messages by Ilya",
+        "startDate": "2021",
         "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
         "images": [
+          "images/portfolio/grafnote/p0_square_header.png",
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
         ],
@@ -55,10 +57,36 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
+        "title": "Oney",
         "startDate": "2015",
         "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
         "images": [
+          "images/portfolio/grafnote/p0_square_header.png",
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "BENCHED",
+        "startDate": "2020",
+        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "images": [
+          "images/portfolio/grafnote/p0_square_header.png",
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
         ],
