@@ -19,7 +19,7 @@ class ProjectDetailsModal extends Component {
               <span>
                 <div className="text-center">
                   <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
+                    <p className="text-center" style={{ fontSize: "40%" }}>
                       {icons.name}
                     </p>
                   </i>
@@ -29,7 +29,7 @@ class ProjectDetailsModal extends Component {
           );
         });
         if (this.props.data.images) {
-          var img = images.map((elem, i) => {
+          var img = images.slice(1).map((elem, i) => {
             return <div key={i} data-src={elem} />;
           });
         }
