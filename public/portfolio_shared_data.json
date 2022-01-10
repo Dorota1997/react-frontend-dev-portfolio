@@ -5,18 +5,18 @@
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/ily123/grafnote",
           "class": "fab fa-github"
         },
         {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/ilyabnovikov",
+          "class": "fab fa-linkedin"
         },
         {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
+          "name": "email",
+          "url": "mailto:ibnovikov@gmail.com",
+          "class": "far fa-envelope"
         }
       ],
       "image": "myProfile.jpg"
