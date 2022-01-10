@@ -7,7 +7,7 @@ class Header extends Component {
 
   constructor() {
     super();
-    this.state = { checked: false };
+    this.state = { checked: true};
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
   }
 
