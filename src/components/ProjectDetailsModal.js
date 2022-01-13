@@ -98,7 +98,7 @@ class ProjectDetailsModal extends Component {
               ) : null}
               {this.props.data.githubUrlClient ? (
                 <a
-                  href={this.props.githubUrlClient}
+                  href={this.props.data.githubUrlClient}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link-href"
@@ -108,7 +108,7 @@ class ProjectDetailsModal extends Component {
               ) : null}
                 {this.props.data.githubUrlServer ? (
                 <a
-                  href={this.props.githubUrlServer}
+                  href={this.props.data.githubUrlServer}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link-href"
