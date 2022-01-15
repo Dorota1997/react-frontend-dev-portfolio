@@ -37,8 +37,8 @@ Users should be able to:
 ### Screenshots
 
 ![screenshot](./src/images/preview-desktop.gif)
-![screenshot](./src/images/preview-projects.gif)
 ![screenshot](./src/images/preview-about.gif)
+![screenshot](./src/images/preview-projects.gif)
 ![screenshot](./src/images/preview-timeline.gif)
 
 ### Links
