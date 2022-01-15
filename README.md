@@ -115,8 +115,8 @@ I will remake this website many times throughout my career. I think I will alway
 
 ## Author
 
-- Website - [Sean Redmon](https://seanred.io)
-- GitHub - [Sean Redmon](https://github.com/seanred360)
+- Website - [seanred.io](https://seanred.io)
+- GitHub - [seanred360](https://github.com/seanred360)
 
 ## Acknowledgments
 
