@@ -122,13 +122,13 @@ class Main extends Component {
             </div>
           </div>
         </div>
-        <About
-          resumeBasicInfo={this.state.resumeData.basic_info}
-          sharedBasicInfo={this.state.sharedData.basic_info}
-        />
         <Projects
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <About
+          resumeBasicInfo={this.state.resumeData.basic_info}
+          sharedBasicInfo={this.state.sharedData.basic_info}
         />
         <Skills
           sharedSkills={this.state.sharedData.skills}
