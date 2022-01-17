@@ -48,10 +48,11 @@
           box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.7);
         }
 
-        & img {
+        & video {
           display: block;
           width: 100%;
           max-width: 345px;
+          pointer-events: none;
         }
 
         .project-date {
@@ -125,6 +126,11 @@ p {
 .slider-iconfiy {
   font-size: 1rem;
   margin: 0.625rem 0;
+}
+
+.awssld__content video {
+  height: 100%;
+  // pointer-events: none;
 }
 
 .awssld__content img {

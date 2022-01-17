@@ -14,8 +14,13 @@
       "title": "Donnie Fan 喜剧",
       "startDate": "2021",
       "description": "一个为中国喜剧演员Donnie范设计的原创网站，这是我为Donnie范量身定的可以满足他所有需求的网站。因此，我可以独立的为客户提供定制网站的服务。",
+      "preview": "images/portfolio/donnie-fan/preview-donnie-fan.mp4",
       "images": [
         "images/portfolio/donnie-fan/donnie-fan-mockup.webp",
+        "images/portfolio/donnie-fan/donnie-fan-medea.png",
+        "images/portfolio/donnie-fan/donnie-fan-weibo.png",
+        "images/portfolio/donnie-fan/donnie-fan-chat.png",
+        "images/portfolio/donnie-fan/donnie-fan-about.png",
         "images/portfolio/donnie-fan/donnie-fan-desktop-events-preview.webp",
         "images/portfolio/donnie-fan/donnie-fan-figma.webp"
       ],
@@ -44,9 +49,11 @@
       "title": "REST 国家API APP",
       "startDate": "2021",
       "description": "Frontend Mentor 挑战。只提供了一个 Figma 文件给我。该网站从 API 获取国家数据。我设计优雅的主题切换系统使它从其他提交中脱颖而出。我学会了如何在这个项目中制作许多不同的组件。我学习了如何在 React 中对 JSON 数据进行排序、搜索和分页。访问 Github 链接以查看我的开发过程的非常详细的分解图片和示例。",
+      "preview": "images/portfolio/rest-countries/preview-rest-countries.mp4",
       "images": [
-        "images/portfolio/rest-countries/rest-countries-preview.gif",
         "images/portfolio/rest-countries/rest-countries-mockup.webp",
+        "images/portfolio/rest-countries/rest-countries-china.png",
+        "images/portfolio/rest-countries/rest-countries-page.png",
         "images/portfolio/rest-countries/rest-countries-figma.webp"
       ],
       "url": "https://github.com/seanred360/rest-countries-api",
@@ -74,9 +81,11 @@
       "title": "行星事实网站",
       "startDate": "2021",
       "description": "我只用了一个 Figma 设计文件来完成了 Frontend Mentor 挑战。运用AnimeJS 创建栩栩如生的动画使我的作品在众多作品中脱颖而出。我想挑战自己，掌握更全面的知识，所以我在没有借助任何 Javascript 库的情况下得到了这个成绩。请单击上面的 Github 图标，可以查看带有图片和示例的详细代码细分。",
+      "preview": "images/portfolio/planets-fact-site/preview-planets-fact-site.mp4",
       "images": [
-        "images/portfolio/planets-fact-site/planets-fact-site-preview.gif",
         "images/portfolio/planets-fact-site/planets-fact-site-mockup.webp",
+        "images/portfolio/planets-fact-site/planets-fact-site-internal.png",
+        "images/portfolio/planets-fact-site/planets-fact-site-geology.png",
         "images/portfolio/planets-fact-site/planets-fact-site-figma.webp"
       ],
       "url": "https://github.com/seanred360/planets-fact-site",
@@ -108,9 +117,13 @@
       "title": "Crowd Funding",
       "startDate": "2021",
       "description": "带有表单验证的众筹产品页面。 您可以选择奖励等级和金额以美元为单位进行承诺。 我能够在没有任何 Javascript 库（例如 React 或 Angular）的情况下做到这一点。",
+      "preview": "images/portfolio/crowd-funding/preview-crowd-funding.mp4",
       "images": [
-        "images/portfolio/crowd-funding/crowdfunding-mockup.webp",
-        "images/portfolio/crowd-funding/crowdfunding-figma.webp"
+        "images/portfolio/crowd-funding/crowd-funding-mockup.webp",
+        "images/portfolio/crowd-funding/crowd-funding-modal.png",
+        "images/portfolio/crowd-funding/crowd-funding-about.png",
+        "images/portfolio/crowd-funding/crowd-funding-thanks.png",
+        "images/portfolio/crowd-funding/crowd-funding-figma.webp"
       ],
       "url": "https://github.com/seanred360/crowdfunding-product-page",
       "liveSiteUrl": "https://crowdfunding-product-page-tau-plum.vercel.app/",
@@ -134,6 +147,70 @@
         {
           "class": "devicon-figma-plain",
           "name": "Figma"
+        }
+      ]
+    },
+    {
+      "title": "Kid's Beginner A book",
+      "startDate": "2020",
+      "description": "An English teaching tool for smartboards at Ivy International English in China. I felt our schools curriculum needed to be modernized to make learning easier for our students. Previously they had to find a way to play CD's and find the correct audio files to learn at home. This was tedious and the children couldn't do it without their parents help. Most of the students in China do not own computers, they own smartphones. Therefore I made this app available to students on Android as an APK and other teachers as a windows .exe.",
+      "preview": "images/portfolio/kids-beginner-book/preview-kba.mp4",
+      "images": [
+        "images/portfolio/kids-beginner-book/preview-kba.png",
+        "images/portfolio/kids-beginner-book/kba-audio.png",
+        "images/portfolio/kids-beginner-book/preview-kba-page-turn.png"
+      ],
+      "url": "https://github.com/seanred360/Kid-s-Beginner-Book",
+      "liveSiteUrl": "https://seanred.itch.io/kba",
+      "technologies": [
+        {
+          "class": "devicon-unity-original",
+          "name": "Unity"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    },
+    {
+      "title": "ESL Games Collection",
+      "startDate": "2017-2020",
+      "description": "14 games I created for the smartboard in my ESL class in China. They were designed to be 10-15 minute group activites to grab the students attention and make them excited about class. The games were usually played in teams that competed. Each of the games had offline interactions in mind to facilite practicing English. For example, the board game was played amongst a class of 50 students. The student taking their team's turn could call out a student in the class to ask the question to or force them to do what the game prompts said. I created every game individually over 3-4 years and finally compiled them into one UI. ESL Games Collection was Designed to run on low end Windows PCs with a 4:3 resolution because that is what classrooms have in China. The WebGL version was created for demo purposes only, and contains many bugs. Please download the Windows .exe version to get the intended experience.",
+      "preview": "images/portfolio/esl-games-collection/preview-esl-games-collection.mp4",
+      "images": [
+        "images/portfolio/esl-games-collection/preview-banana-race.png",
+        "images/portfolio/esl-games-collection/preview-board-game.png",
+        "images/portfolio/esl-games-collection/preview-board-game2.png",
+        "images/portfolio/esl-games-collection/preview-bobomb.png",
+        "images/portfolio/esl-games-collection/preview-find-the-object.png",
+        "images/portfolio/esl-games-collection/preview-go-fishing.png",
+        "images/portfolio/esl-games-collection/preview-gum-monster.png",
+        "images/portfolio/esl-games-collection/preview-gum-monster2.png",
+        "images/portfolio/esl-games-collection/preview-hidden-shapes.png",
+        "images/portfolio/esl-games-collection/preview-gum-monster.png",
+        "images/portfolio/esl-games-collection/preview-gum-monster2.png",
+        "images/portfolio/esl-games-collection/preview-hidden-shapes.png",
+        "images/portfolio/esl-games-collection/preview-mario-box-roulette.png",
+        "images/portfolio/esl-games-collection/preview-mario-box-roulette2.png",
+        "images/portfolio/esl-games-collection/preview-matching-game.png",
+        "images/portfolio/esl-games-collection/preview-memory-stomper.png",
+        "images/portfolio/esl-games-collection/preview-memory-stomper2.png",
+        "images/portfolio/esl-games-collection/preview-memory.png",
+        "images/portfolio/esl-games-collection/preview-poop-game.png",
+        "images/portfolio/esl-games-collection/preview-scrambled-image.png",
+        "images/portfolio/esl-games-collection/preview-scrambled-words.png"
+      ],
+      "url": "https://github.com/seanred360/ESL-Game-Collection",
+      "liveSiteUrl": "https://seanred.itch.io/esl-games-collection",
+      "technologies": [
+        {
+          "class": "devicon-unity-original",
+          "name": "Unity"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
         }
       ]
     }
