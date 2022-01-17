@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Clock } from "three";
 import { preloader } from "../avatar3d/loader";
 import resolvers from "../avatar3d/loader/resolvers";

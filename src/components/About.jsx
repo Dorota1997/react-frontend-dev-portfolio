@@ -16,7 +16,7 @@ class About extends Component {
     }
 
     return (
-      <section className="about --secondary-background">
+      <section className="about --primary-background">
         <div className="col-md-12">
           <h1 className="section-header">
             <span>{sectionName}</span>
