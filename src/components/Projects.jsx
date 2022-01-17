@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
+import LazyVideo from "./LazyVideo";
 
 class Projects extends Component {
   constructor(props) {
@@ -28,9 +29,16 @@ class Projects extends Component {
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
                 <div className="__container">
-                  <video muted autoPlay={"autoplay"} loop>
-                    <source src={projects.preview} type="video/mp4" />
-                  </video>
+                  <LazyVideo
+                    src={projects.preview}
+                    type="video/mp4"
+                    muted
+                    autoPlay={"autoplay"}
+                    loop
+                  ></LazyVideo>
+                  {/* <video muted autoPlay={"autoplay"} loop> */}
+                  {/* <source src={projects.preview} type="video/mp4" /> */}
+                  {/* </video> */}
                   <span className="project-date --accent-background1">
                     {projects.startDate}
                   </span>

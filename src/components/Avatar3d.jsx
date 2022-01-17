@@ -12,38 +12,38 @@ import {
 import { Avatar } from "../avatar3d/objects/Avatar";
 
 const Avatar3d = () => {
-  const { createResizeHandler } = require("../avatar3d/utils");
+  useEffect(() => {
+    const { createResizeHandler } = require("../avatar3d/utils");
 
-  async function startApplication() {
-    const container = createDefaultContainer();
-    const renderer = createDefaultRenderer();
-    const scene = createDefaultScene();
-    const camera = createDefaultCamera();
-    const clock = new Clock();
+    async function startApplication() {
+      const container = createDefaultContainer();
+      const renderer = createDefaultRenderer();
+      const scene = createDefaultScene();
+      const camera = createDefaultCamera();
+      const clock = new Clock();
 
-    container.appendChild(renderer.domElement);
+      container.appendChild(renderer.domElement);
 
-    createResizeHandler({ renderer, camera });
+      createResizeHandler({ renderer, camera });
 
-    preloader.init(...resolvers);
-    await preloader.load([defaultAvatar]);
+      preloader.init(...resolvers);
+      await preloader.load([defaultAvatar]);
 
-    const avatar = Avatar.createDefault(renderer);
-    scene.withAvatar(avatar);
+      const avatar = Avatar.createDefault(renderer);
+      scene.withAvatar(avatar);
 
-    function render() {
-      window.requestAnimationFrame(render);
-      renderer.clear();
-      renderer.render(scene.main, camera);
+      function render() {
+        window.requestAnimationFrame(render);
+        renderer.clear();
+        renderer.render(scene.main, camera);
 
-      const delta = clock.getDelta();
-      scene.main.traverse((element) => element?.update?.(delta));
+        const delta = clock.getDelta();
+        scene.main.traverse((element) => element?.update?.(delta));
+      }
+
+      render();
     }
 
-    render();
-  }
-
-  useEffect(() => {
     startApplication();
   }, []);
 

@@ -3,6 +3,7 @@ import { Icon } from "@iconify/react";
 import nodeIcon from "@iconify/icons-logos/nodejs-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import sassIcon from "@iconify/icons-logos/sass";
+import LazyLoad from "react-lazyload";
 
 class About extends Component {
   render() {
@@ -25,11 +26,13 @@ class About extends Component {
             <div className="col-md-4 mb-5 --flex-jc-c --flex-ai-c">
               <div className="polaroid">
                 <span>
-                  <img
-                    height="250px"
-                    src={profilepic}
-                    alt="Avatar placeholder"
-                  />
+                  <LazyLoad height={200}>
+                    <img
+                      height="250px"
+                      src={profilepic}
+                      alt="Avatar placeholder"
+                    />
+                  </LazyLoad>
                   <Icon
                     icon={nodeIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
