@@ -47,7 +47,7 @@ class Projects extends Component {
     }
 
     return (
-      <section className="portfolio --primary-background --primary-text">
+      <section className="portfolio --secondary-background --primary-text">
         <div className="col-md-12">
           <h1 className="section-title">
             <span>{sectionName}</span>
