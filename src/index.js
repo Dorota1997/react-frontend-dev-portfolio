@@ -13,4 +13,4 @@ window.$primaryLanguageIconId = "primary-lang-icon";
 window.$secondaryLanguageIconId = "secondary-lang-icon";
 
 ReactDOM.render(<App />, document.getElementById("root"));
-serviceWorker.register();
+serviceWorker.unregister();
