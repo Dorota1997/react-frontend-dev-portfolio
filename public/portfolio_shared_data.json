@@ -25,14 +25,24 @@
   "skills": {
     "icons": [
       {
+        "name": "C#",
+        "class": "devicon-csharp-plain",
+        "level": "65"
+      },
+      {
+        "name": "Javascript",
+        "class": "devicons devicons-javascript_badge",
+        "level": "65"
+      },
+      {
         "name": "HTML 5",
         "class": "devicon-html5-plain",
         "level": "95"
       },
       {
-        "name": "Unity",
-        "class": "devicon-unity-original",
-        "level": "80"
+        "name": "CSS",
+        "class": "devicons devicons-css3",
+        "level": "95"
       },
       {
         "name": "Sass",
@@ -40,14 +50,19 @@
         "level": "75"
       },
       {
+        "name": "Node",
+        "class": "devicon-nodejs-plain",
+        "level": "60"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicons devicons-mongodb",
+        "level": "60"
+      },
+      {
         "name": "Bootstrap",
         "class": "devicon-bootstrap-plain",
         "level": "85"
-      },
-      {
-        "name": "C#",
-        "class": "devicon-csharp-plain",
-        "level": "65"
       },
       {
         "name": "React",
@@ -59,15 +74,21 @@
         "class": "devicon-figma-plain",
         "level": "60"
       },
-      {
-        "name": "Node",
-        "class": "devicon-nodejs-plain",
-        "level": "60"
-      },
+
       {
         "name": "Illustrator",
         "class": "devicon-illustrator-plain",
         "level": "60"
+      },
+      {
+        "name": "Unity",
+        "class": "devicons devicons-unity_small",
+        "level": "100"
+      },
+      {
+        "name": "Heroku",
+        "class": "devicons devicons-heroku",
+        "level": "100"
       }
     ]
   }
