@@ -1,68 +1,103 @@
 {
-    "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
-        }
-      ],
-      "image": "myProfile.jpg"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Soheil Qorbani",
+    "titles": ["Full-stack Developer", "Mobile App Developer"],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/soheilqk",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.linkedin.com/in/soheil-qorbani",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "soheil.JPG"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "React JS",
+        "class": "devicon-react-original",
+        "level": "100"
+      },
+      {
+        "name": "Node JS",
+        "class": "devicon-nodejs-plain",
+        "level": "100"
+      },
+      {
+        "name": "Flutter",
+        "class": "devicon-flutter-plain",
+        "level": "100"
+      },
+      {
+        "name": "Firebase",
+        "class": "devicon-firebase-plain",
+        "level": "100"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "Express JS",
+        "class": "devicon-express-original-wordmark",
+        "level": "75"
+      },
+      {
+        "name": "Redux",
+        "class": "devicon-redux-original",
+        "level": "85"
+      },
+      {
+        "name": "Typescript",
+        "class": "devicon-typescript-plain",
+        "level": "85"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      {
+        "name": "Next JS",
+        "class": "devicon-nextjs-original",
+        "level": "65"
+      },
+      {
+        "name": "Android",
+        "class": "devicon-android-plain",
+        "level": "60"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain",
+        "level": "60"
+      },
+      {
+        "name": "Github",
+        "class": "devicon-github-original",
+        "level": "60"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "60"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "60"
+      },
+      {
+        "name": "Wordpress",
+        "class": "devicon-wordpress-plain",
+        "level": "60"
+      }
+    ]
   }
+}
