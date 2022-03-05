@@ -9,6 +9,10 @@ html {
 	padding: 0;
 }
 
+html, body {	
+	overflow-x:hidden 
+} 
+
 .aligner {
 	display: flex;
 	align-items: center;
@@ -248,6 +252,29 @@ header h1 {
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media only screen and (max-width: 1169px) {
+	.vertical-timeline--animate  .vertical-timeline-element-content.bounce-in {
+	  visibility: visible;
+	  animation: timeline-slide 0.6s;
+	}
+  }
+  
+  @keyframes timeline-slide {
+	0% {
+	  opacity: 0;
+	  transform: translateY(-50px);
+	}
+  
+	60% {
+	  transform: translateY(-10px);
+	}
+  
+	100% {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
 }
 
 .vertical-timeline-element-date {
