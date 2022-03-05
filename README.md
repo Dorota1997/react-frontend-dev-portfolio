@@ -63,7 +63,12 @@ homepage property or json data won't load.
 <a href="https://tholman.com/github-corners/">GitHub Ref Corner</a>
 
 <h3>:memo: Changelog</h3>
-
+<details>
+<summary>[ 05.03.2022, contributor: <a href="https://github.com/mangelarilla">@mangelarilla</a> ]</summary>
+<pre>
+- update DevIcon stylesheet to latest one
+</pre>
+</details>
 <details>
 <summary>[ 03.10.2021, contributor: <a href="https://github.com/shahednasser">@shahednasser</a> ]</summary>
 <pre>
