@@ -11,6 +11,48 @@
   },
   "projects": [
     {
+      "title": "全栈应用反馈留言板",
+      "startDate": "2022",
+      "description": "请查看英文的描述",
+      "preview": "images/portfolio/feedback-app/preview-feedback-app.mp4",
+      "images": [
+        "images/portfolio/feedback-app/feedback-app-mockup.webp",
+        "images/portfolio/feedback-app/feedback-app-home.webp",
+        "images/portfolio/feedback-app/feedback-app-login.webp",
+        "images/portfolio/feedback-app/feedback-app-account.webp",
+        "images/portfolio/feedback-app/feedback-app-post.webp",
+        "images/portfolio/feedback-app/feedback-app-roadmap.webp"
+      ],
+      "url": "https://github.com/seanred360/product-feedback-app",
+      "liveSiteUrl": "https://seanredfeedback.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Nodejs"
+        },
+        {
+          "class": "devicon-figma-plain",
+          "name": "Figma"
+        },
+        {
+          "class": "devicon-firebase-plain",
+          "name": "Firebase"
+        }
+      ]
+    },
+    {
       "title": "Donnie Fan 喜剧",
       "startDate": "2021",
       "description": "一个为中国喜剧演员Donnie范设计的原创网站，这是我为Donnie范量身定的可以满足他所有需求的网站。因此，我可以独立的为客户提供定制网站的服务。",
@@ -114,7 +156,7 @@
       ]
     },
     {
-      "title": "Crowd Funding",
+      "title": "众筹",
       "startDate": "2021",
       "description": "带有表单验证的众筹产品页面。 您可以选择奖励等级和金额以美元为单位进行承诺。 我能够在没有任何 Javascript 库（例如 React 或 Angular）的情况下做到这一点。",
       "preview": "images/portfolio/crowd-funding/preview-crowd-funding.mp4",
@@ -151,9 +193,9 @@
       ]
     },
     {
-      "title": "Kid's Beginner A book",
+      "title": "国际少儿英语 A",
       "startDate": "2020",
-      "description": "An English teaching tool for smartboards at Ivy International English in China. I felt our schools curriculum needed to be modernized to make learning easier for our students. Previously they had to find a way to play CD's and find the correct audio files to learn at home. This was tedious and the children couldn't do it without their parents help. Most of the students in China do not own computers, they own smartphones. Therefore I made this app available to students on Android as an APK and other teachers as a windows .exe.",
+      "description": "请查看英文的描述",
       "preview": "images/portfolio/kids-beginner-book/preview-kba.mp4",
       "images": [
         "images/portfolio/kids-beginner-book/preview-kba.png",
@@ -174,9 +216,9 @@
       ]
     },
     {
-      "title": "ESL Games Collection",
+      "title": "英语作为第二语言白板游戏",
       "startDate": "2017-2020",
-      "description": "14 games I created for the smartboard in my ESL class in China. They were designed to be 10-15 minute group activites to grab the students attention and make them excited about class. The games were usually played in teams that competed. Each of the games had offline interactions in mind to facilite practicing English. For example, the board game was played amongst a class of 50 students. The student taking their team's turn could call out a student in the class to ask the question to or force them to do what the game prompts said. I created every game individually over 3-4 years and finally compiled them into one UI. ESL Games Collection was Designed to run on low end Windows PCs with a 4:3 resolution because that is what classrooms have in China. The WebGL version was created for demo purposes only, and contains many bugs. Please download the Windows .exe version to get the intended experience.",
+      "description": "没有中文， 请看英文",
       "preview": "images/portfolio/esl-games-collection/preview-esl-games-collection.mp4",
       "images": [
         "images/portfolio/esl-games-collection/preview-banana-race.png",

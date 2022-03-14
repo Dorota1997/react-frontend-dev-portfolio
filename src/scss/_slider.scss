@@ -12,7 +12,7 @@ $control-button-height: 25%;
 $control-button-opacity: 0.5;
 $control-button-hover-opacity: 0.75;
 $control-button-background: transparent;
-$loader-bar-color:#00d9ff;
+$loader-bar-color: #00d9ff;
 $loader-bar-height: 6px;
 $control-bullet-color: #00d9ff;
 $control-bullet-active-color: #00d9ff;
@@ -79,8 +79,6 @@ $content-background-color: #00d9ff;
   }
   &__container {
     display: block;
-    width: 100%;
-    height: 0;
     padding-bottom: var(--slider-height-percentage);
 
     @media all and (max-width: 500px) {
@@ -120,8 +118,6 @@ $content-background-color: #00d9ff;
     > video {
       width: 100%;
       position: absolute;
-      top: 0;
-      left: 0;
     }
   }
   &__controls {
