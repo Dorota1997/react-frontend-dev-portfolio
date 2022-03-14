@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 Hello I am Sean Redmon, an enthusiastic teacher and software developer. I started coding smartboard games for my young students in China. Later I grew to making cross platform websites and apps for professionals. I believe in showing, not telling, so please check-out my projects!",
+    "description": "👋 Hello I am Sean Redmon, an enthusiastic teacher and software developer. I started coding smartboard games for my young students in China. Later I grew to making full stack apps. I believe in showing, not telling, so please check-out my projects!",
     "section_name": {
       "about": "About me",
       "projects": "My Work",
@@ -13,7 +13,7 @@
     {
       "title": "Full Stack Feedback Board",
       "startDate": "2022",
-      "description": "Created with the MERN stack. *Users can create, upvote, edit and delete posts. *Leave comments and reply comments. *Create an account, login/out, reset their password and change their account info. The post data is all stored on my hosted Mongo Database. The user profiles are stored on Firebase.",
+      "description": "My most ambitious project to date. I cannot even fit all the things here that I learned from creating this app. Created with the MERN stack. *Users can create, upvote, edit and delete posts. *Leave comments and reply comments. *Create an account, login/out, reset their password and change their account info. The post data is all stored on my hosted Mongo Database. The user profiles are stored on Firebase.",
       "preview": "images/portfolio/feedback-app/preview-feedback-app.mp4",
       "images": [
         "images/portfolio/feedback-app/feedback-app-mockup.webp",
