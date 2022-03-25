@@ -81,37 +81,39 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "iGrafx",
+        "title": "Development Engineer",
+        "years": "7.2021 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Java"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "TypeScript",
+          "React",
+          "Azure",
+          "Kotlin",
+          "SQL",
+          "Spring MVC",
+          "Spring Boot",
+          "Dev Ops"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "General Motors",
+        "title": "Software Engineer",
+        "years": "01.2021 - 07.2021",
         "mainTech": [
-          "Angular 7/8"
+          "Angular"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "REST API",
+          "Dev Ops",
           "JavaScript",
-          "DHTMLX Gantt"
+          "GM's Personal Cloud",
+          "SQL",
+          "Spring Boot"
         ]
       }
     ]

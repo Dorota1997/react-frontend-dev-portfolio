@@ -44,18 +44,48 @@
           "level": "75"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "name": "Microsoft SQL",
+          "class": "devicon-microsoftsqlserver-plain",
+          "level": "60"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "name": "Rust",
+          "class": "devicon-rust-plain",
+          "level": "60"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "60"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "60"
+        },
+        {
+          "name": "C++",
+          "class": "devicon-cplusplus-line",
+          "level": "60"
+        },
+        {
+          "name": "Azure",
+          "class": "devicon-azure-plain",
+          "level": "60"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-original",
+          "level": "60"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "60"
+        },
+        {
+          "name": "Electron",
+          "class": "devicon-electron-original",
           "level": "60"
         }
       ]

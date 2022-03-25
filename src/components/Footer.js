@@ -17,7 +17,7 @@ class Footer extends Component {
     return (
       <footer>
         <div className="col-md-12">
-          <h2>Original work of:</h2>
+          <h2>Forked from original work of:</h2>
           <div className="social-links">{networks}</div>
 
           <div className="copyright py-4 text-center">
