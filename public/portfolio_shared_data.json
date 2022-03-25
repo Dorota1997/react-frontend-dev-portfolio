@@ -14,6 +14,41 @@
     "skills": {
       "icons": [
         {
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "60"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original",
+          "level": "75"
+        },
+        {
+          "name": "Azure",
+          "class": "devicon-azure-plain",
+          "level": "60"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-original",
+          "level": "60"
+        },
+        {
+          "name": "DevOps",
+          "class": "devicon-devicon-plain",
+          "level": "60"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original",
+          "level": "75"
+        },
+        {
+          "name": "Spring Boot/MVC",
+          "class": "devicon-spring-plain",
+          "level": "75"
+        },
+        {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
           "level": "95"
@@ -39,11 +74,6 @@
           "level": "70"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
           "name": "Microsoft SQL",
           "class": "devicon-microsoftsqlserver-plain",
           "level": "60"
@@ -54,11 +84,6 @@
           "level": "60"
         },
         {
-          "name": "Java",
-          "class": "devicon-java-plain",
-          "level": "60"
-        },
-        {
           "name": "Python",
           "class": "devicon-python-plain",
           "level": "60"
@@ -66,16 +91,6 @@
         {
           "name": "C++",
           "class": "devicon-cplusplus-line",
-          "level": "60"
-        },
-        {
-          "name": "Azure",
-          "class": "devicon-azure-plain",
-          "level": "60"
-        },
-        {
-          "name": "AWS",
-          "class": "devicon-amazonwebservices-original",
           "level": "60"
         },
         {

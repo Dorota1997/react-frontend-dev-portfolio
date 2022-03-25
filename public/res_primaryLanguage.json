@@ -82,22 +82,23 @@
     "experience": [
       {
         "company": "iGrafx",
-        "title": "Development Engineer",
+        "title": "Development Engineer (Full-Stack Engineer)",
         "years": "7.2021 - present",
         "mainTech": [
           "Java"
         ],
         "technologies": [
           "REST API",
+          "Azure",
+          "Dev Ops",
+          "Spring Boot",
+          "Spring MVC",
           "JavaScript",
           "TypeScript",
           "React",
-          "Azure",
+          "Tomcat",
           "Kotlin",
-          "SQL",
-          "Spring MVC",
-          "Spring Boot",
-          "Dev Ops"
+          "SQL"
         ]
       },
       {
@@ -108,6 +109,8 @@
           "Angular"
         ],
         "technologies": [
+          "Java",
+          "Tomcat",
           "REST API",
           "Dev Ops",
           "JavaScript",
