@@ -55,7 +55,7 @@
     {
       "title": "Donnie Fan Comedy",
       "startDate": "2021",
-      "description": "An original website for the China based comedian Donnie Fan. I worked directly with Donnie and created a Figma design that fits his needs. I coded and put the site online for the client. This was my first freelance project. I learned a lot about the process of getting a site live. It was an invaluable experience working with a real client. I learned how to communicate expectations, timelines, pricing and how to find the right design for their needs. The site has evolved over time, as Donnie has started touring and writing plays. I am still currently maintaining and updating this site.",
+      "description": "An original website for the China based comedian Donnie Fan. I worked directly with Donnie and created a Figma design that fits his needs. I coded and put the site online for the client. This was my first freelance project. I learned a lot about the process of getting a site live. It was an invaluable experience working with a real client. I learned how to communicate expectations, timelines, pricing and how to find the right design for their needs. The site has evolved over time, as Donnie has started touring and writing plays. I am still currently maintaining and updating this site. In 2022 the site was rebuilt with NextJS to serve static HTML pages that google can crawl easier. Currently this site ranks #1 for the search term donnie fan ",
       "preview": "images/portfolio/donnie-fan/preview-donnie-fan.mp4",
       "images": [
         "images/portfolio/donnie-fan/donnie-fan-mockup.webp",
@@ -69,6 +69,10 @@
       "url": "https://github.com/seanred360/donnie-fan-website",
       "liveSiteUrl": "https://donniefan.com/",
       "technologies": [
+        {
+          "class": "devicon-nextjs-original-wordmark",
+          "name": "NextJs"
+        },
         {
           "class": "devicon-react-plain",
           "name": "React"

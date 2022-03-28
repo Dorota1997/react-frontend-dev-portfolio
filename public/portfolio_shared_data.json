@@ -89,6 +89,11 @@
         "name": "Heroku",
         "class": "devicons devicons-heroku",
         "level": "100"
+      },
+      {
+        "name": "NextJs",
+        "class": "devicon-nextjs-original-wordmark",
+        "level": "100"
       }
     ]
   }
