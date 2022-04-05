@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Typical from "react-typical";
 import Avatar3d from "./Avatar3d";
 import ThemeToggler from "./styled-components/ThemeToggler";
-import LazyLoad from "react-lazyload";
 
 class Header extends Component {
   titles = [];
@@ -38,9 +37,7 @@ class Header extends Component {
         <div className="row --flex-ai-c --flex-jc-c" style={{ height: "100%" }}>
           <div className="col-md-12">
             <div>
-              <LazyLoad height={200}>
-                <Avatar3d />
-              </LazyLoad>
+              <Avatar3d />
               <br />
               <h1 className="--primary-text mb-0">
                 <Typical steps={[name]} wrapper="p" />

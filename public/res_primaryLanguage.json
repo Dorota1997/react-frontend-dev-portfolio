@@ -14,7 +14,7 @@
       "title": "Full Stack Feedback Board",
       "startDate": "2022",
       "description": "My most ambitious project to date. I cannot even fit all the things here that I learned from creating this app. Created with the MERN stack. *Users can create, upvote, edit and delete posts. *Leave comments and reply comments. *Create an account, login/out, reset their password and change their account info. The post data is all stored on my hosted Mongo Database. The user profiles are stored on Firebase.",
-      "preview": "images/portfolio/feedback-app/preview-feedback-app.mp4",
+      "preview": "images/portfolio/feedback-app/preview-feedback-app.webm",
       "images": [
         "images/portfolio/feedback-app/feedback-app-mockup.webp",
         "images/portfolio/feedback-app/feedback-app-home.webp",
@@ -56,7 +56,7 @@
       "title": "Donnie Fan Comedy",
       "startDate": "2021",
       "description": "An original website for the China based comedian Donnie Fan. I worked directly with Donnie and created a Figma design that fits his needs. I coded and put the site online for the client. This was my first freelance project. I learned a lot about the process of getting a site live. It was an invaluable experience working with a real client. I learned how to communicate expectations, timelines, pricing and how to find the right design for their needs. The site has evolved over time, as Donnie has started touring and writing plays. I am still currently maintaining and updating this site. In 2022 the site was rebuilt with NextJS to serve static HTML pages that google can crawl easier. Currently this site ranks #1 for the search term donnie fan ",
-      "preview": "images/portfolio/donnie-fan/preview-donnie-fan.mp4",
+      "preview": "images/portfolio/donnie-fan/preview-donnie-fan.webm",
       "images": [
         "images/portfolio/donnie-fan/donnie-fan-mockup.webp",
         "images/portfolio/donnie-fan/donnie-fan-medea.png",
@@ -95,7 +95,7 @@
       "title": "Rest Countries API app",
       "startDate": "2021",
       "description": "A Frontend Mentor challenge. Only a Figma file was provided to me. This website gets country data from an API. My elegantly designed theme switcher system makes it stand out from other submissions. The themes are controlled by global variables that can be changed easily and the site remembers the user preferences between refreshes. I learned how to make many different components in this project. I learned how to sort, search, and paginate JSON data in React. Visit the Github link to see a very detailed breakdown of my dev process with pics and examples.",
-      "preview": "images/portfolio/rest-countries/preview-rest-countries.mp4",
+      "preview": "images/portfolio/rest-countries/preview-rest-countries.webm",
       "images": [
         "images/portfolio/rest-countries/rest-countries-mockup.webp",
         "images/portfolio/rest-countries/rest-countries-china.png",
@@ -127,7 +127,7 @@
       "title": "Planets Fact Site",
       "startDate": "2021",
       "description": "A Frontend Mentor challenge, I was only provided a Figma Design file to work with. My submission stands out from the crowd because of the stunning animations I created with AnimeJS. I wanted to challenge myself and really master the basics. I got this result without any Javascript frameworks such as React or Angular. Click the Github icon above for a very detailed breakdown of the code with pictures and examples.",
-      "preview": "images/portfolio/planets-fact-site/preview-planets-fact-site.mp4",
+      "preview": "images/portfolio/planets-fact-site/preview-planets-fact-site.webm",
       "images": [
         "images/portfolio/planets-fact-site/planets-fact-site-mockup.webp",
         "images/portfolio/planets-fact-site/planets-fact-site-internal.png",
@@ -163,7 +163,7 @@
       "title": "Crowd Funding",
       "startDate": "2021",
       "description": "A crowdfunding product page with form validation. The challenge was to replicate the Figma design file as close as possible. I finished this challenge without a Javascript library or framework. There are zero HTML validation or accessibility issues. Which is important for a site's Google SEO",
-      "preview": "images/portfolio/crowd-funding/preview-crowd-funding.mp4",
+      "preview": "images/portfolio/crowd-funding/preview-crowd-funding.webm",
       "images": [
         "images/portfolio/crowd-funding/crowd-funding-mockup.webp",
         "images/portfolio/crowd-funding/crowd-funding-modal.png",
@@ -200,7 +200,7 @@
       "title": "Kid's Beginner A book",
       "startDate": "2020",
       "description": "An English teaching tool for smartboards at Ivy International English in China. I felt our schools curriculum needed to be modernized to make learning easier for our students. Previously they had to find a way to play CD's and find the correct audio files to learn at home. This was tedious and the children couldn't do it without their parents help. Most of the students in China do not own computers, they own smartphones. Therefore I made this app available to students on Android as an APK and other teachers as a windows .exe.",
-      "preview": "images/portfolio/kids-beginner-book/preview-kba.mp4",
+      "preview": "images/portfolio/kids-beginner-book/preview-kba.webm",
       "images": [
         "images/portfolio/kids-beginner-book/preview-kba.png",
         "images/portfolio/kids-beginner-book/kba-audio.png",
@@ -223,7 +223,7 @@
       "title": "ESL Games Collection",
       "startDate": "2017-2020",
       "description": "14 games I created for the smartboard in my ESL class in China. They were designed to be 10-15 minute group activites to grab the students attention and make them excited about class. The games were usually played in teams that competed. Each of the games had offline interactions in mind to facilite practicing English. For example, the board game was played amongst a class of 50 students. The student taking their team's turn could call out a student in the class to ask the question to or force them to do what the game prompts said. I created every game individually over 3-4 years and finally compiled them into one UI. ESL Games Collection was Designed to run on low end Windows PCs with a 4:3 resolution because that is what classrooms have in China. The WebGL version was created for demo purposes only, and contains many bugs. Please download the Windows .exe version to get the intended experience.",
-      "preview": "images/portfolio/esl-games-collection/preview-esl-games-collection.mp4",
+      "preview": "images/portfolio/esl-games-collection/preview-esl-games-collection.webm",
       "images": [
         "images/portfolio/esl-games-collection/preview-banana-race.png",
         "images/portfolio/esl-games-collection/preview-board-game.png",

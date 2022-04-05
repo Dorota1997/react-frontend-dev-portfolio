@@ -14,7 +14,7 @@
       "title": "全栈应用反馈留言板",
       "startDate": "2022",
       "description": "请查看英文的描述",
-      "preview": "images/portfolio/feedback-app/preview-feedback-app.mp4",
+      "preview": "images/portfolio/feedback-app/preview-feedback-app.webm",
       "images": [
         "images/portfolio/feedback-app/feedback-app-mockup.webp",
         "images/portfolio/feedback-app/feedback-app-home.webp",
@@ -56,7 +56,7 @@
       "title": "Donnie Fan 喜剧",
       "startDate": "2021",
       "description": "一个为中国喜剧演员Donnie范设计的原创网站，这是我为Donnie范量身定的可以满足他所有需求的网站。因此，我可以独立的为客户提供定制网站的服务。",
-      "preview": "images/portfolio/donnie-fan/preview-donnie-fan.mp4",
+      "preview": "images/portfolio/donnie-fan/preview-donnie-fan.webm",
       "images": [
         "images/portfolio/donnie-fan/donnie-fan-mockup.webp",
         "images/portfolio/donnie-fan/donnie-fan-medea.png",
@@ -91,7 +91,7 @@
       "title": "REST 国家API APP",
       "startDate": "2021",
       "description": "Frontend Mentor 挑战。只提供了一个 Figma 文件给我。该网站从 API 获取国家数据。我设计优雅的主题切换系统使它从其他提交中脱颖而出。我学会了如何在这个项目中制作许多不同的组件。我学习了如何在 React 中对 JSON 数据进行排序、搜索和分页。访问 Github 链接以查看我的开发过程的非常详细的分解图片和示例。",
-      "preview": "images/portfolio/rest-countries/preview-rest-countries.mp4",
+      "preview": "images/portfolio/rest-countries/preview-rest-countries.webm",
       "images": [
         "images/portfolio/rest-countries/rest-countries-mockup.webp",
         "images/portfolio/rest-countries/rest-countries-china.png",
@@ -123,7 +123,7 @@
       "title": "行星事实网站",
       "startDate": "2021",
       "description": "我只用了一个 Figma 设计文件来完成了 Frontend Mentor 挑战。运用AnimeJS 创建栩栩如生的动画使我的作品在众多作品中脱颖而出。我想挑战自己，掌握更全面的知识，所以我在没有借助任何 Javascript 库的情况下得到了这个成绩。请单击上面的 Github 图标，可以查看带有图片和示例的详细代码细分。",
-      "preview": "images/portfolio/planets-fact-site/preview-planets-fact-site.mp4",
+      "preview": "images/portfolio/planets-fact-site/preview-planets-fact-site.webm",
       "images": [
         "images/portfolio/planets-fact-site/planets-fact-site-mockup.webp",
         "images/portfolio/planets-fact-site/planets-fact-site-internal.png",
@@ -159,7 +159,7 @@
       "title": "众筹",
       "startDate": "2021",
       "description": "带有表单验证的众筹产品页面。 您可以选择奖励等级和金额以美元为单位进行承诺。 我能够在没有任何 Javascript 库（例如 React 或 Angular）的情况下做到这一点。",
-      "preview": "images/portfolio/crowd-funding/preview-crowd-funding.mp4",
+      "preview": "images/portfolio/crowd-funding/preview-crowd-funding.webm",
       "images": [
         "images/portfolio/crowd-funding/crowd-funding-mockup.webp",
         "images/portfolio/crowd-funding/crowd-funding-modal.png",
@@ -196,7 +196,7 @@
       "title": "国际少儿英语 A",
       "startDate": "2020",
       "description": "请查看英文的描述",
-      "preview": "images/portfolio/kids-beginner-book/preview-kba.mp4",
+      "preview": "images/portfolio/kids-beginner-book/preview-kba.webm",
       "images": [
         "images/portfolio/kids-beginner-book/preview-kba.png",
         "images/portfolio/kids-beginner-book/kba-audio.png",
@@ -219,7 +219,7 @@
       "title": "英语作为第二语言白板游戏",
       "startDate": "2017-2020",
       "description": "没有中文， 请看英文",
-      "preview": "images/portfolio/esl-games-collection/preview-esl-games-collection.mp4",
+      "preview": "images/portfolio/esl-games-collection/preview-esl-games-collection.webm",
       "images": [
         "images/portfolio/esl-games-collection/preview-banana-race.png",
         "images/portfolio/esl-games-collection/preview-board-game.png",
