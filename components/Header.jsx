@@ -31,15 +31,15 @@ const Header = ({
           {/* <Avatar3d /> */}
           <Image
             className={loaded ? "unblur" : ""}
-            src="/sean-avatar.webp"
+            src="/images/sean-avatar.webp"
             width="200px"
             height="200px"
             alt="Sean giving a thumbs up"
-            blurDataURL={"/sean-avatar-blur.webp"}
+            blurDataURL={"/images/sean-avatar-blur.webp"}
             placeholder="blur"
             onLoadingComplete={() => setLoaded(true)}
           />
-          <style jsx global>{`
+          <style jsx>{`
             .unblur {
               animation: unblur 0.5s ease;
             }

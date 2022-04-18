@@ -16,7 +16,23 @@ const About = ({ sectionName, profilePic, bioHeader, bio }) => {
               width="250px"
               height="250px"
               alt="Sean giving a thumbs up"
+              blurDataURL={"/images/sean-picture-blur.webp"}
+              placeholder="blur"
             />
+            <style jsx>{`
+              .unblur {
+                animation: unblur 0.5s ease;
+              }
+
+              @keyframes unblur {
+                from {
+                  filter: blur(10px);
+                }
+                to {
+                  filter: blur(0);
+                }
+              }
+            `}</style>
             <span>
               <Icon icon="vscode-icons:file-type-node" />
               <Icon icon="logos:react" />
