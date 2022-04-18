@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  // font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    overflow: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  padding: 5rem 5vw;
+  padding-top: 0;
+}
+
+.section-title {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+// .bars {
+//   width: 95%;
+//   float: left;
+//   padding: 0;
+//   text-align: left;
+// }
+
+// .bars .skills {
+//   margin-top: 36px;
+//   list-style: none;
+// }
+
+// .bars li {
+//   position: relative;
+//   margin-bottom: 60px;
+//   height: 42px;
+//   border-radius: 3px;
+// }
+
+// .bars li em {
+//   font: 15px "opensans-bold", sans-serif;
+//   color: #313131;
+//   text-transform: uppercase;
+//   letter-spacing: 2px;
+//   font-weight: normal;
+//   position: relative;
+//   top: -36px;
+// }
+
+// .bar-expand {
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   margin: 0;
+//   padding-right: 24px;
+//   display: inline-block;
+//   height: 42px;
+//   line-height: 42px;
+//   border-radius: 3px 0 0 3px;
+// }

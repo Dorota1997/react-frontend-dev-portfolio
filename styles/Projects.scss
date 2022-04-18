@@ -1,0 +1,301 @@
+@use "mixins" as *;
+
+.projects-section {
+  padding-bottom: 5%;
+
+  .projects-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    @media (max-width: 300px) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .project {
+      max-width: 100%;
+      margin-bottom: 1rem;
+      text-align: center;
+
+      .wrapper {
+        margin: 5%;
+
+        .photo {
+          display: inline-block;
+          padding: 10px 10px 5px;
+          text-align: center;
+          text-decoration: none;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+          transition: all 0.2s linear;
+          z-index: 0;
+          position: relative;
+          cursor: pointer;
+
+          &:hover {
+            transform: scale(1.01);
+            z-index: 10;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+          }
+
+          & video {
+            display: block;
+            width: 100%;
+            max-width: 345px;
+            pointer-events: none;
+          }
+
+          .project-date {
+            font-size: 16px;
+            padding: 24px 16px 8px 16px;
+            position: relative;
+            z-index: -500;
+            border-radius: 0 0 5px 5px;
+            color: white;
+          }
+
+          .project-title {
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  @media (min-width: 768px) {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.column-flex {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  // padding-right: 15px;
+  // padding-left: 15px;
+
+  @media (min-width: 768px) {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: 0;
+}
+
+.modal-inside {
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+  .modal-lg,
+  .modal-xl {
+    max-width: 800px;
+  }
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.modal-close {
+  font-size: 2rem;
+  text-align: right;
+  padding: 0.625rem 1rem 0.625rem 1rem;
+  cursor: pointer;
+}
+
+.modal-fade .modal-dialog {
+  transition: transform 0.3s ease-out;
+  transform: translateY(-50px);
+}
+
+.modal-show .modal-dialog {
+  transform: none;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+  }
+}
+
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  min-height: calc(100% - 1rem);
+
+  @media (min-width: 576px) {
+    min-height: calc(100% - 3.5rem);
+  }
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+
+  .modal-toolbar {
+    display: flex;
+    margin-bottom: 0;
+    padding: 7px 12px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    cursor: pointer;
+
+    &:hover {
+      .close-modal-btn {
+        background-color: red;
+      }
+    }
+
+    .close-modal-btn {
+      transition: background-color 0.3s ease;
+    }
+
+    svg {
+      font-size: 20px;
+      margin: 2.5px;
+    }
+  }
+
+  .top-group {
+    @include respond-above(lg) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12.5px;
+    }
+
+    .modal-title {
+      margin-bottom: 12.5px;
+      padding: 5px 5px 0px 5px;
+      font-size: 24px;
+
+      @include respond-above(sm) {
+        font-size: 24px;
+      }
+    }
+
+    .github-link,
+    .site-link {
+      margin-left: auto;
+      padding: 4px 6px;
+      border-radius: 50rem;
+      transition: all 0.3s ease;
+      vertical-align: middle;
+
+      &:hover {
+        color: #00d9ff;
+        border-color: #00d9ff;
+      }
+
+      svg {
+        margin-bottom: 4px;
+        vertical-align: middle;
+      }
+    }
+
+    .github-link {
+      margin-left: auto;
+      color: white;
+      background-color: #9400ff;
+      border: 1px solid white;
+    }
+
+    .site-link {
+      margin-left: 10px;
+      color: black;
+      background-color: #f4c203;
+      border: 1px solid black;
+    }
+  }
+
+  .modal-description {
+    text-align: justify;
+    padding: 5px 5px 0 5px;
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 150%;
+    color: black;
+
+    @include respond-above(sm) {
+      padding-right: 15px;
+      padding-left: 15px;
+      font-size: 20px;
+    }
+  }
+
+  ul {
+    padding: 0;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      margin: 0 16px;
+      list-style: none;
+
+      // technology icons
+      svg {
+        font-size: 300%;
+      }
+
+      // the text under the technology icons on the modal window
+      p {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+          "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+          "Helvetica Neue", sans-serif;
+      }
+    }
+  }
+}
+
+.awssld {
+  --organic-arrow-thickness: 20px;
+  --organic-arrow-height: 60px;
+  --control-button-width: 15%;  
+}

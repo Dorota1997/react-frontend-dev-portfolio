@@ -1,59 +1,30 @@
 {
   "name": "sean-red-portfolio",
-  "homepage": ".",
-  "version": "1.1.3",
+  "version": "2.0.0",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "@babel/runtime": "^7.17.2",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "bootstrap": "^4.6.1",
     "es6-tween": "^5.5.11",
-    "jquery": "^3.6.0",
-    "postprocessing": "^6.24.0",
-    "react": "^16.14.0",
+    "next": "12.1.4",
+    "react": "18.0.0",
     "react-awesome-slider": "^4.1.0",
-    "react-bootstrap": "^1.6.4",
-    "react-dom": "^16.14.0",
-    "react-ga": "^3.3.0",
-    "react-icons": "^4.3.1",
-    "react-scripts": "3.4.3",
-    "react-switch": "^5.0.1",
+    "react-bootstrap": "^2.2.3",
+    "react-dom": "18.0.0",
+    "react-switch": "^6.0.0",
     "react-typical": "^0.1.3",
     "react-vertical-timeline-component": "^3.5.2",
-    "styled-components": "^5.3.3",
-    "three": "^0.120.1"
-  },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "sass": "^1.49.11",
+    "styled-components": "^5.3.5",
+    "three": "^0.139.2"
   },
   "devDependencies": {
-    "@iconify/icons-logos": "^1.1.13",
-    "@iconify/icons-vscode-icons": "^1.1.11",
-    "@iconify/react": "^1.1.4",
-    "gh-pages": "^3.2.3",
-    "sass": "^1.49.7",
-    "three": "^0.120.1"
+    "@iconify/react": "^3.2.1",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4"
   }
 }

@@ -36,10 +36,10 @@ Users should be able to:
 
 ### Screenshots
 
-![screenshot](./src/images/preview-desktop.gif)
-![screenshot](./src/images/preview-about.gif)
-![screenshot](./src/images/preview-projects.gif)
-![screenshot](./src/images/preview-timeline.gif)
+![screenshot](screenshots/preview-desktop.gif)
+![screenshot](screenshots/preview-about.gif)
+![screenshot](screenshots/preview-projects.gif)
+![screenshot](screenshots/preview-timeline.gif)
 
 ### Links
 
@@ -61,10 +61,17 @@ Users should be able to:
 
 I began with [Dorota1997](https://github.com/Dorota1997/react-frontend-dev-portfolio)'s portfolio template. It had everything I wanted in a portfolio website. It was visually appealing and simple to navigate. It showed a bio, project, and timeline section. After looking at the code, I quickly noticed that the stylesheet was a mess and really difficult to change. I did my best to break the 1000s of lines into organized SCSS stylesheets. I also replaced the theme switcher system with my own, made with styled components (The old style switcher did not remember the user's preference between refreshes). This ended up taking me longer than I would have spent coding from scratch. Going forward it is absolutely necessary to organize all my stylesheets and have meaningful names for my elements. If any changes need to be made it will be much quicker if we can find what we are looking for. It will keep other developers from going mad looking through the spaghetti code. So I reached out to the developers and offered my changes. After a polite back and fourth they decided there were too many changes in one commit to go through. I learned another lesson here. My commits should be as small and as descriptive as possible so that anyone reviewing them can quickly see where changes were made.
 
+#### Performance improvements with NextJs
+
+![screenshot](screenshots/react-performance.png)
+![screenshot](screenshots/next-performance.png)
+
+I recreated the entire page using NextJs and scss modules to get a pretty sizable performance boost. Speed is everything when a potential employer or client is looking at your page. If the page doesn't load in under 4 seconds, the user will often click away or think that something isn't working correctly. My NextJs site loads about 17 sconds faster than my React version of the same site. The NextJs site loads about twice as fast as Dorota1997's original website template. NextJs prerenders the HTML for every page at build time. This is much faster than the React way of having the client render the it. Having the HTML already rendered also allows bots to crawl the page correctly, which improves search engine optimization. CSS and SCSS modules help NextJs code split more efficiently which means better load times.
+
 #### Creating a 3D avatar
 
-![screenshot](./src/images/preview-mobile.gif)
-![screenshot](./src/images/ready-player-me.png)
+![screenshot](screenshots/preview-mobile.gif)
+![screenshot](screenshots/ready-player-me.png)
 
 I wanted something visually unique to grab the user's attention. For this I found [ThreeJS](https://threejs.org/), an awesome library that can render 3d models in the browser! What good is a renderer without a model to render? [Ready Player Me](https://readyplayer.me/) can generate a high quality rigged GLTF model in minutes! After reading the ThreeJS documentation, I was able to render my avatar in the browser. Initially I made the avatar very large and high quality, this was very resource intensive and made the user's computer struggle, and increased load times significantly. After scaling down the model's size, another problem arose. A stationary model is boring! It should be interactive and animated. Luckily I found [egemenertugrul](https://github.com/egemenertugrul/wolf3d-readyplayerme-threejs-boilerplate) who came up with a brilliant way to have the avatar follow your mouse. Unfortunantly, his solution did not work in React because React needs functions to be in a component to sync with the DOM and virtual DOM properly. So I had to reverse engineer his code and make a React component with hooks.
 
