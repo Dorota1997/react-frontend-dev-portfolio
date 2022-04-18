@@ -28,7 +28,7 @@ const Experience = ({ sectionName, experience }) => {
     });
     return (
       <VerticalTimelineElement
-        date={exp.years}
+        date={exp.time}
         iconStyle={{
           background: "#000",
           color: "#00d9ff",
