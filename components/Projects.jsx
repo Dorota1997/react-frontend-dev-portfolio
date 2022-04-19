@@ -40,29 +40,30 @@ const Projects = ({ sectionName, projects, pageInfo }) => {
             <HoverVideoPlayer
               videoSrc={project.preview}
               preload="metadata"
-              // pausedOverlay={
-              //   // <Image
-              //   //   src={"/" + project.images[0]}
-              //   //   alt=""
-              //   //   // style={{
-              //   //   //   // Make the image expand to cover the video's dimensions
-              //   //   //   width: "100%",
-              //   //   //   height: "100%",
-              //   //   //   objectFit: "cover",
-              //   //   // }}
-              //   //   layout="fill"
-              //   //   objectFit="cover"
-              //   // />
-              //   <img
-              //     src={"/" + project.images[0]}
-              //     alt=""
-              //     style={{
-              //       width: "100%",
-              //       height: "100%",
-              //       objectFit: "cover",
-              //     }}
-              //   />
-              // }
+              unloadVideoOnPaused
+              pausedOverlay={
+                // <Image
+                //   src={"/" + project.images[0]}
+                //   alt=""
+                //   // style={{
+                //   //   // Make the image expand to cover the video's dimensions
+                //   //   width: "100%",
+                //   //   height: "100%",
+                //   //   objectFit: "cover",
+                //   // }}
+                //   layout="fill"
+                //   objectFit="cover"
+                // />
+                <img
+                  src={"/" + project.images[0]}
+                  alt=""
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                />
+              }
               loadingOverlay={<Spinner />}
             />
             <span className="project-date --accent-background1">
