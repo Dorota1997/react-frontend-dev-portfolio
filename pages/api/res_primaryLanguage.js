@@ -175,6 +175,7 @@ const primaryLangData = {
         "A crowdfunding product page with form validation. The challenge was to replicate the Figma design file as close as possible. I finished this challenge without a Javascript library or framework. There are zero HTML validation or accessibility issues. Which is important for a site's Google SEO",
       preview: "images/portfolio/crowd-funding/preview-crowd-funding.webm",
       images: [
+        "images/portfolio/crowd-funding/crowd-funding-home.webp",
         "images/portfolio/crowd-funding/crowd-funding-mockup.webp",
         "images/portfolio/crowd-funding/crowd-funding-modal.png",
         "images/portfolio/crowd-funding/crowd-funding-about.png",
@@ -283,7 +284,6 @@ const primaryLangData = {
           class: "ep:data-board",
           name: "SMART Board",
         },
-        
       ],
     },
   ],
