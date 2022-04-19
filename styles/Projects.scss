@@ -7,13 +7,14 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
-    @media (max-width: 300px) {
+    @include respond-below(sm) {
       display: flex;
       flex-direction: column;
     }
 
     .project {
-      max-width: 100%;
+      max-width: 350px;
+      margin: 0 auto;
       margin-bottom: 1rem;
       text-align: center;
 
@@ -21,11 +22,6 @@
         margin: 5%;
 
         .photo {
-<<<<<<< HEAD
-          // width: 300px;
-          // height: 280px;
-=======
->>>>>>> parent of 633713c (Project preview videos play on hover)
           display: inline-block;
           padding: 10px 10px 5px;
           text-align: center;
@@ -51,15 +47,11 @@
 
           .project-date {
             font-size: 16px;
-            padding: 24px 16px 8px 16px;
+            padding: 8px 16px 8px 16px;
             position: relative;
             z-index: -500;
             border-radius: 0 0 5px 5px;
             color: white;
-          }
-
-          .project-title {
-            margin-top: 1rem;
           }
         }
       }
@@ -302,5 +294,5 @@
 .awssld {
   --organic-arrow-thickness: 20px;
   --organic-arrow-height: 60px;
-  --control-button-width: 15%;  
+  --control-button-width: 15%;
 }
