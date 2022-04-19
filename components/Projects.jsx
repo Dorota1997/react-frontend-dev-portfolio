@@ -1,8 +1,11 @@
 import { useState } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
+<<<<<<< HEAD
 import HoverVideoPlayer from "react-hover-video-player";
 import Image from "next/image";
 import Spinner from "../components/common/Spinner";
+=======
+>>>>>>> parent of 633713c (Project preview videos play on hover)
 
 const Projects = ({ sectionName, projects, pageInfo }) => {
   const [modalData, setModalData] = useState();
@@ -13,30 +16,12 @@ const Projects = ({ sectionName, projects, pageInfo }) => {
     setModalData(data);
   };
 
-  // const projectsMap = projects.map((project) => {
-  //   return (
-  //     <div className="project" key={project.title}>
-  //       <div className="wrapper">
-  //         <div className="photo" onClick={() => handleShowModal(project)}>
-  //           <video muted autoPlay={"autoplay"} loop>
-  //             <source src={project.preview} type="video/webm" />
-  //           </video>
-  //           <span className="project-date --accent-background1">
-  //             {project.startDate}
-  //           </span>
-  //           <br />
-  //           <p className="project-title --primary-text">{project.title}</p>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   );
-  // });
-
   const projectsMap = projects.map((project) => {
     return (
       <div className="project" key={project.title}>
         <div className="wrapper">
           <div className="photo" onClick={() => handleShowModal(project)}>
+<<<<<<< HEAD
             <HoverVideoPlayer
               style={{ width: "280px", height: "187px" }}
               videoSrc={project.preview}
@@ -61,9 +46,15 @@ const Projects = ({ sectionName, projects, pageInfo }) => {
               }
               loadingOverlay={<Spinner />}
             />
+=======
+            <video muted autoPlay={"autoplay"} loop>
+              <source src={project.preview} type="video/webm" />
+            </video>
+>>>>>>> parent of 633713c (Project preview videos play on hover)
             <span className="project-date --accent-background1">
               {project.startDate}
             </span>
+            <br />
             <p className="project-title --primary-text">{project.title}</p>
           </div>
         </div>
