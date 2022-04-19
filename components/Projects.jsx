@@ -38,6 +38,7 @@ const Projects = ({ sectionName, projects, pageInfo }) => {
         <div className="wrapper">
           <div className="photo" onClick={() => handleShowModal(project)}>
             <HoverVideoPlayer
+              style={{ width: "280px", height: "187px" }}
               videoSrc={project.preview}
               preload="metadata"
               unloadVideoOnPaused
