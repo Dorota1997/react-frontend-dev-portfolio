@@ -24,7 +24,6 @@ const Projects = ({ sectionName, projects, pageInfo }) => {
             <span className="project-date --accent-background1">
               {project.startDate}
             </span>
-            <br />
             <p className="project-title --primary-text">{project.title}</p>
           </div>
         </div>

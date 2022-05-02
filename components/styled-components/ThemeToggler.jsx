@@ -1,6 +1,7 @@
 import React from "react";
 import { func, string } from "prop-types";
 import Switch from "react-switch";
+import { autoPlay } from "es6-tween";
 
 const ThemeToggler = ({ theme, onToggleTheme }) => {
   let checked = false;
@@ -30,7 +31,7 @@ const ThemeToggler = ({ theme, onToggleTheme }) => {
             height: "100%",
             fontSize: 25,
             textAlign: "center",
-            marginLeft: "20px",
+            marginLeft: "0px",
           }}
         >
           <g fill="#fcc21b">
@@ -62,7 +63,7 @@ const ThemeToggler = ({ theme, onToggleTheme }) => {
             height: "100%",
             fontSize: 25,
             textAlign: "center",
-            marginLeft: "10px",
+            marginRight: "auto",
             color: "#95f4fe",
           }}
         >

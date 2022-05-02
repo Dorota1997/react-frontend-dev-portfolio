@@ -21,8 +21,8 @@ export const GlobalStyles = createGlobalStyle`
 
   .--accent-background1 {
     background: ${({ theme }) => theme.accentColor1};
-
   }
+
 
   .--primary-text {
     color: ${({ theme }) => theme.primaryText};
@@ -34,7 +34,6 @@ export const GlobalStyles = createGlobalStyle`
 
   .section-header {
     color: ${({ theme }) => theme.sectionHeaderText};
-
   }
   
   // ABOUT SECTION STYLES

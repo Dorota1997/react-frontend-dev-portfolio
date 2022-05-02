@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "es6-tween": "^5.5.11",
+    "joi-browser": "^13.4.0",
     "next": "12.1.4",
     "react": "18.0.0",
     "react-awesome-slider": "^4.1.0",
     "react-bootstrap": "^2.2.3",
     "react-dom": "18.0.0",
+    "react-intersection-observer": "^9.1.0",
     "react-switch": "^6.0.0",
     "react-typical": "^0.1.3",
     "react-vertical-timeline-component": "^3.5.2",

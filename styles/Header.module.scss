@@ -16,7 +16,7 @@
     height: 100%;
   }
 
-  h1 {
+  .typical {
     font-size: 200%;
     text-align: center;
     font-weight: 700 !important;
@@ -50,6 +50,7 @@
   position: absolute;
   bottom: 0;
   font-size: 25px;
+  margin-top: 16px;
 
   div {
     display: flex;
@@ -58,14 +59,16 @@
     gap: 16px;
 
     button {
+      display: flex;
+      align-items: center;
+      padding: 0;
       outline: none;
       border: none;
       background-color: transparent;
     }
 
     .language-icon {
-      width: 100%;
-      height: 100%;
+      margin: auto 0;
       font-size: 50px;
       cursor: pointer;
       transition: transform 0.3s ease;

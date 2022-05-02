@@ -6,6 +6,9 @@ import HeaderTitleTypeAnimation from "./common/HeaderTitleTypeAnimation";
 import Image from "next/image";
 import { Icon } from "@iconify/react";
 import { useState } from "react";
+import { useInView } from "react-intersection-observer";
+import ContactButton from "./common/ContactButton";
+import ContactModal from "./common/ContactModal";
 
 const Header = ({
   theme,
@@ -23,6 +26,19 @@ const Header = ({
   ];
 
   const [loaded, setLoaded] = useState(false);
+  const { ref, inView } = useInView({
+    rootMargin: "-100px",
+  });
+  const [showModal, setShowModal] = useState(false);
+
+  const handleToggleModal = (show) => {
+    if (show) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+    setShowModal(show);
+  };
 
   return (
     <header className={styles.header}>
@@ -53,13 +69,17 @@ const Header = ({
               }
             }
           `}</style>
-          <h1 className="--primary-text">
+          <h1 className={styles.typical + " " + "--primary-text"}>
             <Typical steps={"Sean Redmon"} loop={50} />
           </h1>
           <div className={styles["title-container"] + " --primary-text"}>
             <HeaderTitleTypeAnimation textArray={titles} />
           </div>
-          <ThemeToggler theme={theme} onToggleTheme={onToggleTheme} />
+          <ContactButton
+            ref={ref}
+            inView={inView}
+            onToggleModal={() => handleToggleModal(true)}
+          />
         </div>
 
         <div className={styles.language}>
@@ -90,9 +110,13 @@ const Header = ({
                 icon="emojione:flag-for-china"
               />
             </button>
+            <ThemeToggler theme={theme} onToggleTheme={onToggleTheme} />
           </div>
         </div>
       </div>
+      {showModal && (
+        <ContactModal onToggleModal={() => handleToggleModal(false)} />
+      )}
     </header>
   );
 };
