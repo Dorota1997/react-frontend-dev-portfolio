@@ -2,6 +2,9 @@ import { useState } from "react";
 import Joi from "joi-browser";
 import styles from "../../styles/ContactModal.module.scss";
 import { Icon } from "@iconify/react";
+import axios from "axios";
+import PageSpinner from "./PageSpinner";
+import SuccessFailModal from "./SucessFailModal";
 
 const ContactModal = ({ onToggleModal }) => {
   const [formData, setFormData] = useState({
@@ -9,7 +12,13 @@ const ContactModal = ({ onToggleModal }) => {
     senderEmail: "",
     senderMessage: "",
   });
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState({});
+
+  const handleResetForm = () => {
+    setError({});
+    onToggleModal();
+  };
 
   const schema = {
     senderName: Joi.string().required().label("senderName"),
@@ -49,57 +58,91 @@ const ContactModal = ({ onToggleModal }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("submit");
+    setLoading(true);
+    const errors = validate();
+    setError(error || {});
+    if (errors) {
+      console.log("please fill in the fields");
+      return;
+    }
+    axios({
+      method: "POST",
+      url: process.env.NODEMAILSERVER,
+      data: formData,
+    }).then((response) => {
+      if (response.data.status === "success") {
+        setError("success");
+        setFormData({
+          senderName: "",
+          senderEmail: "",
+          senderMessage: "",
+        });
+        setLoading(false);
+      } else if (response.data.status === "fail") {
+        setError("failed");
+        setLoading(false);
+      }
+    });
   };
 
   return (
     <div className={styles["contact-modal"]}>
-      <form className={styles["contact-form"]} onSubmit={handleSubmit}>
-        <div className={styles.top}>
-          <h1 className={styles.header}>Contact Sean</h1>
-          <button className={styles["close-modal"]} onClick={onToggleModal}>
-            {/* <Icon icon="akar-icons:circle-x" /> */}
-            {/* <Icon icon="foundation:x" /> */}
-            <Icon icon="octicon:x-16" />
-          </button>
-        </div>
+      {error == "success" || error == "failed" ? (
+        <SuccessFailModal onToggleModal={onToggleModal} status={error} />
+      ) : (
+        <form
+          className={styles["contact-form"] + " --secondary-background"}
+          onSubmit={handleSubmit}
+        >
+          {loading && <PageSpinner />}
+          <div className={styles.top}>
+            <h1 className={styles.header + " --primary-text"}>Contact Sean</h1>
+            <button className={styles["close-modal"]} onClick={handleResetForm}>
+              <Icon icon="octicon:x-16" />
+            </button>
+          </div>
 
-        <div className={styles["form-group"]}>
-          <input
-            className="form-control"
-            type="text"
-            placeholder="Your Name"
-            label={"senderName"}
-            name={"senderName"}
-            onChange={(e) => handleChange(e.target)}
-          />
-        </div>
-        <div className={styles["form-group"]}>
-          <input
-            className="form-control"
-            type="email"
-            placeholder="Your Email"
-            label={"senderEmail"}
-            name={"senderEmail"}
-            aria-describedby="emailHelp"
-            onChange={(e) => handleChange(e.target)}
-          />
-        </div>
-        <div className={styles["form-group"]}>
-          <textarea
-            className="form-control"
-            placeholder="Type your message here"
-            label={"senderMessage"}
-            name={"senderMessage"}
-            rows="8"
-            cols="50"
-            onChange={(e) => handleChange(e.target)}
-          ></textarea>
-        </div>
-        <button type="submit" className={styles.submit} disabled={validate()}>
-          Send Message
-        </button>
-      </form>
+          <div className={styles["form-group"]}>
+            <input
+              className="form-control"
+              type="text"
+              placeholder="Your Name"
+              label={"senderName"}
+              name={"senderName"}
+              onChange={(e) => handleChange(e.target)}
+            />
+          </div>
+          <div className={styles["form-group"]}>
+            <input
+              className="form-control"
+              type="email"
+              placeholder="Your Email"
+              label={"senderEmail"}
+              name={"senderEmail"}
+              aria-describedby="emailHelp"
+              onChange={(e) => handleChange(e.target)}
+            />
+          </div>
+          <div className={styles["form-group"]}>
+            <textarea
+              className="form-control"
+              placeholder="Type your message here"
+              label={"senderMessage"}
+              name={"senderMessage"}
+              rows="8"
+              cols="50"
+              onChange={(e) => handleChange(e.target)}
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            className={styles.submit}
+            disabled={(validate() && !loading)}
+          >
+            Send Message
+          </button>
+        </form>
+      )}
     </div>
   );
 };

@@ -9,7 +9,7 @@
 
   .contact-form {
     position: fixed;
-    background: white;
+    // background: white;
     width: 90%;
     height: 90%;
     max-width: 600px;
@@ -22,7 +22,6 @@
     &::-webkit-scrollbar {
       display: none;
     }
-
     // Hide scrollbar for IE, Edge and Firefox
     -ms-overflow-style: none; // IE and Edge
     scrollbar-width: none; // Firefox
@@ -33,7 +32,7 @@
       justify-content: space-between;
       margin-bottom: 32px;
       padding: 16px;
-      background-color: black;
+      background-color: rgba(0, 0, 0, 0.3);
       text-align: center;
 
       .header {
@@ -90,11 +89,105 @@
     }
 
     .submit {
-      padding: 8px 24px;
-      background-color: black;
-      color: white;
-      border-radius: 10px;
       margin-bottom: 32px;
+      padding: 12px 48px;
+      border-radius: 10px;
+      background-color: rgb(56, 180, 56);
+      color: white;
+      border: none;
+      border-radius: 40px;
+      transition: opacity 0.3s ease;
+
+      &:disabled {
+        opacity: 0.4;
+      }
+
+      &:hover:enabled {
+        cursor: pointer;
+        opacity: 0.7;
+      }
+    }
+  }
+
+  .success,
+  .failed {
+    position: fixed;
+    background: white;
+    width: 90%;
+    height: max(320px, 50%);
+    max-width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .top {
+      width: 100%;
+      padding: 24px;
+
+      svg {
+        font-size: 100px;
+
+        g {
+          stroke: white;
+        }
+      }
+    }
+
+    .bottom {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      .header {
+        margin-top: 24px;
+        font-size: 32px;
+        color: black;
+      }
+
+      .confirm {
+        margin-top: 10%;
+        padding: 12px 48px;
+        color: white;
+        border: none;
+        border-radius: 40px;
+        transition: opacity 0.3s ease;
+
+        &:disabled {
+          opacity: 0.4;
+        }
+
+        &:hover:enabled {
+          cursor: pointer;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  .success {
+    .top {
+      background-color: rgb(56, 180, 56);
+    }
+
+    .bottom .confirm {
+      background-color: rgb(56, 180, 56);
+    }
+  }
+
+  .failed {
+    .top {
+      background-color: rgb(200, 0, 0);
+    }
+
+    .bottom {
+      .header {
+        font-size: 20px;
+      }
+
+      .confirm {
+        background-color: rgb(200, 0, 0);
+      }
     }
   }
 }

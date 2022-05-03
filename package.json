@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "es6-tween": "^5.5.11",
     "joi-browser": "^13.4.0",
     "next": "12.1.4",
