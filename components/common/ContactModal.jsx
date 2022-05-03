@@ -15,9 +15,10 @@ const ContactModal = ({ onToggleModal }) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState({});
 
-  const handleResetForm = () => {
+  const handleCloseModal = () => {
     setError({});
     onToggleModal();
+    setFormData({})
   };
 
   const schema = {
@@ -62,7 +63,7 @@ const ContactModal = ({ onToggleModal }) => {
     const errors = validate();
     setError(error || {});
     if (errors) {
-      console.log("please fill in the fields");
+      //TODO add error messages
       return;
     }
     axios({
@@ -97,7 +98,7 @@ const ContactModal = ({ onToggleModal }) => {
           {loading && <PageSpinner />}
           <div className={styles.top}>
             <h1 className={styles.header + " --primary-text"}>Contact Sean</h1>
-            <button className={styles["close-modal"]} onClick={handleResetForm}>
+            <button className={styles["close-modal"]} onClick={handleCloseModal}>
               <Icon icon="octicon:x-16" />
             </button>
           </div>
@@ -137,7 +138,7 @@ const ContactModal = ({ onToggleModal }) => {
           <button
             type="submit"
             className={styles.submit}
-            disabled={(validate() && !loading)}
+            disabled={loading ? true : validate()}
           >
             Send Message
           </button>
