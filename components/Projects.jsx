@@ -21,10 +21,10 @@ const Projects = ({ sectionName, projects, pageInfo }) => {
             <video muted autoPlay={"autoplay"} loop>
               <source src={project.preview} type="video/webm" />
             </video>
-            <span className="project-date --accent-background1">
+            <span className="project-date --accent-background1 --secondary-text">
               {project.startDate}
             </span>
-            <p className="project-title --primary-text">{project.title}</p>
+            <p className="project-title --third-text">{project.title}</p>
           </div>
         </div>
       </div>

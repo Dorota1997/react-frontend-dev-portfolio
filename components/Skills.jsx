@@ -11,7 +11,7 @@ const Skills = ({ sectionName, skillIcons }) => {
         <ul>
           {skillIcons.map((skills) => (
             <li
-              className={styles["skills-tile"] + " --primary-background"}
+              className={styles["skills-tile"] + " --skills-tile"}
               key={skills.name}
             >
               <Icon icon={skills.class} />

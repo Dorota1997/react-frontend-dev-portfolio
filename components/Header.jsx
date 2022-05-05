@@ -69,10 +69,10 @@ const Header = ({
               }
             }
           `}</style>
-          <h1 className={styles.typical + " " + "--primary-text"}>
+          <h1 className={styles.typical}>
             <Typical steps={"Sean Redmon"} loop={50} />
           </h1>
-          <div className={styles["title-container"] + " --primary-text"}>
+          <div className={styles["title-container"]}>
             <HeaderTitleTypeAnimation textArray={titles} />
           </div>
           <ContactButton

@@ -1,11 +1,11 @@
 const primaryLangData = {
   page_info: {
     bio_header: "Hi",
-    bio: "👋 Hello I am Sean Redmon, an enthusiastic teacher and software developer. I started coding smartboard games for my young students in China. Later I grew to making full stack apps. I believe in showing, not telling, so please check-out my projects!",
+    bio: "👋 I am Sean Redmon, an enthusiastic teacher and software developer. I got started when I was coding smartboard games for my young students in China. Later I grew to making full stack apps. I believe in showing, not telling, so please check-out my projects!",
     section_names: {
       about: "About me",
       projects: "My Work",
-      skills: "a few of my Skills",
+      skills: "My Tech Stack",
       experience: "My developer journey",
     },
   },
@@ -420,12 +420,11 @@ const primaryLangData = {
       ],
     },
     {
-      organization: "",
-      title: "Hobby game developement",
+      organization: "Ivy International English",
+      title: "Smart Board Developer",
       time: "Apr. 2017",
       lessons: ["Unity"],
       technologies: [
-        "SOME OF MY FAVORITE UNITY PACKAGES:",
         "RealToon shader",
         "Koreographer - Music visualizer",
         "DOTween animation tweener",

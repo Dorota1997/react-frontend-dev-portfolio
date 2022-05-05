@@ -1,9 +1,12 @@
 @use "mixins" as *;
 
 .about {
+  h1 {
+    color: white;
+  }
+  
   .container {
     display: grid;
-    grid-template-columns: auto auto-fit;
     max-width: 1400px;
 
     @include respond-above(xl) {
@@ -69,12 +72,14 @@
       }
 
       .card-body {
-        margin: 32px 24px;
+        padding: 32px 16px;
         font-size: 16px;
 
         @include respond-above(md) {
-          padding: 20px;
-          font-size: 24px;
+          width: 70ch;
+          padding: 32px 24px;
+          font-size: 18px;
+          line-height: 32px;
         }
 
         @media only screen and (max-width: 300px) {

@@ -1,30 +1,35 @@
 export const lightTheme = {
-  primaryColor: "#00d9ff",
-  secondaryColor: "#D9F0F4",
-  thirdColor: "#1F1F1F",
-  accentColor1: "#494949",
+  primaryColor: "#5828E3",
+  secondaryColor: "#eee",
+  thirdColor: "#fff",
+  accentColor1: "#000",
   accentColor2: "#AE944F",
 
   primaryText: "black !important",
   secondaryText: "white",
+  thirdText: "#5828E3",
 
   hover: "#202C36",
   sectionHeaderText: "black",
 
+  modalOverlayBackground: "rgba(0, 0, 0, 0.2)",
+  modalToolbarBackground: "#dddddd",
+  modalBackground: "white",
+  inputBackground: "#ececec",
+  modalText: "black",
+
   cardBackground: "white",
   sliderTabBackground: "#CDCDCD",
-  modalBackground: "white",
   sliderImageBorder: "5px solid #E0E0E0",
-  skillsTileBackground: "#F4C203",
+  skillsTileBackground: "#5828E3",
   skillsTileBorder: "#D9F0F4",
-  skillsTileText: "black",
+  skillsTileText: "white",
 };
 export const darkTheme = {
-  primaryColor: "#494949",
-  secondaryColor: "#7F7F7F",
-  thirdColor: "#1F1F1F",
+  primaryColor: "#140e1b",
+  secondaryColor: "#20192b",
+  thirdColor: "#1a1424",
   accentColor1: "#918e97",
-  // accentColor2: "",
 
   primaryText: "white !important",
   secondaryText: "black",
@@ -32,11 +37,16 @@ export const darkTheme = {
   hover: "#F2F2F2",
   sectionHeaderText: "white",
 
-  cardBackground: "#6d6d6d !important",
+  modalOverlayBackground: "rgba(255, 255, 255, 0.2)",
+  modalToolbarBackground: "#140e1b",
+  modalBackground: "#20192b",
+  inputBackground: "#1a1424",
+  modalText: "white",
+
+  cardBackground: "#321f44 !important",
   sliderTabBackground: "#6a6a6a",
-  modalBackground: "#5b5b5b",
   sliderImageBorder: "5px solid #7f7f7f",
-  skillsTileBackground: "black",
+  skillsTileBackground: "#321f44",
   skillsTileBorder: "#7f7f7f",
-  skillsTileText: "#00d9ff",
+  skillsTileText: "white",
 };

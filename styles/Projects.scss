@@ -51,10 +51,13 @@
             position: relative;
             z-index: -500;
             border-radius: 0 0 5px 5px;
-            color: white;
+            // color: white;
           }
 
           .project-title {
+            letter-spacing: 1px;
+            font-size: 18px;
+            font-weight: 700;
             margin: 16px;
           }
         }
@@ -113,10 +116,10 @@
   outline: 0;
 }
 
-.modal-inside {
-  padding: 0;
-  margin: 0;
-}
+// .modal-inside {
+//   padding: 0;
+//   margin: 0;
+// }
 
 @media (min-width: 992px) {
   .modal-lg,
@@ -127,6 +130,14 @@
 
 .modal-open {
   overflow: hidden;
+
+  // Hide scrollbar for Chrome, Safari and Opera
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  // Hide scrollbar for IE, Edge and Firefox
+  -ms-overflow-style: none; // IE and Edge
+  scrollbar-width: none; // Firefox
 }
 
 .modal-open .modal {
@@ -172,9 +183,9 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 0;
+  margin: 0;
   pointer-events: auto;
-  background-color: #fff;
-  background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
   outline: 0;
@@ -184,7 +195,6 @@
     margin-bottom: 0;
     padding: 7px 12px;
     font-size: 16px;
-    background-color: rgba(0, 0, 0, 0.03);
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
     cursor: pointer;
 
@@ -209,30 +219,32 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 12.5px;
     }
 
     .modal-title {
-      margin-bottom: 12.5px;
-      padding: 5px 5px 0px 5px;
-      font-size: 24px;
+      margin: 24px 0;
+      font-size: 32px;
+      font-weight: 700;
 
       @include respond-above(sm) {
-        font-size: 24px;
+        font-size: 32px;
       }
     }
 
     .github-link,
     .site-link {
       margin-left: auto;
-      padding: 4px 6px;
+      padding: 5px 12px;
       border-radius: 50rem;
       transition: all 0.3s ease;
       vertical-align: middle;
+      text-decoration: none;
+      letter-spacing: 1px;
+      font-size: 14px;
+      font-weight: bold;
 
       &:hover {
-        color: #00d9ff;
-        border-color: #00d9ff;
+        opacity: 0.7;
       }
 
       svg {
@@ -244,29 +256,23 @@
     .github-link {
       margin-left: auto;
       color: white;
-      background-color: #9400ff;
-      border: 1px solid white;
+      background-color: #5828e3;
     }
 
     .site-link {
       margin-left: 10px;
-      color: black;
-      background-color: #f4c203;
-      border: 1px solid black;
+      color: white;
+      background-color: black;
     }
   }
 
   .modal-description {
     text-align: justify;
-    padding: 5px 5px 0 5px;
-    margin: 20px 0;
-    font-size: 14px;
-    line-height: 150%;
-    color: black;
+    margin: 24px 0;
+    font-size: 16px;
+    line-height: 200%;
 
     @include respond-above(sm) {
-      padding-right: 15px;
-      padding-left: 15px;
       font-size: 20px;
     }
   }
@@ -277,7 +283,7 @@
 
     li {
       display: inline-block;
-      margin: 0 16px;
+      margin: 5px 16px;
       list-style: none;
 
       // technology icons
@@ -290,6 +296,9 @@
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
           "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
           "Helvetica Neue", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 1px;
       }
     }
   }

@@ -87,25 +87,25 @@ const ContactModal = ({ onToggleModal }) => {
   };
 
   return (
-    <div className={styles["contact-modal"]}>
+    <div className={styles["contact-modal"] + " --modal-overlay-background"}>
       {error == "success" || error == "failed" ? (
         <SuccessFailModal onToggleModal={onToggleModal} status={error} />
       ) : (
         <form
-          className={styles["contact-form"] + " --secondary-background"}
+          className={styles["contact-form"] + " --modal-background"}
           onSubmit={handleSubmit}
         >
           {loading && <PageSpinner />}
-          <div className={styles.top}>
-            <h1 className={styles.header + " --primary-text"}>Contact Sean</h1>
-            <button className={styles["close-modal"]} onClick={handleCloseModal}>
+          <div className={styles.top + " --toolbar-background"}>
+            <h1 className={styles.header + " --modal-text"}>Contact Sean</h1>
+            <button className={styles["close-modal"] + " --modal-text"} onClick={handleCloseModal}>
               <Icon icon="octicon:x-16" />
             </button>
           </div>
 
           <div className={styles["form-group"]}>
             <input
-              className="form-control"
+              className="form-control --modal-text"
               type="text"
               placeholder="Your Name"
               label={"senderName"}
@@ -115,7 +115,7 @@ const ContactModal = ({ onToggleModal }) => {
           </div>
           <div className={styles["form-group"]}>
             <input
-              className="form-control"
+              className="form-control --modal-text"
               type="email"
               placeholder="Your Email"
               label={"senderEmail"}
@@ -126,7 +126,7 @@ const ContactModal = ({ onToggleModal }) => {
           </div>
           <div className={styles["form-group"]}>
             <textarea
-              className="form-control"
+              className="form-control --modal-text"
               placeholder="Type your message here"
               label={"senderMessage"}
               name={"senderMessage"}

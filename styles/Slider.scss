@@ -3,7 +3,7 @@ $cos45: 0.7071;
 $transition-bezier: cubic-bezier(0.5, 0.075, 0.25, 0.95);
 $slider-height-percentage: 60%;
 $slider-transition-duration: 575ms;
-$organic-arrow-color: #00d9ff;
+$organic-arrow-color: #5828e3;
 $organic-arrow-thickness: 4px;
 $organic-arrow-height: 40px;
 $organic-arrow-border-radius: 0;
@@ -12,11 +12,11 @@ $control-button-height: 25%;
 $control-button-opacity: 0.5;
 $control-button-hover-opacity: 0.75;
 $control-button-background: transparent;
-$loader-bar-color: #00d9ff;
+$loader-bar-color: #5828e3;
 $loader-bar-height: 6px;
-$control-bullet-color: #00d9ff;
-$control-bullet-active-color: #00d9ff;
-$content-background-color: #00d9ff;
+$control-bullet-color: #5828e3;
+$control-bullet-active-color: #5828e3;
+$content-background-color: #5828e3;
 
 %fill-parent {
   display: block;
@@ -472,4 +472,3 @@ $content-background-color: #00d9ff;
     transform: translate3d(100%, 0, 0);
   }
 }
-

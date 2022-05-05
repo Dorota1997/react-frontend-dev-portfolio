@@ -4,12 +4,10 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
   z-index: 1000;
 
   .contact-form {
     position: fixed;
-    // background: white;
     width: 90%;
     height: 90%;
     max-width: 600px;
@@ -32,21 +30,20 @@
       justify-content: space-between;
       margin-bottom: 32px;
       padding: 16px;
-      background-color: rgba(0, 0, 0, 0.3);
       text-align: center;
 
       .header {
         margin-left: 14px;
         font-size: 24px;
-        color: white;
         line-height: 0;
+        font-weight: 700;
+        letter-spacing: 1px;
       }
 
       .close-modal {
         padding: 0;
         border: none;
         background-color: transparent;
-        color: white;
         font-size: 32px;
         line-height: 0;
         cursor: pointer;
@@ -71,10 +68,8 @@
         height: 50px;
         margin: 16px 0;
         padding: 24px;
-        outline: none;
         border: none;
         border-radius: 5px;
-        background-color: #f7f8fd;
         font-size: 16px;
 
         &::placeholder {

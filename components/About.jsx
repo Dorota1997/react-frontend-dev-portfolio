@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 
 const About = ({ sectionName, profilePic, bioHeader, bio }) => {
   return (
-    <section className={styles.about + " --primary-backgroun"}>
+    <section className={styles.about + " --primary-background"}>
       <h1 className="section-title">
         <span>{sectionName}</span>
       </h1>

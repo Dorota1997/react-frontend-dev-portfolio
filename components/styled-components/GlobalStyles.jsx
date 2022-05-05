@@ -32,9 +32,13 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.secondaryText};
   }
 
-  .section-header {
-    color: ${({ theme }) => theme.sectionHeaderText};
+  .--third-text {
+    color: ${({ theme }) => theme.thirdText};
   }
+
+  // .--section-header-text {
+  //   color: ${({ theme }) => theme.sectionHeaderText};
+  // }
   
   // ABOUT SECTION STYLES
   .polaroid span {
@@ -56,17 +60,13 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.sliderTabBackground};
   }
 
-  .modal-content {
-    background: ${({ theme }) => theme.modalBackground};
-  }
-
   .slider-image {
     border: ${({ theme }) => theme.sliderImageBorder};
   }
   //END PORTFOLIO/PROJECT SECTION STYLES
 
   // SKILLS SECTION STYLES
-  .skills-tile {
+  .--skills-tile {
     background: ${({ theme }) => theme.skillsTileBackground};
     border-color: ${({ theme }) => theme.skillsTileBorder};
     color: ${({ theme }) => theme.skillsTileText};
@@ -77,6 +77,27 @@ export const GlobalStyles = createGlobalStyle`
     &:hover {
       box-shadow: 0px 0px 0.4375rem 0.125rem ${({ theme }) => theme.hover};
     }
+  }
+
+  //MODALS
+  .--modal-overlay-background {
+    background: ${({ theme }) => theme.modalOverlayBackground};
+  }
+
+  .form-control {
+    background: ${({ theme }) => theme.inputBackground};
+  }
+
+  .--toolbar-background {
+    background: ${({ theme }) => theme.modalToolbarBackground};
+  }
+
+  .--modal-background {
+    background: ${({ theme }) => theme.modalBackground};
+  }
+
+  .--modal-text {
+    color: ${({ theme }) => theme.modalText};
   }
 }
   `;

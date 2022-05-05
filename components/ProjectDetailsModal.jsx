@@ -27,7 +27,7 @@ const ProjectDetailsModal = ({ show, onHide, data }) => {
   return (
     <>
       <Modal
-        className="modal-inside"
+        className="--modal-overlay-background"
         show={show}
         onHide={onHide}
         data={data}
@@ -35,7 +35,10 @@ const ProjectDetailsModal = ({ show, onHide, data }) => {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <div className="modal-toolbar" onClick={onHide}>
+        <div
+          className="modal-toolbar --toolbar-background --primary-text"
+          onClick={onHide}
+        >
           <div style={{ marginRight: "auto" }}>
             <Icon icon="vscode-icons:file-type-vscode" />
           </div>
@@ -45,7 +48,7 @@ const ProjectDetailsModal = ({ show, onHide, data }) => {
             <Icon className="close-modal-btn" icon="codicon:chrome-close" />
           </div>
         </div>
-        <div className="column">
+        <div className="column --third-background">
           <div className="column-flex" style={{ marginBottom: "50px" }}>
             <AutoplaySlider
               animation="scaleOutAnimation"

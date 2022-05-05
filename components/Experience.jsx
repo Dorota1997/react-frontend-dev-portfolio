@@ -11,10 +11,7 @@ const Experience = ({ sectionName, experience }) => {
     const technologies = exp.technologies;
     const lessons = exp.lessons.map((lesson) => {
       return (
-        <span
-          className={styles["main-badge"] + " --primary-background"}
-          key={lesson}
-        >
+        <span className={styles["main-badge"]} key={lesson}>
           {lesson}
         </span>
       );
@@ -37,12 +34,12 @@ const Experience = ({ sectionName, experience }) => {
         icon={<Icon icon="logos:react" />}
         key={exp.time}
       >
-        <div>{lessons}</div>
         <h3 className={styles["vertical-timeline-element-title"]}>
           {exp.title}
         </h3>
         <h4 className={styles["vertical-timeline-element-subtitle"]}>
-          {exp.organization}
+          <span>{exp.organization}</span>
+          <span className={styles.lessons}>{lessons}</span>
         </h4>
         <div className={styles["badge-group"]}>{tech}</div>
       </VerticalTimelineElement>
