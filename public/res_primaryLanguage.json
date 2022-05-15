@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hello!",
+      "description": "My name is Patrick Alvarez. After five years in the fine dining world, I made the switch to software engineering in January 2022. This change was driven by my passion for problem solving and the desire to create something meaningful. My background in theatre and hospitality gives me a unique advantage in forging connections with new people and delivering unparalleled customer service, and during my time at General Assembly I gained proficiency in HTML, CSS, JavaScript, and Python with a focus on the MERN tech stack.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
