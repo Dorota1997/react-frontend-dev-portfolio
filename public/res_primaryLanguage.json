@@ -11,38 +11,14 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Happy houR",
+        "startDate": "2022",
+        "description": "A full-stack application with its own API utilizing Mongoose, Express, React, Node.js, CSS, Bootstrap, the Google Maps API, Google Places API, and the Google Geocoder API. The app allows bars and restaurants to log happy hours with information about deals, location, hours, and tags. Guests can then search for happy hours by location or by tag, view their information along with a map to the location and user reviews, and add/remove happy hours to a favorites list that they can then access.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/happy-hour/home-screen.png",
+          "images/portfolio/happy-hour/show-page.png"
         ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
+        "url": "https://its-happy-hour.herokuapp.com/",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -51,30 +27,67 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "Mongodb"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "The Adventurer's Spellbook",
+        "startDate": "2022",
+        "description": "A full-stack application using Node.js, JavaScript, Mongoose, Express, Liquid, CSS, and Bootstrap that serves as a companion to Dungeons and Dragons 5th edition. The app allows users to create, view, and update characters, add a list of spells pulled from a third-party API to the characters, and create their own custom spells." 
+        ,
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/spellbook/home-page.png",
+          "images/portfolio/spellbook/show-page.png"
         ],
-        "url": "https://github.com",
+        "url": "https://adventurerspellbook.herokuapp.com/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-mongodb-plain",
+            "name": "Mongodb"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          }
+        ]
+      },
+      {
+        "title": "Homie Quest",
+        "startDate": "2022",
+        "description": "A side-scrolling videogame using HTML, CSS, and JavaScript in which a player avoids obstacles and collects power ups to reach their friend’s house.",
+        "images": [
+          "images/portfolio/quest/home-page.png",
+          "images/portfolio/quest/action.png"
+        ],
+        "url": "https://patrickga94.github.io/Project-1-Homie-Quest/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           }
         ]
       }
