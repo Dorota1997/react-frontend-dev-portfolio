@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from "react-router-dom"
 
 class Footer extends Component {
   render() {
@@ -17,7 +18,10 @@ class Footer extends Component {
     return (
       <footer>
         <div className="col-md-12">
-          <div className="social-links">{networks}</div>
+          <div className="social-links">
+            {networks}
+            <a href="/Patrick-Alvarez-resume.pdf" download target={"_blank"} style={{color: 'white', textDecoration: 'none'}}>Resume</a>
+          </div>
 
           <div className="copyright py-4 text-center">
             <div className="container">
