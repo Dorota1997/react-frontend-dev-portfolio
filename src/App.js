@@ -85,12 +85,12 @@ class App extends Component {
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
           <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$primaryLanguage,
-                window.$secondaryLanguageIconId
-              )
-            }
+            // onClick={() =>
+            //   this.applyPickedLanguage(
+            //     window.$primaryLanguage,
+            //     window.$secondaryLanguageIconId
+            //   )
+            // }
             style={{ display: "inline" }}
           >
             <span
@@ -101,12 +101,12 @@ class App extends Component {
             ></span>
           </div>
           <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$secondaryLanguage,
-                window.$primaryLanguageIconId
-              )
-            }
+            // onClick={() =>
+            //   this.applyPickedLanguage(
+            //     window.$secondaryLanguage,
+            //     window.$primaryLanguageIconId
+            //   )
+            // }
             style={{ display: "inline" }}
           >
             <span
