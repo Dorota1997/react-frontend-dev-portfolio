@@ -1,11 +1,11 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "MinJi kang",
+      "titles": [ "Back-end Developer", "Web Developer", "Mountain climber🏔️ ", "Exercise addict🏋️‍♀️" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/gmralwnr",
           "class": "fab fa-github"
         },
         {
@@ -19,49 +19,76 @@
     "skills": {
       "icons": [
         {
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "95"
+         
+        },
+
+        {
+          "name": "Springboot",
+          "class": "devicon-spring-plain",
+          "level": "80"
+        },
+        {
+          "name": "Maven",
+          "class": "devicon-apache-plain",
+          "level": "80"
+        },
+        {
+          "name": "Gradle",
+          "class": "devicon-gradle-plain",
+          "level": "80"
+        },
+
+        {
+          "name": "Nodejs",
+          "class": "devicon-nodejs-plain",
+          "level": "80"
+        },
+        {
+          "name": "Jquery",
+          "class": "devicon-jquery-plain",
+          "level": "80"
+        },
+        {
+          "name": "javascript",
+          "class": "devicon-javascript-plain",
+          "level": "80"
+        },
+
+        {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
           "level": "95"
         },
+  
+       
         {
-          "name": "CSS 3",
+          "name": "CSS3",
           "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
           "level": "70"
         },
+        
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "name": "Oracle 11",
+          "class": "devicon-oracle-plain",
+          "level": "60"
         },
         {
           "name": "MySql",
           "class": "devicon-mysql-plain",
           "level": "60"
+        },
+        {
+          "name": "Tomcat",
+          "class": "devicon-tomcat-line",
+          "level": "90"
+        },
+        {
+          "name": "vsCode",
+          "class": "devicon-vscode-plain",
+          "level": "90"
         }
       ]
     }

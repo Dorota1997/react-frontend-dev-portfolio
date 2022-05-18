@@ -1,6 +1,6 @@
 {
     "basic_info": {
-      "description_header": "Hi",
+      "description_header": "안녕하세요",
       "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
       "section_name": {
         "about": "About me",
@@ -10,80 +10,53 @@
       }
     },
     "projects": [
+     
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        
+        "title": "MealZo",
+        "startDate": "2022",
+        "description": "아카데미에서 첫 번째 웹 개발 중 하나입니다. 1인가구 증가와 동시에 코로나19 장기화에 따라 가정에서 간편한 식사 대체용으로 밀키트 판매가 급증하였습니다 이에 관리자와 고객의 입장에 서서 편리하게 이용 할 수 있도록 밀키트 판매 쇼핑몰 플랫폼을 개발하였습니다!",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/mealzo/mealzomain.jpg",
+          "images/portfolio/mealzo/mealzomypage1.jpg",
+          "images/portfolio/mealzo/melzodetail.jpg"
         ],
-        "url": "",
+        "url": "https://github.com/gmralwnr/MealZo_final",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-spring-plain",
+            "name": "Springboot"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-oracle-original",
+            "name": "Oracle 11"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
+            "class": "devicon-gradle-plain",
+            "name": "Gradle"
+          },
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-java-plain",
+            "name": "Java"
           },
           {
             "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "name": "Javascript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "css3"
           }
+
+
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "ezen.ac",
+        "title": "Back-End Developer",
+        "years": "03.2022 - present",
         "mainTech": [
           "Angular 8/9/10"
         ],
