@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d82913991a6acada7f37f7683d1b22c",
+    "revision": "a0c42b70eb63fdb9d5b5492d75a5ee0e",
     "url": "/minji.gihub.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/minji.gihub.io/static/css/2.d64471e2.chunk.css"
   },
   {
-    "revision": "a542909b8db57985c2be",
+    "revision": "c13044fc19a3b15c0f20",
     "url": "/minji.gihub.io/static/css/main.db76a3b0.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/minji.gihub.io/static/js/2.2ea329a9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a542909b8db57985c2be",
-    "url": "/minji.gihub.io/static/js/main.340ff04c.chunk.js"
+    "revision": "c13044fc19a3b15c0f20",
+    "url": "/minji.gihub.io/static/js/main.41dc8f64.chunk.js"
   },
   {
     "revision": "eaa38b9fd3820301d1c8",
