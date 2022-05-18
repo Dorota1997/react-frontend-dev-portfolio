@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/minji.gihub.io/react-frontend-dev-portfolio/static/css/main.db76a3b0.chunk.css",
-    "main.js": "/minji.gihub.io/react-frontend-dev-portfolio/static/js/main.0e6c3c31.chunk.js",
-    "main.js.map": "/minji.gihub.io/react-frontend-dev-portfolio/static/js/main.0e6c3c31.chunk.js.map",
-    "runtime-main.js": "/minji.gihub.io/react-frontend-dev-portfolio/static/js/runtime-main.c67a3422.js",
-    "runtime-main.js.map": "/minji.gihub.io/react-frontend-dev-portfolio/static/js/runtime-main.c67a3422.js.map",
-    "static/css/2.d64471e2.chunk.css": "/minji.gihub.io/react-frontend-dev-portfolio/static/css/2.d64471e2.chunk.css",
-    "static/js/2.2ea329a9.chunk.js": "/minji.gihub.io/react-frontend-dev-portfolio/static/js/2.2ea329a9.chunk.js",
-    "static/js/2.2ea329a9.chunk.js.map": "/minji.gihub.io/react-frontend-dev-portfolio/static/js/2.2ea329a9.chunk.js.map",
-    "index.html": "/minji.gihub.io/react-frontend-dev-portfolio/index.html",
-    "precache-manifest.ef4616bf696a7e74c1807510fc5811a2.js": "/minji.gihub.io/react-frontend-dev-portfolio/precache-manifest.ef4616bf696a7e74c1807510fc5811a2.js",
-    "service-worker.js": "/minji.gihub.io/react-frontend-dev-portfolio/service-worker.js",
-    "static/css/2.d64471e2.chunk.css.map": "/minji.gihub.io/react-frontend-dev-portfolio/static/css/2.d64471e2.chunk.css.map",
-    "static/css/main.db76a3b0.chunk.css.map": "/minji.gihub.io/react-frontend-dev-portfolio/static/css/main.db76a3b0.chunk.css.map",
-    "static/js/2.2ea329a9.chunk.js.LICENSE.txt": "/minji.gihub.io/react-frontend-dev-portfolio/static/js/2.2ea329a9.chunk.js.LICENSE.txt"
+    "main.css": "/minji.gihub.io/static/css/main.db76a3b0.chunk.css",
+    "main.js": "/minji.gihub.io/static/js/main.41dc8f64.chunk.js",
+    "main.js.map": "/minji.gihub.io/static/js/main.41dc8f64.chunk.js.map",
+    "runtime-main.js": "/minji.gihub.io/static/js/runtime-main.efc00971.js",
+    "runtime-main.js.map": "/minji.gihub.io/static/js/runtime-main.efc00971.js.map",
+    "static/css/2.d64471e2.chunk.css": "/minji.gihub.io/static/css/2.d64471e2.chunk.css",
+    "static/js/2.2ea329a9.chunk.js": "/minji.gihub.io/static/js/2.2ea329a9.chunk.js",
+    "static/js/2.2ea329a9.chunk.js.map": "/minji.gihub.io/static/js/2.2ea329a9.chunk.js.map",
+    "index.html": "/minji.gihub.io/index.html",
+    "precache-manifest.8eaee03bead036305677653c8948e745.js": "/minji.gihub.io/precache-manifest.8eaee03bead036305677653c8948e745.js",
+    "service-worker.js": "/minji.gihub.io/service-worker.js",
+    "static/css/2.d64471e2.chunk.css.map": "/minji.gihub.io/static/css/2.d64471e2.chunk.css.map",
+    "static/css/main.db76a3b0.chunk.css.map": "/minji.gihub.io/static/css/main.db76a3b0.chunk.css.map",
+    "static/js/2.2ea329a9.chunk.js.LICENSE.txt": "/minji.gihub.io/static/js/2.2ea329a9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c67a3422.js",
+    "static/js/runtime-main.efc00971.js",
     "static/css/2.d64471e2.chunk.css",
     "static/js/2.2ea329a9.chunk.js",
     "static/css/main.db76a3b0.chunk.css",
-    "static/js/main.0e6c3c31.chunk.js"
+    "static/js/main.41dc8f64.chunk.js"
   ]
 }
