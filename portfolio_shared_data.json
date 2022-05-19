@@ -1,6 +1,7 @@
 {
     "basic_info": {
-      "name": "MinJi kang",
+      "name": "{   MinJi Kang  }",
+      "email": "gmralwnr@naver.com",
       "titles": [ "Back-end Developer", "Web Developer", "Mountain climber🏔️ ", "Exercise addict🏋️‍♀️" ],
       "social": [
         {
@@ -14,7 +15,7 @@
           "class": "fab fa-instagram"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "minji.jpg"
     },
     "skills": {
       "icons": [

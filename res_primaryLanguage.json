@@ -1,8 +1,12 @@
+ 
 {
     "basic_info": {
       "description_header": "안녕하세요",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
+      "description": ["👋 java 공부하면서 개발에 더 흥미가 생겨 back-end 공부 하고있는 신입 개발자 강민지입니다 👋   "],
+      "description1":  "사용자가 물음표❓를 던질 때 느낌표❗를 줄 수 있도록 ,   사용자와 개발자의 입장에 서서 효율적으로 개발하는 개발자가 되고싶습니다.👩‍💻 ",
+      "description2":  "명확한 목표를 설정하고 계획하여 업무에 있어서 효율적인 시간관리 능력으로  최고의 역량을 발휘하여 보답하겠습니다. 잘 부탁드립니다.:)",
+      
+        "section_name": {
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
@@ -46,45 +50,95 @@
           {
             "class": "devicon-css3-plain",
             "name": "css3"
+          },{
+            "class": "devicon-html5-plain",
+            "name": "html5"
+          },
+          {
+            "class": "devicon-jquery-plain",
+            "name": "jquery"
           }
 
-
+        ]
+      },
+      {
+        "title": "준비중 입니다",
+        "startDate": "2022",
+        "description": "",
+        "images": [
+          "images/portfolio/mealzo/ready.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "",
+            "name": ""
+          },
+          {
+            "class": "",
+            "name": ""
+          },
+          {
+            "class": "",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "title": "준비중입니다",
+        "startDate": "2022",
+        "description": "",
+        "images": [
+          "images/portfolio/mealzo/ready.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "",
+            "name": ""
+          },
+          {
+            "class": "",
+            "name": ""
+          },
+          {
+            "class": "",
+            "name": ""
+          }
         ]
       }
     ],
     "experience": [
       {
         "company": "ezen.ac",
-        "title": "Back-End Developer",
+        "title": "Back-End Developer , Mealzo",
         "years": "03.2022 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "java"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "Eclipes",
+          "gradle",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "oracle sql developer",
+          "springboot",
+          "github",
+          ".jquery",
+          "css3",
+          "html5"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "EZEN.ACADEMY",
+        "title": "[Smart Web & Content development] JAVA WEB Developer(Back-End)",
+        "years": "09.2021 - 05.2022",
         "mainTech": [
-          "Angular 7/8"
+          "java"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Java",
+          ".."
+          
         ]
       }
     ]
