@@ -4,7 +4,7 @@
       "description_header": "안녕하세요",
       "description": ["👋 java 공부하면서 개발에 더 흥미가 생겨 back-end 공부 하고있는 신입 개발자 강민지입니다 👋   "],
       "description1":  "사용자가 물음표❓를 던질 때 느낌표❗를 줄 수 있도록 ,   사용자와 개발자의 입장에 서서 효율적으로 개발하는 개발자가 되고싶습니다.👩‍💻 ",
-      "description2":  "명확한 목표를 설정하고 계획하여 업무에 있어서 효율적인 시간관리 능력으로  최고의 역량을 발휘하여 보답하겠습니다. 잘 부탁드립니다.:)",
+      "description2":  "명확한 목표를 설정하고 계획하여 업무에 있어서 효율적인 시간관리 능력으로  최고의 역량을 발휘하여 보답하겠습니다. 잘 부탁드립니다. :)",
       
         "section_name": {
         "about": "About me",
@@ -108,38 +108,39 @@
         ]
       }
     ],
-    "experience": [
-      {
-        "company": "ezen.ac",
-        "title": "Back-End Developer , Mealzo",
-        "years": "03.2022 - present",
-        "mainTech": [
-          "java"
-        ],
-        "technologies": [
-          "Eclipes",
-          "gradle",
-          "JavaScript",
-          "oracle sql developer",
-          "springboot",
-          "github",
-          ".jquery",
-          "css3",
-          "html5"
-        ]
-      },
-      {
-        "company": "EZEN.ACADEMY",
-        "title": "[Smart Web & Content development] JAVA WEB Developer(Back-End)",
-        "years": "09.2021 - 05.2022",
-        "mainTech": [
-          "java"
-        ],
-        "technologies": [
-          "Java",
-          ".."
-          
-        ]
+  
+        "experience": [
+          {
+            "company": "이젠아카데미",
+            "title": "Mealzo - Project",
+            "years": "03.2022 - present",
+            "mainTech": [
+              "java"
+            ],
+            "technologies": [
+              "Eclipes",
+              "gradle",
+              "JavaScript",
+              "oracle sql developer",
+              "springboot",
+              "github",
+              ".jquery",
+              "css3",
+              "html5"
+            ]
+          },
+          {
+            "company": "이젠아카데미",
+            "title": "[스마트웹&콘텐츠개발]자바(JAVA) 웹 개발자(백엔드)",
+            "years": "09.2021 - 05.2022",
+            "mainTech": [
+              "java"
+            ],
+            "technologies": [
+              "Java",
+              ".."
+              
+            ]
       }
     ]
   }
