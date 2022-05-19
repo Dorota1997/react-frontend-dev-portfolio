@@ -108,38 +108,39 @@
         ]
       }
     ],
-    "experience": [
-      {
-        "company": "ezen.ac",
-        "title": "Back-End Developer , Mealzo",
-        "years": "03.2022 - present",
-        "mainTech": [
-          "java"
-        ],
-        "technologies": [
-          "Eclipes",
-          "gradle",
-          "JavaScript",
-          "oracle sql developer",
-          "springboot",
-          "github",
-          ".jquery",
-          "css3",
-          "html5"
-        ]
-      },
-      {
-        "company": "EZEN.ACADEMY",
-        "title": "[Smart Web & Content development] JAVA WEB Developer(Back-End)",
-        "years": "09.2021 - 05.2022",
-        "mainTech": [
-          "java"
-        ],
-        "technologies": [
-          "Java",
-          ".."
-          
-        ]
+  
+        "experience": [
+          {
+            "company": "이젠아카데미",
+            "title": "Mealzo - Project",
+            "years": "03.2022 - present",
+            "mainTech": [
+              "java"
+            ],
+            "technologies": [
+              "Eclipes",
+              "gradle",
+              "JavaScript",
+              "oracle sql developer",
+              "springboot",
+              "github",
+              ".jquery",
+              "css3",
+              "html5"
+            ]
+          },
+          {
+            "company": "이젠아카데미",
+            "title": "[스마트웹&콘텐츠개발]자바(JAVA) 웹 개발자(백엔드)",
+            "years": "09.2021 - 05.2022",
+            "mainTech": [
+              "java"
+            ],
+            "technologies": [
+              "Java",
+              ".."
+              
+            ]
       }
     ]
   }
