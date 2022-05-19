@@ -1,3 +1,4 @@
+//npm run deploy    
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
@@ -13,6 +14,8 @@ class About extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
+      var about2 = this.props.resumeBasicInfo.description1;
+      var about3 = this.props.resumeBasicInfo.description2;
     }
 
     return (
@@ -30,18 +33,19 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  <Icon
+               <Icon
                     icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "0%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "0%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "0%", margin: "9% 5% 0 5%" }}
                   />
+              
                 </span>
               </div>
             </div>
@@ -74,13 +78,15 @@ class About extends Component {
                       height: "auto",
                       fontSize: "132%",
                       lineHeight: "200%",
+            /*       whiteSpace:"pre-wrap"*/
                     }}
                   >
                     <br />
                     <span className="wave">{hello} :) </span>
                     <br />
                     <br />
-                    {about}
+                    {about}<br/> {about2} <br/>{about3} 
+                
                   </div>
                 </div>
               </div>

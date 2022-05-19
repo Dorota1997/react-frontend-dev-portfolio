@@ -27,6 +27,7 @@ class Header extends Component {
   render() {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
+      var email = this.props.sharedData.email;
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
 
@@ -36,15 +37,18 @@ class Header extends Component {
 
     return (
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
-        <div className="row aligner" style={{height: '100%'}}>
+        <div className="row aligner" style={{height: '100%' }}>
           <div className="col-md-12">
             <div>
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
               <br/>
-              <h1 className="mb-0">
-                <Typical steps={[name]} wrapper="p" />
+              <h1 className="mb-0" >
+                <Typical steps={[name]} wrapper="p"/>
               </h1>
-              <div className="title-container">
+              <h1 className="mb-0" style={{fontSize:'2.7em'}}>
+                <Typical steps={[email]} wrapper="p"/>
+              </h1>
+              <div className="title-container" style={{marginTop: '3%' }}>
                 <HeaderTitleTypeAnimation />
               </div>
               <Switch
