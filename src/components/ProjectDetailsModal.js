@@ -86,9 +86,9 @@ class ProjectDetailsModal extends Component {
                   rel="noopener noreferrer"
                   className="link-href"
                 >
-                  <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
+                  <i  
+                    className="fab fa-github"
+                    style={{ marginLeft: "10px", fontSize:"2.5em"}}
                   ></i>
                 </a>
               ) : null}
