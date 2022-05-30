@@ -14,9 +14,7 @@
       }
     },
     "projects": [
-     
       {
-        
         "title": "MealZo",
         "startDate": "2022",
         "description": "아카데미에서 첫 번째 웹 개발 중 하나입니다. 1인가구 증가와 동시에 코로나19 장기화에 따라 가정에서 간편한 식사 대체용으로 밀키트 판매가 급증하였습니다 이에 관리자와 고객의 입장에 서서 편리하게 이용 할 수 있도록 밀키트 판매 쇼핑몰 플랫폼을 개발하였습니다!",
@@ -32,14 +30,6 @@
             "name": "Springboot"
           },
           {
-            "class": "devicon-oracle-original",
-            "name": "Oracle 11"
-          },
-          {
-            "class": "devicon-gradle-plain",
-            "name": "Gradle"
-          },
-          {
             "class": "devicon-java-plain",
             "name": "Java"
           },
@@ -48,23 +38,30 @@
             "name": "Javascript"
           },
           {
+            "class": "devicon-jquery-plain",
+            "name": "jquery"
+          },
+          {
+            "class": "devicon-oracle-plain",
+            "name": "Oracle 11"
+          },
+          {
+            "class": "devicon-gradle-plain",
+            "name": "Gradle"
+          },
+          {
             "class": "devicon-css3-plain",
             "name": "css3"
           },{
             "class": "devicon-html5-plain",
             "name": "html5"
-          },
-          {
-            "class": "devicon-jquery-plain",
-            "name": "jquery"
           }
-
         ]
       },
       {
-        "title": "준비중 입니다",
+        "title": "준비중입니다 ",
         "startDate": "2022",
-        "description": "",
+      
         "images": [
           "images/portfolio/mealzo/ready.jpg"
         ],

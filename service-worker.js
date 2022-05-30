@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/minji.github.io/precache-manifest.91c1f4b8c3d66393c5706803f65647fd.js"
+  "/minji.github.io/precache-manifest.ba1c63d911bd3218ca489bc963756ee2.js"
 );
 
 self.addEventListener('message', (event) => {
