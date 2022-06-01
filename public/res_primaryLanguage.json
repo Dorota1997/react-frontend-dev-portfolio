@@ -13,12 +13,14 @@
       {
         "title": "Happy houR",
         "startDate": "2022",
-        "description": "A full-stack application with its own API utilizing Mongoose, Express, React, Node.js, CSS, Bootstrap, the Google Maps API, Google Places API, and the Google Geocoder API. The app allows bars and restaurants to log happy hours with information about deals, location, hours, and tags. Guests can then search for happy hours by location or by tag, view their information along with a map to the location and user reviews, and add/remove happy hours to a favorites list that they can then access.",
+        "description": "A full-stack application with its own API utilizing Mongoose, Express, React, Node.js, CSS, Bootstrap, the Google Maps API, Google Places API, and the Google Geocoder API. The app allows bars and restaurants to log happy hours with information about deals, location, hours, and tags. Guests can then search for happy hours by location or by tag, view their information along with a map to the location and user reviews, and add/remove happy hours to a favorites list that they can then access.\nSample login: g@g.g password: g",
         "images": [
           "images/portfolio/happy-hour/home-screen.png",
           "images/portfolio/happy-hour/show-page.png"
         ],
         "url": "https://its-happy-hour.herokuapp.com/",
+        "github": "https://github.com/patrickga94/Happy-houR-client",
+        "api": "https://github.com/patrickga94/Happy-houR-api",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -48,6 +50,7 @@
           "images/portfolio/spellbook/show-page.png"
         ],
         "url": "https://adventurerspellbook.herokuapp.com/",
+        "github": "https://github.com/patrickga94/Project-2/tree/main/the-adventurers-spellbook",
         "technologies": [
           {
             "class": "devicon-bootstrap-plain",
@@ -76,6 +79,7 @@
           "images/portfolio/quest/action.png"
         ],
         "url": "https://patrickga94.github.io/Project-1-Homie-Quest/",
+        "github": "https://github.com/patrickga94/Project-1-Homie-Quest",
         "technologies": [
           {
             "class": "devicon-html5-plain",

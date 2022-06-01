@@ -12,6 +12,8 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
+      var github = this.props.data.github;
+      var api = this.props.data.api;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -94,6 +96,10 @@ class ProjectDetailsModal extends Component {
               ) : null}
             </h3>
             <p className="modal-description">{description}</p>
+            <p><a href={github} target="_blank">View code on GitHub</a></p>
+            {api &&
+            <a href={api} target="_blank">Server</a>
+            }
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>
