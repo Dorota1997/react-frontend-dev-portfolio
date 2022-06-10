@@ -3,10 +3,25 @@ import About from "../components/About";
 import GitHubCornerButton from "../components/common/GitHubCornerButton";
 import Header from "../components/Header";
 import { useData } from "../components/DataContext";
-import Projects from "../components/Projects";
-import Skills from "../components/Skills";
-import Experience from "../components/Experience";
-import Footer from "../components/Footer";
+// import Projects from "../components/Projects";
+// import Skills from "../components/Skills";
+// import Experience from "../components/Experience";
+// import Footer from "../components/Footer";
+
+import Spinner from "../components/common/Spinner";
+import dynamic from "next/dynamic";
+import { Suspense } from "react";
+
+const Projects = dynamic(() => import("../components/Projects"), {
+  loading: () => (
+    <div style={{ margin: "auto", height: "300px" }}>
+      <Spinner />
+    </div>
+  ),
+});
+const Skills = dynamic(() => import("../components/Skills"));
+const Experience = dynamic(() => import("../components/Experience"));
+const Footer = dynamic(() => import("../components/Footer"));
 
 const Home = ({ theme, onToggleTheme }) => {
   const { currentLang, setLang, primaryLang, secondaryLang, sharedData } =
@@ -30,11 +45,19 @@ const Home = ({ theme, onToggleTheme }) => {
         secondaryLang={secondaryLang}
         setLang={setLang}
       />
-      <Projects
-        sectionName={sectionNames.projects}
-        projects={currentLang.projects}
-        pageInfo={pageInfo}
-      />
+      <Suspense
+        fallback={
+          <div style={{ margin: "auto", height: "300px" }}>
+            <Spinner />
+          </div>
+        }
+      >
+        <Projects
+          sectionName={sectionNames.projects}
+          projects={currentLang.projects}
+          pageInfo={pageInfo}
+        />
+      </Suspense>
       <About
         sectionName={sectionNames.about}
         profilePic={personalInfo.image}
