@@ -1,7 +1,7 @@
 const primaryLangData = {
   page_info: {
     bio_header: "Hi",
-    bio: "👋 I am Sean Redmon, an enthusiastic teacher and software developer. I got started when I was coding smartboard games for my young students in China. Later I grew to making full stack apps. I believe in showing, not telling, so please check-out my projects!",
+    bio: "👋 I am Sean Redmon, an enthusiastic teacher and software developer. I got into development while I was working at an English school in China. I saw many problems that could be solved with software, so I created apps to help students learn inside and outside the classroom. I also created apps to help other teachers do their jobs more effieciently. I always found it extremely rewarding to create an app and see the enjoyment my students got from it. This motivated me to continue learning more and improving. During my 7 years in China, I saw a huge shift in the education industry towards online learning. The supply of foreign teachers simply will never meet the huge demand from students and schools. I have since return home to pursue web development full time. Someday I hope to create my own online learning platform with the invaluable experienced I got in China.",
     section_names: {
       about: "About me",
       projects: "My Work",
@@ -210,7 +210,7 @@ const primaryLangData = {
       title: "Kid's Beginner A book",
       startDate: "2020",
       description:
-        "An English teaching tool for smartboards at Ivy International English in China. I felt our schools curriculum needed to be modernized to make learning easier for our students. Previously they had to find a way to play CD's and find the correct audio files to learn at home. This was tedious and the children couldn't do it without their parents help. Most of the students in China do not own computers, they own smartphones. Therefore I made this app available to students on Android as an APK and other teachers as a windows .exe.",
+        "I created this app to solve a problem in our English school. The students had no way to practice or read their books by themselves at home. They had to have their parents help them read it or help them play the CD that came with the book. The students who had very attentive parents had a huge unfair advantage over other students. So I created an android app that students could use at home without their parents help. The students can browse the book and click the music icons to hear the CD audio play. Teachers could also benefit from this app during class. This app also would run on the classroom smartboards. Teachers no longer had to make powerpoints of book pages and didn't have to waste class time trying to find the correct audio file on the CD. In a fast paced ESL classroom, you quickly lose the energy of the class by fumbling with a CD player. The app has touch controls. You can zoom in and pan the screen. You can also swipe to turn the page.",
       preview: "images/portfolio/kids-beginner-book/preview-kba.webm",
       images: [
         "images/portfolio/kids-beginner-book/preview-kba.png",
@@ -242,7 +242,7 @@ const primaryLangData = {
       title: "ESL Games Collection",
       startDate: "2017-2020",
       description:
-        "14 games I created for the smartboard in my ESL class in China. They were designed to be 10-15 minute group activites to grab the students attention and make them excited about class. The games were usually played in teams that competed. Each of the games had offline interactions in mind to facilite practicing English. For example, the dice roll board game was played amongst a class of 50 students. The student taking their team's turn could call out a student in the class to ask the question to or force them to do what the game prompts said. I created every game individually over 2-3 years and finally compiled them into one UI. ESL Games Collection was Designed to run on low end Windows PCs with a 4:3 resolution because that is what classrooms have in China. The WebGL version was created for demo purposes only, and contains many bugs. Please download the Windows .exe version to get the intended experience.",
+        "This is a compilation of all the games I created for the smartboard in my ESL classroom in China. These games were originally stand alone games. Each game was created to be used alongside a lesson. Most of them were meant to help students memorize vocabulary. The UI is divided into the Kid's Beginner A book and B book, and then by units 1-16. Each Game pulls from the same global word list. Each unit has a wordlist and phonics wordlist that corresponds to the books. Students who had the Android app could touch the words and hear it read to them. This was a much easier way to practice the words at home than using the CD that the books came with. This way students could practice without their parent's help. The Chinese education system is heavily centered around memorizing large volumes of information and then repeating it back. This app streamlined this process inside and outside the classroom. To use the app simply choose a unit and then press the menu button at the top left corner. You will see a list of the games for that unit, as well as the option to choose between different word lists. You can choose phonics words, vocabulary words, or both. On the top right hand corner you can globally turn off the background music for all games. You can restart the current game with the restart button. Opening this menu will always pause the current game.",
       preview:
         "images/portfolio/esl-games-collection/preview-esl-games-collection.webm",
       images: [
@@ -283,7 +283,6 @@ const primaryLangData = {
           class: "ep:data-board",
           name: "SMART Board",
         },
-        
       ],
     },
   ],
