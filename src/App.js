@@ -13,7 +13,7 @@ class App extends Component {
   constructor(props) {
     super();
     this.state = {
-      foo: "bars",
+      foo: "bar",
       resumeData: {},
       sharedData: {},
     };
