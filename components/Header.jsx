@@ -32,55 +32,53 @@ const Header = ({
   const [showModal, setShowModal] = useState(false);
 
   const handleToggleModal = (show) => {
-    if (show) {
-      document.body.classList.add("no-scroll");
-    } else {
-      document.body.classList.remove("no-scroll");
-    }
+    // if (show) {
+    //   document.body.classList.add("no-scroll");
+    // } else {
+    //   document.body.classList.remove("no-scroll");
+    // }
     setShowModal(show);
   };
 
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <div>
-          {/* <Avatar3d /> */}
-          <Image
-            className={loaded ? "unblur" : ""}
-            src="/images/sean-avatar.webp"
-            width="200px"
-            height="200px"
-            alt="Sean giving a thumbs up"
-            blurDataURL={"/images/sean-avatar-blur.webp"}
-            placeholder="blur"
-            onLoadingComplete={() => setLoaded(true)}
-          />
-          <style jsx>{`
-            .unblur {
-              animation: unblur 0.5s ease;
-            }
+        <style jsx>{`
+          .unblur {
+            animation: unblur 0.5s ease;
+          }
 
-            @keyframes unblur {
-              from {
-                filter: blur(10px);
-              }
-              to {
-                filter: blur(0);
-              }
+          @keyframes unblur {
+            from {
+              filter: blur(10px);
             }
-          `}</style>
-          <h1 className={styles.typical}>
-            <Typical steps={"Sean Redmon"} loop={50} />
-          </h1>
-          <div className={styles["title-container"]}>
-            <HeaderTitleTypeAnimation textArray={titles} />
-          </div>
-          <ContactButton
-            ref={ref}
-            inView={inView}
-            onToggleModal={() => handleToggleModal(true)}
-          />
+            to {
+              filter: blur(0);
+            }
+          }
+        `}</style>
+        <Image
+          className={loaded ? "unblur" : ""}
+          src="/images/sean-avatar.webp"
+          width="200px"
+          height="200px"
+          alt="Sean giving a thumbs up"
+          blurDataURL={"/images/sean-avatar-blur.webp"}
+          placeholder="blur"
+          onLoadingComplete={() => setLoaded(true)}
+        />
+
+        <h1 className={styles.typical}>
+          <Typical steps={"Sean Redmon"} loop={99} />
+        </h1>
+        <div className={styles["title-container"]}>
+          <HeaderTitleTypeAnimation textArray={titles} />
         </div>
+        <ContactButton
+          ref={ref}
+          inView={inView}
+          onToggleModal={() => handleToggleModal(true)}
+        />
 
         <div className={styles.language}>
           <div>
@@ -115,7 +113,10 @@ const Header = ({
         </div>
       </div>
       {showModal && (
-        <ContactModal onToggleModal={() => handleToggleModal(false)} />
+        <ContactModal
+          onToggleModal={() => handleToggleModal(false)}
+          show={showModal}
+        />
       )}
     </header>
   );

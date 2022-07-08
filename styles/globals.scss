@@ -5,6 +5,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 /* Box sizing rules */
@@ -89,30 +90,22 @@ select {
 }
 
 section {
-  padding: 5rem 5vw;
-  padding-top: 0;
+  padding: 0;
+
+  @include respond-above(sm) {
+    padding: 5rem 5vw;
+  }
 }
 
 .section-title {
   font-size: 32px;
-  font-weight: 700;
-  padding-top: 12%;
-  padding-bottom: 12%;
+  padding: 32px 0;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
-
-  @include respond-above(sm) {
-    padding-top: 8%;
-    padding-bottom: 8%;
-  }
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-.no-scroll {
-  position: fixed;
 }

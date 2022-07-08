@@ -12,7 +12,7 @@ export const lightTheme = {
   hover: "#202C36",
   sectionHeaderText: "black",
 
-  modalOverlayBackground: "rgba(0, 0, 0, 0.2)",
+  modalOverlayBackground: "rgba(0, 0, 0, 0.5)",
   modalToolbarBackground: "#dddddd",
   modalBackground: "white",
   inputBackground: "#ececec",

@@ -5,8 +5,9 @@ import { Icon } from "@iconify/react";
 import axios from "axios";
 import PageSpinner from "./PageSpinner";
 import SuccessFailModal from "./SucessFailModal";
+import { Modal } from "react-bootstrap";
 
-const ContactModal = ({ onToggleModal }) => {
+const ContactModal = ({ onToggleModal, show }) => {
   const [formData, setFormData] = useState({
     senderName: "",
     senderEmail: "",
@@ -18,7 +19,7 @@ const ContactModal = ({ onToggleModal }) => {
   const handleCloseModal = () => {
     setError({});
     onToggleModal();
-    setFormData({})
+    setFormData({});
   };
 
   const schema = {
@@ -87,7 +88,14 @@ const ContactModal = ({ onToggleModal }) => {
   };
 
   return (
-    <div className={styles["contact-modal"] + " --modal-overlay-background"}>
+    <Modal
+      className="--modal-overlay-background"
+      show={show}
+      onHide={onToggleModal}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
       {error == "success" || error == "failed" ? (
         <SuccessFailModal onToggleModal={onToggleModal} status={error} />
       ) : (
@@ -98,53 +106,60 @@ const ContactModal = ({ onToggleModal }) => {
           {loading && <PageSpinner />}
           <div className={styles.top + " --toolbar-background"}>
             <h1 className={styles.header + " --modal-text"}>Contact Sean</h1>
-            <button className={styles["close-modal"] + " --modal-text"} onClick={handleCloseModal}>
+            <button
+              className={styles["close-modal"] + " --modal-text"}
+              onClick={handleCloseModal}
+            >
               <Icon icon="octicon:x-16" />
             </button>
           </div>
 
-          <div className={styles["form-group"]}>
-            <input
-              className="form-control --modal-text"
-              type="text"
-              placeholder="Your Name"
-              label={"senderName"}
-              name={"senderName"}
-              onChange={(e) => handleChange(e.target)}
-            />
+          <div className={styles["container-form"]}>
+            <div className={styles["form-group"]}>
+              <input
+                className="form-control --modal-text"
+                type="text"
+                placeholder="Your Name"
+                label={"senderName"}
+                name={"senderName"}
+                onChange={(e) => handleChange(e.target)}
+              />
+            </div>
+            <div className={styles["form-group"]}>
+              <input
+                className="form-control --modal-text"
+                type="email"
+                placeholder="Your Email"
+                label={"senderEmail"}
+                name={"senderEmail"}
+                aria-describedby="emailHelp"
+                onChange={(e) => handleChange(e.target)}
+              />
+            </div>
+            <div className={styles["form-group"]}>
+              <textarea
+                className="form-control --modal-text"
+                placeholder="Type your message here"
+                label={"senderMessage"}
+                name={"senderMessage"}
+                rows="8"
+                cols="50"
+                onChange={(e) => handleChange(e.target)}
+              ></textarea>
+            </div>
+            <div className={styles["form-group"]}>
+              <button
+                type="submit"
+                className={styles.submit}
+                disabled={loading ? true : validate()}
+              >
+                Send Message
+              </button>
+            </div>
           </div>
-          <div className={styles["form-group"]}>
-            <input
-              className="form-control --modal-text"
-              type="email"
-              placeholder="Your Email"
-              label={"senderEmail"}
-              name={"senderEmail"}
-              aria-describedby="emailHelp"
-              onChange={(e) => handleChange(e.target)}
-            />
-          </div>
-          <div className={styles["form-group"]}>
-            <textarea
-              className="form-control --modal-text"
-              placeholder="Type your message here"
-              label={"senderMessage"}
-              name={"senderMessage"}
-              rows="8"
-              cols="50"
-              onChange={(e) => handleChange(e.target)}
-            ></textarea>
-          </div>
-          <button
-            type="submit"
-            className={styles.submit}
-            disabled={loading ? true : validate()}
-          >
-            Send Message
-          </button>
         </form>
       )}
-    </div>
+    </Modal>
   );
 };
 

@@ -1,28 +1,32 @@
 @use "mixins" as *;
 
 .projects-section {
-  padding-bottom: 5%;
-
   .projects-group {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    // display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 
     @include respond-below(sm) {
       display: flex;
       flex-direction: column;
+      max-width: unset;
+      margin: 0;
+      padding: 0;
     }
 
     .project {
-      max-width: 350px;
+      width: 350px;
       margin: 0 auto;
-      margin-bottom: 1rem;
+      margin-bottom: 32px;
       text-align: center;
 
       .wrapper {
-        margin: 5%;
-
         .photo {
-          display: inline-block;
           padding: 10px 10px 5px;
           text-align: center;
           text-decoration: none;
@@ -182,7 +186,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  // width: 100%;
   padding: 0;
   margin: 0;
   pointer-events: auto;
