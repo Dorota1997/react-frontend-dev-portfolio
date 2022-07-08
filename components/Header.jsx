@@ -31,7 +31,12 @@ const Header = ({
   });
   const [showModal, setShowModal] = useState(false);
 
-  const handleToggleModal = (show) => {
+  const handleToggleModal = (show, e) => {
+    if (e) {
+      e.preventDefault;
+      e.stopPropagation();
+    }
+
     // if (show) {
     //   document.body.classList.add("no-scroll");
     // } else {

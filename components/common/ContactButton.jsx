@@ -3,9 +3,12 @@ import { Icon } from "@iconify/react";
 
 const ContactButton = ({ inView, onToggleModal }, ref) => {
   return (
-    <div className="button-container" ref={ref} onClick={onToggleModal}>
+    <div className="button-container" ref={ref}>
       <div className="button-wrapper">
-        <button className={inView ? "button" : "button corner"}>
+        <button
+          className={inView ? "button" : "button corner"}
+          onClick={(e) => onToggleModal(false, e)}
+        >
           {inView ? <>Contact me</> : <Icon icon="ci:mail" />}
         </button>
       </div>
