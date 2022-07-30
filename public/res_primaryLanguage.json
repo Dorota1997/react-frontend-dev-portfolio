@@ -81,7 +81,7 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
+        "company": "UNDP AzNET Project",
         "title": "Front-End Developer",
         "years": "10.2019 - present",
         "mainTech": [
@@ -100,18 +100,42 @@
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "-individual it-supp",
+        "title": "IT specialist",
+        "years": "2006-2007",
         "mainTech": [
-          "Angular 7/8"
+          "sysadmin",
+          "it helpdesk",
+          "consultant"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "mail servers",
+          "windows servers",
+          "AD",
+          "fileserver",
+          "-",
+          "equipment installation",
+          "PHP dev ",
+          "HTML site dev",
+          ""
+        ]
+      },
+
+      {
+        "company": "UNDP AzNET Project",
+        "title": "eRider",
+        "years": "2005 - 2007",
+        "mainTech": [
+          "promotion of knowledge in  IT",
+          "IT Specialist"
+        ],
+        "technologies": [
+          "mandriva linux",
+          "Microsoft OS/servers",
+          "cisco academy",
+          "Unix SUN solaris",
+          "webservers hosting support",
+          "book co-author"
         ]
       }
     ]
