@@ -56,7 +56,7 @@ class Experience extends Component {
             >
               {work.company}
             </h4>
-            <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
+            <div style={{ textAlign: "left", marginTop: "17px" }}>{tech}</div>
           </VerticalTimelineElement>
         );
       });
@@ -66,7 +66,7 @@ class Experience extends Component {
       <section id="resume" className="pb-5">
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
-            <h1 className="section-title" style={{ color: "black" }}>
+            <h1 className="section-title" style={{ color: "blue" }}>
               <span className="text-black" style={{ textAlign: "center" }}>
                 {sectionName}
               </span>
