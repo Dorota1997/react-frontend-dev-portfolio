@@ -44,10 +44,10 @@ class Experience extends Component {
               {mainTech}
             </div>
 
-            <h3
+            <h3>
               className="vertical-timeline-element-title"
               style={{ textAlign: "left" }}
-            >
+            
               {work.title}
             </h3>
             <h4
