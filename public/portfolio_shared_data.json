@@ -11,7 +11,7 @@
         },
         {
           "name": "instagram",
-          //"url": "https://www.instagram.com/diet_ming_/",
+      <!--   // "url": "https://www.instagram.com/diet_ming_/", -->
           "class": "fab fa-instagram"
         }
       ],
