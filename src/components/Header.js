@@ -22,6 +22,7 @@ class Header extends Component {
     var newTheme =
       body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
     body.setAttribute(dataThemeAttribute, newTheme);
+    localStorage.setItem('theme', newTheme);
   }
 
   render() {
