@@ -1,134 +1,136 @@
-<img width="80%" align="center" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/portfolio_mockup.png" alt="portfolio template mockup" /> <br/>
-<img height="350px" align="right" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/mobile-demo.gif" alt="portfolio mobile demo gif"/>
 
-<img align="left" src="https://github.com/leungwensen/svg-icon/blob/master/dist/svg/logos/react.svg" height="50" alt="react icon"/>
-<h2>Portfolio Template</h2>
+<p>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1000&color=C01E00&width=496&lines=Any+thinks+can+be+done+with+this;++miracle+words++So+First+think+then+;make+rain+of+your++miracle+words+" alt="Typing SVG" /></a>
+</p>
 
-<pre>
-⭐ Easy to adapt and deploy portfolio project covering most important 
-sections(about, exp, skills, projects), inspired with solutions found 
-at GitHub. Check live preview(link below).
-</pre>
+<!-- --------------------------------------------------------------    Intoduction  ---------------------------------------------------------------------------- -->
 
-<strong>:crown: advantages</strong>
+<div>
 
-<img src="https://img.shields.io/badge/-multilingual-blue" alt="multilingual"/> &nbsp; <img src="https://img.shields.io/badge/-mobile friendly-blue" alt="mobile friendly"/> &nbsp; <img src="https://img.shields.io/badge/-light/dark mode-blue" alt="light/dark mode"/> &nbsp; <img src="https://img.shields.io/badge/-json fetched data-blue" alt="json fetched data"/> &nbsp; <img src="https://img.shields.io/badge/-minimalistic-blue" alt="minimalistic"/> &nbsp; <img src="https://img.shields.io/badge/-expandable-blue" alt="expandable"/>
+ <img src="https://topdevs.org/images/site/services/webdev/hero-bg.svg" alt="Coder" width = "50%" height= "270" align = "right"> 
+ 
+</br> </br>
 
-<br/>
+ [![Stars](https://img.shields.io/github/stars/lenwoper?label=Profile%20Stars&logo=Profile%20stars&logoColor=b)](#) 
+ [![Followers](https://img.shields.io/github/followers/lenwoper)](#)
+![Profile views](https://gpvc.arturio.dev/lenwoper)
+- 🔭 I’m currently working as Javascript Developer 
+<!-- - 🌱 I’m currently learning Java Spring Boot 
+- 💞️ I’m looking to collaborate on Instagram Clone -->
+- 💬 Feel free to ask any doubts About DSA in DSA open source repo discussion 
+- 📫 To reach me: lenwoper@yahoo.com || lenwoper@gmail.com 
+-  Fork into Developed  Snippet generator (https://lenwoper.github.io/snippet/)
 
-<h3>:eye_speech_bubble: Live demo</h3>
+</div>
+ </br> </br>
+ 
+<!-- leetcode and stackoverflow stats  -->
 
-Check live demonstration <a href="https://dorota1997.github.io/react-frontend-dev-portfolio/"><strong>here</strong></a>
+<!-- | # Leetcode   ![LeetCode Stats](https://leetcode.card.workers.dev//len__1?theme=auto&font=)
+| # Stackoverflow  [![stackoverflow card](https://readme-components.vercel.app/api?component=stackoverflow&stackoverflowid=14080500)](https://stackoverflow.com/users/14080500/abhijeet-kumar) |
+| :---: | :---: | -->
 
-<img width="100%" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
 
-<h3>:books: Getting started</h3>
+ <!-- -------------------------------------------------------------    Middle Section  ------------------------------------------------------------------------- -->
+ 
+ ## 🛠️ Skills : 
 
-1. Clone or fork project.
-2. Install required dependencies with `npm install`.
-3. Remove `homepage` entirely from `package.json` or set it to single dot. 
+ ### 👨‍💻 Programming and markup languages
+ 
+<p>
 
-```
-// package.json
-{
-  "name": "react-frontend-dev-portfolio",
-  "homepage": "https://dorota1997.github.io/react-frontend-dev-portfolio/",   <-- remove/edit this
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-  ...
-}
-```
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black">
+<img alt="Node.js" src="https://img.shields.io/badge/Node.js-43853D.svg?logo=node.js&logoColor=white">
+<img alt="C" src="https://custom-icon-badges.demolab.com/badge/C-03599C.svg?logo=c-in-hexagon&logoColor=white">
+<img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white">
+    <img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white">
+<img alt="Bash" src="https://img.shields.io/badge/Bash-121011.svg?logo=gnu-bash&logoColor=white">
 
-4. `npm start` project and customize it.
-5. Deploy on github-pages using `npm run deploy` command.
+</p>
 
-<pre>
-⚠️ Note that:
-- if you want to have portfolio on different repository than `{username}.github.io`, 
-set `homepage` in `package.json` to `https://{username}.github.io/{repository-name}/` 
-before deploying portfolio.
-- if you want to run it locally with <strong>npm run start</strong>, make sure that you have edited 
-homepage property or json data won't load.
-</pre>
+### 🧰 Frameworks and libraries
 
-<h3>:star: Inspirations</h3>
+<p>
+    <a href="#"><img alt="React.js" src="https://img.shields.io/badge/React.js-404d59.svg?logo=express&logoColor=white"></a>
+    <a href="#"><img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-7952B3.svg?logo=bootstrap&logoColor=white"></a>
+    <a href="#"><img alt="Express.js" src="https://img.shields.io/badge/Express.js-404d59.svg?logo=express&logoColor=white"></a>
+    <a href="#"><img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2671E5.svg?logo=github%20actions&logoColor=white"></a>
+    <a href="#"><img alt="Wordpress" src="https://img.shields.io/badge/Wordpress-21759B?logo=wordpress&logoColor=white"></a>
+</p>
 
-<a href="https://github.com/stephane-monnot/react-vertical-timeline">React Vertical Timeline</a> <br/>
-<a href="https://github.com/rcaferati/react-awesome-slider">React Awesome Slider</a> <br/>
-<a href="https://github.com/markusenglund/react-switch">React Switch</a> <br/>
-<a href="https://github.com/catalinmiron/react-typical">React Typical</a> <br/>
-<a href="https://iconify.design/icon-sets/?query=angular">Iconify Design</a> <br/>
-<a href="https://www.w3docs.com/snippets/css/how-to-create-polaroid-image-with-css.html#">Polaroid effect</a> <br/>
-<a href="https://tholman.com/github-corners/">GitHub Ref Corner</a>
+### 🗄️ Databases and cloud hosting
 
-<h3>:memo: Changelog</h3>
-<details>
-<summary>[ 05.03.2022, contributor: <a href="https://github.com/mangelarilla">@mangelarilla</a> ]</summary>
-<pre>
-- update DevIcon stylesheet to latest one
-</pre>
-</details>
-<details>
-<summary>[ 03.10.2021, contributor: <a href="https://github.com/shahednasser">@shahednasser</a> ]</summary>
-<pre>
-- updated sass dependency.
-</pre>
-</details>
-<details>
-<summary>[ 26.05.2021, contributor: <a href="https://github.com/DavidMatalik">@DavidMatalik</a> ]</summary>
-<pre>
-- removed nonexisting logos references: logo192 and logo512.  
-</pre>
-</details>
-<details>
-<summary>[ 17.01.2021, contributor: <a href="https://github.com/igorperic17">@igorperic17</a> ]</summary>
-<pre>
-- wrapped the Typical component into a fixed height div due to the bad transitions for a brief moment between two titles when the string is empty (the content bellow jumps up-down very quickly).
-- removed the title from the page document.title due to the increased title length.
-</pre>
-</details>
-<details>
-<summary>[ 30.11.2020, contributor: <a href="https://github.com/dorota1997">@dorota1997</a> ]</summary>
-<pre>
-- updated readme section
-- fixed problem of json files not being read
-</pre>
-</details>
-<details>
-<summary>[ 29/30.11.2020, contributor: <a href="https://github.com/trolit">@trolit</a> ]</summary>
-<pre>
-- changed resume files names to more "universal"
-- moved languages names to global variables
-- moved section names to json files
-- added target="_blank" for footer links
-- added startDate property for projects
-- excluded common json data to portfolio_shared_data file
-- added header section height calculation based on formula: window.innerHeight - 140
-- small changes to vertical timeline item (color/font-size)
-- project link in modal is not shown if empty
-- changed slider preloader bar color
-- wrapped each skill into tile
-- footer fullname is fetched from json now
-- added mising "px" for avatar in About.js component
-- updated json files content
-- page title is fetched from json data
-- added GitHub reference corner "label"
-- edited page meta
-- added margin, padding 0 for html tag
-- excluded light theme ref from theme-dark file
-- slightly changed Header.js section look
-- made some changes to App.js to apply global variables/shared json etc.
-- centered fullname/pos/theme toggler in Header section
-</pre>
-</details>
+<p>
+    <a href="#"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-327FC7.svg?logo=github&logoColor=white"></a>
+    <a href="#"><img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-4ea94b.svg?logo=mongodb&logoColor=white"></a>
+</p>
 
-<h3>:gear: Contribution</h3>
+### 💻 Software and tools
 
-If you have any suggestions on what to improve in <em>react-frontend-dev-portfolio</em> and would like to share them, feel free to leave an issue or fork project to implement your own ideas :slightly_smiling_face:
+<p>
+    <a href="#"><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white"></a>
+    <a href="#"><img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?logo=stack-overflow&logoColor=white"></a>
+    <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white"></a>
+    <a href="#"><img alt="Dark Reader" src="https://img.shields.io/badge/-Dark%20Reader-141E24?logo=dark-reader&logoColor=white"></a>
+    <a href="#"><img alt="Discord" src="https://img.shields.io/badge/-Discord-5865F2.svg?logo=discord&logoColor=white"></a>
+    <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git-F05033.svg?logo=git&logoColor=white"></a>
+    <a href="#"><img alt="GitHub Desktop" src="https://img.shields.io/badge/GitHub%20Desktop-8034A9.svg?logo=github&logoColor=white"></a>
+    <a href="#"><img alt="Google Sheets" src="https://img.shields.io/badge/Sheets-34A853.svg?logo=google%20sheets&logoColor=white"></a>
 
-<h3>:camera: Credits(images)</h3>
+</p>
 
-Images used in portfolio template come from Pixabay, references:
+</br>
 
-<a href="https://pixabay.com/photos/people-woman-girl-clothing-eye-2563491/">p1</a>, <a href="https://pixabay.com/photos/dog-puppy-sharpei-petit-animal-1865712/">p2</a>, <a href="https://pixabay.com/photos/night-camera-photographer-photo-1927265/">p3</a>, <a href="https://pixabay.com/photos/road-forest-season-autumn-fall-1072823/">p4</a>, <a href="https://pixabay.com/photos/neuschwanstein-castle-bavaria-701732/">p5</a>, <a href="https://pixabay.com/photos/hohenschwangau-alps-alpsee-bavaria-532864/">p6</a>
+<!-- --------------------------------------------------------------    Achievements  ---------------------------------------------------------------------------- -->
+
+## QuotesOfTheDay 
+<!--
+<div>
+ 
+<a href='https://archiveprogram.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif' width='40' height='40'></a> <a href='https://docs.github.com/en/developers'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif' width='40' height='40'></a> <a href='https://github.com/pricing'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif' width='40' height='40'></a> <a href='https://stars.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/starbadge.gif' width='35' height='35'></a> <a href='https://docs.github.com/en/github/supporting-the-open-source-community-with-github-sponsors'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/sponsorbadge.gif' width='35' height='35'></a>  -->
+
+<div align='start'>
+<!-- -------------------------------------------------------------   Thoughts  ------------------------------------------------------------------------- -->
+
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark) 
+ 
+ </div>
+ 
+</div>
+
+<!-- --------------------------------------------------------------    Social Media  ---------------------------------------------------------------------------- -->
+<div>
+<!--  connect platform links-->
+<!-- ## 📮Be Connected : 
+<p align="left">
+<a href="https://linkedin.com/in/abhishek-patil-8b6780235" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="abhi" height="30" width="40" /></a>
+<a href="https://leetcode.com/len__1/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="abhijeet" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/coder_abhi0713" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="coder_abhi0713" height="30" width="40" /></a>
+<a href="https://instagram.com/abhishekpatil.24" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="abhishekpatil.24" height="30" width="40" /></a>
+<a href="https://codeforces.com/profile/coder.abhi71" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="coder.abhi71" height="30" width="40" /></a>
+<a href="https://auth.geeksforgeeks.org/user/coder_abhi0713" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="coder_abhi0713" height="30" width="40" /></a>
+</p> -->
+
+<div align='center'>
+
+![Jokes Card](https://readme-jokes.vercel.app/api?theme=default)
+
+</div>
+
+</div>
+<!-- -------------------------------------------------------------   Trophy and Stats  ------------------------------------------------------------------------- -->
+
+## Trophy & Stats :
+
+| [![trophy](https://github-profile-trophy.vercel.app/?username=lenwoper)](https://github.com/ryo-ma/github-profile-trophy) | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lenwoper&layout=compact)](https://github.com/lenwoper/github-readme-stats) |
+| :---: | :---: |
+
+
+| ![GitHub stats](https://github-readme-stats.vercel.app/api?username=lenwoper&theme=dark&show_icons=true&count_private=true) | [![GitHub Streak](https://streak-stats.demolab.com?user=lenwoper&theme=dark&border_radius=4)](https://git.io/streak-stats) |
+| :---: | :---: |
+
+| [![Lenwoper's github activity graph](https://activity-graph.herokuapp.com/graph?username=lenwoper&theme=react-dark)](https://github.com/abhishek/github-readme-activity-graph) |  
+| :---: |
+
+
+
