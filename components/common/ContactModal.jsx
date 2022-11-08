@@ -69,7 +69,7 @@ const ContactModal = ({ onToggleModal, show }) => {
     }
     axios({
       method: "POST",
-      url: process.env.NODEMAILSERVER,
+      url: 'api/contact',
       data: formData,
     }).then((response) => {
       if (response.data.status === "success") {
