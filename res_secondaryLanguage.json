@@ -1,115 +1,124 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Hallo",
+      "description": "👋 Ich bin Chris Plitz.Ich bin Masterand im Studiengang EECS an der Technischen Universität München und habe schon viele Ideen zur Prototypenreife gebracht. Meine Schwerpunkte sind Quantum-Computing und maschinelles Lernen.",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Über mich",
+        "projects": "Projekte",
+        "skills": "Fähigkeiten",
+        "experience": "Erfahrungen"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Zertifikat: Qiskit Global Summer School on Quantum Machine Learning",
+        "startDate": "2021",
+        "description": "",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/ibm-qiskit/ibm-qiskit-certificate.png"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-Qiskit-plain",
+            "name": "Qiskit"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
+
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "title": "Zertifikat: Top 10% im Finale des Rohde&Schwarz Engineering Wettbewerbs",
+        "startDate": "2021",
+        "description": "Die Herausforderung 2021: Wir glauben, dass das Herz der Innovation in intelligenten Softwarelösungen liegt. Deshalb überprüfen und hinterfragen wir ständig den Status quo der Kommunikationstechnik. Jetzt sind Sie dran: Bringen Sie die konventionelle Signalanalyse auf die nächste Stufe und entwickeln Sie einen intelligenten Algorithmus zur Schätzung der richtigen Signalparameter. Sie haben die exklusive Möglichkeit, mit der R&S®VSE Vector Signal Explorer Software zu arbeiten, unserer hochmodernen Signalanalysesoftware. Sie bringt die Erfahrung und Leistungsfähigkeit der Signalanalyse von Rohde & Schwarz auf den Desktop und bietet eine breite Palette von Analysewerkzeugen. Mit dieser Software können Anwender analoge und digital modulierte Signale für eine Vielzahl von Standards analysieren und Fehlersuche betreiben.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/RohdeSchwarz/rs-comp-1.png",
+          "images/portfolio/RohdeSchwarz/rs-comp-2.png"
         ],
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-tensorflow-original",
+            "name": "Tensorflow"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Google Hash Code Organisator mit 50+ Teilnehmern für den Google DSC Munich",
+        "startDate": "2021",
+        "description": "Was ist Hash Code? Der teambasierte Programmierwettbewerb von Google, Hash Code, ermöglicht es Ihnen, Ihre Fähigkeiten weiterzugeben und sich mit anderen Programmierern auszutauschen, während Sie gemeinsam an der Lösung eines Problems arbeiten, das einer echten technischen Herausforderung von Google nachempfunden ist! In kleinen Teams von zwei bis vier Personen werden Programmierer aus der ganzen Welt das erste Problem über Online-Qualifikationen lösen. Die besten Teams aus dieser Runde werden eingeladen, an den virtuellen Weltmeisterschaften teilzunehmen.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/dscgoogle/logo_dark_stacked_5giak2X.svg"
         ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
+        "url": "https://github.com"
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "Karlsruher Institut für Technologie",
+        "title": "Hardware Praktikant",
+        "years": "03.2021 - 08.2021",
         "mainTech": [
-          "Angular 8/9/10"
+          "VHDL"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "VHDL",
           "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "React"
+
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "African Institute for Mathematical Sciences",
+        "title": "Forschungs-Praktikant",
+        "years": "10.2019 - 03.2020",
         "mainTech": [
-          "Angular 7/8"
+          "Tensorflow"
+        ],
+        "technologies": [
+          "Tensorflow",
+          "Python"
+        ]
+      },
+      {
+        "company": "IBM Corporation",
+        "title": "Extreme Blue Praktikant",
+        "years": "07.2019 - 10.2019",
+        "mainTech": [
+          "React"
+
         ],
         "technologies": [
           "REST API",
-          "RxJS",
-          "Swagger",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Bootstrap",
+          "React",
+          "ElasticSearch",
+          "NodeRED"
+
+        ]
+      },
+      {
+        "company": "Intel Corporation",
+        "title": "Hardware Werkstudent",
+        "years": "01.2019 - 06.2019",
+        "mainTech": [
+          "Django"
+
+        ],
+        "technologies": [
+          "JavaScript",
+          "Bootstrap",
+          "Django",
+          "Python"
         ]
       }
     ]

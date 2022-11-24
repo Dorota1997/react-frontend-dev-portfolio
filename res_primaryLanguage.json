@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Chris Plitz. I am a graduate student in EECS at the Technical University of Munich with a proven track record in bringing deep tech ideas to a prototype stage. My focus areas are quantum computing and machine learning.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,131 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Certificate: Qiskit Global Summer School on Quantum Machine Learning",
+        "startDate": "2021",
+        "description": "",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/ibm-qiskit/ibm-qiskit-certificate.png"
         ],
-        "url": "",
+        "url": "https://challenges.quantum-computing.ibm.com/qgss21",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-Qiskit-plain",
+            "name": "Qiskit"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+
+        ] 
+      },
+      {
+        "title": "Certificate: Top 10% in Rohde&Schwarz Engineering Competiton Finals",
+        "startDate": "2021",
+        "description": "The challenge 2021: We believe the heart of innovation lies in smart software solutions. That's why we constantly check and challenge the status quo of communications engineering. Now it's your turn: bring conventional signal analysis to the next level and develop a smart algorithm to estimate the right signal parameters. You will have the exclusive chance to work with the R&S®VSE vector signal explorer software, our state-of-the-art signal analysis software. It brings the experience and power of Rohde & Schwarz signal analysis to the desktop, offering a wide range of analysis tools. With this software, users analyze and troubleshoot analog and digitally modulated signals for a wide range of standards.",
+        "images": [
+          "images/portfolio/RohdeSchwarz/rs-comp-1.png",
+          "images/portfolio/RohdeSchwarz/rs-comp-2.png"
+        ],
+        "url": "https://www.rohde-schwarz.com/de/karriere/events/engineering-competition_252747.html",
+        "technologies": [
+          {
+            "class": "devicon-tensorflow-original",
+            "name": "Tensorflow"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Google Hash Code Organizer with 50+ participants for  Google DSC Munich",
+        "startDate": "2021",
+        "description": "What is Hash Code? Google’s team-based programming competition, Hash Code, allows you to share your skills and connect with other coders as you work together to solve a problem modeled off a real Google engineering challenge! In small teams of two to four, coders all over the world will tackle the first problem through Online Qualifications. The top teams from this round are invited to join us for the virtual World Finals.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/dscgoogle/logo_dark_stacked_5giak2X.svg"
         ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
+        "url": "https://gdsc.community.dev/events/details/developer-student-clubs-technical-university-of-munich-presents-hash-code-2021-dsc-munich-hub/"
       }
     ],
     "experience": [
+
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Hilti Group",
+        "title": "Master's Thesis",
+        "years": "11.2021 - 11.2022",
         "mainTech": [
-          "Angular 8/9/10"
+          "Tensorflow"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Python",
+          "Tensorflow",
+          "Scikit-learn",
+          "numpy",
+          "pandas",
+          "Java"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Karlsruhe Institute of Technology",
+        "title": "Hardware Intern",
+        "years": "03.2021 - 08.2021",
         "mainTech": [
-          "Angular 7/8"
+          "VHDL"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "VHDL",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Bootstrap",
+          "React"
+
+        ]
+      },
+      {
+        "company": "African Institute for Mathematical Sciences",
+        "title": "Research Intern",
+        "years": "10.2019 - 03.2020",
+        "mainTech": [
+          "Tensorflow"
+        ],
+        "technologies": [
+          "Tensorflow",
+          "Python"
+        ]
+      },
+      {
+        "company": "IBM Corporation",
+        "title": "Extreme Blue Intern",
+        "years": "07.2019 - 10.2019",
+        "mainTech": [
+          "React"
+
+        ],
+        "technologies": [
+          "REST API",
+          "JavaScript",
+          "Bootstrap",
+          "React",
+          "ElasticSearch",
+          "NodeRED"
+
+        ]
+      },
+      {
+        "company": "Intel Corporation",
+        "title": "Hardware Student Worker",
+        "years": "01.2019 - 06.2019",
+        "mainTech": [
+          "Django"
+
+        ],
+        "technologies": [
+          "JavaScript",
+          "Bootstrap",
+          "Django",
+          "Python"
         ]
       }
     ]
