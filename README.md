@@ -1,12 +1,5 @@
 
-<p>
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1000&color=C01E00&width=496&lines=Any+thinks+can+be+done+with+this;++miracle+words++So+First+think+then+;make+rain+of+your++miracle+words+" alt="Typing SVG" /></a>
-</p>
-
-<!-- --------------------------------------------------------------    Intoduction  ---------------------------------------------------------------------------- -->
-
 <div>
-
  <img src="https://topdevs.org/images/site/services/webdev/hero-bg.svg" alt="Coder" width = "50%" height= "270" align = "right"> 
  
 </br> </br>
@@ -14,9 +7,7 @@
  [![Stars](https://img.shields.io/github/stars/lenwoper?label=Profile%20Stars&logo=Profile%20stars&logoColor=b)](#) 
  [![Followers](https://img.shields.io/github/followers/lenwoper)](#)
 ![Profile views](https://gpvc.arturio.dev/lenwoper)
-- 🔭 I’m currently working as Javascript Developer 
-<!-- - 🌱 I’m currently learning Java Spring Boot 
-- 💞️ I’m looking to collaborate on Instagram Clone -->
+-  🌍🌎🌏  🔭
 - 💬 Feel free to ask any doubts About DSA in DSA open source repo discussion 
 - 📫 To reach me: lenwoper@yahoo.com || lenwoper@gmail.com 
 -  Fork into Developed  Snippet generator (https://lenwoper.github.io/snippet/)
