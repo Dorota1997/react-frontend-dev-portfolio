@@ -39,9 +39,23 @@ Check live demonstration <a href="https://dorota1997.github.io/react-frontend-de
   ...
 }
 ```
-
 4. `npm start` project and customize it.
 5. Deploy on github-pages using `npm run deploy` command.
+6. If you are getting an error regarding digital envelope routines - unsupported update scripts in package.json `"start": "react-scripts --openssl-legacy-provider start",`
+
+```
+//package.json
+{
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+}
+```
 
 <pre>
 ⚠️ Note that:
