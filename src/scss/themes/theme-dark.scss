@@ -11,7 +11,7 @@ body[data-theme="dark"] {
    }
 
    .header-icon {
-      color: #3C342C;
+      color: white;
       opacity: 0.8;
    }
 
@@ -40,7 +40,7 @@ body[data-theme="dark"] {
    }
 
    #about {
-      background-color: #7f7f7f;
+      background-color: #009FB7;
       h1 span {
          color: white;
       }
@@ -59,7 +59,7 @@ body[data-theme="dark"] {
          color: white !important;
       }
       .foto div {
-         background: #6d6d6d;
+         background: #009FB7;
       }
       .project-title-settings {
          color: white;
@@ -79,7 +79,8 @@ body[data-theme="dark"] {
       }
 
       .main-badge {
-         background: #919191 !important;
+         background: #FCC21B !important;
+         color: black;
       }
 
       .vertical-timeline-element-date {
@@ -87,7 +88,7 @@ body[data-theme="dark"] {
       }
 
       .vertical-timeline-element-icon {
-         background: #919191 !important;
+         background: #009FB7 !important;
       }
       @media only screen and (max-width: 1169px) { 
          .vertical-timeline-element-date {

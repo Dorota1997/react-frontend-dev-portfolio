@@ -15,7 +15,7 @@ $control-button-background: transparent;
 $loader-bar-color: #656565;
 $loader-bar-height: 6px;
 $control-bullet-color: #8C8C8C;
-$control-bullet-active-color: #8C8C8C;
+$control-bullet-active-color: #FED766;
 $content-background-color: #8C8C8C;
 
 %fill-parent {
@@ -77,6 +77,7 @@ $content-background-color: #8C8C8C;
     height: 100%;
     width: 100%;
   }
+
   &__container {
     display: block;
     width: 100%;
@@ -91,12 +92,13 @@ $content-background-color: #8C8C8C;
       @extend %fill-parent;
     }
   }
+
   &__startUp {
     background-color: red;
     height: 100%;
     width: 100%;
 
-    > div {
+    >div {
       height: 100%;
       width: 100%;
       display: flex;
@@ -109,6 +111,7 @@ $content-background-color: #8C8C8C;
       height: auto;
     }
   }
+
   &__content {
     @extend %fill-parent;
     background-color: var(--content-background-color);
@@ -116,13 +119,15 @@ $content-background-color: #8C8C8C;
     display: flex;
     align-items: center;
     justify-content: center;
-    > img,
-    > video {
+
+    >img,
+    >video {
       height: 100%;
       top: 0;
       left: 0;
     }
   }
+
   &__controls {
     button {
       @extend %clear-focus;
@@ -138,34 +143,42 @@ $content-background-color: #8C8C8C;
       background-color: var(--control-button-background);
       color: #fff;
       cursor: pointer;
+
       .#{$root-element}__controls__arrow-left,
       .#{$root-element}__controls__arrow-right {
         opacity: var(--control-button-opacity);
       }
+
       &:hover {
+
         .#{$root-element}__controls__arrow-left,
         .#{$root-element}__controls__arrow-right {
           opacity: var(--control-button-opacity-hover);
         }
       }
     }
+
     &--active {
       .#{$root-element}__controls__arrow-left {
         opacity: var(--control-button-opacity-hover);
         transform: translate3d(-100%, 0, 0);
       }
+
       .#{$root-element}__controls__arrow-right {
         opacity: var(--control-button-opacity-hover);
         transform: translate3d(100%, 0, 0);
       }
     }
+
     &--hidden {
       display: none;
     }
+
     @media all and (max-width: 520px) {
       visibility: hidden;
     }
   }
+
   &__bar {
     display: block;
     width: 100%;
@@ -177,72 +190,85 @@ $content-background-color: #8C8C8C;
     z-index: 101;
     transition: transform 3000ms var(--transition-bezier);
     transform: translate3d(-100%, 0, 0);
+
     &--active {
       transform: translate3d(-20%, 0, 0);
     }
+
     &--end {
       transition-duration: 300ms;
       transform: translate3d(0, 0, 0);
     }
   }
+
   &__next {
     right: 0;
   }
+
   &__prev {
     left: 0;
   }
+
   &__box {
     z-index: 1;
     visibility: hidden;
     @extend %fill-parent;
   }
+
   &--animated {
     will-change: transform;
     visibility: visible;
   }
+
   &--animated-mobile {
     will-change: transform;
     transition: transform 325ms cubic-bezier(0.15, 0.65, 0.1, 1);
   }
+
   &--active {
     visibility: visible;
     z-index: 2;
     transform: translate3d(0, 0, 0);
   }
+
   &--moveRight,
   &--moveLeft {
     backface-visibility: hidden;
   }
+
   &--moveRight {
     // transform: translate3d(100%, 0, 0);
-    animation: slideFromRight var(--slider-transition-duration) both
-      var(--transition-bezier);
+    animation: slideFromRight var(--slider-transition-duration) both var(--transition-bezier);
   }
+
   &--moveLeft {
-    animation: slideFromLeft var(--slider-transition-duration) both
-      var(--transition-bezier);
+    animation: slideFromLeft var(--slider-transition-duration) both var(--transition-bezier);
   }
+
   &--exit {
     z-index: 0;
+
     &.#{$root-element}--moveLeft {
-      animation: slideToLeft var(--slider-transition-duration) both
-        var(--transition-bezier);
+      animation: slideToLeft var(--slider-transition-duration) both var(--transition-bezier);
     }
+
     &.#{$root-element}--moveRight {
-      animation: slideToRight var(--slider-transition-duration) both
-        var(--transition-bezier);
+      animation: slideToRight var(--slider-transition-duration) both var(--transition-bezier);
     }
   }
+
   &--first {
     .#{$root-element}__prev {
       visibility: hidden;
     }
   }
+
   &--last {
     .#{$root-element}__next {
       visibility: hidden;
     }
   }
+
   &--fill-parent {
     position: absolute !important;
     width: 100% !important;
@@ -255,6 +281,7 @@ $content-background-color: #8C8C8C;
       padding: 0;
     }
   }
+
   &__bullets {
     position: absolute;
     bottom: -40px;
@@ -262,6 +289,7 @@ $content-background-color: #8C8C8C;
     display: flex;
     align-items: center;
     justify-content: center;
+
     button {
       @extend %clear-focus;
       padding: 0;
@@ -282,9 +310,11 @@ $content-background-color: #8C8C8C;
         transform: scale(1.2);
       }
     }
+
     .#{$root-element}__bullets--loading {
       transform: scale(1.2);
     }
+
     .#{$root-element}__bullets--active {
       transform: scale(1.5);
       background: var(--control-bullet-active-color);
@@ -302,29 +332,26 @@ $content-background-color: #8C8C8C;
     position: relative;
     display: block;
     transition: transform 0.2s ease-out 0.125s, opacity 0.2s ease-out;
+
     &:before,
     &:after {
       content: ' ';
       position: absolute;
-      right: calc(
-        50% -
-          (
-            #{$cos45} * (var(--organic-arrow-height) +
-                  var(--organic-arrow-thickness))
-          ) / 2
-      );
+      right: calc(50% - (#{$cos45} * (var(--organic-arrow-height) + var(--organic-arrow-thickness))) / 2);
       height: 100%;
       border-radius: var(--organic-arrow-border-radius);
       width: var(--organic-arrow-thickness);
       background-color: var(--organic-arrow-color);
       transition: transform 0.15s ease-out, background-color 0.15s ease-out;
     }
+
     &:before {
       transform-origin: 100% 100% 0;
       // background-color: rgba(76, 177, 6, 0.75);
       top: -50%;
       transform: rotate(-45deg);
     }
+
     &:after {
       transform-origin: 100% 0% 0;
       // background-color: rgba(255, 247, 43, 0.75);
@@ -332,49 +359,54 @@ $content-background-color: #8C8C8C;
       transform: rotate(45deg);
     }
   }
+
   &__controls__arrow-right {
     &--active {
       transform: translate3d(100%, 0, 0);
+
       &:after {
         transform: rotate(90deg) translate3d(50%, 0, 0) !important;
       }
+
       &:before {
         transform: rotate(-90deg) translate3d(50%, 0, 0) !important;
       }
     }
   }
+
   &__controls__arrow-left {
+
     &:before,
     &:after {
       right: auto;
-      left: calc(
-        50% -
-          (
-            #{$cos45} * (var(--organic-arrow-height) +
-                  var(--organic-arrow-thickness))
-          ) / 2
-      );
+      left: calc(50% - (#{$cos45} * (var(--organic-arrow-height) + var(--organic-arrow-thickness))) / 2);
     }
+
     &:before {
       transform-origin: 0 100% 0;
       top: -50%;
       transform: rotate(45deg);
     }
+
     &:after {
       transform-origin: 0 0 0;
       top: 50%;
       transform: rotate(-45deg);
     }
+
     &--active {
       transform: translate3d(-100%, 0, 0);
+
       &:after {
         transform: rotate(-90deg) translate3d(-50%, 0, 0) !important;
       }
+
       &:before {
         transform: rotate(90deg) translate3d(-50%, 0, 0) !important;
       }
     }
   }
+
   &__controls {
     button:hover {
       .#{$root-element}__controls__arrow-left {
@@ -388,11 +420,13 @@ $content-background-color: #8C8C8C;
           transform: rotate(-30deg);
         }
       }
+
       .#{$root-element}__controls__arrow-right {
         &:before {
           opacity: 1;
           transform: rotate(-30deg);
         }
+
         &:after {
           opacity: 1;
           transform: rotate(30deg);
@@ -400,6 +434,7 @@ $content-background-color: #8C8C8C;
       }
     }
   }
+
   &__timer {
     --timer-delay: 2000ms;
     --timer-release: 200ms;
@@ -444,6 +479,7 @@ $content-background-color: #8C8C8C;
   from {
     transform: translate3d(-100%, 0, 0);
   }
+
   to {
     transform: translate3d(0, 0, 0);
   }
@@ -453,6 +489,7 @@ $content-background-color: #8C8C8C;
   from {
     transform: translate3d(100%, 0, 0);
   }
+
   to {
     transform: translate3d(0, 0, 0);
   }
@@ -462,6 +499,7 @@ $content-background-color: #8C8C8C;
   from {
     transform: translate3d(0, 0, 0);
   }
+
   to {
     transform: translate3d(-100%, 0, 0);
   }
@@ -471,6 +509,7 @@ $content-background-color: #8C8C8C;
   from {
     transform: translate3d(0, 0, 0);
   }
+
   to {
     transform: translate3d(100%, 0, 0);
   }

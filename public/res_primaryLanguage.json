@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Ella Rekow. I am a Junior in Software Engineering studying at Iowa State, as well as continuing an internship doing front end development for Netsmart. I do art, climb, game development and more in my freetime along with promoting kindness in the tech community though my TikTok platform. I also love learning new things in the tech world!",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -81,37 +81,58 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
+        "company": "Netsmart",
+        "title": "Front-End Developer Intern",
         "years": "10.2019 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "VueJS"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Javascript",
+          "VueJS",
+          "Bootstrap Vue",
+          "Atlassian",
+          "Git"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Iowa State University",
+        "title": "Junior System Admin",
+        "years": "11.2021 - 06.2022",
         "mainTech": [
-          "Angular 7/8"
+          "ServiceNow"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "Angular",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Confluence"
+        ]
+      },
+      {
+        "company": "Iowa State University",
+        "title": "Information Technology Analyst",
+        "years": "10.2020 - 10.2021",
+        "mainTech": [
+          "ServiceNow"
+        ],
+        "technologies": [
+          "Windows Systems",
+          "MacOS systems",
+          "Confluence"
+        ]
+      },
+      {
+        "company": "FIRST Robotics",
+        "title": "Lead Programmer",
+        "years": "08.2018 - 05.2019",
+        "mainTech": [
+          "C++"
+        ],
+        "technologies": [
+          "Embedded Systems",
+          "Vision Based Targeting",
+          "PID Controllers",
+          "Robot Autonomy"
         ]
       }
     ]
