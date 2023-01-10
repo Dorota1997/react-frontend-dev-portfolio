@@ -3,10 +3,6 @@ import About from "../components/About";
 import GitHubCornerButton from "../components/common/GitHubCornerButton";
 import Header from "../components/Header";
 import { useData } from "../components/DataContext";
-// import Projects from "../components/Projects";
-// import Skills from "../components/Skills";
-// import Experience from "../components/Experience";
-// import Footer from "../components/Footer";
 
 import Spinner from "../components/common/Spinner";
 import dynamic from "next/dynamic";
@@ -65,10 +61,10 @@ const Home = ({ theme, onToggleTheme }) => {
         bio={pageInfo.bio}
       />
       <Skills sectionName={sectionNames.skills} skillIcons={skillIcons} />
-      <Experience
+      {/* <Experience
         sectionName={sectionNames.experience}
         experience={currentLang.experience}
-      />
+      /> */}
       <Footer socialMedia={socialMedia} personalInfo={personalInfo} />
     </>
   );

@@ -5,7 +5,7 @@ const primaryLangData = {
     section_names: {
       about: "About me",
       projects: "My Work",
-      skills: "My Tech Stack",
+      skills: "For Those That Know What They Are Looking For",
       experience: "My developer journey",
     },
   },
