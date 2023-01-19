@@ -4,7 +4,7 @@
  
 </br> </br>
 
- [![Stars](https://img.shields.io/github/stars/lenwoper?label=Profile%20Stars&logo=Profile%20stars&logoColor=b)](#) 
+<!--  [![Stars](https://img.shields.io/github/stars/lenwoper?label=Profile%20Stars&logo=Profile%20stars&logoColor=b)](#)  -->
  [![Followers](https://img.shields.io/github/followers/lenwoper)](#)
 ![Profile views](https://gpvc.arturio.dev/lenwoper)
 -  🌍🌎🌏  🔭
