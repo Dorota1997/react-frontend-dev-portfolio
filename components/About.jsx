@@ -10,7 +10,7 @@ const About = ({ sectionName, profilePic, bioHeader, bio }) => {
       </h1>
       <div className={styles["container"]}>
         <div className={styles.polaroid + " polaroid"}>
-          <span>
+          <span className="img-container">
             <Image
               src={profilePic}
               width="250px"

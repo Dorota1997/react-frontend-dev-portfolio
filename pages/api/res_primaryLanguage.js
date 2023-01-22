@@ -1,7 +1,7 @@
 const primaryLangData = {
   page_info: {
     bio_header: "Hi",
-    bio: "👋 I am Sean Redmon, an enthusiastic teacher and software developer. I got into development while I was working at an English school in China. I saw many problems that could be solved with software, so I created apps to help students learn inside and outside the classroom. I also created apps to help other teachers do their jobs more effieciently. I always found it extremely rewarding to create an app and see the enjoyment my students got from it. This motivated me to continue learning more and improve. During my 7 years in China, I saw a huge shift in the education industry towards online learning. The supply of foreign teachers simply will never meet the huge demand from students and schools. I have since return home to pursue web development full time. Someday I hope to create my own online learning platform with the invaluable experienced I got in China.",
+    bio: "👋 I am Sean Redmon, an enthusiastic teacher and software developer. I gained a passion for development while I was working at an English school in China. I saw many problems that could be solved with software. My apps have helped students and teachers to be more effective inside and outside the classroom. I always found it extremely rewarding to create an app and see the enjoyment my students got from it. This motivated me to continue learning more and improve. During my 7 years in China, I saw a huge shift in the education industry towards online learning. China has over 400 million students learning English, which is more than the entire population of the USA. There will simply never be enough English teachers. I have since return home to pursue web development full time. Someday I hope to create my own online learning platform with the invaluable experienced I got in China.",
     section_names: {
       about: "About me",
       projects: "My Work",
@@ -9,56 +9,48 @@ const primaryLangData = {
       experience: "My developer journey",
     },
   },
+
   projects: [
     {
-      title: "Full Stack Feedback Board",
-      startDate: "2022",
+      title: "Audiophile Peripherals",
+      startDate: "2023",
       description:
-        "My most ambitious project to date. I cannot even fit all the things here that I learned from creating this app. Created with the MERN stack. *Users can create, upvote, edit and delete posts. *Leave comments and reply comments. *Create an account, login/out, reset their password and change their account info. The post data is all stored on my hosted Mongo Database. The user profiles are stored on Firebase.",
-      preview: "images/portfolio/feedback-app/preview-feedback-app.webm",
+        "An ecommerce site for portable audio equipment. I was in charge of all of the frontend work including, translating the design to code, creating the content management system, and setting up Stripe checkout. Right about here is where I would talk about how much I increased conversions and drove up sales for the business. Unfortunately Audiophile was totally made up by the designer. It would be my pleasure to make a high converting site or app for you just like this.",
+      preview: "images/portfolio/audiophile/preview-audiophile2.webm",
       images: [
-        "images/portfolio/feedback-app/feedback-app-mockup.webp",
-        "images/portfolio/feedback-app/feedback-app-home.webp",
-        "images/portfolio/feedback-app/feedback-app-login.webp",
-        "images/portfolio/feedback-app/feedback-app-account.webp",
-        "images/portfolio/feedback-app/feedback-app-post.webp",
-        "images/portfolio/feedback-app/feedback-app-roadmap.webp",
+        "images/portfolio/audiophile/audiophile-mockup-desktop.webp",
+        "images/portfolio/audiophile/audiophile-checkout.webp",
+        "images/portfolio/audiophile/audiophile-mockup-mobile.webp",
+        "images/portfolio/audiophile/audiophile-headphones.webp",
+        "images/portfolio/audiophile/audiophile-mockup-tablet.webp",
       ],
       url: "https://github.com/seanred360/product-feedback-app",
       liveSiteUrl: "https://seanredfeedback.netlify.app/",
       technologies: [
         {
-          class: "bxl:mongodb",
-          name: "MongoDB",
-        },
-        {
-          class: "simple-icons:express",
-          name: "Express",
-        },
-        {
           class: "simple-icons:react",
           name: "React",
-        },
-        {
-          class: "akar-icons:node-fill",
-          name: "Nodejs",
-        },
-        {
-          class: "bxl:figma",
-          name: "Figma",
         },
         {
           class: "bxl:firebase",
           name: "Firebase",
         },
+        {
+          class: "teenyicons:tailwind-solid",
+          name: "TailwindCSS",
+        },
+        {
+          class: "tabler:brand-redux",
+          name: "Redux",
+        },
       ],
     },
     {
       title: "Donnie Fan Comedy",
-      startDate: "2021",
+      startDate: "2021-2023",
       description:
-        "An original website for the China based comedian Donnie Fan. I worked directly with Donnie and created a Figma design that fits his needs. I coded and put the site online for the client. This was my first freelance project. I learned a lot about the process of getting a site live. It was an invaluable experience working with a real client. I learned how to communicate expectations, timelines, pricing and how to find the right design for their needs. The site has evolved over time, as Donnie has started touring and writing plays. I am still currently maintaining and updating this site. In 2022 the site was rebuilt with NextJS to serve static HTML pages that google can crawl easier. Currently this site ranks #1 for the search term donnie fan ",
-      preview: "images/portfolio/donnie-fan/preview-donnie-fan.webm",
+        "A website for the Beijing based comedian Donnie Fan. This site has grown and evolved with Donnie over time. He started as a hobby comedian performing in local foreigner hangouts and now tours with bigger names such as Joe Wong(who has performed for President Joe Biden). The site has been used to sell tickets, promote Donnie's theater plays, weekly performances and streaming platform specials. The site is updated often via the headless CMS Sanity.io. A headless CMS made sense because I didn't want to needlessly push more code to Github everytime Donnie had new content. Netlify was a great choice for hosting because it was a huge time saver. Netlify can be configured to automatically rebuild pages when the CMS publishes changes or there are changes on Github. I rebuilt the original React frontend with Next.js because it had a lot of extra features that React was missing. Such as static generation, which makes the site SEO friendly and load faster. Currently this site ranks #1 for the search term Donnie Fan because of this change.",
+      preview: "images/portfolio/donnie-fan/preview-donnie-fan2.webm",
       images: [
         "images/portfolio/donnie-fan/donnie-fan-mockup.webp",
         "images/portfolio/donnie-fan/donnie-fan-medea.png",
@@ -94,147 +86,35 @@ const primaryLangData = {
       ],
     },
     {
-      title: "Rest Countries API app",
-      startDate: "2021",
+      title: "Kei Gambit",
+      startDate: "2022",
       description:
-        "A Frontend Mentor challenge. Only a Figma file was provided to me. This website gets country data from an API. My elegantly designed theme switcher system makes it stand out from other submissions. The themes are controlled by global variables that can be changed easily and the site remembers the user preferences between refreshes. I learned how to make many different components in this project. I learned how to sort, search, and paginate JSON data in React. Visit the Github link to see a very detailed breakdown of my dev process with pics and examples.",
-      preview: "images/portfolio/rest-countries/preview-rest-countries.webm",
+        "A custom WordPress theme for the British voice actor, Kei Gambit. Kei needed a place to show off his various creative works to potential employers and clients. After our discovery call I learned that Kei is a fun guy that doesn't take himself too seriously. He has voiced hundreds of cartoons and has has his own comic book series. I chose pink as the main color because it really suited his personality(and he looks great in that pink blazer). The bold outline style of the site is reminiscent of a comic book style.",
+      preview: "images/portfolio/kei-gambit/preview-kei-gambit.webm",
       images: [
-        "images/portfolio/rest-countries/rest-countries-mockup.webp",
-        "images/portfolio/rest-countries/rest-countries-china.png",
-        "images/portfolio/rest-countries/rest-countries-page.png",
-        "images/portfolio/rest-countries/rest-countries-figma.webp",
+        "images/portfolio/kei-gambit/mockup-all-white.webp",
+        "images/portfolio/kei-gambit/kei-gambit-books.webp",
+        "images/portfolio/kei-gambit/kei-gambit-filmography.webp",
+        "images/portfolio/kei-gambit/kei-gambit-categories.webp",
       ],
-      url: "https://github.com/seanred360/rest-countries-api",
-      liveSiteUrl: "https://rest-countries-app-seanred.herokuapp.com/",
+      url: "https://github.com/seanred360/product-feedback-app",
+      liveSiteUrl: "https://seanredfeedback.netlify.app/",
       technologies: [
-        {
-          class: "dashicons:rest-api",
-          name: "REST API",
-        },
         {
           class: "simple-icons:react",
           name: "React",
         },
         {
-          class: "cib:js",
-          name: "JavaScript",
+          class: "bxl:firebase",
+          name: "Firebase",
         },
         {
-          class: "cib:sass-alt",
-          name: "Sass",
+          class: "teenyicons:tailwind-solid",
+          name: "TailwindCSS",
         },
         {
-          class: "bxl:figma",
-          name: "Figma",
-        },
-      ],
-    },
-    {
-      title: "Planets Fact Site",
-      startDate: "2021",
-      description:
-        "A Frontend Mentor challenge, I was only provided a Figma Design file to work with. My submission stands out from the crowd because of the stunning animations I created with AnimeJS. I wanted to challenge myself and really master the basics. I got this result without any Javascript frameworks such as React or Angular. Click the Github icon above for a very detailed breakdown of the code with pictures and examples.",
-      preview:
-        "images/portfolio/planets-fact-site/preview-planets-fact-site.webm",
-      images: [
-        "images/portfolio/planets-fact-site/planets-fact-site-mockup.webp",
-        "images/portfolio/planets-fact-site/planets-fact-site-internal.png",
-        "images/portfolio/planets-fact-site/planets-fact-site-geology.png",
-        "images/portfolio/planets-fact-site/planets-fact-site-figma.webp",
-      ],
-      url: "https://github.com/seanred360/planets-fact-site",
-      liveSiteUrl: "https://planets-fact-site-mu.vercel.app/",
-      technologies: [
-        {
-          class: "cib:js",
-          name: "Javascript",
-        },
-        {
-          class: "cib:css3-shiled",
-          name: "CSS",
-        },
-        {
-          class: "cib:sass-alt",
-          name: "Sass",
-        },
-        {
-          class: "icomoon-free:html-five",
-          name: "HTML",
-        },
-        {
-          class: "bxl:figma",
-          name: "Figma",
-        },
-      ],
-    },
-    {
-      title: "Crowd Funding",
-      startDate: "2021",
-      description:
-        "A crowdfunding product page with form validation. The challenge was to replicate the Figma design file as close as possible. I finished this challenge without a Javascript library or framework. There are zero HTML validation or accessibility issues. Which is important for a site's Google SEO",
-      preview: "images/portfolio/crowd-funding/preview-crowd-funding.webm",
-      images: [
-        "images/portfolio/crowd-funding/crowd-funding-mockup.webp",
-        "images/portfolio/crowd-funding/crowd-funding-modal.png",
-        "images/portfolio/crowd-funding/crowd-funding-about.png",
-        "images/portfolio/crowd-funding/crowd-funding-thanks.png",
-        "images/portfolio/crowd-funding/crowd-funding-figma.webp",
-      ],
-      url: "https://github.com/seanred360/crowdfunding-product-page",
-      liveSiteUrl: "https://crowdfunding-product-page-tau-plum.vercel.app/",
-      technologies: [
-        {
-          class: "cib:js",
-          name: "Javascript",
-        },
-        {
-          class: "cib:css3-shiled",
-          name: "CSS",
-        },
-        {
-          class: "cib:sass-alt",
-          name: "Sass",
-        },
-        {
-          class: "icomoon-free:html-five",
-          name: "HTML",
-        },
-        {
-          class: "bxl:figma",
-          name: "Figma",
-        },
-      ],
-    },
-    {
-      title: "Kid's Beginner A book",
-      startDate: "2020",
-      description:
-        "I created this app to solve a problem in our English school. The students had no way to practice or read their books by themselves at home. They had to have their parents help them read it or help them play the CD that came with the book. The students who had very attentive parents had a huge unfair advantage over other students. So I created an android app that students could use at home without their parents help. The students can browse the book and click the music icons to hear the CD audio play. Teachers could also benefit from this app during class. This app also would run on the classroom smartboards. Teachers no longer had to make powerpoints of book pages and didn't have to waste class time trying to find the correct audio file on the CD. In a fast paced ESL classroom, you quickly lose the energy of the class by fumbling with a CD player. The app has touch controls. You can zoom in and pan the screen. You can also swipe to turn the page.",
-      preview: "images/portfolio/kids-beginner-book/preview-kba.webm",
-      images: [
-        "images/portfolio/kids-beginner-book/preview-kba.png",
-        "images/portfolio/kids-beginner-book/kba-audio.png",
-        "images/portfolio/kids-beginner-book/preview-kba-page-turn.png",
-      ],
-      url: "https://github.com/seanred360/Kid-s-Beginner-Book",
-      liveSiteUrl: "https://seanred.itch.io/kba",
-      technologies: [
-        {
-          class: "bxl:unity",
-          name: "Unity",
-        },
-        {
-          class: "teenyicons:c-sharp-solid",
-          name: "C#",
-        },
-        {
-          class: "ant-design:android-filled",
-          name: "Android APK",
-        },
-        {
-          class: "ep:data-board",
-          name: "SMART Board",
+          class: "tabler:brand-redux",
+          name: "Redux",
         },
       ],
     },
@@ -285,6 +165,227 @@ const primaryLangData = {
         },
       ],
     },
+    {
+      title: "Kid's Beginner A book",
+      startDate: "2020",
+      description:
+        "I created this app to solve a problem in our English school. The students had no way to practice or read their books by themselves at home. They had to have their parents help them read it or help them play the CD that came with the book. The students who had very attentive parents had a huge unfair advantage over other students. So I created an android app that students could use at home without their parents help. The students can browse the book and click the music icons to hear the CD audio play. Teachers could also benefit from this app during class. This app also would run on the classroom smartboards. Teachers no longer had to make powerpoints of book pages and didn't have to waste class time trying to find the correct audio file on the CD. In a fast paced ESL classroom, you quickly lose the energy of the class by fumbling with a CD player. The app has touch controls. You can zoom in and pan the screen. You can also swipe to turn the page.",
+      preview: "images/portfolio/kids-beginner-book/preview-kba.webm",
+      images: [
+        "images/portfolio/kids-beginner-book/preview-kba.png",
+        "images/portfolio/kids-beginner-book/kba-audio.png",
+        "images/portfolio/kids-beginner-book/preview-kba-page-turn.png",
+      ],
+      url: "https://github.com/seanred360/Kid-s-Beginner-Book",
+      liveSiteUrl: "https://seanred.itch.io/kba",
+      technologies: [
+        {
+          class: "bxl:unity",
+          name: "Unity",
+        },
+        {
+          class: "teenyicons:c-sharp-solid",
+          name: "C#",
+        },
+        {
+          class: "ant-design:android-filled",
+          name: "Android APK",
+        },
+        {
+          class: "ep:data-board",
+          name: "SMART Board",
+        },
+      ],
+    },
+    {
+      title: "Full stack message board",
+      startDate: "2022",
+      description:
+        "I learned quite a lot about how all of the moving parts fit together in a full stack app. This app has all of the basic features that a social media app would have. The app was designed on Figma by Matt Suddert (https://github.com/mattstuddert). The backend has a CRUD operator created in Express.js that handles read and writes to a hosted Mongo database. I chose to use Firebase for authentication because its very secure and saved a lot of dev time. Currently the live site is under construction as I have since learned more about proper data structures. The original app was not scalable and would download the entire database before the first paint. This is obviously not ideal. See the Github link for a detailed breakdown of my process with pictures.",
+      preview: "images/portfolio/feedback-app/preview-feedback-app2.webm",
+      images: [
+        "images/portfolio/feedback-app/feedback-app-mockup.webp",
+        "images/portfolio/feedback-app/feedback-app-home.webp",
+        "images/portfolio/feedback-app/feedback-app-login.webp",
+        "images/portfolio/feedback-app/feedback-app-account.webp",
+        "images/portfolio/feedback-app/feedback-app-post.webp",
+        "images/portfolio/feedback-app/feedback-app-roadmap.webp",
+      ],
+      url: "https://github.com/seanred360/product-feedback-app",
+      liveSiteUrl: "https://seanredfeedback.netlify.app/",
+      technologies: [
+        {
+          class: "bxl:mongodb",
+          name: "MongoDB",
+        },
+        {
+          class: "simple-icons:express",
+          name: "Express",
+        },
+        {
+          class: "simple-icons:react",
+          name: "React",
+        },
+        {
+          class: "akar-icons:node-fill",
+          name: "Nodejs",
+        },
+        {
+          class: "bxl:figma",
+          name: "Figma",
+        },
+        {
+          class: "bxl:firebase",
+          name: "Firebase",
+        },
+      ],
+    },
+    {
+      title: "Clamr chat app",
+      startDate: "2022",
+      description:
+        "A full stack Discord clone. My goal was to learn TailwindCSS, Redux, and Firebase. The app is in a rough state and is not responsive. Currently users can login, add friends, join chatrooms with friends, and add messages to reactions. The data updates in realtime across clients with the Firestore database. I have paused development to learn more about how to design databases efficiently. If I ever go back to it, I would simplify the code with batch queries.",
+      preview: "images/portfolio/clamr/preview-clamr.webm",
+      images: [
+        "images/portfolio/clamr/clamr-emojis.webp",
+        "images/portfolio/clamr/clamr-login.webp",
+        "images/portfolio/clamr/clamr-dash.webp",
+      ],
+      url: "https://github.com/seanred360/product-feedback-app",
+      liveSiteUrl: "https://seanredfeedback.netlify.app/",
+      technologies: [
+        {
+          class: "simple-icons:react",
+          name: "React",
+        },
+        {
+          class: "bxl:firebase",
+          name: "Firebase",
+        },
+        {
+          class: "teenyicons:tailwind-solid",
+          name: "TailwindCSS",
+        },
+        {
+          class: "tabler:brand-redux",
+          name: "Redux",
+        },
+      ],
+    },
+
+    // {
+    //   title: "Rest Countries API app",
+    //   startDate: "2021",
+    //   description:
+    //     "Designed by Matt Suddert. This Frontendmentor challenge gets country data from an API. My elegantly designed theme switcher system makes it stand out from other submissions. The themes are controlled by global variables that can be changed easily and the site remembers the user preferences between refreshes. I learned how to make many different components in this project. I learned how to sort, search, and paginate JSON data in React. Visit the Github link to see a very detailed breakdown of my dev process with pics and examples.",
+    //   preview: "images/portfolio/rest-countries/preview-rest-countries.webm",
+    //   images: [
+    //     "images/portfolio/rest-countries/rest-countries-mockup.webp",
+    //     "images/portfolio/rest-countries/rest-countries-china.png",
+    //     "images/portfolio/rest-countries/rest-countries-page.png",
+    //     "images/portfolio/rest-countries/rest-countries-figma.webp",
+    //   ],
+    //   url: "https://github.com/seanred360/rest-countries-api",
+    //   liveSiteUrl: "https://rest-countries-app-seanred.herokuapp.com/",
+    //   technologies: [
+    //     {
+    //       class: "dashicons:rest-api",
+    //       name: "REST API",
+    //     },
+    //     {
+    //       class: "simple-icons:react",
+    //       name: "React",
+    //     },
+    //     {
+    //       class: "cib:js",
+    //       name: "JavaScript",
+    //     },
+    //     {
+    //       class: "cib:sass-alt",
+    //       name: "Sass",
+    //     },
+    //     {
+    //       class: "bxl:figma",
+    //       name: "Figma",
+    //     },
+    //   ],
+    // },
+    {
+      title: "Planets Fact Site",
+      startDate: "2021",
+      description:
+        "One of my earlier projects. This eyecatching site was designed by Matt Suddert. Users can learn about the planets in our solar system. I chose this design because it looked like something my students would be drawn to. My goal was to reinforce my knowledge of vanilla js and sass while learning the animation library Anime.js. Click the Github icon above for a very detailed breakdown of my process with pictures and examples.",
+      preview:
+        "images/portfolio/planets-fact-site/preview-planets-fact-site.webm",
+      images: [
+        "images/portfolio/planets-fact-site/planets-fact-site-mockup.webp",
+        "images/portfolio/planets-fact-site/planets-fact-site-internal.png",
+        "images/portfolio/planets-fact-site/planets-fact-site-geology.png",
+        "images/portfolio/planets-fact-site/planets-fact-site-figma.webp",
+      ],
+      url: "https://github.com/seanred360/planets-fact-site",
+      liveSiteUrl: "https://planets-fact-site-mu.vercel.app/",
+      technologies: [
+        {
+          class: "cib:js",
+          name: "Javascript",
+        },
+        {
+          class: "cib:css3-shiled",
+          name: "CSS",
+        },
+        {
+          class: "cib:sass-alt",
+          name: "Sass",
+        },
+        {
+          class: "icomoon-free:html-five",
+          name: "HTML",
+        },
+        {
+          class: "bxl:figma",
+          name: "Figma",
+        },
+      ],
+    },
+    // {
+    //   title: "Crowd Funding",
+    //   startDate: "2021",
+    //   description:
+    //     "A crowdfunding product page with form validation. The challenge was to replicate the Figma design file as close as possible. I finished this challenge without a Javascript library or framework. There are zero HTML validation or accessibility issues. Which is important for a site's Google SEO",
+    //   preview: "images/portfolio/crowd-funding/preview-crowd-funding.webm",
+    //   images: [
+    //     "images/portfolio/crowd-funding/crowd-funding-mockup.webp",
+    //     "images/portfolio/crowd-funding/crowd-funding-modal.png",
+    //     "images/portfolio/crowd-funding/crowd-funding-about.png",
+    //     "images/portfolio/crowd-funding/crowd-funding-thanks.png",
+    //     "images/portfolio/crowd-funding/crowd-funding-figma.webp",
+    //   ],
+    //   url: "https://github.com/seanred360/crowdfunding-product-page",
+    //   liveSiteUrl: "https://crowdfunding-product-page-tau-plum.vercel.app/",
+    //   technologies: [
+    //     {
+    //       class: "cib:js",
+    //       name: "Javascript",
+    //     },
+    //     {
+    //       class: "cib:css3-shiled",
+    //       name: "CSS",
+    //     },
+    //     {
+    //       class: "cib:sass-alt",
+    //       name: "Sass",
+    //     },
+    //     {
+    //       class: "icomoon-free:html-five",
+    //       name: "HTML",
+    //     },
+    //     {
+    //       class: "bxl:figma",
+    //       name: "Figma",
+    //     },
+    //   ],
+    // },
   ],
   experience: [
     {

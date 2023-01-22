@@ -16,7 +16,7 @@ const Projects = dynamic(() => import("../components/Projects"), {
   ),
 });
 const Skills = dynamic(() => import("../components/Skills"));
-const Experience = dynamic(() => import("../components/Experience"));
+// const Experience = dynamic(() => import("../components/Experience"));
 const Footer = dynamic(() => import("../components/Footer"));
 
 const Home = ({ theme, onToggleTheme }) => {
