@@ -98,7 +98,7 @@ const primaryLangData = {
         "images/portfolio/kei-gambit/kei-gambit-categories.webp",
       ],
       url: "https://github.com/seanred360/keis-weird-and-wonderful-theme",
-      liveSiteUrl: "https://seanredfeedback.netlify.app/",
+      liveSiteUrl: "https://keigambit.com",
       technologies: [
         {
           class: "simple-icons:react",
@@ -132,7 +132,7 @@ const primaryLangData = {
         "images/portfolio/audiophile/audiophile-mockup-tablet.webp",
       ],
       url: "https://github.com/seanred360/audiophile-fullstack-ecommerce-site",
-      liveSiteUrl: "https://seanredfeedback.netlify.app/",
+      liveSiteUrl: "https://audiophilestore.netlify.app/",
       technologies: [
         {
           class: "simple-icons:react",
