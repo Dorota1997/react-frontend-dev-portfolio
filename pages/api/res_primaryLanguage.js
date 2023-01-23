@@ -1,7 +1,7 @@
 const primaryLangData = {
   page_info: {
     bio_header: "Hi",
-    bio: "👋 I am Sean Redmon, an enthusiastic teacher and software developer. I gained a passion for development while I was working at an English school in China. I saw many problems that could be solved with software. My apps have helped students and teachers to be more effective inside and outside the classroom. I always found it extremely rewarding to create an app and see the enjoyment my students got from it. This motivated me to continue learning more and improve. During my 7 years in China, I saw a huge shift in the education industry towards online learning. China has over 400 million students learning English, which is more than the entire population of the USA. There will simply never be enough English teachers. I have since return home to pursue web development full time. Someday I hope to create my own online learning platform with the invaluable experienced I got in China.",
+    bio: "👋 I am Sean Redmon, an enthusiastic teacher and software developer. I gained a passion for development while I was working at an English school in China. I saw many problems that could be solved with software. My apps have helped students and teachers to be more effective inside and outside the classroom. Seeing my students enjoy my apps in class always motivated me to create more and learn more. During my 7 years in China, I saw a huge shift in the education industry towards online learning. China has over 400 million students learning English, which is more than the entire population of the USA. There will simply never be enough English teachers. I have since returned home to pursue web development full time. Someday I hope to create my own online learning platform with the invaluable experienced I got in China.",
     section_names: {
       about: "About me",
       projects: "My Work",
@@ -12,53 +12,16 @@ const primaryLangData = {
 
   projects: [
     {
-      title: "Audiophile Peripherals",
-      startDate: "2023",
-      description:
-        "An ecommerce site for portable audio equipment. I was in charge of all of the frontend work including, translating the design to code, creating the content management system, and setting up Stripe checkout. Right about here is where I would talk about how much I increased conversions and drove up sales for the business. Unfortunately Audiophile was totally made up by the designer. It would be my pleasure to make a high converting site or app for you just like this.",
-      preview: "images/portfolio/audiophile/preview-audiophile2.webm",
-      images: [
-        "images/portfolio/audiophile/audiophile-mockup-desktop.webp",
-        "images/portfolio/audiophile/audiophile-checkout.webp",
-        "images/portfolio/audiophile/audiophile-mockup-mobile.webp",
-        "images/portfolio/audiophile/audiophile-headphones.webp",
-        "images/portfolio/audiophile/audiophile-mockup-tablet.webp",
-      ],
-      url: "https://github.com/seanred360/product-feedback-app",
-      liveSiteUrl: "https://seanredfeedback.netlify.app/",
-      technologies: [
-        {
-          class: "simple-icons:react",
-          name: "React",
-        },
-        {
-          class: "bxl:firebase",
-          name: "Firebase",
-        },
-        {
-          class: "teenyicons:tailwind-solid",
-          name: "TailwindCSS",
-        },
-        {
-          class: "tabler:brand-redux",
-          name: "Redux",
-        },
-      ],
-    },
-    {
       title: "Donnie Fan Comedy",
       startDate: "2021-2023",
       description:
-        "A website for the Beijing based comedian Donnie Fan. This site has grown and evolved with Donnie over time. He started as a hobby comedian performing in local foreigner hangouts and now tours with bigger names such as Joe Wong(who has performed for President Joe Biden). The site has been used to sell tickets, promote Donnie's theater plays, weekly performances and streaming platform specials. The site is updated often via the headless CMS Sanity.io. A headless CMS made sense because I didn't want to needlessly push more code to Github everytime Donnie had new content. Netlify was a great choice for hosting because it was a huge time saver. Netlify can be configured to automatically rebuild pages when the CMS publishes changes or there are changes on Github. I rebuilt the original React frontend with Next.js because it had a lot of extra features that React was missing. Such as static generation, which makes the site SEO friendly and load faster. Currently this site ranks #1 for the search term Donnie Fan because of this change.",
+        "A website for the Beijing based comedian Donnie Fan. This site has grown and evolved with Donnie over time. He started as a hobby comedian performing in local foreigner hangouts and now tours with bigger names such as Joe Wong(who has performed for President Joe Biden). The site has been used to sell tickets, promote Donnie's theater plays, weekly performances and streaming platform specials. Donniefan.com has helped Donnie launch his North American tour. This site was invaluable in presenting him to clubs and venues who may not know him outside of China. Currently this site ranks #1 for the search term Donnie Fan. Technical people can view the Github documentation for more details.",
       preview: "images/portfolio/donnie-fan/preview-donnie-fan2.webm",
       images: [
-        "images/portfolio/donnie-fan/donnie-fan-mockup.webp",
-        "images/portfolio/donnie-fan/donnie-fan-medea.png",
-        "images/portfolio/donnie-fan/donnie-fan-weibo.png",
-        "images/portfolio/donnie-fan/donnie-fan-chat.png",
-        "images/portfolio/donnie-fan/donnie-fan-about.png",
-        "images/portfolio/donnie-fan/donnie-fan-desktop-events-preview.webp",
-        "images/portfolio/donnie-fan/donnie-fan-figma.webp",
+        "images/portfolio/donnie-fan/desktop-hero-donnie-fan.webp",
+        "images/portfolio/donnie-fan/desktop-medea-donnie-fan.webp",
+        "images/portfolio/donnie-fan/desktop-showtime-donnie-fan.webp",
+        "images/portfolio/donnie-fan/donnie-fan-medea.webp",
       ],
       url: "https://github.com/seanred360/donnie-fan-website",
       liveSiteUrl: "https://donniefan.com/",
@@ -86,10 +49,47 @@ const primaryLangData = {
       ],
     },
     {
+      title: "Mikey's Pizzeria",
+      startDate: "2023",
+      description:
+        "Mike has been making pizza for more than 20 years. He is old school and likes to keep things simple. His previous site was too busy and was too difficult to make changes to. The goal was simple, get more people to call and order pizza! I translated his minimalistic branding into a modern site that has that old school local pizza place vibe, while still feeling like a modern web app. Mike's previous website was difficult to change and he always had to waste time phoning up the developer to make pricing changes and other small changes. I build him a minimalistic CMS that he can make changes with in minutes.",
+      preview: "images/portfolio/mikeys-pizzeria/preview-mikeys-pizzeria.webm",
+      images: [
+        "images/portfolio/mikeys-pizzeria/desktop-hero-mikeys-pizzeria.webp",
+        "images/portfolio/mikeys-pizzeria/mockup-mobile-mikeys-pizzeria.webp",
+        "images/portfolio/mikeys-pizzeria/desktop-pizza-mikeys-pizzeria.webp",
+        "images/portfolio/mikeys-pizzeria/desktop-testimonials-mikeys-pizzeria.webp",
+      ],
+      url: "https://github.com/seanred360/mikeys-pizzeria",
+      liveSiteUrl: "https://mikeyspizzeria.netlify.app/",
+      technologies: [
+        {
+          class: "akar-icons:nextjs-fill",
+          name: "Next.js",
+        },
+        {
+          class: "teenyicons:tailwind-solid",
+          name: "TailwindCSS",
+        },
+        {
+          class: "logos:sanity",
+          name: "Sanity CMS",
+        },
+        {
+          class: "lucide:framer",
+          name: "Framer Motion",
+        },
+        {
+          class: "simple-icons:matterdotjs",
+          name: "Matter.js",
+        },
+      ],
+    },
+    {
       title: "Kei Gambit",
       startDate: "2022",
       description:
-        "A custom WordPress theme for the British voice actor, Kei Gambit. Kei needed a place to show off his various creative works to potential employers and clients. After our discovery call I learned that Kei is a fun guy that doesn't take himself too seriously. He has voiced hundreds of cartoons and has has his own comic book series. I chose pink as the main color because it really suited his personality(and he looks great in that pink blazer). The bold outline style of the site is reminiscent of a comic book style.",
+        "A custom WordPress theme for the British voice actor, Kei Gambit. Kei needed a place to show off his various creative works to potential employers and clients. After our discovery call I learned that Kei is a fun guy that doesn't take himself too seriously. He has voiced hundreds of cartoons and has has his own comic book series. I chose pink as the main color because it really suited his personality(and he looks great in that pink blazer). The bold outline style of the site is reminiscent of a comic book style. Kei has used this site to grow his audience outside of China and snag gigs in Canada and the US.",
       preview: "images/portfolio/kei-gambit/preview-kei-gambit.webm",
       images: [
         "images/portfolio/kei-gambit/mockup-all-white.webp",
@@ -97,7 +97,41 @@ const primaryLangData = {
         "images/portfolio/kei-gambit/kei-gambit-filmography.webp",
         "images/portfolio/kei-gambit/kei-gambit-categories.webp",
       ],
-      url: "https://github.com/seanred360/product-feedback-app",
+      url: "https://github.com/seanred360/keis-weird-and-wonderful-theme",
+      liveSiteUrl: "https://seanredfeedback.netlify.app/",
+      technologies: [
+        {
+          class: "simple-icons:react",
+          name: "React",
+        },
+        {
+          class: "bxl:firebase",
+          name: "Firebase",
+        },
+        {
+          class: "teenyicons:tailwind-solid",
+          name: "TailwindCSS",
+        },
+        {
+          class: "tabler:brand-redux",
+          name: "Redux",
+        },
+      ],
+    },
+    {
+      title: "Audiophile Peripherals",
+      startDate: "2023",
+      description:
+        "An ecommerce site for portable audio equipment. I was in charge of all of the frontend work including, translating the design to code, creating the content management system, and setting up Stripe checkout. Right about here is where I would talk about how much I increased conversions and drove up sales for the business. Unfortunately Audiophile was totally made up by the designer. It would be my pleasure to make a high converting site or app for you just like this.",
+      preview: "images/portfolio/audiophile/preview-audiophile2.webm",
+      images: [
+        "images/portfolio/audiophile/audiophile-mockup-desktop.webp",
+        "images/portfolio/audiophile/audiophile-checkout.webp",
+        "images/portfolio/audiophile/audiophile-mockup-mobile.webp",
+        "images/portfolio/audiophile/audiophile-headphones.webp",
+        "images/portfolio/audiophile/audiophile-mockup-tablet.webp",
+      ],
+      url: "https://github.com/seanred360/audiophile-fullstack-ecommerce-site",
       liveSiteUrl: "https://seanredfeedback.netlify.app/",
       technologies: [
         {
@@ -122,7 +156,7 @@ const primaryLangData = {
       title: "ESL Games Collection",
       startDate: "2017-2020",
       description:
-        "This is a compilation of all the games I created for the smartboard in my ESL classroom in China. These games were originally stand alone games. Each game was created to be used alongside a lesson. Most of them were meant to help students memorize vocabulary. The UI is divided into the Kid's Beginner A book and B book, and then by units 1-16. Each Game pulls from the same global word list. Each unit has a wordlist and phonics wordlist that corresponds to the books. Students who had the Android app could touch the words and hear it read to them. This was a much easier way to practice the words at home than using the CD that the books came with. This way students could practice without their parent's help. The Chinese education system is heavily centered around memorizing large volumes of information and then repeating it back. This app streamlined this process inside and outside the classroom. To use the app simply choose a unit and then press the menu button at the top left corner. You will see a list of the games for that unit, as well as the option to choose between different word lists. You can choose phonics words, vocabulary words, or both. On the top right hand corner you can globally turn off the background music for all games. You can restart the current game with the restart button. Opening this menu will always pause the current game.",
+        "This is a compilation of all the games I created for the smartboards at Ivy International English in China. These games were originally stand alone games. Each game was created to be used alongside a lesson. Most of them were meant to help students memorize vocabulary. The UI is divided into the Kid's Beginner A book and B book, and then by units 1-16. Each Game pulls from the same global word list. Each unit has a wordlist and phonics wordlist that corresponds to the books. Students who had the Android app could touch the words and hear it read to them. This was a much easier way to practice the words at home than using the CD that the books came with. This way students could practice without their parent's help. The Chinese education system is heavily centered around memorizing large volumes of information and then repeating it back. This app streamlined this process inside and outside the classroom. To use the app simply choose a unit and then press the menu button at the top left corner. You will see a list of the games for that unit, as well as the option to choose between different word lists. You can choose phonics words, vocabulary words, or both. On the top right hand corner you can globally turn off the background music for all games. You can restart the current game with the restart button. Opening this menu will always pause the current game. The app was never designed for the browser, so it has responsiveness issues. The live site version is for reference purposes only.",
       preview:
         "images/portfolio/esl-games-collection/preview-esl-games-collection.webm",
       images: [
@@ -169,7 +203,7 @@ const primaryLangData = {
       title: "Kid's Beginner A book",
       startDate: "2020",
       description:
-        "I created this app to solve a problem in our English school. The students had no way to practice or read their books by themselves at home. They had to have their parents help them read it or help them play the CD that came with the book. The students who had very attentive parents had a huge unfair advantage over other students. So I created an android app that students could use at home without their parents help. The students can browse the book and click the music icons to hear the CD audio play. Teachers could also benefit from this app during class. This app also would run on the classroom smartboards. Teachers no longer had to make powerpoints of book pages and didn't have to waste class time trying to find the correct audio file on the CD. In a fast paced ESL classroom, you quickly lose the energy of the class by fumbling with a CD player. The app has touch controls. You can zoom in and pan the screen. You can also swipe to turn the page.",
+        "I created this app to solve a problem in our English school. The students had no way to practice or read their books by themselves at home. They had to have their parents help them read it or help them play the CD that came with the book. The students who had very attentive parents had an unfair advantage over other students. So I created an android app that students could use at home without their parent's help. The students can browse the book and click the music icons to hear the CD audio play. Teachers also benefitted from this app during class. This app would run on the classroom smartboards. Teachers no longer had to make powerpoints of book pages and didn't have to waste class time trying to find the correct audio file on the CD. In a fast paced ESL classroom, you quickly lose the energy of the class by fumbling with a CD player. The app has touch controls. You can zoom in and pan the screen. You can also swipe to turn the page.",
       preview: "images/portfolio/kids-beginner-book/preview-kba.webm",
       images: [
         "images/portfolio/kids-beginner-book/preview-kba.png",
@@ -251,8 +285,8 @@ const primaryLangData = {
         "images/portfolio/clamr/clamr-login.webp",
         "images/portfolio/clamr/clamr-dash.webp",
       ],
-      url: "https://github.com/seanred360/product-feedback-app",
-      liveSiteUrl: "https://seanredfeedback.netlify.app/",
+      url: "https://github.com/seanred360/clamr-chat-app",
+      liveSiteUrl: "https://clamr.netlify.app/",
       technologies: [
         {
           class: "simple-icons:react",
@@ -272,7 +306,6 @@ const primaryLangData = {
         },
       ],
     },
-
     // {
     //   title: "Rest Countries API app",
     //   startDate: "2021",
