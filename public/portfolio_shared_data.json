@@ -1,12 +1,17 @@
 {
     "basic_info": {
-      "name": "(Work in Progress) Trevor Hensel (Don't mind the mess)",
-      "titles": [ "Full Stack Developer", "Team Player" ],
+      "name": "Trevor Hensel",
+      "titles": [ "Team Leader", "Team Player", "Full Stack Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com/Dorota1997/react-frontend-dev-portfolio",
-          "class": "fab fa-github"
+          "url": "https://github.com/TrevorHensel",
+          "class": "devicon-github-original"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/trevorhensel/",
+          "class": "devicon-linkedin-plain"
         }
       ],
       "image": "myProfile.jpg"
@@ -44,17 +49,17 @@
           "level": "75"
         },
         {
-          "name": "Spring Boot/MVC",
+          "name": "Spring",
           "class": "devicon-spring-plain",
           "level": "75"
         },
         {
-          "name": "HTML 5",
+          "name": "HTML",
           "class": "devicon-html5-plain",
           "level": "95"
         },
         {
-          "name": "CSS 3",
+          "name": "CSS",
           "class": "devicon-css3-plain",
           "level": "95"
         },
@@ -74,7 +79,7 @@
           "level": "70"
         },
         {
-          "name": "Microsoft SQL",
+          "name": "SQL",
           "class": "devicon-microsoftsqlserver-plain",
           "level": "60"
         },

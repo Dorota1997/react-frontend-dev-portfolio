@@ -17,7 +17,6 @@ class Footer extends Component {
     return (
       <footer>
         <div className="col-md-12">
-          <h2>Forked from original work of:</h2>
           <div className="social-links">{networks}</div>
 
           <div className="copyright py-4 text-center">
@@ -25,7 +24,7 @@ class Footer extends Component {
               <small>
                 Copyright &copy;{" "}
                 {this.props.sharedBasicInfo
-                  ? 'Dorota1997'
+                  ? this.props.sharedBasicInfo.name
                   : "???"}
               </small>
             </div>

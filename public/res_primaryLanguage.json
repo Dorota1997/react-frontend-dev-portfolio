@@ -1,6 +1,6 @@
 {
     "basic_info": {
-      "description_header": "Hello World",
+      "description_header": "Full Stack Engineer",
       "description": "Hi, I'm Trevor Hensel, Full Stack Developer at iGrafx.",
       "section_name": {
         "about": "About me",
@@ -11,70 +11,67 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
+        "title": "GeoBarista",
         "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "GeoBarista is a cross-platform open-source application built on web technology to sort/filter/view/convert geo-referenced imagery on a map.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/GeoBarista/GeoBarista_Logo.png"
         ],
-        "url": "",
+        "url": "https://github.com/TrevorHensel/GeoBarista",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-electron-original",
+            "name": "Electron"
           },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node JS"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-materialui-plain",
+            "name": "Material UI"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Wheely-Fast",
+        "startDate": "2020",
+        "description": "A simple 2D racing game to explore the game development process in Rust.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/Wheely_Fast/Wheely_Fast.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/TrevorHensel/Wheely-Fast",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-rust-plain",
+            "name": "Rust"
+          }
+        ]
+      },
+      {
+        "title": "Deep Learning and the Game of Go",
+        "startDate": "2022",
+        "description": "A wonderful book that introduces many AI concepts by iteratively building a bot that plays the game of Go. Currently a work in progress when I have time.",
+        "images": [
+          "images/portfolio/Go/Go.jpg"
+        ],
+        "url": "https://github.com/TrevorHensel/Deep_Learning_With_Go",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-numpy-original",
+            "name": "Numpy"
           }
         ]
       }
@@ -82,17 +79,15 @@
     "experience": [
       {
         "company": "iGrafx",
-        "title": "Development Engineer (Full-Stack Engineer)",
+        "title": "Full-Stack Engineer",
         "years": "7.2021 - present",
         "mainTech": [
           "Java"
         ],
         "technologies": [
-          "REST API",
           "Azure",
+          "Spring MVC & Boot",
           "Dev Ops",
-          "Spring Boot",
-          "Spring MVC",
           "JavaScript",
           "TypeScript",
           "React",
@@ -106,17 +101,16 @@
         "title": "Software Engineer",
         "years": "01.2021 - 07.2021",
         "mainTech": [
-          "Angular"
+          "Java"
         ],
         "technologies": [
-          "Java",
           "Tomcat",
-          "REST API",
           "Dev Ops",
           "JavaScript",
-          "GM's Personal Cloud",
+          "GM's Cloud",
           "SQL",
-          "Spring Boot"
+          "Spring Boot",
+          "Angular"
         ]
       }
     ]
