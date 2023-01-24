@@ -203,7 +203,7 @@ const primaryLangData = {
       title: "Kid's Beginner A book",
       startDate: "2020",
       description:
-        "I created this app to solve a problem in our English school. Students needed a way to practice their English at home. Their textbooks came with clunky CDs that were outdated and too difficult for younger students to operate. Parents who didn't always have time to help saw their child fall behind classmates. I ported their book into an Android APP with touch controls. Young students could easily browse the book and tap pages to hear the words pronounced. Busy teachers no longer needed to waste office time scanning book pages or class time searching for the correct audio files.",
+        "I created this cross-platform app to solve a problem in our English school. Students needed a way to practice their English at home. Their textbooks came with clunky CDs that were outdated and too difficult for younger students to operate. Parents who didn't always have time to help saw their child fall behind classmates. I ported their book into an Android APP with touch controls. Young students could easily browse the book and tap pages to hear the words pronounced. Busy teachers no longer needed to waste office time scanning book pages or class time searching for the correct audio files.",
       preview: "images/portfolio/kids-beginner-book/preview-kba.webm",
       images: [
         "images/portfolio/kids-beginner-book/preview-kba.png",
