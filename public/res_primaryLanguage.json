@@ -1,139 +1,113 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Ella Rekow. I am a Junior in Software Engineering studying at Iowa State, as well as continuing an internship doing front end development for Netsmart. I do art, climb, game development and more in my freetime along with promoting kindness in the tech community though my TikTok platform. I also love learning new things in the tech world!",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 I'm Ella Rekow. I am a Junior in Software Engineering studying at Iowa State, as well as continuing an internship doing front end development for Netsmart. I do art, climb, game development and more in my freetime along with promoting kindness in the tech community though my TikTok platform. I also love learning new things in the tech world!",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Women In Science and Engineering Community Leader",
+      "startDate": "2022",
+      "description": "Similar to a learning community, I continue to run a small group of Women who are persuing degrees in Tech. We meet on a weekly basis and participate in various activities from just hanging out and chatting to talking to guest speakers who are working in the field, resume reviews, and more! The focus is creating a community of girls who can help eachother and build their skills and have a strong support system.",
+      "images": [
+        "images/portfolio/WISE/WCC.jpg",
+        "images/portfolio/WISE/WISE.png"
+      ],
+      "url": "https://www.wise.iastate.edu/",
+      "technologies": []
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "Netsmart",
-        "title": "Front-End Developer Intern",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "VueJS"
-        ],
-        "technologies": [
-          "Javascript",
-          "VueJS",
-          "Bootstrap Vue",
-          "Atlassian",
-          "Git"
-        ]
-      },
-      {
-        "company": "Iowa State University",
-        "title": "Junior System Admin",
-        "years": "11.2021 - 06.2022",
-        "mainTech": [
-          "ServiceNow"
-        ],
-        "technologies": [
-          "Angular",
-          "JavaScript",
-          "Confluence"
-        ]
-      },
-      {
-        "company": "Iowa State University",
-        "title": "Information Technology Analyst",
-        "years": "10.2020 - 10.2021",
-        "mainTech": [
-          "ServiceNow"
-        ],
-        "technologies": [
-          "Windows Systems",
-          "MacOS systems",
-          "Confluence"
-        ]
-      },
-      {
-        "company": "FIRST Robotics",
-        "title": "Lead Programmer",
-        "years": "08.2018 - 05.2019",
-        "mainTech": [
-          "C++"
-        ],
-        "technologies": [
-          "Embedded Systems",
-          "Vision Based Targeting",
-          "PID Controllers",
-          "Robot Autonomy"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Discord Bot",
+      "startDate": "2021",
+      "description": "Created A fun discord bot to keep track of interaction in the server. With each message without spamming a user would earn 1 pothos (name of my favorite plant).",
+      "images": [
+        "images/portfolio/Discord Bot/commands.png",
+        "images/portfolio/Discord Bot/profilewsimage.png"
+      ],
+      "url": "https://github.com/ellarekow/ellasbot",
+      "technologies": [
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        }
+      ]
+    },
+    {
+      "title": "FIRST Robotics Challenge Robot",
+      "startDate": "2018",
+      "description": "Sophomore year of High School I was appointed lead programmer of the 525 Robotics team where my teammates and I developed embedded code to earn two separate tickets to the world competition. 21+ different autonomous methods were deployed to our robot making us one of the most versatile autonomous robots in the entire world and being called the ''5th highest rated autonomous'' competitor there.",      "images": [
+        "images/portfolio/FRC/commands.png",
+        "images/portfolio/Discord Bot/profilewsimage.png"
+      ],
+      "url": "https://www.thebluealliance.com/team/525/2018",
+      "technologies": [
+        {
+          "class": "devicon-cplusplus-plain",
+          "name": "C++"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Netsmart",
+      "title": "Front-End Developer Intern",
+      "years": "10.2019 - present",
+      "mainTech": [
+        "VueJS"
+      ],
+      "technologies": [
+        "Javascript",
+        "VueJS",
+        "Bootstrap Vue",
+        "Atlassian",
+        "Git"
+      ]
+    },
+    {
+      "company": "Iowa State University",
+      "title": "Junior System Admin",
+      "years": "11.2021 - 06.2022",
+      "mainTech": [
+        "ServiceNow"
+      ],
+      "technologies": [
+        "Angular",
+        "JavaScript",
+        "Confluence"
+      ]
+    },
+    {
+      "company": "Iowa State University",
+      "title": "Information Technology Analyst",
+      "years": "10.2020 - 10.2021",
+      "mainTech": [
+        "ServiceNow"
+      ],
+      "technologies": [
+        "Windows Systems",
+        "MacOS systems",
+        "Confluence"
+      ]
+    },
+    {
+      "company": "FIRST Robotics",
+      "title": "Lead Programmer",
+      "years": "08.2018 - 05.2019",
+      "mainTech": [
+        "C++"
+      ],
+      "technologies": [
+        "Embedded Systems",
+        "Vision Based Targeting",
+        "PID Controllers",
+        "Robot Autonomy"
+      ]
+    }
+  ]
+}
