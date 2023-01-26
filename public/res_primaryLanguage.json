@@ -15,53 +15,40 @@
       "startDate": "2022",
       "description": "Similar to a learning community, I continue to run a small group of Women who are persuing degrees in Tech. We meet on a weekly basis and participate in various activities from just hanging out and chatting to talking to guest speakers who are working in the field, resume reviews, and more! The focus is creating a community of girls who can help eachother and build their skills and have a strong support system.",
       "images": [
-        "images/portfolio/WISE/WISE.png",
-        "images/portfolio/WISE/WCC.jpg"
+        "images/portfolio/WISE/WCC.jpg",
+        "images/portfolio/WISE/WISE.png"
       ],
-      "url": "",
+      "url": "https://www.wise.iastate.edu/",
       "technologies": []
     },
     {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "title": "Discord Bot",
+      "startDate": "2021",
+      "description": "Created A fun discord bot to keep track of interaction in the server. With each message without spamming a user would earn 1 pothos (name of my favorite plant).",
       "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
+        "images/portfolio/Discord Bot/commands.png",
+        "images/portfolio/Discord Bot/profilewsimage.png"
       ],
-      "url": "https://github.com",
+      "url": "https://github.com/ellarekow/ellasbot",
       "technologies": [
         {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
         }
       ]
     },
     {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-      "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+      "title": "FIRST Robotics Challenge Robot",
+      "startDate": "2018",
+      "description": "Sophomore year of High School I was appointed lead programmer of the 525 Robotics team where my teammates and I developed embedded code to earn two separate tickets to the world competition. 21+ different autonomous methods were deployed to our robot making us one of the most versatile autonomous robots in the entire world and being called the ''5th highest rated autonomous'' competitor there.",      "images": [
+        "images/portfolio/FRC/commands.png",
+        "images/portfolio/Discord Bot/profilewsimage.png"
       ],
-      "url": "https://github.com",
+      "url": "https://www.thebluealliance.com/team/525/2018",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-cplusplus-plain",
+          "name": "C++"
         }
       ]
     }
