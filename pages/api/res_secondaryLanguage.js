@@ -82,6 +82,10 @@ const secondaryLangData = {
           class: "simple-icons:matterdotjs",
           name: "Matter.js",
         },
+        {
+          class: "ph:figma-logo",
+          name: "Figma",
+        },
       ],
     },
     {
@@ -100,20 +104,24 @@ const secondaryLangData = {
       liveSiteUrl: "https://keigambit.com",
       technologies: [
         {
-          class: "simple-icons:react",
-          name: "React",
+          class: "ic:baseline-wordpress",
+          name: "WordPress",
         },
         {
-          class: "bxl:firebase",
-          name: "Firebase",
+          class: "mdi:language-php",
+          name: "PHP",
         },
         {
-          class: "teenyicons:tailwind-solid",
-          name: "TailwindCSS",
+          class: "mdi:sass",
+          name: "SASS",
         },
         {
-          class: "tabler:brand-redux",
-          name: "Redux",
+          class: "simple-icons:xampp",
+          name: "XAMPP",
+        },
+        {
+          class: "ph:figma-logo",
+          name: "Figma",
         },
       ],
     },
@@ -134,20 +142,16 @@ const secondaryLangData = {
       liveSiteUrl: "https://audiophilestore.netlify.app/",
       technologies: [
         {
-          class: "simple-icons:react",
-          name: "React",
-        },
-        {
-          class: "bxl:firebase",
-          name: "Firebase",
+          class: "simple-icons:nextdotjs",
+          name: "Next.js",
         },
         {
           class: "teenyicons:tailwind-solid",
           name: "TailwindCSS",
         },
         {
-          class: "tabler:brand-redux",
-          name: "Redux",
+          class: "bi:stripe",
+          name: "Stripe",
         },
       ],
     },
@@ -269,7 +273,7 @@ const secondaryLangData = {
         },
         {
           class: "bxl:firebase",
-          name: "Firebase",
+          name: "Firebase Auth",
         },
       ],
     },
@@ -324,10 +328,6 @@ const secondaryLangData = {
         {
           class: "cib:js",
           name: "Javascript",
-        },
-        {
-          class: "cib:css3-shiled",
-          name: "CSS",
         },
         {
           class: "cib:sass-alt",
