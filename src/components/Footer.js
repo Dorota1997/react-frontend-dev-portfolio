@@ -28,6 +28,9 @@ class Footer extends Component {
                   : "???"}
               </small>
             </div>
+            <a href="https://github.com/ellarekow/ella-portfolio/issues/new">
+              <small>Report Bug</small>
+            </a>
           </div>
         </div>
       </footer>
