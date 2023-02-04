@@ -101,7 +101,7 @@
 
 <div align='center'>
 
-![Jokes Card](https://readme-jokes.vercel.app/api?theme=default)
+
 
 </div>
 
@@ -117,7 +117,6 @@
 | ![GitHub stats](https://github-readme-stats.vercel.app/api?username=lenwoper&theme=dark&show_icons=true&count_private=true) | [![GitHub Streak](https://streak-stats.demolab.com?user=lenwoper&theme=dark&border_radius=4)](https://git.io/streak-stats) |
 | :---: | :---: |
 
-| [![Lenwoper's github activity graph](https://activity-graph.herokuapp.com/graph?username=lenwoper&theme=react-dark)](https://github.com/abhishek/github-readme-activity-graph) |  
 | :---: |
 
 
