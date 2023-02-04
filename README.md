@@ -115,9 +115,6 @@
 
 
 | ![GitHub stats](https://github-readme-stats.vercel.app/api?username=lenwoper&theme=dark&show_icons=true&count_private=true) | [![GitHub Streak](https://streak-stats.demolab.com?user=lenwoper&theme=dark&border_radius=4)](https://git.io/streak-stats) |
-| :---: | :---: |
-
-| :---: |
 
 
 
