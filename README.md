@@ -1,8 +1,5 @@
 
 <div>
-<!--  <img src="https://topdevs.org/images/site/services/webdev/hero-bg.svg" alt="Coder" width = "50%" height= "270" align = "right">  -->
- 
-</br> </br>
 
 <!--  [![Stars](https://img.shields.io/github/stars/lenwoper?label=Profile%20Stars&logo=Profile%20stars&logoColor=b)](#)  -->
  [![Followers](https://img.shields.io/github/followers/lenwoper)](#)
