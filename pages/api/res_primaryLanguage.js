@@ -239,7 +239,7 @@ const primaryLangData = {
       title: "Full stack message board",
       startDate: "2022",
       description:
-        "I learned quite a lot about how all of the moving parts fit together in a full stack app. This app has all of the basic features that a social media app would have. The app was designed on Figma by Matt Suddert (https://github.com/mattstuddert). The backend has a CRUD operator created in Express.js that handles read and writes to a hosted Mongo database. I chose to use Firebase for authentication because its very secure and saved a lot of dev time. Currently the live site is under construction as I have since learned more about proper data structures. The original app was not scalable and would download the entire database before the first paint. This is obviously not ideal. See the Github link for a detailed breakdown of my process with pictures.",
+        "An app where users can give me feedback for my apps. This app has all of the basic features that a social media app would have. I generated the humorous comments with ChatGPT. The app was designed on Figma by Matt Suddert (https://github.com/mattstuddert). The backend has a CRUD operator created in Express.js that handles read and writes to a hosted Mongo database. Authentication is handled with Firebase. See the Github link for a detailed breakdown of my process with pictures.",
       preview: "images/portfolio/feedback-app/preview-feedback-app2.webm",
       images: [
         "images/portfolio/feedback-app/feedback-app-mockup.webp",
