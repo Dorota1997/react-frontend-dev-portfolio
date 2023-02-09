@@ -52,7 +52,7 @@ const primaryLangData = {
       title: "Mikey's Pizzeria",
       startDate: "2023",
       description:
-        "Meet Mike, the master of pizza making with over two decades of experience. With a simple and old-school approach, his pizza recipes have won the hearts of many. But his previous website failed to do justice to his delicious creations. That's where I came in. I transformed his outdated and confusing website into a modern and minimalistic online platform that perfectly captures the essence of his classic pizza joint. No more wasting hours waiting for the developer to make small updates. With a user-friendly custom CMS, Mike can now easily make changes to the menu and pricing in just minutes. Get ready to savor the taste of authentic, old-school pizza with a modern twist.",
+        "Meet Mike, the master of pizza making, with over two decades of experience. With a simple and old-school approach, his pizza recipes have won the hearts of many. But his previous website failed to do justice to his delicious creations. That's where I came in. I transformed his outdated and confusing website into a modern and minimalistic online platform that perfectly captures the essence of his classic pizza joint. No more wasting hours waiting for the developer to make small updates. With a user-friendly custom CMS, Mike can now easily make changes to the menu and pricing in just minutes. Get ready to savor the taste of authentic, old-school pizza with a modern twist.",
       preview: "images/portfolio/mikeys-pizzeria/preview-mikeys-pizzeria.webm",
       images: [
         "images/portfolio/mikeys-pizzeria/desktop-hero-mikeys-pizzeria.webp",
