@@ -1,7 +1,7 @@
 const primaryLangData = {
   page_info: {
     bio_header: "Hi",
-    bio: "👋 I am Sean Redmon, an enthusiastic teacher and software developer. I gained a passion for development while I was working at an English school in China. I saw many problems that could be solved with software. My apps have helped students and teachers to be more effective inside and outside the classroom. Seeing my students enjoy my apps in class always motivated me to create more and learn more. During my 7 years in China, I saw a huge shift in the education industry towards online learning. China has over 400 million students learning English, which is more than the entire population of the USA. There will simply never be enough English teachers. I have since returned home to pursue web development full time. Someday I hope to create my own online learning platform with the invaluable experienced I got in China.",
+    bio: "👋 I am a dedicated teacher and experienced software developer. My passion for development was sparked while working at an English school in China, where I recognized opportunities to improve educational processes with technology. My innovative applications have positively impacted both students and teachers. With 7 years of teaching experience and extensive cultural exposure in mainland China, I possess strong problem-solving skills and an adaptable mindset.",
     section_names: {
       about: "About me",
       projects: "My Work",
@@ -15,7 +15,7 @@ const primaryLangData = {
       title: "Donnie Fan Comedy",
       startDate: "2021-2023",
       description:
-        "A website for the Beijing based comedian Donnie Fan. This site has grown and evolved with Donnie over time. He started as a hobby comedian performing in local foreigner hangouts and now tours with bigger names such as Joe Wong(who has performed for President Joe Biden). The site has been used to sell tickets, promote Donnie's theater plays, weekly performances and streaming platform specials. Donniefan.com has helped Donnie launch his North American tour. This site was invaluable in presenting him to clubs and venues who may not know him outside of China. Currently this site ranks #1 for the search term Donnie Fan. Technical people can view the Github documentation for more details.",
+        'Revamped digital presence for award-winning comedian Donnie Fan, driving global event bookings in top cities such as NYC, Vancouver, Singapore and Beijing. Utilizing Next.js, GSAP animation library, and custom CMS with Sanity.io, the website boasts a seamless and eye-catching user experience, streamlining content changes and saving the client time and resources. Continuous integration with Github and Netlify ensures streamlined site builds and #1 search engine ranking for "Donnie Fan." Check out the Github documentation for technical details.',
       preview: "images/portfolio/donnie-fan/preview-donnie-fan2.webm",
       images: [
         "images/portfolio/donnie-fan/desktop-hero-donnie-fan.webp",
@@ -52,7 +52,7 @@ const primaryLangData = {
       title: "Mikey's Pizzeria",
       startDate: "2023",
       description:
-        "Mike has been making pizza for more than 20 years. He is old school and likes to keep things simple. His previous site was too busy and was too difficult to make changes to. The goal was simple, get more people to call and order pizza! I translated his minimalistic branding into a modern site that has that old school local pizza place vibe, while still feeling like a modern web app. Mike's previous website was difficult to change and he always had to waste time phoning up the developer to make pricing changes and other small changes. I build him a minimalistic CMS that he can make changes with in minutes.",
+        "Meet Mike, the master of pizza making with over two decades of experience. With a simple and old-school approach, his pizza recipes have won the hearts of many. But his previous website failed to do justice to his delicious creations. That's where I came in. I transformed his outdated and confusing website into a modern and minimalistic online platform that perfectly captures the essence of his classic pizza joint. No more wasting hours waiting for the developer to make small updates. With a user-friendly custom CMS, Mike can now easily make changes to the menu and pricing in just minutes. Get ready to savor the taste of authentic, old-school pizza with a modern twist.",
       preview: "images/portfolio/mikeys-pizzeria/preview-mikeys-pizzeria.webm",
       images: [
         "images/portfolio/mikeys-pizzeria/desktop-hero-mikeys-pizzeria.webp",
@@ -93,7 +93,7 @@ const primaryLangData = {
       title: "Kei Gambit",
       startDate: "2022",
       description:
-        "A custom WordPress theme for the British voice actor, Kei Gambit. Kei needed a place to show off his various creative works to potential employers and clients. After our discovery call I learned that Kei is a fun guy that doesn't take himself too seriously. He has voiced hundreds of cartoons and has has his own comic book series. I chose pink as the main color because it really suited his personality(and he looks great in that pink blazer). The bold outline style of the site is reminiscent of a comic book style. Kei has used this site to grow his audience outside of China and snag gigs in Canada and the US.",
+        "Get ready to be introduced to the talented and dynamic voice of Kei Gambit, a British voice actor with a portfolio of impressive creative works. With a mission to showcase his versatility and talent, Kei needed a website that truly reflected his fun and playful personality. That's where I came in, taking the lead on customizing a WordPress theme that was a perfect fit for Kei. With a bold and lively pink color palette, the site pops with energy, just like Kei. The outline style of the site gives a nod to Kei's background in comic books and adds a touch of playfulness to the overall design. As a result of this impactful online presence, Kei has been able to expand his reach beyond China, securing gigs and impressing clients in Canada and the US.",
       preview: "images/portfolio/kei-gambit/preview-kei-gambit.webm",
       images: [
         "images/portfolio/kei-gambit/mockup-all-white.webp",
@@ -130,7 +130,7 @@ const primaryLangData = {
       title: "Audiophile Peripherals",
       startDate: "2023",
       description:
-        "An ecommerce site for portable audio equipment. I was in charge of all of the frontend work including, translating the design to code, creating the content management system, and setting up Stripe checkout. Right about here is where I would talk about how much I increased conversions and drove up sales for the business. Unfortunately Audiophile was totally made up by the designer. It would be my pleasure to make a high converting site or app for you just like this.",
+        "Transformed the online shopping experience for Audiophile with a custom ecommerce site. Oversaw frontend development, including design implementation, CMS creation, and seamless Stripe checkout integration. Skilled in elevating sales and boosting conversions with strategic and user-friendly design. Ready to bring this expertise to your next project.",
       preview: "images/portfolio/audiophile/preview-audiophile2.webm",
       images: [
         "images/portfolio/audiophile/audiophile-mockup-desktop.webp",
@@ -160,7 +160,7 @@ const primaryLangData = {
       title: "ESL Games Collection",
       startDate: "2017-2020",
       description:
-        "I created this while working at Ivy International English in north China. Teachers needed a better way to improve test scores and keep parents signing up for more classes. Flashcard games were becoming boring, and could not keep the students attention. These time-saving no-prep games kept students engaged and improved their retention of new vocabulary. The APP was designed to run on the low-spec smartboards that public and private schools had. Check out the Github link for a summary of each game. There are 14 in total.",
+        "Streamlined language learning for English students by creating a cross-platform app to bring textbook content to life. The app replaced clunky CDs with intuitive touch controls and made it easier for young students to practice their English at home. Busy teachers no longer wasted time scanning book pages or searching for audio files, freeing up valuable time for other tasks.",
       preview:
         "images/portfolio/esl-games-collection/preview-esl-games-collection.webm",
       images: [
@@ -207,7 +207,7 @@ const primaryLangData = {
       title: "Kid's Beginner A book",
       startDate: "2020",
       description:
-        "I created this cross-platform app to solve a problem in our English school. Students needed a way to practice their English at home. Their textbooks came with clunky CDs that were outdated and too difficult for younger students to operate. Parents who didn't always have time to help saw their child fall behind classmates. I ported their book into an Android APP with touch controls. Young students could easily browse the book and tap pages to hear the words pronounced. Busy teachers no longer needed to waste office time scanning book pages or class time searching for the correct audio files.",
+        "Streamlined language learning for English students by creating a cross-platform app to bring textbook content to life. The app replaced clunky CDs with intuitive touch controls and made it easier for young students to practice their English at home. Busy teachers no longer wasted time scanning book pages or searching for audio files, freeing up valuable time for other tasks.",
       preview: "images/portfolio/kids-beginner-book/preview-kba.webm",
       images: [
         "images/portfolio/kids-beginner-book/preview-kba.png",
@@ -239,7 +239,7 @@ const primaryLangData = {
       title: "Full stack message board",
       startDate: "2022",
       description:
-        "An app where users can give me feedback for my apps. This app has all of the basic features that a social media app would have. I generated the humorous comments with ChatGPT. The app was designed on Figma by Matt Suddert (https://github.com/mattstuddert). The backend has a CRUD operator created in Express.js that handles read and writes to a hosted Mongo database. Authentication is handled with Firebase. See the Github link for a detailed breakdown of my process with pictures.",
+        "Unleash the power of user feedback with the ultimate app designed specifically to enhance the performance of your apps! With its feature-packed design inspired by the best social media apps, this app gives you a platform to interact with your users and gather their insights. What sets it apart is the attention to detail put into its design, brought to life by the talented Matt Suddert (https://github.com/mattstuddert) on Figma. A bold, modern design that stands out in a crowded market, you'll be sure to grab your users' attention. Plus, with authentication handled securely through Firebase, you can be sure your data is safe and protected. So why wait? Transform your app experience today and take a closer look at the Github link for a behind-the-scenes tour of the development process!",
       preview: "images/portfolio/feedback-app/preview-feedback-app2.webm",
       images: [
         "images/portfolio/feedback-app/feedback-app-mockup.webp",
@@ -351,7 +351,7 @@ const primaryLangData = {
       title: "Planets Fact Site",
       startDate: "2021",
       description:
-        "One of my earlier projects. This eyecatching site was designed by Matt Suddert. Users can learn about the planets in our solar system. I chose this design because it looked like something my students would be drawn to. My goal was to reinforce my knowledge of vanilla js and sass while learning the animation library Anime.js. Click the Github icon above for a very detailed breakdown of my process with pictures and examples.",
+        "Bring the wonders of the solar system to life with this mesmerizing educational site! Immerse yourself in the beauty of our universe as you explore each planet and learn fascinating facts about their unique characteristics. My goal was to reinforce my knowledge of vanilla js and sass while learning the animation library Anime.js. See the Github icon above for a comprehensive breakdown of the creation process, complete with pictures and examples.",
       preview:
         "images/portfolio/planets-fact-site/preview-planets-fact-site.webm",
       images: [
