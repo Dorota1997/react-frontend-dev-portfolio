@@ -81,37 +81,42 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Galavnize: Hack Reactor",
+        "title": "Student",
         "mainTech": [
-          "Angular 8/9/10"
+          "September 2022 - February 2023"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "Python",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "HTML",
+          "CSS",
+          "React",
+          "Django",
+          "PostgreSQL"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "StarLab",
+        "title": "Video Mentor",
         "mainTech": [
-          "Angular 7/8"
+          "January 2022 - May 2022"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Adobe Premiere Pro",
+          "Photoshop",
+          "After Effects",
+          "Microsoft Office"
+        ]
+      },
+      {
+        "company": "Carrabba's Italian Grill",
+        "title": "Server",
+        "mainTech": [
+          "August 2020 - January 2022"
+        ],
+        "technologies": [
+          ""
         ]
       }
     ]
