@@ -1,6 +1,11 @@
 @import '../src/scss/themes/theme-dark.scss';
 @import '../src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+@font-face {
+	font-family: 'Loveamour';
+	src: url('fonts/Loveamour.otf') format('opentype');
+  }
+
 
 html {
 	font-size: 62.5%;
@@ -20,7 +25,7 @@ html {
 }
 
 .title-styles {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Ubuntu Mono', monospace;
 	font-size: 250%;
 }
 
@@ -47,10 +52,7 @@ header {
 	padding-bottom: 0;
 }
 
-.language-icon {
-	font-size: 50px;
-	cursor: pointer;
-}
+
 
 .project-date {
 	font-size: 16px;
@@ -80,11 +82,11 @@ header {
 }
 
 header h1 {
-	font-size: 400%;
+	font-size: 600%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #DBA39A;
+	font-family: 'Loveamour';
 	margin: 0 auto 18px auto;
 	width: 100%;
 }
@@ -114,11 +116,29 @@ header h1 {
 
 #about h1 {
 	padding-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	padding-bottom: 5%;
+	font: 22px/24px 'Loveamour';
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: #DBA39A;
 	text-align: center;
+}
+.resume-button {
+    background-color: #DBA39A;
+    color: white;
+    padding: 10px 20px;
+	margin-bottom: 20px;
+	border: none;
+    border-radius: 20px;
+    cursor: pointer;
+	font-size: 10px;
+	transition: background-color 0.2s ease-in-out;
+	font: 20px/25px 'Loveamour', sans-serif;
+
+  }
+
+.resume-button:hover {
+	background-color: #E8C4C4;
 }
 
 .foto img {
@@ -163,7 +183,7 @@ header h1 {
 
 .project-title-settings {
 	margin-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 18px/24px 'Loveamour', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: black;
@@ -179,7 +199,7 @@ header h1 {
 	background: #ffffff;
 	display: inline-block;
 	margin: 55px 75px 30px;
-	padding: 15px 15px 30px;
+	padding: 15px 15px 52px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -201,7 +221,7 @@ header h1 {
 }
 
 .font-trebuchet {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: 'Loveamour';
 }
 
 #preview {
@@ -268,7 +288,7 @@ header h1 {
 }
 
 .bars {
-	width: 95%;
+	width: 100%;
 	float: left;
 	padding: 0;
 	text-align: left;
@@ -288,7 +308,7 @@ header h1 {
 }
 
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+	font: 15px 'Loveamour', sans-serif;
 	color: #313131;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -387,7 +407,7 @@ header h1 {
 .section-title {
 	padding-top: 5%;
 	padding-bottom: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 22px/24px 'Loveamour', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: #fff;
