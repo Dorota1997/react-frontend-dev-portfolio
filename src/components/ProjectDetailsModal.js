@@ -9,7 +9,6 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var github = this.props.data.github;
-      var live = this.props.data.live;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
