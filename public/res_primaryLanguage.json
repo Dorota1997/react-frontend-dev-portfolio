@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hello, I'm Victoria!",
-      "description": "I’m a software engineer based in the Washington Metropolitan area.  For years, I worked in the film industry, where I had the opportunity to hone my storytelling skills and work with talented individuals. However, I always had a passion for technology and creating, which led me to explore new opportunities. After much consideration, I made the leap to the tech industry, and it has been a transformative experience. I am a creative problem-solver who enjoys taking on challenges and finding innovative solutions. I am also adaptable and able to thrive in fast-paced, ever-changing environments. I believe that teamwork and effective communication are critical to success in any field, and I strive to be a positive and supportive team member. Finally, I am committed to continuous learning and growth, and I am always looking for new ways to improve my skills and stay up-to-date with the latest industry trends.",
+      "description": "I’m a software engineer based in the Washington Metropolitan area.  For years, I worked in the film industry, where I had the opportunity to hone my storytelling skills and work with talented individuals. However, I always had a passion for technology and creating, which led me to explore new opportunities. After much consideration, I made the leap to the tech industry, and it has been a transformative experience. I am a creative problem-solver who enjoys taking on challenges and finding innovative solutions. I am also adaptable and able to thrive in fast-paced, ever-changing environments. Finally, I am committed to continuous learning and growth, and I am always looking for new ways to improve my skills and stay up-to-date with the latest industry trends.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,38 +11,39 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Task Manager",
+        "description": "Welcome to our task management app! With our app, you can easily organize and track all of your tasks in one place. Whether you're managing your personal to-do list or collaborating with a team, our app has all the features you need to stay on top of your tasks and meet your deadlines. We're committed to providing a user-friendly and efficient experience, so you can focus on getting things done.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/task-manager/task.png"
         ],
-        "url": "",
+        "github": "https://github.com/vicfigueroa/Task-Manager",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-django-plain",
+            "name": "Django"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Travel Makers",
+        "description":
+        "Unravel your travel! Our app is designed to help users plan and organize their travel plans all in one place. With a user-friendly interface, users can easily create their own custom itnerary with flights, hotels, and activities.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/travel-makers/suitcase.png"
         ],
-        "url": "https://github.com",
+        "github": "https://github.com/vicfigueroa/Travel-Makers",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -51,30 +52,48 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+          },
+          {
+            "class": "devicon-fastapi-plain",
+            "name": "FastAPI"
+          },
+          {
+            "class": "devicon-redux-plain",
+            "name": "Redux"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Project Cyber",
+        "description": "This automobile dealership application manages sales, services, and inventory. It allows users to create, view, and delete services based on the automobile input into the system.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/cyber/car.png"
         ],
-        "url": "https://github.com",
+        "github": "https://github.com/vicfigueroa/Project-Cyber",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-plain",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           }
         ]
       }
@@ -97,7 +116,7 @@
         ]
       },
       {
-        "company": "StarLab",
+        "company": "StarLab GMU",
         "title": "Video Mentor",
         "mainTech": [
           "January 2022 - May 2022"

@@ -54,20 +54,10 @@ header {
 
 
 
-.project-date {
-	font-size: 16px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	padding: 8px 15px 2px 15px;
-	position: relative;
-	z-index: -500;
-	border-top: 5px solid #696969;
-	border-radius: 0 0 5px 5px;
-	background-color: #696969;
-	color: white;
-}
+
 
 .skills-tile {
-	background-color: transparentize(#DBA39A, 0.95);
+	background-color: transparentize(#E0144C, 0.95);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -150,7 +140,8 @@ header h1 {
 	background: #ffffff;
 	display: inline-block;
 	margin: 0 auto 5% auto;
-	padding: 10px 10px 5px;
+	padding: 20px 30px 10px;
+	border-radius: 40px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -211,6 +202,28 @@ header h1 {
 	z-index: 0;
 	position: relative;
 }
+.link-button {
+    background-color: #DBA39A;
+    color: white;
+    padding: 10px 20px;
+	border: none;
+    border-radius: 6px;
+    cursor: pointer;
+	font-size: 15px;
+	transition: background-color 0.2s ease-in-out;
+	font: 18px/25px 'Loveamour', sans-serif;
+
+  }
+
+.link-button:hover {
+	background-color: #E8C4C4;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 .link-href {
 	color: black;
@@ -345,7 +358,8 @@ header h1 {
 	text-align: justify;
 	padding: 5px 5px 0 5px;
 	margin-bottom: 20px;
-	font-size: 12px;
+	font-size: 15px;
+	font-family: "Times New Roman";
 }
 
 .awssld__next {
@@ -366,8 +380,8 @@ header h1 {
 }
 
 .portfolio-item {
-	max-width: 100%;
-	margin-bottom: 15px;
+	max-width: 120%;
+	margin-bottom: 50px;
 	text-align: center;
 }
 
@@ -392,7 +406,7 @@ header h1 {
 		display: block;
 	}
 	.portfolio .portfolio-item {
-		margin-bottom: 30px;
+		margin-bottom: 40px;
 	}
 }
 
@@ -416,7 +430,7 @@ header h1 {
 
 .skill-icon {
 	font-size: 180%;
-	color: #DBA39A;
+	color: #d08b80;
 	text-align: center;
 	position: relative;
 }
