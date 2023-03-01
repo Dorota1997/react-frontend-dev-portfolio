@@ -102,6 +102,7 @@
       {
         "company": "Galavnize: Hack Reactor",
         "title": "Student",
+        "icon": "fas fa-book",
         "mainTech": [
           "September 2022 - February 2023"
         ],
@@ -112,12 +113,14 @@
           "CSS",
           "React",
           "Django",
-          "PostgreSQL"
+          "PostgreSQL",
+          "Docker"
         ]
       },
       {
         "company": "StarLab GMU",
         "title": "Video Mentor",
+        "icon": "fas fa-camera",
         "mainTech": [
           "January 2022 - May 2022"
         ],
@@ -131,6 +134,7 @@
       {
         "company": "Carrabba's Italian Grill",
         "title": "Server",
+        "icon": "fas fa-utensils",
         "mainTech": [
           "August 2020 - January 2022"
         ],
