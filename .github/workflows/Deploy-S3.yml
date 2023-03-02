@@ -23,6 +23,5 @@ jobs:
         env:
           aws-access-key-id: ${{secrets.AWS_ACCESS_KEY_ID}}
           aws-secrect-access-key: ${{secrets.AWS_SECERTS_ACCESS_KEY}}
-          aws-region: ${{vars.AWS_REGION}}
       - name: Synce to aws S3
         run:  aws s3 sync ./dist/ s3://ark31.info
