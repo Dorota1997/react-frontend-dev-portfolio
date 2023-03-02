@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: checkout code 
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
       - name: Install node
         uses: action/setup-node@v3
          with:"16"
