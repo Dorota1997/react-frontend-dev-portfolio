@@ -5,7 +5,7 @@ on:
 
 
 jobs: 
-  build-personalwebsite: 
+  build-personalwebsite:
     runs-on: ubuntu-latest
     permissions:
       id-token: write
