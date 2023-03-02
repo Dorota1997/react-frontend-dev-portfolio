@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Brandon Patterson. I am a Software Engieer at Mozilla.  Currently developing and supportings the Hubs product I have been working in software for 2 years and IT for 6 years. I am mainly focused in SRE/Devops work. I am also cloud certified",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,38 +11,38 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Home Lab",
+        "startDate": "2021",
+        "description": "I turned an older lenvo computer and install proxmox on it.  It now has 3 ubuntu VM's that build my k3 rancher install. ",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/rancher/homelab.jpeg",
+          "images/portfolio/rancher/rancher.png"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-k3s-original",
+            "name": "Rancher"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-networkx-original",
+            "name": "Networking"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-ansible-plain",
+            "name": "Anisble"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Hubs",
+        "startDate": "2021",
+        "description": "I have been working on this open source project at Mozilla for Past 2 years as a junior software engineer",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/hubs/hubs-logo.jpeg",
+          "images/portfolio/hubs/hubs.jpeg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/mozilla/hubs",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -55,14 +55,14 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Ark31.info",
+        "startDate": "20202",
+        "description": "My personal domain that i run my website and email service with in Aws",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/website/blackcoder.jpg",
+          "images/portfolio/website/codememe.jpg"
         ],
-        "url": "https://github.com",
+        "url": "Ark31.info",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
@@ -81,37 +81,41 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Mozilla",
+        "title": "Software Engieer 2",
+        "years": "07.2021 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Aws" ,
+          "Gcp",
+          "Git",
+          "React",
+          "Github Action"
+
+                
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Linux",
+          "API",
+          "Docker",
+          "Kubernetes",
+          "CloudFromation",
+          "GKE"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Audacious inquiry",
+        "title": "Sysops Admin",
+        "years": "03.2020 - 09.2021",
         "mainTech": [
-          "Angular 7/8"
+          "IAM Management"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Vmare",
+          "Office 365",
+          "AWS",
+          "SSl certificate",
+          "Azure AD",
+          "Terraform"
         ]
       }
     ]
