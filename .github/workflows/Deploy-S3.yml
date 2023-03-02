@@ -2,8 +2,7 @@ name: deploy to S3
 
 on: 
   push: 
-  branches: 
-    - master 
+
 
 jobs: 
   build-personalwebsite: 
