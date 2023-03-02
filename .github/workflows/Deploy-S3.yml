@@ -18,7 +18,7 @@ jobs:
       - name: Build app 
         run: npm run build
       - name: Configure Aws Cred 
-        uses: aws-actions/confgure-aws-credentials
+        uses: aws-actions/confgure-aws-credentials@v1
         env:
           aws-access-key-id: ${{secrets.AWS_ACCESS_KEY_ID}}
           aws-secrect-access-key: ${{secrets.AWS_SECERTS_ACCESS_KEY}}
