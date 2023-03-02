@@ -11,14 +11,14 @@ jobs:
       - name: checkout code 
         uses: actions/checkout@v3
       - name: Install node
-        uses: action/setup-node@v3
+        uses: actions/setup-node@v3
          with:"16"
       - name: install required dependencies 
         run: npm install 
       - name: Build app 
         run: npm run build
       - name: Configure Aws Cred 
-        uses: aws-actions/confgure-aws-credentials@v1
+        uses: aws-actions/confgure-aws-credentials
         env:
           aws-access-key-id: ${{secrets.AWS_ACCESS_KEY_ID}}
           aws-secrect-access-key: ${{secrets.AWS_SECERTS_ACCESS_KEY}}
