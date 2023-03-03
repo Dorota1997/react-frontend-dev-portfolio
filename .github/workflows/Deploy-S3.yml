@@ -29,4 +29,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       - name: Synce to aws S3
-        run:  aws s3 sync ./build/ s3://ark31.info
+        run:  aws s3 sync ./build/ s3://${{vars.BUCKET_NAME}}
