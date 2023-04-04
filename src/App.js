@@ -10,7 +10,6 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -83,7 +82,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
+        <Header
+          sharedData={this.state.sharedData.basic_info}
+          sharedSkills={this.state.sharedData.skills}
+        />
         <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>

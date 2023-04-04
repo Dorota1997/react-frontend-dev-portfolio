@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import SkillsAnimation from "./SkillsAnimation";
 
 class Header extends Component {
   titles = [];
 
   constructor() {
     super();
-    this.state = { checked: false };
+    this.state = { checked: false, currentSkillIndex: 0 };
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
   }
 
@@ -47,7 +48,6 @@ class Header extends Component {
       },
       (props, prevProp) => true
     );
-
     return (
       <header
         id="home"
@@ -56,14 +56,9 @@ class Header extends Component {
         <div className="row aligner" style={{ height: "100%" }}>
           <div className="col-md-12">
             <div>
-              <span
-                className="iconify header-icon"
-                data-icon="mdi:code-braces"
-                data-inline="false"
-              ></span>
+              <SkillsAnimation sharedSkills={this.props.sharedSkills}/>
               <br />
               <h1 className="mb-0">
-                
                 <Typical steps={[name]} wrapper="p" />
               </h1>
               <div className="title-container">
@@ -71,7 +66,10 @@ class Header extends Component {
               </div>
               <div className="hire-container">
                 <div className="container">
-                  <button className="btn-hireme" onClick={this.goToContact}> Hire Me!</button>
+                  <button className="btn-hireme" onClick={this.goToContact}>
+                    {" "}
+                    Hire Me!
+                  </button>
                 </div>
               </div>
               <Switch
