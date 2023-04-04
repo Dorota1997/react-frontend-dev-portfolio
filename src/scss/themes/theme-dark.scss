@@ -38,6 +38,9 @@ body[data-theme="dark"] {
          color: white;
       }
    }
+   footer {
+      background: #1F1F1F;
+   }
 
    #about {
       background-color: #7f7f7f;
@@ -51,6 +54,15 @@ body[data-theme="dark"] {
          background: #6d6d6d;
          color: white;
       }
+   }
+   #contact {
+      background-color: #7f7f7f;
+      h1 span {
+         color: white;
+      }
+   }
+   #skills {
+      background: #1F1F1F;
    }
 
    #portfolio {

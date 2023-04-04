@@ -19,6 +19,15 @@ html {
 	height: 50px;
 }
 
+.hire-container {
+	height: 150px;
+	display: flex;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .title-styles {
 	font-family: 'Raleway', sans-serif;
 	font-size: 250%;
@@ -38,7 +47,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #D6B299;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -74,7 +83,7 @@ header {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: #D6B299;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -90,11 +99,11 @@ header h1 {
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid #F8EDDD;
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
+	background-color: #F8EDDD;
 	height: 25px;
 }
 
@@ -219,7 +228,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #F3DFC1;
 }
 
 .experience-icon {
@@ -233,7 +242,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #160F29 !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -244,8 +253,8 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
-	color: black;
+	background-color: #246A73 !important;
+	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -341,7 +350,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #F3DFC1;
 	padding-bottom: 5%;
 }
 
@@ -377,7 +386,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #160F29;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -402,7 +411,7 @@ header h1 {
 }
 
 footer {
-	background: #1F1F1F;
+	background: #160F29;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
@@ -425,4 +434,37 @@ footer a:focus {
 .social-links {
 	margin-top: 50px;
 	font-size: 22px;
+}
+
+#contact form {
+	padding-top: 5%;
+	font: 15px 'opensans-bold', sans-serif;
+	letter-spacing: 2px;
+	color: black;
+	input {
+		height: 4rem;
+	}
+	.btn {
+		background: #246A73;
+		border-color: #246A73;
+		width: 10rem;
+		height: 3rem;
+		font-size: 1.5rem;
+	 }
+}
+
+.btn-hireme {
+    color: #fff;
+    background-color: #368F8B;
+    border-color: #368F8B;
+	size: 5rem;
+	font-weight: 600;
+	font-size: 3rem;
+	height: fit-content;
+	width: fit-content;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	color: white;
+	border-radius: 1rem;
+	border: none;
 }

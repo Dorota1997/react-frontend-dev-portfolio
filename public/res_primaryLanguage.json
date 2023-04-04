@@ -1,12 +1,13 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Ahmed, and I have over 5 years of expertise working with a variety of technologies. I have excellent problem-solving abilities ⭐, and I always try to create excellent code by following best practices 🤓. I have a thorough grasp of software architecture and design patterns to make sure that my solutions are optimal and scalable 📈, whether I'm working on web development or app development projects. I take pleasure in utilizing the newest technologies to make sure that my work is consistently efficient and upgradable. I've made a name for myself as a software engineer who is committed to finding elegant solutions to challenging issues and producing high-quality work throughout my career. I am always on the lookout for fresh tasks and chances to broaden my knowledge and abilities. Thank you for choosing me 💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Experience",
+        "contact": "Contact"
       }
     },
     "projects": [
