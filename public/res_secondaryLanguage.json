@@ -8,18 +8,22 @@
         "skills": "Umiejętności",
         "experience": "Doświadczenie",
         "contact": "Contact"
-      }
+      },
+      "role": "Role"
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Vialeads",
+        "startDate": "2018",
+        "description": "ViaLeads est une solution entièrement basée sur le cloud qui regroupe plusieurs moteurs d'appel prédictifs et un outil de scripting conçu pour les centres d'appels. Elle automatise vos campagnes d'appels entrants et sortants, offre une surveillance de production en temps réel et propose des écrans de supervision personnalisables. ViaLeads est équipé de puissants moteurs d'appel, notamment l'aperçu, le progressif, le prédictif et le clic-to-call. Il offre également un enregistrement à la demande, planifié ou aléatoire, des rapports de campagne et des statistiques détaillées par agent, groupe, service, heure, jour et mois.",
+        "role": "J'ai commencé à travailler sur ViaLeads en tant que full-stack pendant quelques mois, puis je suis devenu entièrement front-end car je suis devenu le responsable front-end de l'entreprise. Les problèmes les plus difficiles que j'ai rencontrés en travaillant sur ViaLeads sont que nous avons conservé l'ancienne base de données et que nous avons construit dessus. La fonctionnalité de mode automatique qui distribue les tâches aux agents en fonction de plusieurs aspects (planifié, rappel, priorité, etc.) ainsi que les scripts dynamiques et les formulaires dynamiques ont également été un défi car les formulaires doivent changer en suivant un script et en fonction de la réponse du client lors de l'appel téléphonique.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/vialeads/p0.png",
+          "images/portfolio/vialeads/p1.png",
+          "images/portfolio/vialeads/p2.png",
+          "images/portfolio/vialeads/p3.png"
         ],
-        "url": "",
+        "url": "https://viadialog.com/en/vialeads/",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
@@ -30,8 +34,35 @@
             "name": "TypeScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-java-plain",
+            "name": "JAVA"
+          },
+          {
+            "class": "devicon-spring-plain",
+            "name": "Spring"
+          },
+          {
+            "uri": "jhipster-icon-svgrepo-com.svg",
+            "name": "JHipster",
+            "type": "svg"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "Mysql"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "Mongodb"
+          },
+          {
+            "uri": "elasticsearch-svgrepo-com.svg",
+            "name": "Elasticsearch",
+            "type": "svg"
+          },
+          {
+            "uri": "rabbitmq-svgrepo-com.svg",
+            "name": "RabbitMQ",
+            "type": "svg"
           }
         ]
       },

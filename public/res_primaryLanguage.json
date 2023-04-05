@@ -8,18 +8,22 @@
         "skills": "Skills",
         "experience": "Experience",
         "contact": "Contact"
-      }
+      },
+      "role": "Role"
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "ViaLeads",
+        "startDate": "2018",
+        "description": "ViaLeads is a 100% cloud-based solution that combines multiple predictive dialers and a scripting tool designed for call centers. It automates your inbound and outbound call campaigns, provides real-time production monitoring, and offers customizable supervision screens. ViaLeads is equipped with powerful call engines, including preview, progressive, predictive, and click-to-call. It also offers on-demand, scheduled, or random recording, campaign reports, and detailed statistics by agent, group, service, hour, day, and month.",
+        "role": "I began my journey at ViaLeads as a Full Stack developer, but my skills and expertise led me to become the Front-End lead for the project. One of the major challenges I faced while working on ViaLeads was integrating new features on top of an existing database. Another challenge was developing the Auto Mode feature that distributes tasks to agents based on various factors such as scheduling, priority, and recall. Lastly, creating dynamic scripts and forms that adapt to the client's phone call responses was also a complex task that I overcame through my strong problem-solving skills.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/vialeads/p0.png",
+          "images/portfolio/vialeads/p1.png",
+          "images/portfolio/vialeads/p2.png",
+          "images/portfolio/vialeads/p3.png"
         ],
-        "url": "",
+        "url": "https://viadialog.com/en/vialeads/",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
@@ -30,8 +34,35 @@
             "name": "TypeScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-java-plain",
+            "name": "JAVA"
+          },
+          {
+            "class": "devicon-spring-plain",
+            "name": "Spring"
+          },
+          {
+            "uri": "jhipster-icon-svgrepo-com.svg",
+            "name": "JHipster",
+            "type": "svg"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "Mysql"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "Mongodb"
+          },
+          {
+            "uri": "elasticsearch-svgrepo-com.svg",
+            "name": "Elasticsearch",
+            "type": "svg"
+          },
+          {
+            "uri": "rabbitmq-svgrepo-com.svg",
+            "name": "RabbitMQ",
+            "type": "svg"
           }
         ]
       },

@@ -4,6 +4,7 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+import {ReactSVG} from 'react-svg';
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
@@ -11,14 +12,30 @@ class ProjectDetailsModal extends Component {
       const images = this.props.data.images;
       var title = this.props.data.title;
       var description = this.props.data.description;
+      var projectRole = this.props.data.role;
       var url = this.props.data.url;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
-          return (
+          return !icons.type ? (
             <li className="list-inline-item mx-3" key={i}>
               <span>
                 <div className="text-center">
                   <i className={icons.class} style={{ fontSize: "300%" }}>
+                    <p className="text-center" style={{ fontSize: "30%" }}>
+                      {icons.name}
+                    </p>
+                  </i>
+                </div>
+              </span>
+            </li>
+          ) : (
+            <li className="list-inline-item mx-3" key={i}>
+              <span>
+                <div className="text-center">
+                  <i style={{ fontSize: "300%" }}>
+                    <div alt={icons.name} className="svg-img">
+                    <ReactSVG src={'assets/icons/' + icons.uri}/>
+                    </div>
                     <p className="text-center" style={{ fontSize: "30%" }}>
                       {icons.name}
                     </p>
@@ -34,7 +51,18 @@ class ProjectDetailsModal extends Component {
           });
         }
       }
+      if (this.props.roleText) {
+        var role = this.props.data.role ? (
+          <>
+            <h3 style={{ padding: "5px 5px 0 5px" }}>{this.props.roleText}</h3>
+            <p className="modal-description">{projectRole}</p>
+          </>
+        ) : (
+          <></>
+        );
+      }
     }
+
     return (
       <Modal
         {...this.props}
@@ -94,6 +122,7 @@ class ProjectDetailsModal extends Component {
               ) : null}
             </h3>
             <p className="modal-description">{description}</p>
+            {role}
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>

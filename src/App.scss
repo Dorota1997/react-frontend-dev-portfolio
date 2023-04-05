@@ -612,3 +612,11 @@ footer a:focus {
   }
 }
 /* End square */
+
+.svg-img svg {
+  width: 3rem;
+  height: 3rem;
+}
+.svg-img svg path{
+  fill: #212529;
+}

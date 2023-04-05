@@ -1,7 +1,14 @@
 body[data-theme="dark"] {  
 
    @import '../src/scss/dark-slider.scss';
+   .svg-img svg path{
+      fill: white;
+    }
 
+    .square .skills-tile i {
+      color: white;
+   }
+   
    .slider-tab {
       background-color: #8C8C8C;
    }
