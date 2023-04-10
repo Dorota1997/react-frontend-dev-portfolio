@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
 
 class Projects extends Component {
   constructor(props) {
@@ -22,7 +24,7 @@ class Projects extends Component {
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
-            className="col-sm-12 col-md-6 col-lg-4"
+            className="col-12"
             key={projects.title}
             style={{ cursor: "pointer" }}
           >
@@ -33,7 +35,11 @@ class Projects extends Component {
                     src={projects.images[0]}
                     alt="projectImages"
                     height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    style={{
+                      marginBottom: 0,
+                      paddingBottom: 0,
+                      position: "relative",
+                    }}
                   />
                   <span className="project-date">{projects.startDate}</span>
                   <br />
@@ -47,6 +53,11 @@ class Projects extends Component {
         );
       });
     }
+    const responsive = {
+      0: { items: 1 },
+      568: { items: 2 },
+      1024: { items: 3 },
+    };
 
     return (
       <section id="portfolio">
@@ -55,7 +66,14 @@ class Projects extends Component {
             <span>{sectionName}</span>
           </h1>
           <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
+            <div className="row mx-auto">
+              <AliceCarousel
+                mouseTracking
+                items={projects}
+                responsive={responsive}
+                controlsStrategy="alternate"
+              />
+            </div>
           </div>
           <ProjectDetailsModal
             show={this.state.detailsModalShow}
