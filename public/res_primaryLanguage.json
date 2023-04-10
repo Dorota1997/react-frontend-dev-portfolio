@@ -67,22 +67,51 @@
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Angage",
+        "startDate": "2019",
+        "description": "Angage is a mobile engagement and interactive platform that allows organizations to engage their audience during meetings, training sessions, and lectures. It offers features such as voting, polling, quizzes, ratings, brainstorming, and more. It also includes interaction tools such as networking, 1-to-1 meetings, private and group chat, and moderation.",
+        "role": "During my time with Tech-Instinct, I worked as a full-stack developer on the Angage mobile engagement and interactive platform. As the project progressed, I transitioned to a fully front-end role. The team faced a number of challenges, such as implementing the brainstorming feature, integrating Zoom for live streaming within the app, and incorporating Stripe for payments - which was my first time using it. However, with the collective effort of our team and extensive research, we were able to overcome these challenges and deliver a successful project.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/angage/p0.png",
+          "images/portfolio/angage/p1.png",
+          "images/portfolio/angage/p2.png",
+          "images/portfolio/angage/p3.png",
+          "images/portfolio/angage/p4.png",
+          "images/portfolio/angage/p5.png",
+          "images/portfolio/angage/p6.png",
+          "images/portfolio/angage/p7.png"
         ],
-        "url": "https://github.com",
+        "url": "https://angage.live/",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-java-plain",
+            "name": "JAVA"
+          },
+          {
+            "class": "devicon-spring-plain",
+            "name": "Spring"
+          },
+          {
+            "uri": "jhipster-icon-svgrepo-com.svg",
+            "name": "JHipster",
+            "type": "svg"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "Mongodb"
+          },
+          {
+            "uri": "rabbitmq-svgrepo-com.svg",
+            "name": "RabbitMQ",
+            "type": "svg"
           }
         ]
       },

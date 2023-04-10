@@ -20,8 +20,6 @@ class SkillsAnimation extends Component {
 
   render() {
     if (this.props.sharedSkills) {
-      console.log(this.props);
-
       this.skills = this.props.sharedSkills.icons.map(function (skills, i) {
         return (
           <div className="skills-tile">

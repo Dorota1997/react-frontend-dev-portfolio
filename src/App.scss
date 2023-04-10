@@ -621,3 +621,16 @@ footer a:focus {
 .svg-img svg path{
   fill: #212529;
 }
+
+body .wpex-slider-media {
+  background: #000;
+  padding: 30px;
+}
+body .wpex-slider-media img {
+  width: auto !important;
+  margin: 0 auto;
+}
+.awssld__content > img {
+  width: auto !important;
+  left: unset !important;
+}

@@ -14,7 +14,7 @@
     "projects": [
       {
         "title": "Vialeads",
-        "startDate": "2018",
+        "startDate": "2019",
         "description": "ViaLeads est une solution entièrement basée sur le cloud qui regroupe plusieurs moteurs d'appel prédictifs et un outil de scripting conçu pour les centres d'appels. Elle automatise vos campagnes d'appels entrants et sortants, offre une surveillance de production en temps réel et propose des écrans de supervision personnalisables. ViaLeads est équipé de puissants moteurs d'appel, notamment l'aperçu, le progressif, le prédictif et le clic-to-call. Il offre également un enregistrement à la demande, planifié ou aléatoire, des rapports de campagne et des statistiques détaillées par agent, groupe, service, heure, jour et mois.",
         "role": "J'ai commencé à travailler sur ViaLeads en tant que full-stack pendant quelques mois, puis je suis devenu entièrement front-end car je suis devenu le responsable front-end de l'entreprise. Les problèmes les plus difficiles que j'ai rencontrés en travaillant sur ViaLeads sont que nous avons conservé l'ancienne base de données et que nous avons construit dessus. La fonctionnalité de mode automatique qui distribue les tâches aux agents en fonction de plusieurs aspects (planifié, rappel, priorité, etc.) ainsi que les scripts dynamiques et les formulaires dynamiques ont également été un défi car les formulaires doivent changer en suivant un script et en fonction de la réponse du client lors de l'appel téléphonique.",
         "images": [
@@ -67,22 +67,51 @@
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "title": "Angage",
+        "startDate": "2019",
+        "description": "Angage est une plateforme mobile d'engagement et d'interaction qui permet aux organisations d'impliquer leur public lors de réunions, formations et conférences. Elle offre des fonctionnalités telles que le vote, les sondages, les quiz, les évaluations, le brainstorming et bien d'autres encore. Elle comprend également des outils d'interaction tels que le réseautage, les réunions individuelles, le chat privé et de groupe, et la modération.",
+        "role": "Mon rôle dans Angage était celui de développeur front-end lorsque j'étais avec Tech-Instinct. Nous avons dû relever plusieurs défis, tels que l'implémentation de la fonctionnalité de brainstorming, l'utilisation de Zoom en direct dans l'application et l'intégration de Stripe pour les paiements, car c'était la première fois que je l'utilisais. Heureusement, nous avons travaillé en équipe et avons effectué de bonnes recherches pour surmonter ces obstacles avec succès.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/angage/p0.png",
+          "images/portfolio/angage/p1.png",
+          "images/portfolio/angage/p2.png",
+          "images/portfolio/angage/p3.png",
+          "images/portfolio/angage/p4.png",
+          "images/portfolio/angage/p5.png",
+          "images/portfolio/angage/p6.png",
+          "images/portfolio/angage/p7.png"
         ],
-        "url": "https://github.com",
+        "url": "https://angage.live/",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-java-plain",
+            "name": "JAVA"
+          },
+          {
+            "class": "devicon-spring-plain",
+            "name": "Spring"
+          },
+          {
+            "uri": "jhipster-icon-svgrepo-com.svg",
+            "name": "JHipster",
+            "type": "svg"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "Mongodb"
+          },
+          {
+            "uri": "rabbitmq-svgrepo-com.svg",
+            "name": "RabbitMQ",
+            "type": "svg"
           }
         ]
       },
