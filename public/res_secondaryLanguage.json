@@ -116,14 +116,17 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "RH Partner",
+        "startDate": "2020",
+        "description": "RH Partner est une solution SaaS complète qui couvre tous les aspects clés de la gestion RH. Elle comprend 10 modules, tels que la création et le suivi des dossiers d'entreprise, la gestion des établissements et des grades, la gestion du temps de travail et des absences, la gestion des documents d'entreprise, la gestion des obligations fiscales et sociales, et bien plus encore. RH Partner dispose également d'un portail employé pour améliorer les échanges et les procédures RH entre les managers et les employés. Cette solution est disponible gratuitement et est incluse dans l'offre initiale de RH Partner pour tous les plans d'abonnement. En utilisant RH Partner, vous pouvez moderniser vos processus RH et gagner en efficacité tout en améliorant votre image de marque employeur.",
+        "role": "Mon rôle dans RH Partner était celui de responsable du front-end. J'ai mis en place le projet, défini l'architecture du front-end ainsi que les bibliothèques sur lesquelles nous devions travailler. J'ai également effectué des revues de code et résolu des problèmes complexes.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/rh-partner/p0.png",
+          "images/portfolio/rh-partner/p1.png",
+          "images/portfolio/rh-partner/p2.png",
+          "images/portfolio/rh-partner/p3.png"
         ],
-        "url": "https://github.com",
+        "url": "https://rh-partner.com/",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
@@ -134,8 +137,26 @@
             "name": "TypeScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-java-plain",
+            "name": "JAVA"
+          },
+          {
+            "class": "devicon-spring-plain",
+            "name": "Spring"
+          },
+          {
+            "uri": "jhipster-icon-svgrepo-com.svg",
+            "name": "JHipster",
+            "type": "svg"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "Mongodb"
+          },
+          {
+            "uri": "elasticsearch-svgrepo-com.svg",
+            "name": "Elasticsearch",
+            "type": "svg"
           }
         ]
       }

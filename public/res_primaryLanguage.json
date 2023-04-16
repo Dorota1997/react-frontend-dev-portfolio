@@ -116,14 +116,17 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "RH Partner",
+        "startDate": "2020",
+        "description": "RH Partner is a comprehensive web application for managing human resources, offering 10 modules that cover essential HR functions. It includes features such as creating and tracking company records, managing employee time and attendance, and payroll management. RH Partner also offers a collaborative SaaS solution with an employee portal for simplified communication between managers and employees. The employee portal is available for free on desktop and mobile devices and provides a range of features for managing employee requests and documentation. RH Partner's SIRH helps organizations streamline and optimize their HR processes with an intuitive dashboard for tracking performance indicators.",
+        "role": "As the front-end lead in RH Partner, I was responsible for setting up the project, defining the front-end architecture, selecting appropriate libraries, and overseeing code reviews. I also solved complex problems and ensured the successful execution of the project.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/rh-partner/p0.png",
+          "images/portfolio/rh-partner/p1.png",
+          "images/portfolio/rh-partner/p2.png",
+          "images/portfolio/rh-partner/p3.png"
         ],
-        "url": "https://github.com",
+        "url": "https://rh-partner.com/",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
@@ -134,8 +137,26 @@
             "name": "TypeScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-java-plain",
+            "name": "JAVA"
+          },
+          {
+            "class": "devicon-spring-plain",
+            "name": "Spring"
+          },
+          {
+            "uri": "jhipster-icon-svgrepo-com.svg",
+            "name": "JHipster",
+            "type": "svg"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "Mongodb"
+          },
+          {
+            "uri": "elasticsearch-svgrepo-com.svg",
+            "name": "Elasticsearch",
+            "type": "svg"
           }
         ]
       }
