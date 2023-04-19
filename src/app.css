@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--electroBlue: #5828e3;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Book', 'Montserrat', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 27px;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+*::-webkit-scrollbar {
+	width: 1em;
+	height: 1em;
+}
+
+*::-webkit-scrollbar-track {
+	background: transparent;
+	border-radius: 100vw;
+	/* border: 0.1em solid darkgray; */
+	margin-block: 0.5em;
+}
+
+*::-webkit-scrollbar-thumb {
+	background: darkgray;
+	border: 0.2em solid white;
+	border-radius: 100vw;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+	background: gray;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		color-scheme: dark;
+	}
+
+	body {
+		color: white;
+		background: black;
+	}
+
+	*::-webkit-scrollbar-track {
+		background: #333232;
+		border-radius: 100vw;
+		border: 0.1em solid #333232;
+		margin-block: 0.5em;
+	}
+
+	*::-webkit-scrollbar-thumb {
+		background: gray;
+		border: 0.1em solid #333232;
+		border-radius: 100vw;
+	}
+
+	*::-webkit-scrollbar-thumb:hover {
+		background: rgb(167, 167, 167);
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: white;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	width: 100%;
+	font-size: 32px;
+	font-weight: 800;
+	margin: 32px auto;
+	text-align: center;
+	line-height: 200%;
+}
+
+@media screen {
+	h1,
+	h2,
+	h3,
+	h4 {
+		font-size: 54px;
+		margin: 32px auto;
+	}
+}
+
+section {
+	max-width: 1110px;
+	margin: 48px auto;
+	padding: 0 16px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.scroll-lock {
+	overflow: hidden;
+}
+
+@layer base {
+	@font-face {
+		font-family: 'Book';
+		src: local('Book'), url('/fonts/jwf-book.woff2');
+		font-weight: 400;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Book';
+		src: local('Book'), url('/fonts/jwf-bold.woff2');
+		font-weight: 700;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Book';
+		src: local('Book'), url('/fonts/jwf-ultra.woff2');
+		font-weight: 800;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Book';
+		src: local('Book'), url('/fonts/jwf-bookitalic.woff2');
+		font-weight: 400;
+		font-display: swap;
+		font-style: italic;
+	}
+}
+
+.frosted-glass {
+	filter: blur(10px);
+	margin: -20px;
+}
+
+input {
+	width: 100%;
+	height: 50px;
+	margin: 16px 0;
+	padding: 24px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
