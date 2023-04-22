@@ -150,13 +150,48 @@
             "type": "svg"
           },
           {
-            "class": "devicon-mongodb-plain",
-            "name": "Mongodb"
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
           },
           {
             "uri": "elasticsearch-svgrepo-com.svg",
             "name": "Elasticsearch",
             "type": "svg"
+          },
+          {
+            "uri": "rabbitmq-svgrepo-com.svg",
+            "name": "RabbitMQ",
+            "type": "svg"
+          }
+        ]
+      },
+      {
+        "title": "SP Tools",
+        "startDate": "2020",
+        "description": "SP Tools is a mobile app that serves as the shop portal for the company, offering a comprehensive range of features to enhance the user experience. Developed by our team, the app includes various tools, power tools, hand tools, auto specialty tools, and garage equipment. It also features promotions and SP credits to reward loyal customers. The app is designed to be user-friendly and intuitive, allowing users to easily browse and purchase products directly from their mobile devices.",
+        "role": "As the Scrum Master and Backend Developer at SP Tools, I played a pivotal role in the development of the v2 mobile application. My responsibilities included overseeing the agile development process, ensuring timely delivery of features and resolving complex technical challenges. Alongside my team, I successfully implemented key features such as promotions and SP credits, delivering a seamless user experience. Overall, my contribution ensured the successful completion of the project and its alignment with the company's strategic goals.",
+        "images": [
+          "images/portfolio/sptools/p0.jpg",
+          "images/portfolio/sptools/p1.jpg",
+          "images/portfolio/sptools/p2.jpg"
+        ],
+        "url": "https://play.google.com/store/search?q=sp%20tools&c=apps",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React Native"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "NodeJS"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "ExpressJS"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "Mongodb"
           }
         ]
       }

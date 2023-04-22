@@ -150,13 +150,48 @@
             "type": "svg"
           },
           {
-            "class": "devicon-mongodb-plain",
-            "name": "Mongodb"
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
           },
           {
             "uri": "elasticsearch-svgrepo-com.svg",
             "name": "Elasticsearch",
             "type": "svg"
+          },
+          {
+            "uri": "rabbitmq-svgrepo-com.svg",
+            "name": "RabbitMQ",
+            "type": "svg"
+          }
+        ]
+      },
+      {
+        "title": "SP Tools",
+        "startDate": "2021",
+        "description": "SP Tools est une application mobile qui a été créée pour servir de portail de vente pour l'entreprise du même nom. Elle offre une expérience d'achat simplifiée et pratique pour les clients, en regroupant les outils, les équipements de garage et les produits associés de SP Tools dans une application facile à utiliser. Les clients peuvent bénéficier d'offres exclusives et de promotions, ainsi que de crédits SP qui peuvent être utilisés pour des achats futurs. La conception et le développement de l'application ont été effectués avec une attention particulière aux besoins des utilisateurs professionnels, tout en utilisant les dernières technologies pour offrir une expérience optimale.",
+        "role": "Mon rôle chez SP Tools était de scrum master et développeur back-end dans le développement de la version 2 de l'application mobile, incluant de nombreuses fonctionnalités telles que les promotions et les crédits SP.",
+        "images": [
+          "images/portfolio/sptools/p0.jpg",
+          "images/portfolio/sptools/p1.jpg",
+          "images/portfolio/sptools/p2.jpg"
+        ],
+        "url": "https://play.google.com/store/search?q=sp%20tools&c=apps",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React Native"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "NodeJS"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "ExpressJS"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "Mongodb"
           }
         ]
       }
