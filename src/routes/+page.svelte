@@ -1,7 +1,6 @@
 <script>
   export let data;
   let { pageInfo, projects } = data;
-  import { urlFor } from "$lib/client";
   import { currentLanguage } from "$lib/stores";
   import SectionHero from "$lib/components/sections/SectionHero.svelte";
   import SectionProjects from "../lib/components/sections/SectionProjects.svelte";
@@ -15,7 +14,7 @@
 <SectionHero titles={pageInfo.titles[0]} currentLanguage={$currentLanguage} />
 <SectionProjects {projects} />
 <SectionAbout
-  bioImage={urlFor(pageInfo.bioImage).width(250).url()}
+  bioImage={pageInfo.bioImage}
   bioImageAlt={pageInfo.name}
   bioText={pageInfo.bioText[$currentLanguage]}
 />

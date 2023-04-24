@@ -1,7 +1,6 @@
 import nodemailer from "nodemailer";
 import { json } from "@sveltejs/kit";
 import { SECRET_USER, SECRET_PASS } from "$env/static/private";
-export const prerender = false;
 
 export async function POST({ request }) {
   const { name, email, message } = await request.json();
