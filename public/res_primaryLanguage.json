@@ -100,6 +100,25 @@
     ],
     "experience": [
       {
+        "company": "Domenix",
+        "title": "Intern Software Engineer",
+        "icon": "fas fa-laptop",
+        "mainTech": [
+          "May 2023 - Present"
+        ],
+        "technologies": [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "React",
+          "Node.js",
+          "MongoDB",
+          "Express.js",
+          "Node.js",
+          "Docker"
+        ]
+      },
+      {
         "company": "Galvanize: Hack Reactor",
         "title": "Student",
         "icon": "fas fa-book",
