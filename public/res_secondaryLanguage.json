@@ -298,35 +298,53 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - obecnie",
+      "company": "Keeneye solutions",
+      "title": "Senior software engineer",
+      "years": "01.2021 - present",
       "mainTech": [
-        "Angular 8/9/10"
+        "NodeJS"
       ],
+      "icon" : "fa-node-js",
       "technologies": [
         "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        "Angular Material"
+        "ExpressJS",
+        "NestJS",
+        "Kafka",
+        "Redis",
+        "AWS",
+        "Mongodb",
+        "Postman",
+        "Jest",
+        "Supertest",
+        "Chai",
+        "Mocha",
+        "Stripe",
+        "jwt"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Stażystka",
-      "years": "01.2018 - 09.2019",
+      "company": "Tech-instinct",
+      "title": "Software engineer",
+      "years": "09.2018 - 09.2020",
+      "icon" : "fa-angular",
       "mainTech": [
-        "Angular 7/8"
+        "Angular 6/7/8/9"
       ],
       "technologies": [
         "REST API",
         "RxJS",
-        "Swagger",
         "JavaScript",
-        "DHTMLX Gantt"
+        "TypeScript",
+        "Bootstrap",
+        "MDBootstrap",
+        "Angular Material",
+        "Stamp",
+        "Java",
+        "Spring",
+        "JHipster",
+        "Swagger",
+        "Stripe",
+        "jwt"
       ]
     }
   ]
