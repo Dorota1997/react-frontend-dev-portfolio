@@ -247,6 +247,53 @@
           "name": "Amazon web services"
         }
       ]
+    },
+    {
+      "title": "Klapper",
+      "startDate": "2022",
+      "description": "Klapper est une plateforme de commerce social qui promeut les entreprises et marques locales grâce à des communautés de consommateurs engagés et des micro-influenceurs locaux. Elle propose des offres géolocalisées, un flux de contenu personnalisé, ainsi qu'une communauté de commerce électronique spécialisée pour les micro-influenceurs. Klapper aide les utilisateurs à découvrir et à soutenir les entreprises locales tout en bénéficiant d'expériences d'achat durables.",
+      "role": "En tant que membre de l'équipe de Klapper, j'ai joué un rôle crucial pour sauver le projet lorsqu'il était au bord de l'effondrement en raison de bugs majeurs. J'ai rejoint l'équipe pendant une période de crise et j'ai travaillé principalement sur le backend, en utilisant mon expertise pour guider l'équipe front-end et résoudre les problèmes liés à l'application React Native. Grâce aux efforts de la nouvelle équipe, y compris moi-même, nous avons pu sauver l'application et le projet, assurant ainsi la satisfaction de notre client.",
+      "images": [
+        "images/portfolio/klapper/p0.jpg",
+        "images/portfolio/klapper/p1.jpg"
+      ],
+      "url": "https://klapper.fr/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React Native"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "ExpressJS"
+        },
+        {
+          "uri": "nestjs-svgrepo-com.svg",
+          "name": "NestJS",
+          "type": "svg"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "Mongodb"
+        },
+        {
+          "class": "devicon-redis-plain",
+          "name": "Redis"
+        },
+        {
+          "uri": "algolia-svgrepo-com.svg",
+          "name": "Algolia",
+          "type": "svg"
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "Amazon web services"
+        }
+      ]
     }
   ],
   "experience": [

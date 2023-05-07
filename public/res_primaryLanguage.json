@@ -247,6 +247,53 @@
           "name": "Amazon web services"
         }
       ]
+    }, 
+    {
+      "title": "Klapper",
+      "startDate": "2022",
+      "description": "Klapper is a social commerce platform that promotes local businesses and brands through engaged consumer communities and local micro-influencers. It offers geolocated deals, a personalized content feed, and a specialized e-commerce community for micro-influencers. Klapper helps users discover and support nearby businesses while enjoying sustainable shopping experiences.",
+      "role": "As part of the Klapper team, I played a critical role in saving the project when it was on the brink of collapse due to major bugs. I joined during a crisis state and worked mainly on the backend, using my expertise to guide the front-end team and solve issues related to the React Native app. Thanks to the efforts of the new team, including myself, we were able to save the app and the project, ensuring the satisfaction of our client.",
+      "images": [
+        "images/portfolio/klapper/p0.jpg",
+        "images/portfolio/klapper/p1.jpg"
+      ],
+      "url": "https://klapper.fr/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React Native"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "ExpressJS"
+        },
+        {
+          "uri": "nestjs-svgrepo-com.svg",
+          "name": "NestJS",
+          "type": "svg"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "Mongodb"
+        },
+        {
+          "class": "devicon-redis-plain",
+          "name": "Redis"
+        },
+        {
+          "uri": "algolia-svgrepo-com.svg",
+          "name": "Algolia",
+          "type": "svg"
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "Amazon web services"
+        }
+      ]
     }
   ],
   "experience": [
