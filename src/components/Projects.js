@@ -1,70 +1,65 @@
-import React, { Component } from "react";
+import React, { useCallback, useState } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
-class Projects extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      deps: {},
-      detailsModalShow: false,
-    };
-  }
+const Projects = ({resumeProjects, resumeBasicInfo}) => {
 
-  render() {
-    let detailsModalShow = (data) => {
-      this.setState({ detailsModalShow: true, deps: data });
-    };
+  const [deps, setDeps] = useState({});
+  const [detailsModalShow, setDetailsModalShow] = useState(false);
 
-    let detailsModalClose = () => this.setState({ detailsModalShow: false });
-    if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.projects;
-      var projects = this.props.resumeProjects.map(function (projects) {
-        return (
-          <div
-            className="col-sm-12 col-md-6 col-lg-4"
-            key={projects.title}
-            style={{ cursor: "pointer" }}
-          >
-            <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
-                  <img
-                    src={projects.images[0]}
-                    alt="projectImages"
-                    height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
-                  />
-                  <span className="project-date">{projects.startDate}</span>
-                  <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
-                </div>
+  const detailsModalDisplay = useCallback((data) => {
+    setDetailsModalShow(true);
+    setDeps(data);
+  }, [setDetailsModalShow, setDeps]);
+
+  let detailsModalClose = useCallback(() => setDetailsModalShow(false), [setDetailsModalShow]);
+  if (resumeProjects && resumeBasicInfo) {
+    var sectionName = resumeBasicInfo.section_name.projects;
+    var projects = resumeProjects.map(function (projects) {
+      return (
+        <div
+          className="col-sm-12 col-md-6 col-lg-4"
+          key={projects.title}
+          style={{ cursor: "pointer" }}
+        >
+          <span className="portfolio-item d-block">
+            <div className="foto" onClick={() => detailsModalDisplay(projects)}>
+              <div>
+                <img
+                  src={projects.images[0]}
+                  alt="projectImages"
+                  height="230"
+                  style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                />
+                <span className="project-date">{projects.startDate}</span>
+                <br />
+                <p className="project-title-settings mt-3">
+                  {projects.title}
+                </p>
               </div>
-            </span>
-          </div>
-        );
-      });
-    }
-
-    return (
-      <section id="portfolio">
-        <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "black" }}>
-            <span>{sectionName}</span>
-          </h1>
-          <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
-          </div>
-          <ProjectDetailsModal
-            show={this.state.detailsModalShow}
-            onHide={detailsModalClose}
-            data={this.state.deps}
-          />
+            </div>
+          </span>
         </div>
-      </section>
-    );
+      );
+    });
   }
+
+  return (
+    <section id="portfolio">
+      <div className="col-md-12">
+        <h1 className="section-title" style={{ color: "black" }}>
+          <span>{sectionName}</span>
+        </h1>
+        <div className="col-md-12 mx-auto">
+          <div className="row mx-auto">{projects}</div>
+        </div>
+        <ProjectDetailsModal
+          show={detailsModalShow}
+          onHide={detailsModalClose}
+          data={deps}
+        />
+      </div>
+    </section>
+  );
 }
 
 export default Projects;
