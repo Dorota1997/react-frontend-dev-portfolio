@@ -26,6 +26,7 @@ class App extends Component {
       document.documentElement.lang === window.$primaryLanguage
         ? `res_primaryLanguage.json`
         : `res_secondaryLanguage.json`;
+        console.log(resumePath);
     this.loadResumeFromPath(resumePath);
   }
 
