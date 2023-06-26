@@ -81,37 +81,93 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Netizens Technologies",
+        "title": "Full Stack Developer",
+        "years": "06/2022 - 02/2023",
         "mainTech": [
-          "Angular 8/9/10"
+          "React",
+          "Node.js",
+          "AdonisJs",
+          "PostgreSQL"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "React",
+          "Redux",
+          "Node.js",
+          "AdonisJs",
+          "PostgreSQL",
+          "Docker",
+          "Redis",
+          "Socket.io",
+          "webRTC"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Jemistry Info Solutions LLP",
+        "title": "Web Developer Intern",
+        "years": "01.2022 - 06.2022",
         "mainTech": [
-          "Angular 7/8"
+          "React",
+          "Node.js",
+          "PostgreSQL"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
+          "React.js",
+          "Node.js",
+          "PostgreSQL",
           "PHP",
+          "phpMyAdmin",
           "JavaScript",
-          "DHTMLX Gantt"
+          "jQuery",
+          "AJAX",
+          "Bootstrap",
+          "HTML5",
+          "CSS3"
+        ]
+      },
+      {
+        "company": "Suven Consultants & Technology Pvt. Ltd.",
+        "title": "Web Developer Intern",
+        "years": "06.2021 - 07.2021",
+        "mainTech": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "PHP",
+          "phpMyAdmin"
+        ],
+        "technologies": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Bootstrap",
+          "jQuery",
+          "AJAX",
+          "PHP",
+          "phpMyAdmin"
+        ]
+      },
+      {
+        "company": "Freelancing",
+        "title": "Freelance Web Developer",
+        "years": "01.2021 - 12.2021",
+        "mainTech": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "PHP",
+          "phpMyAdmin"
+        ],
+        "technologies": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Bootstrap",
+          "jQuery",
+          "AJAX",
+          "PHP",
+          "phpMyAdmin"
         ]
       }
     ]
