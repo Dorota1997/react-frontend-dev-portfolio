@@ -39,6 +39,26 @@
         ]
       },
       {
+        "title": "Kanban Board",
+        "startDate": "2022",
+        "description": "A project management software for my previous organization that manages the projects and its tasks using kanban drag and drop.",
+        "images": [
+          "images/portfolio/kanban/tasks.jpg",
+          "images/portfolio/kanban/add_task.jpg"
+        ],
+        "url": "https://netizens-kanban.web.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React.js"
+          },
+          {
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
+          }
+        ]
+      },
+      {
         "title": "Protapp",
         "startDate": "2022",
         "description": "A customizable digital business card using NFC technology. A user can just tap the card at back of the mobile and device and open a digital business card in the browser. For devices that do not support NFC technology, a QR code printed on a card can be scanned.",
