@@ -14,19 +14,15 @@
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.13.1",
     "react-ga": "^3.1.2",
-    "react-scripts": "3.4.3",
+    "react-scripts": "^3.4.3",
     "react-switch": "^5.0.1",
     "react-typical": "^0.1.3",
     "react-vertical-timeline-component": "^3.3.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build"
+},
   "eslintConfig": {
     "extends": "react-app"
   },
