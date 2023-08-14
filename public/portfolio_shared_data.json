@@ -69,12 +69,17 @@
         "level": "85"
       },
       {
+        "name": "MaterialUI",
+        "class": "devicon-materialui-plain",
+        "level": "85"
+      },
+      {
         "name": "C#",
         "class": "devicon-csharp-plain",
         "level": "65"
       },
       {
-        "name": "C#",
+        "name": "C",
         "class": "devicon-c-plain",
         "level": "65"
       },
@@ -82,6 +87,11 @@
         "name": "MySql",
         "class": "devicon-mysql-plain",
         "level": "60"
+      },
+      {
+        "name": "GraphQL",
+        "class": "devicon-graphql-plain",
+        "level": "20"
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 I'm Ella Rekow. I am a Junior in Software Engineering studying at Iowa State, as well as continuing an internship doing front end development for Netsmart. I do art, climb, game development and more in my freetime along with promoting kindness in the tech community though my TikTok platform. I also love learning new things in the tech world!",
+    "description": "👋 I'm Ella Rekow. I am a Senior studying Software Engineering at Iowa State. I love doing art, climbing, game development and more in my free time along with promoting kindness in the tech community though my TikTok platform. I also love learning new things in the tech world!",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -13,7 +13,7 @@
     {
       "title": "Women In Science and Engineering Community Leader",
       "startDate": "2022",
-      "description": "Similar to a learning community, I continue to run a small group of Women who are persuing degrees in Tech. We meet on a weekly basis and participate in various activities from just hanging out and chatting to talking to guest speakers who are working in the field, resume reviews, and more! The focus is creating a community of girls who can help eachother and build their skills and have a strong support system.",
+      "description": "Similar to a learning community, I continue to run a small group of Women who are pursuing degrees in Tech. We meet on a weekly basis and participate in various activities from just hanging out and chatting to talking to guest speakers who are working in the field, resume reviews, and more! The focus is creating a community of girls who can help each other and build their skills and have a strong support system.",
       "images": [
         "images/portfolio/WISE/WCC.jpg",
         "images/portfolio/WISE/WISE.png"
@@ -40,7 +40,8 @@
     {
       "title": "FIRST Robotics Challenge Robot",
       "startDate": "2018",
-      "description": "Sophomore year of High School I was appointed lead programmer of the 525 Robotics team where my teammates and I developed embedded code to earn two separate tickets to the world competition. 21+ different autonomous methods were deployed to our robot making us one of the most versatile autonomous robots in the entire world and being called the ''5th highest rated autonomous'' competitor there.",      "images": [
+      "description": "Sophomore year of High School I was appointed lead programmer of the 525 Robotics team where my teammates and I developed embedded code to earn two separate tickets to the world competition. 21+ different autonomous methods were deployed to our robot making us one of the most versatile autonomous robots in the entire world and being called the ''5th highest rated autonomous'' competitor there.",
+      "images": [
         "images/portfolio/FRC/glasses-2018-team1-1024x384.jpg",
         "images/portfolio/Discord Bot/profilewsimage.png"
       ],
@@ -57,13 +58,17 @@
     {
       "company": "Netsmart",
       "title": "Front-End Developer Intern",
-      "years": "10.2019 - present",
+      "years": "06.2022 - 07.2023",
       "mainTech": [
-        "VueJS"
+        "VueJS",
+        "React"
       ],
       "technologies": [
         "Javascript",
+        "Typescript",
+        "React",
         "VueJS",
+        "MaterialUI",
         "Bootstrap Vue",
         "Atlassian",
         "Git"
