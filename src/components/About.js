@@ -3,6 +3,7 @@ import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
+import myProfileImage from "./assets/myProfile.jpg"; // Đường dẫn có thể khác tùy theo cấu trúc thư mục của bạn
 
 class About extends Component {
   render() {
@@ -28,8 +29,8 @@ class About extends Component {
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="250px"
-                    src={profilepic}
-                    alt="Avatar placeholder"
+                    src={myProfileImage}
+                    alt="avatar placeholder"
                   />
                   <Icon
                     icon={angularIcon}
