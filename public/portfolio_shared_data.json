@@ -5,12 +5,12 @@
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/MaiLienNguyen",
           "class": "fab fa-github"
         },
         {
           "name": "instagram",
-          "url": "https://www.instagram.com",
+          "url": "https://www.instagram.com/mailienn0202/",
           "class": "fab fa-instagram"
         }
       ],
@@ -19,24 +19,15 @@
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
+          "name": "HTML ",
           "class": "devicon-html5-plain",
-          "level": "95"
+          "level": ""
         },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
+        
         {
           "name": "TypeScript",
           "class": "devicon-typescript-plain",
-          "level": "90"
+          "level": ""
         },
         {
           "name": "JavaScript",
@@ -46,22 +37,27 @@
         {
           "name": "Sass",
           "class": "devicon-sass-original",
-          "level": "75"
+          "level": ""
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": ""
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "name": "Flutter",
+          "class": "devicon-flutter-plain",
+          "level": ""
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "Dart",
+          "class": "devicon-dart-plain",
+          "level": ""
+        },
+        {
+          "name": "Firebase",
+          "class": "devicon-firebase-plain",
+          "level": ""
         }
       ]
     }
