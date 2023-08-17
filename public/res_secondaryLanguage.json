@@ -1,48 +1,24 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Xin chào",
+      "description": "👋 Tôi là Mai Liên Nguyễn. Tôi đang làm việc với những framework front-end mới nhất như Flutter và React. Những gì bạn đang thấy bây giờ là mẫu portfolio từ Dorota1997. Nếu bạn thích mẫu portfolio này, hãy nhấn ⭐ trên kho lưu trữ để làm cho nó dễ nhận biết hơn đối với người dùng khác. Cảm ơn bạn 💜",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Về tôi",
+        "projects": "Các dự án",
+        "skills": "Kĩ năng",
+        "experience": "Kinh nghiệm"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "React portfolio",
+        "startDate": "2023",
+        "description": "Một mẫu portfolio React được thiết kế để sử dụng bởi các người dùng GitHub khác. Mẫu này bao gồm các phần riêng biệt như Giới thiệu, Dự án, Kỹ năng và Kinh nghiệm. Nó cũng hỗ trợ nhiều ngôn ngữ và cho phép chọn chế độ giao diện sáng hoặc tối.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/react-portfolio/pr1.jpg",
+          "images/portfolio/react-portfolio/pr2.jpg"
         ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
+        "url": "https://github.com/blueneons/intern-portfolio",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -51,65 +27,77 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-sass-plain",
+            "name": "Sass"
+          },
+          {
+            "class": "devicon-github-plain",
+            "name": "GitHub"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Flutter e-commerce app",
+        "startDate": "2023",
+        "description": "Dự án cá nhân cho môn học ở trường của tôi. Tôi đảm nhận việc thiết kế và code giao diện UI-UX cho ứng dụng, bao gồm việc tạo ra một giao diện hấp dẫn và thân thiện với người dùng cho ứng dụng, đồng thời xem xét cách người dùng sẽ tương tác với nó.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/e-commerce_app/e-commerce_app1.png",
+          "images/portfolio/e-commerce_app/e-commerce_app2.png",
+          "images/portfolio/e-commerce_app/e-commerce_app3.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/hieu20022002/ecommerce",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-flutter-plain",
+            "name": "Flutter"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-dart-plain",
+            "name": "Dart"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
+          },
+          {
+            "class": "devicon-github-plain",
+            "name": "GitHub"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "Đại học Công nghệ thông tin - Đại học quốc gia Việt Nam",
+        "title": "Hệ thống thông tin",
+        "years": "09.2021 - nay",
         "mainTech": [
-          "Angular 8/9/10"
+          ""
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "C++",
+          "SQL",
+          "Java",
+          "Flutter-Dart",
+          "Firebase",
+          "GitHub"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "Freelancer",
+        "title": "Intern Developer",
+        "years": "07.2023 - nay",
         "mainTech": [
-          "Angular 7/8"
+          "React"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
           "JavaScript",
-          "DHTMLX Gantt"
+          "React",
+          "Redux",
+          "HTML",
+          "GitHub"
         ]
       }
     ]
