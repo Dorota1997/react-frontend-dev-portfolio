@@ -189,7 +189,7 @@ header h1 {
 	-moz-transition: all .20s linear;
 	transition: all .20s linear;
 	z-index: 0;
-	position: relative;
+	position: center;
 }
 
 .link-href {
@@ -205,10 +205,10 @@ header h1 {
 }
 
 #preview {
-	width: 500px;
+	width: 300px;
 	background-color: #ebeaf5;
 	padding: 15px;
-	position: relative;
+	position: center;
 	margin-bottom: 15%;
 }
 
