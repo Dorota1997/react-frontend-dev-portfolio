@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Phuoc, a legal tech specialist. While my main expertise lies in the development of digital laws (IP, data privacy, blockchain, cybersecurity, etc.), I also enjoy undertaking the technical task of coding these things. Thank you for visiting my page 💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,53 +11,59 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "AI Blog Writer",
+        "startDate": "2018",
+        "description": "I started to write about the AI in my personal blogs since early 2018 and posted on various sites.",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
         ],
-        "url": "",
+        "url": "https://phuocmaster.blog/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-wordpress-plain",
+            "name": "Wordpress"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-php-plain",
+            "name": "PHP"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-html5-plain-wordmark",
+            "name": "HTML"
           }
+          
+
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Data Analysis",
+        "startDate": "2021",
+        "description": "I have done various analyses throughou my study. Most recently I scraped the data about data-related jobs in Vietnam and run an analysis with both NLP and regression techniques for salary prediction :)",
         "images": [
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/phuocnguyen90/Data_Job_Analysis",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-jupyter-plain-wordmark",
+            "name": "Jupyter"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }          ,
+          {
+            "class": "devicon-vscode-plain",
+            "name": "VS Code"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "AI Engineer",
+        "startDate": "2022",
+        "description": "In the path of becoming a full stack AI Engineer, I am learning MLOps and front-end development. This portfolio website is a demonstration of React website building",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
@@ -65,53 +71,61 @@
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-googlecloud-plain-wordmark",
+            "name": "GCP"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-amazonwebservices-plain-wordmark",
+            "name": "AWS"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-react-original-wordmark",
+            "name": "React"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Telus International",
+        "title": "Data Analyst",
+        "years": "11.2022 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Python"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "LLM",
+          "Web scraping",
+          "HTML"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Victoria University of Wellington",
+        "title": "PhD Candidate",
+        "years": "12.2019 - 03.2021",
         "mainTech": [
-          "Angular 7/8"
+          "Legal research"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Legal tech",
+          "AI regulation",
+          "AI ethics"
+
+        ]
+      }
+      ,
+      {
+        "company": "Thu Vien Phap Luat",
+        "title": "Editor",
+        "years": "09.2012 - 11.2014",
+        "mainTech": [
+          "Content creation"
+        ],
+        "technologies": [
+          "CMS",
+          "SEO",
+          "Digital marketing"
+
         ]
       }
     ]

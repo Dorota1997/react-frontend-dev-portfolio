@@ -1,6 +1,5 @@
 {
   "name": "react-frontend-dev-portfolio",
-  "homepage": "https://dorota1997.github.io/react-frontend-dev-portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +13,7 @@
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.13.1",
     "react-ga": "^3.1.2",
-    "react-scripts": "3.4.3",
+    "react-scripts": "^5.0.1",
     "react-switch": "^5.0.1",
     "react-typical": "^0.1.3",
     "react-vertical-timeline-component": "^3.3.1"

@@ -1,12 +1,12 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Xin chào",
+      "description": "👋 Mình là Phước. Mình là một chuyên gia pháp lý về lĩnh vực công nghệ số. Bên cạnh đó mình cũng là một lập trình viên AI và chuyên gia phân tích dữ liệu. Cảm ơn đã đến thăm trang cá nhân 💜",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Giới thiệu",
+        "projects": "Các dự án",
+        "skills": "Kỹ năng",
+        "experience": "Kinh nghiệm"
       }
     },
     "projects": [
