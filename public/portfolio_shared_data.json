@@ -1,17 +1,17 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Aaron Sanders",
+      "titles": [  "Web Developer", "Software Engineer", "React Native Engineer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/asand017",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "linkedIn",
+          "url": "https://www.linkedin.com/in/aaron-g-sanders/",
+          "class": "fab fa-linkedin"
         }
       ],
       "image": "myProfile.jpg"
@@ -19,8 +19,8 @@
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
+          "name": "React",
+          "class": "devicon-react-plain",
           "level": "95"
         },
         {
@@ -44,18 +44,8 @@
           "level": "70"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
+          "name": "Java",
+          "class": "devicon-java-plain",
           "level": "65"
         },
         {
