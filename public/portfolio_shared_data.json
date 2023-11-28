@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Aaron Sanders",
-      "titles": [  "Web Developer", "Software Engineer", "React Native Engineer" ],
+      "titles": [  "Web Developer", "Software Developer", "Full Stack Developer" ],
       "social": [
         {
           "name": "github",
@@ -24,16 +24,6 @@
           "level": "95"
         },
         {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
           "name": "TypeScript",
           "class": "devicon-typescript-plain",
           "level": "90"
@@ -49,9 +39,44 @@
           "level": "65"
         },
         {
+          "name": "NodeJS",
+          "class": "devicon-nodejs-plain",
+          "level": "80"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "85"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "85"
+        },
+        {
           "name": "MySql",
           "class": "devicon-mysql-plain",
           "level": "60"
+        },
+        {
+          "name": "Angular",
+          "class": "devicon-angularjs-plain",
+          "level": "80"
+        },
+        {
+          "name": "HTML5",
+          "class": "devicon-html5-plain",
+          "level": "80"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "95"
         }
       ]
     }
