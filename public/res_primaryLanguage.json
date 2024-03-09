@@ -97,7 +97,8 @@
           ".NET Core",
           "SignalR",
           "Angular Material"
-        ]
+        ],
+        "icon": "devicon-typescript-plain"
       },
       {
         "company": "Serros Solutions",
@@ -112,7 +113,8 @@
           "PHP",
           "JavaScript",
           "DHTMLX Gantt"
-        ]
+        ],
+        "icon": "fab fa-twitter"
       }
     ]
   }

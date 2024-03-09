@@ -1,12 +1,13 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "main_icon": "game-icons:plague-doctor-profile",
+      "name": "عبر اللع القباي",
+      "titles": [ "ممثل", "طبيب", "راوور", "Mobile App Developer" ],
       "social": [
         {
           "name": "github",
           "url": "https://github.com",
-          "class": "fab fa-github"
+          "class": "fab fa-twitter"
         },
         {
           "name": "instagram",
@@ -20,48 +21,39 @@
       "icons": [
         {
           "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
+          "class": "fab fa-instagram"
         },
         {
           "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
+          "class": "devicon-css3-plain"
         },
         {
           "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
+          "class": "devicon-angularjs-plain"
         },
         {
           "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
+          "class": "devicon-typescript-plain"
         },
         {
           "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
+          "class": "devicon-javascript-plain"
         },
         {
           "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
+          "class": "devicon-sass-original"
         },
         {
           "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "class": "devicon-bootstrap-plain"
         },
         {
           "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "class": "devicon-csharp-plain"
         },
         {
           "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "class": "devicon-mysql-plain"
         }
       ]
     }

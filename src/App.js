@@ -8,6 +8,144 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
+
+
+/*
+type SocialLink = {
+  name: string;
+  url: string;
+  class: string;
+};
+
+type SkillIcon = {
+  name: string;
+  class: string;
+};
+
+type BasicInfo = {
+  main_icon: string;
+  name: string;
+  titles: string[];
+  social: SocialLink[];
+  image: string;
+};
+
+type Skills = {
+  icons: SkillIcon[];
+};
+
+type UserProfile = {
+  basic_info: BasicInfo;
+  skills: Skills;
+};
+
+
+
+*/
+
+/*
+type Technology = {
+    class: string;
+    name: string;
+};
+
+type Project = {
+    title: string;
+    startDate: string;
+    description: string;
+    images: string[];
+    url: string;
+    technologies: Technology[];
+};
+
+type Experience = {
+    company: string;
+    title: string;
+    years: string;
+    mainTech: string[];
+    technologies: string[];
+    icon?: string;
+};
+
+type SectionNames = {
+    about: string;
+    projects: string;
+    skills: string;
+    experience: string;
+};
+
+type BasicInfo = {
+    description_header: string;
+    description: string;
+    section_name: SectionNames;
+};
+
+type MainContent = {
+    basic_info: BasicInfo;
+    projects: Project[];
+    experience: Experience[];
+};
+
+type WebsiteContents = {
+    [language: string]: MainContent;
+};
+
+const websiteContent: WebsiteContents = {
+    en: {
+        basic_info: {
+            description_header: "Hi",
+            description: "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React, and Vue. What you are seeing now is a portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+            section_name: {
+                about: "About me",
+                projects: "Projects",
+                skills: "Skills",
+                experience: "Experience",
+            },
+        },
+        projects: [
+            {
+                title: "Animal Shelter",
+                startDate: "2020",
+                description: "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processes and allows to store all evidence on adopting animals from animal shelter.",
+                images: [
+                    "images/portfolio/animal-shelter/p1.jpg",
+                    "images/portfolio/animal-shelter/p2.jpg",
+                ],
+                url: "",
+                technologies: [
+                    { class: "devicon-angularjs-plain", name: "Angular" },
+                    { class: "devicon-typescript-plain", name: "TypeScript" },
+                    { class: "devicon-csharp-plain", name: "C#" },
+                ],
+            },
+            // More projects...
+        ],
+        experience: [
+            {
+                company: "DefOpenSource",
+                title: "Front-End Developer",
+                years: "10.2019 - present",
+                mainTech: ["Angular 8/9/10"],
+                technologies: [
+                    "REST API",
+                    "RxJS",
+                    "JavaScript",
+                    "Bootstrap",
+                    // More technologies...
+                ],
+                icon: "devicon-typescript-plain",
+            },
+            // More experiences...
+        ],
+    },
+    other_language_key: {
+        // Translated content follows the same structure...
+    },
+};
+
+
+*/
+
 class App extends Component {
 
   constructor(props) {
