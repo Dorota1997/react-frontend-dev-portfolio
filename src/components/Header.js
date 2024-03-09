@@ -7,7 +7,7 @@ class Header extends Component {
 
   constructor() {
     super();
-    this.state = { checked: false };
+    this.state = { checked: false , offColor: '#baaa80', onColor: '#000000'};
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
   }
 
@@ -28,6 +28,7 @@ class Header extends Component {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
+      var main_icon = this.props.sharedData.main_icon;
     }
 
     const HeaderTitleTypeAnimation = React.memo( () => {
@@ -39,7 +40,7 @@ class Header extends Component {
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+              <span className="iconify header-icon" data-icon={main_icon} data-inline="false"></span>
               <br/>
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
@@ -50,15 +51,15 @@ class Header extends Component {
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
-                offColor="#baaa80"
-                onColor="#353535"
+                offColor={this.state.offColor}
+                onColor={this.state.onColor}
                 className="react-switch mx-auto"
                 width={90}
                 height={40}
                 uncheckedIcon={
                   <span
                     className="iconify"
-                    data-icon="twemoji:owl"
+                    data-icon="line-md:moon-rising-twotone-alt-loop"
                     data-inline="false"
                     style={{
                       display: "block",

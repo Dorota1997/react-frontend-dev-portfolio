@@ -37,7 +37,34 @@ class Experience extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={
+  (work.logo !== "" && work.logo !== undefined) ? (
+    <div style={{
+      width: '100%', // Ensure the container size matches your requirements
+      height: '100%', // Ditto, adjust as needed to maintain aspect ratio
+      borderRadius: '50%', // Makes the container circular
+      overflow: 'hidden', // Ensures no part of the image spills outside the container
+      display: 'flex', // Enables flexbox to center the image
+      justifyContent: 'center', // Centers horizontally
+      alignItems: 'center' // Centers vertically
+    }}>
+      <img
+        src={work.logo}
+        style={{
+          objectFit: 'cover', // Ensures the image covers the space without losing its aspect ratio
+          width: 'auto', // Adjusts width automatically to maintain aspect ratio
+          height: '100%' // Makes the image fill the container height, adjust if necessary
+        }}
+        alt="Logo"
+      />
+    </div>
+  ) : (
+    <i className={`fas fa-solid fa-arrow-up experience-icon`}></i>
+  )
+}
+
+
+
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>

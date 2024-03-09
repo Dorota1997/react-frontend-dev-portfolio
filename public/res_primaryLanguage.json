@@ -97,7 +97,8 @@
           ".NET Core",
           "SignalR",
           "Angular Material"
-        ]
+        ],
+        "logo": "\\images\\portfolio\\animal-shelter\\p1.jpg"
       },
       {
         "company": "Serros Solutions",
@@ -112,7 +113,8 @@
           "PHP",
           "JavaScript",
           "DHTMLX Gantt"
-        ]
+        ],
+        "logo": "\\images\\myProfile.jpg"
       }
     ]
   }
