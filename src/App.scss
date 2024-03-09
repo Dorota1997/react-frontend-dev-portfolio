@@ -57,10 +57,7 @@ header {
 	padding: 8px 15px 2px 15px;
 	position: relative;
 	z-index: -500;
-	border-top: 5px solid #312a16;
 	border-radius: 0 0 5px 5px;
-	background-color: #312a16;
-	color: white;
 }
 
 .skills-tile {
@@ -250,6 +247,11 @@ header h1 {
 		font-size: 170%;
 		margin-top: 27%;
 		text-align: center;
+	}
+
+
+	.main-badge {
+		font-size: 10px !important;
 	}
 }
 
