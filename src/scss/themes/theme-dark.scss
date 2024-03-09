@@ -90,10 +90,14 @@ body[data-theme="dark"] {
       .vertical-timeline-element-icon {
          background: #000000 !important;
       }
-      @media only screen and (max-width: 1169px) { 
+      @media only screen and (max-width: 900px) { 
          .vertical-timeline-element-date {
             color: black;
          }
+      }
+
+      .main-badge {
+         color: white;
       }
    }
 

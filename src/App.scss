@@ -38,7 +38,6 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -74,7 +73,6 @@ header {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -90,11 +88,9 @@ header h1 {
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
 	height: 25px;
 }
 
@@ -108,7 +104,6 @@ header h1 {
 }
 
 #about {
-	background: #312a16;
 	overflow: hidden;
 }
 
@@ -219,7 +214,6 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
 }
 
 .experience-icon {
@@ -233,8 +227,6 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
-	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -244,8 +236,6 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
-	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -264,7 +254,6 @@ header h1 {
 }
 
 .modal-inside .modal-content {
-	background: white;
 }
 
 .bars {
@@ -289,7 +278,6 @@ header h1 {
 
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-	color: #313131;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: normal;
@@ -303,7 +291,6 @@ header h1 {
 	top: 0;
 	margin: 0;
 	padding-right: 24px;
-	background: #313131;
 	display: inline-block;
 	height: 42px;
 	line-height: 42px;
@@ -341,7 +328,6 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
 	padding-bottom: 5%;
 }
 
@@ -355,8 +341,6 @@ header h1 {
 	-webkit-transition: all ease 0.5s;
 	-moz-transition: all ease 0.5s;
 	transition: all ease 0.5s;
-	opacity: 0;
-	background-color: rgba(51, 51, 51, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -377,7 +361,6 @@ header h1 {
 }
 
 #skills {
-	background:  #312a16;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;

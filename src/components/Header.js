@@ -7,7 +7,7 @@ class Header extends Component {
 
   constructor() {
     super();
-    this.state = { checked: false };
+    this.state = { checked: false , offColor: '#baaa80', onColor: '#000000'};
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
   }
 
@@ -51,8 +51,8 @@ class Header extends Component {
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
-                offColor="#baaa80"
-                onColor="#000000"
+                offColor={this.state.offColor}
+                onColor={this.state.onColor}
                 className="react-switch mx-auto"
                 width={90}
                 height={40}
