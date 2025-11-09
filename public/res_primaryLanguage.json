@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Dhanvi Kashyap. I am a Computer Science Student at the University of Pittsburgh, deeply interested in the power of data and its potential to drive intelligent, meaningful solutions. Whether through academic research or industry experience, I’m eager to collaborate on projects that apply advanced data techniques to create meaningful, user-centered solutions and contribute to the future of technology.",
+      "description": "Hi 👋 I'm Dhanvi Kashyap. I am a Computer Science Student at the University of Pittsburgh, deeply interested in the power of data and its potential to drive intelligent, meaningful solutions. Whether through academic research or industry experience, I’m eager to collaborate on projects that apply advanced data techniques to create meaningful, user-centered solutions and contribute to the future of technology.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -81,12 +81,16 @@
         "technologies": [
           "Python",
           "JavaScript",
-        ]
-      },
+        ],
+        "content": [
+            "Investigate how adults (65+) build information literacy skills to reduce the spread of misinformation online, focusing on usability barriers and information verification behaviors.",
+            "Collaborate on developing a voice-based interaction system using the Amazon Alexa Skills Kit (ASK) and OpenAI’s GPT model, enabling Alexa to recognize user intent and provide either native functionality or GPT-powered conversational responses for senior adults."
+          ]
+        },
       {
         "company": "Chubb Insurance",
         "title": "Data Engineering & AI Intern",
-        "years": "",
+        "years": "June 2025 - August 2025",
         "mainTech": [
           "Angular 7/8"
         ],
@@ -96,7 +100,43 @@
           "PHP",
           "JavaScript",
           "DHTMLX Gantt"
-        ]
-      }
+        ],
+        "content": [
+            "Leveraged enterprise analytics platforms (Business 360, Agency 360, Competitor 360) to identify competitor and agency performance trends, producing insights that informed pricing and underwriting strategies.",
+            "Designed and developed a traffic congestion risk metric, enabling underwriters to evaluate how location-based congestion affects premiums and reducing assessment time by 30%.",
+            "Built a metric to quantify homeless encampment exposure risk, collaborating with the Commercial Insurance (CI) team to extend framework applicability across 3+ additional risk factors." 
+      ]
+      }, 
+        {
+            "company": "Medpath",
+        "title": "Software Engineering Consultant",
+        "years": "January 2025 - May 2025",
+        "mainTech": [
+          "Angular 7/8"
+        ],
+        "technologies": [
+          "React",
+          "Javascript",
+        ],
+        "content": [
+            "Designed and maintained scalable backend systems for an educational platform, optimizing APIs and database performance by 40% to support medical terminology learning.",
+            "Developed a web application using React and Supabase for database management and authentication, utilizing JSON-based data handling for seamless client-server communication.",
+            "Collaborated in an agile environment with the frontend UX/UI team to ensure seamless integration and optimize performance, improving user experience." 
+      ]
+        },
+        {
+        "company": "Party Hall Online",
+        "title": "Data Tester",
+        "years": "May 2023",
+        "mainTech": [
+          "Angular 7/8"
+        ],
+        "technologies": [
+          "SQL"
+        ],
+        "content": [
+            "Conducted weekly data testing to identify and resolve technical issues, ensuring the website’s functionality and readiness before public launch.",
+            "Collaborated with data developers to implement new designs, enhancing website user-friendliness and reducing software processing time."
+      ]
     ]
   }
