@@ -9,100 +9,84 @@
         "experience": "Experience"
       }
     },
+    "education": [
+    {
+      "institution": "University of Pittsburgh",
+      "degree": "Bachelor of Science- B.S., Computer Science",
+      "degree": "Minor of Business Administration- Finance"  
+      "location": "Pittsburgh, PA",
+      "years": "August 2024 - May 2028",
+      "Research Assistant": [
+          "Worked as a research assistant under Dr. Erin Walker as part of the <a href='https://damore-mckim.northeastern.edu/dash' target='_blank'>FACET Lab</a> to build a voice assistant to assist older adults to build their information literacy skills."
+        ],
+
+       "Leadership": [
+        "Worked as the Business Manager for Mastana Fusion Dance Club, in charge of managing a $5,000+ annual budget, allocating funds for performances, competitions, and travel. ",
+      ],
+      
+      "coursework": [
+        "CS441 Discrete Structures for Computer Science, CS445 Data Structures and Algorithms 1, CS447 Computer Organization & Assembly, CS 449 Introduction to Systems Software, CS 1501 Data Structures & Algorithms 2, CS 1502 Formal Methods in Computer Science"
+      ],
+      "extra": [
+        "Member of the Computer Science Club at the University of Pittsburgh."
+        "Member of the Women in Computer Science Organization at the University of Pittsburgh."
+        "Member of Asha for Pittsburgh at the University of Pittsburgh."
+        "Member of the South Asian Student Association at the University of Pittsburgh."
+      ]      
+    },
+    {
+      "institution": "Monroe Township High School",
+      "degree": "High School Degree",
+      "location": "Monroe Township, NJ",
+      "years": "2020 - 2024",
+      "Research Assistant": [],
+      "Leadership": [
+          "Dance Coordinator for South Asian Student Association."
+          "A part of the Planning Committee for Robotics Club."
+      
+      ],
+      "extra": [
+        "Member of the Robotics club at Monroe Township High School",
+        "Member of South Asian Student Association at Monroe Township High School",
+        "Member of the National Honors Society."
+        "Member of the Science National Honors Society."
+        "Member of the Mathematics National Honors Society- Mu Alpha Theta chapter."
+      ] 
+    }
+  ],
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
+        "title": "Campus Guide Chatbot",
+        "startDate": "June 2024",
+        "description": "Developed a proof of concept chatbot using large language models (LLMs) and Python to web scrape 200+ pages of school data and automate FAQ responses.",
+        "technologies": [ 
           {
             "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "name": "Python"
           },
           {
             "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "name": "HTML"
           },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
         ]
       },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "FACETLab",
+        "title": "Undergraduate Researcher",
+        "years": "September 2025 - present",
         "mainTech": [
           "Angular 8/9/10"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "Python",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Chubb Insurance",
+        "title": "Data Engineering & AI Intern",
+        "years": "",
         "mainTech": [
           "Angular 7/8"
         ],
